@@ -53,6 +53,7 @@ I group filters by the type of value they take, let's explain them briefly:
 
 ###hue-rotate
   If you're familiar with [Hue](https://en.wikipedia.org/wiki/Hue) you probably know that it's measured by angles. The hue-rotate rotates the hue circle of an image relative to it's current hue value (360 and 0 have the same results).
+
 <iframe width="100%" height="300" src="//jsfiddle.net/mdibaiee/tuqod0jb/5/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ##Special
@@ -115,6 +116,7 @@ filter: contrast(2) blur(10px);
 Hey browser, please double the contrast of my element, then blur it out. (high contrast image is blurred normally)
 
 Here is the actual comparison:
+
 <iframe width="100%" height="300" src="//jsfiddle.net/mdibaiee/z7hb98uf/1/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ##Inheritance
