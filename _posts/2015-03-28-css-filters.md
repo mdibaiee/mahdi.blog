@@ -72,7 +72,7 @@ I group filters by the type of value they take, let's explain them briefly:
 
   Here is an example, a PNG image with transparent background and a CSS triangle made using the border hack:
 
-<iframe width="100%" height="150" src="//jsfiddle.net/mdibaiee/z077vbs0//embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="150" src="//jsfiddle.net/mdibaiee/z077vbs0/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ###url
   With the url function we have the power of CSS and SVG Filters in one place. You can reference an SVG element by linking to it with a hash of the filter element's ID:
