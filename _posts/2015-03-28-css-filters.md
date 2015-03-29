@@ -129,12 +129,13 @@ Okay, you now know the order of filters matters, the filter property is not actu
 
 I said using the url function we have "the power of CSS and SVG filters in one place", but the CSS filters are actually implemented using SVG filters! You know, the functions are actually referencing to an svg generated in the browser. Here is the list of [CSS Filter equivalents](http://www.w3.org/TR/filter-effects/#ShorthandEquivalents).
 
-##Go Wild
+#Go Wild
 
 You can use CSS Filter on *any* element, experiment different things; `<video>`, `<canvas>`, `<iframe>`, GIF images, etc.
 
-Here is an example animating filters on GIF images:
+My try:
 
+<iframe width="100%" height="300" src="//jsfiddle.net/mdibaiee/hjaL0ka3/4/embedded/result,css,js" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 -----
 
