@@ -20,7 +20,7 @@ CSS Filters introduce a few useful effects and some image adjusting functions, n
 
 A simple demo showing blur, contrast and brightness combined (hover over image):
 
-<iframe width="100%" height="300" src="//jsfiddle.net/mdibaiee/2h9odv4q/12/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/mdibaiee/zLmyhe7t/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 I group filters by the type of value they take, let's explain them briefly:
 
@@ -54,7 +54,7 @@ I group filters by the type of value they take, let's explain them briefly:
 ###hue-rotate
   If you're familiar with [Hue](https://en.wikipedia.org/wiki/Hue) you probably know that it's measured by angles. The hue-rotate rotates the hue circle of an image relative to it's current hue value (360 and 0 have the same results).
 
-<iframe width="100%" height="300" src="//jsfiddle.net/mdibaiee/tuqod0jb/5/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/mdibaiee/smk922fh/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ##Special
   These filter's don't fit in any of the groups above, they have special/mixed values.
@@ -72,7 +72,7 @@ I group filters by the type of value they take, let's explain them briefly:
 
   Here is an example, a PNG image with transparent background and a CSS triangle made using the border hack:
 
-<iframe width="100%" height="150" src="//jsfiddle.net/mdibaiee/qp7otqe5/3/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="150" src="//jsfiddle.net/mdibaiee/z077vbs0//embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ###url
   With the url function we have the power of CSS and SVG Filters in one place. You can reference an SVG element by linking to it with a hash of the filter element's ID:
@@ -117,17 +117,24 @@ Hey browser, please double the contrast of my element, then blur it out. (high c
 
 Here is the actual comparison:
 
-<iframe width="100%" height="300" src="//jsfiddle.net/mdibaiee/z7hb98uf/1/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/mdibaiee/51nLy3vs/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ##Inheritance
 
 Okay, you now know the order of filters matters, the filter property is not actually *inherited*, but when you apply a filter on a parent element, of course it's children are affected too, but what if the children have their own css filters? Ah-ha! CSS properties are applied bottom-up, which means childrens' filters are applied first.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/mdibaiee/2h9odv4q/13/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/mdibaiee/o40d7cs7/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ##Implementation
 
 I said using the url function we have "the power of CSS and SVG filters in one place", but the CSS filters are actually implemented using SVG filters! You know, the functions are actually referencing to an svg generated in the browser. Here is the list of [CSS Filter equivalents](http://www.w3.org/TR/filter-effects/#ShorthandEquivalents).
+
+##Go Wild
+
+You can use CSS Filter on *any* element, experiment different things; `<video>`, `<canvas>`, `<iframe>`, GIF images, etc.
+
+Here is an example animating filters on GIF images:
+
 
 -----
 

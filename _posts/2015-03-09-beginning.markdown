@@ -21,7 +21,7 @@ let style = document.querySelector('style');
 setInterval(() => {
   const now = Date.now(),
         birth = new Date(2015, 2, 9).getTime(),
-        color = `#(now - birth).toString(16).slice(0, 6)`,
+        color = `#(now - birth).toString(16).slice(0, -6)`,
 
   style.textContent = `#mahdi path {
                          stroke: ${color} !important;
@@ -39,7 +39,7 @@ var style = document.querySelector('style');
 setInterval(function() {
   var now = Date.now(),
       birth = new Date(2015, 2, 9).getTime(),
-      color = '#' + (now - birth).toString(16).slice(0, 6);
+      color = '#' + (now - birth).toString(16).slice(0, -6);
 
   style.textContent = '#mahdi path {\
                          stroke: ' + color + ' !important; \
