@@ -68,7 +68,7 @@ I group filters by the type of value they take, let's explain them briefly:
 
   drop-shadow clones the element's image, moves it to the offset defined, applies blur and changes it's color, putting it under the original element. Couldn't do it better:
 
-  ![drop-shadow explained](/portfolio/img/dropshadow.gif)
+  ![drop-shadow explained](/img/dropshadow.gif)
 
   Here is an example, a PNG image with transparent background and a CSS triangle made using the border hack:
 
@@ -86,7 +86,7 @@ filter: url(/example.svg#filter)
 ###Custom
   Now those filters are pretty cool, but what if I told you this is [going to be] done with CSS?
 
-  ![Map Folding with Custom CSS Filters](/portfolio/img/map.jpg)
+  ![Map Folding with Custom CSS Filters](/img/map.jpg)
 
 {% include caption.html text='Source: http://www.adobe.com/devnet/archive/html5/articles/css-shaders.html' %}
 
