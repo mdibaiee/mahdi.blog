@@ -1,0 +1,94 @@
+body {
+  background: #FFF7EC;
+  height: auto;
+  padding-bottom: 5rem;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding-top: $spacing-unit;
+
+  img {
+    // border-radius: 50%;
+    margin: $spacing-unit auto;
+    // border: 1px solid #F5DFC3;
+  }
+  h1 {
+    font-size: 4rem;
+    font-family: 'Damion';
+  }
+  h1 a, & > a {
+    text-decoration: none;
+    color: $text-color !important;
+
+    &:hover {
+      border: none;
+    }
+  }
+
+  nav {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  nav a {
+    margin: 0 1rem;
+  }
+
+  a:visited {
+    color: $brand-color;
+  }
+}
+
+.page-heading {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+.post-list, .post-header {
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 5rem;
+
+  h2, h1 {
+    text-align: center;
+  }
+  .post-meta {
+    font-size: $small-font-size;
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+
+article p img {
+  margin: 2rem auto;
+  display: block;
+}
+
+.post-list h2 {
+  font-size: 1.5rem;
+}
+
+.post article h2 {
+  font-size: 1.3rem;
+}
+
+article .image-caption {
+  display: block;
+  text-align: center;
+  font-size: 10pt;
+  color: $grey-color;
+  margin-top: -1.5rem;
+}
+
+.rss-subscribe {
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid lighten($grey-color, 20%);
+  margin: 1.5rem 0;
+}
