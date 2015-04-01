@@ -6,7 +6,7 @@ permalink: css-filters
 categories: css
 ---
 
-I've been working on the [CSS Filter Editor widget](https://bugzilla.mozilla.org/show_bug.cgi?id=1055181) in Firefox Developer Tools in the past few weeks, it should land soon. Thanks to [Patrick Brosset](https://medium.com/@patrickbrosset) for mentoring me and [Tim Nguyen](https://github.com/nt1m) for his great contributions.
+I've been working on the [CSS Filter Editor widget](https://bugzilla.mozilla.org/show_bug.cgi?id=1055181) in Firefox Developer Tools for the past few weeks, it should land soon. Thanks to [Patrick Brosset](https://medium.com/@patrickbrosset) for mentoring me and [Tim Nguyen](https://github.com/nt1m) for his great contributions.
 
 Here is an [online version](http://mdibaiee.github.io/CSS-Filter-Tooltip/) to use as a playground (The component used in Firefox is a more complete version of this), you can use this throughout the article to test things. It doesn't seem to work in Chrome, I can't figure out why (no error in console), use Firefox for now. Alternatively you can use [David Walsh's demo](http://davidwalsh.name/demo/css-filters.php), although it doesn't have as much flexibility.
 
