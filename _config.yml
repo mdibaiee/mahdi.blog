@@ -9,3 +9,5 @@ github_username:  mdibaiee
 
 # Build settings
 markdown: kramdown
+redcarpet:
+  extensions: ["strikethrough"]
