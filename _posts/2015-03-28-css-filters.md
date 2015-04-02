@@ -135,7 +135,7 @@ I said using the url function we have "the power of CSS and SVG filters in one p
 
 You can use CSS Filter on *any* element, experiment different things; `<video>`, `<canvas>`, `<iframe>`, GIF images, etc.
 
-My try:
+My try (although I couldn't get the GIF and CSS animation to be in sync, know a solution? Leave a comment please):
 
 <iframe width="100%" height="300" src="//jsfiddle.net/mdibaiee/hjaL0ka3/4/embedded/result,css,js" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
