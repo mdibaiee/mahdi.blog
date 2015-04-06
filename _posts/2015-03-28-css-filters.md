@@ -8,7 +8,7 @@ categories: css
 
 I've been working on the [CSS Filter Editor widget](https://bugzilla.mozilla.org/show_bug.cgi?id=1055181) in Firefox Developer Tools for a couple of weeks, it should land soon. Thanks to [Patrick Brosset](https://medium.com/@patrickbrosset) for mentoring me and [Tim Nguyen](https://github.com/nt1m) for his great contributions.
 
-Here is an [online version](http://mdibaiee.github.io/CSS-Filter-Tooltip/) to use as a playground (The component used in Firefox is a more complete version of this). <s>It doesn't seem to work in Chrome.</s>
+Here is an [online version](http://mdibaiee.github.io/CSS-Filter-Tooltip/) to use as a playground. This version is modified to be cross-browser and therefore is a little different from the original widget used in Firefox. <s>It doesn't seem to work in Chrome.</s>
 
 You can also use [David Walsh's demo](http://davidwalsh.name/demo/css-filters.php), although it doesn't have as much flexibility.
 
