@@ -9,7 +9,7 @@ categories: api
 [BroadcastChannel API](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API)
 is a new API used to communicate between same-origin tabs opened by the same user.
 
-#Why?
+#Why
 Let's say you open two GitHub tabs, the [rust repository](https://github.com/rust-lang/rust) and [your stars](https://github.com/stars) page. You decide to star the awesome rust repository, but then you have to
 refresh your stars page to see your new star. That's sad. There must be a way for GitHub to refresh
 your stars page in case you star something in another tab, right?
