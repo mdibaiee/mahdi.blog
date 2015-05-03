@@ -74,6 +74,10 @@ article p img {
   display: block;
 }
 
+.post article h1 {
+  font-weight: bold;
+}
+
 .post-list h2 {
   font-size: 1.5rem;
 }
@@ -98,4 +102,20 @@ hr {
   border: none;
   border-top: 1px solid lighten($grey-color, 20%);
   margin: 1.5rem 0;
+}
+
+.channel {
+  #mahdi * {
+    fill: #000000 !important;
+  }
+
+  & > a::before {
+    content: 'BroadcastChannels rock';
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: calc(50% - 83px);
+    font-size: 15px;
+    text-shadow: 0 0 1px white;
+  }
 }
