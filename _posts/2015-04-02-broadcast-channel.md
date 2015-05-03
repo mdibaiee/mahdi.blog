@@ -23,6 +23,8 @@ You have to add two scripts, one for repository pages, and one for the stars pag
 
 Click "New User Script", and fill the inputs like this:
 
+![GreaseMonkey New User Script](/img/greasemonkey-new-user-script.png)
+
 ![GreaseMonkey New Script](/img/greasemonkey-github-stars.png)
 
 In the Script Editor, enter this:
