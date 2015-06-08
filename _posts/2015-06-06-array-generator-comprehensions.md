@@ -15,11 +15,11 @@ useful feature as it removes the need to write new generators for simple map/fil
 
 Generator comprehensions allow us to easily write single-line generators, which can replace our arrays in some situations, you might ask why we might consider replacing arrays with generators, the most important reason is their [laziness](#laziness). I've explained laziness later in the article.
 
-Comprehensions are currently only supported by Firefox, use Firefox 30+ or [Babel](https://babeljs.io/repl/) to run the examples. The Node.js version using generator `function* ()`s is available at the [repository](https://github.com/mdibaiee/array-vs-generator) (doesn't require transpilation, use latest node).
+Comprehensions are currently only supported by Firefox, use Firefox 30+ or [Babel](https://babeljs.io/repl/) to run the examples. The Node.js version of examples using generator `function* ()`s is available at the [repository](https://github.com/mdibaiee/array-vs-generator) (doesn't require transpilation, use latest node).
 
 #Syntax
 
-The syntax is pretty simple, you can use only `for of` and `if` inside comprehensions.
+The syntax is pretty simple, you can only use `for of` and `if` inside comprehensions.
 
 Array comprehensions:
 {% highlight javascript %}
