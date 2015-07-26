@@ -74,8 +74,20 @@ article p img {
   display: block;
 }
 
+strong {
+  font-weight: bold;
+}
+
 .post article h1 {
   font-weight: bold;
+}
+
+.post-list li {
+  margin-top: 100px;
+}
+
+.post-list li:first-of-type {
+  margin-top: 0;
 }
 
 .post-list h2 {
