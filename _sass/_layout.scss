@@ -98,6 +98,37 @@ strong {
   font-size: 1.3rem;
 }
 
+.post-content [id] {
+  position: relative;
+
+  &:hover .heading-link {
+    opacity: 1;
+  }
+}
+
+.post-content .heading-link {
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+
+  left: -30px;
+  top: 10px;
+
+  padding-right: 30px;
+
+  background: url(/img/link.svg) no-repeat;
+  background-size: contain;
+
+  opacity: 0;
+
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    border: none;
+  }
+}
+
 article .image-caption {
   display: block;
   text-align: center;
