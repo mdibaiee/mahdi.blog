@@ -4,7 +4,6 @@ title:  "Open-source: The Good, The Bad, The Ugly"
 date:   2015-10-13 06:15:00
 permalink: open-source-good-bad-ugly
 categories: experience, open-source, opinion
-draft: true
 ---
 
 I have been doing Open-source for a while, I don't call myself an "expert" or something like that,
