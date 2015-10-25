@@ -69,7 +69,7 @@ How to avoid it you ask, there is a sign that I've found which leads to this pro
 
 It happened to me, just like the past discussion, except he didn't tell me _"Please do x, y, z"_, he made himself look
 too busy and said: _"The title says it all"_, no, it doesn't say it all. "x, y and z" can be implemented in `2^9` ways, and sadly,
-you are not going to accept the `192`th way, as you "don't like it". Do not get trapped in these time-wasting situations, I wish maintainers understand how valuable peoples' times are.
+you are not going to accept the `192`th way, as you "don't like it". Do not get trapped in these time-wasting situations, I wish maintainers understand how valuable people's times are.
 
 The Ugly
 --------
