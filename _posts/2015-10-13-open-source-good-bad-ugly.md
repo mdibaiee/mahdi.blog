@@ -57,9 +57,10 @@ _"- Oh, thank you very much, but you know, now that I think of it, I don't want 
 
 and I'm like:
 
-![Are you kidding me?](/img/are-you-kidding-me.jpg)
+<!-- ![Are you kidding me?](/img/are-you-kidding-me.jpg) -->
+<img alt='Are you kidding me?' src='/img/are-you-kidding-me.jpg' />
 
-{% include 'caption.html' text='Are you fucking kidding me?' %}
+{% include caption.html text='Are you kidding me?' %}
 
 This is the worst thing that can happen to you, try to avoid it, you don't want your valuable time wasted.
 
