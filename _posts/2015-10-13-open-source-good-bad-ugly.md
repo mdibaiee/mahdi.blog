@@ -2,7 +2,7 @@
 layout: post
 title:  "Open-source: The Good, The Bad and The Ugly"
 date:   2015-10-13 06:15:00
-permalink: open-source-good-bad-ugly
+permalink: open-source-good-bad-ugly/
 categories: experience, open-source, opinion
 ---
 

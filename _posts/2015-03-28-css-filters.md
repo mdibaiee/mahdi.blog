@@ -2,7 +2,7 @@
 layout: post
 title:  "CSS Filters are awesome!"
 date:   2015-03-28 17:13:46
-permalink: css-filters
+permalink: css-filters/
 categories: css
 ---
 

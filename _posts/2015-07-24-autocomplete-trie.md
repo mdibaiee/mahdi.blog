@@ -2,7 +2,7 @@
 layout: post
 title:  "Autocomplete using Tries"
 date:   2015-07-24 09:44:00
-permalink: autocomplete-predict-trie
+permalink: autocomplete-predict-trie/
 categories: algorithms
 ---
 

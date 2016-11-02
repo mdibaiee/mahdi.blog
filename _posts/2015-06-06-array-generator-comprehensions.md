@@ -2,7 +2,7 @@
 layout: post
 title:  "ES7 Array and Generator comprehensions"
 date:   2015-06-06 13:47:00
-permalink: es7-array-generator-comprehensions
+permalink: es7-array-generator-comprehensions/
 categories: es7, generator, array
 ---
 

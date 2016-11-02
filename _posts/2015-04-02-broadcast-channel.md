@@ -2,7 +2,7 @@
 layout: post
 title:  "BroadcastChannel API"
 date:   2015-04-02 17:13:46
-permalink: broadcastchannel-api
+permalink: broadcastchannel-api/
 categories: api
 ---
 

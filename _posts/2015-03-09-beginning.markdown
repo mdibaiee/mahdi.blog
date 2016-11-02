@@ -2,7 +2,7 @@
 layout: post
 title:  "Let's Begin"
 date:   2015-03-09 17:13:46
-permalink: beginning
+permalink: beginning/
 categories: self
 ---
 
