@@ -176,7 +176,7 @@ input.addEventListener('keyup', () => {
   for (let node of nodes) { // << Change
     const category = node.category ? `- ${node.category}` : '';
 
-    results.innerHTML += `<li>${node.name} ${category}</li>`;
+    results.innerHTML += `<li>${node.value} ${category}</li>`;
   }
 });
 {% endhighlight %}
@@ -195,7 +195,7 @@ input.addEventListener('keydown', e => {
 
     if (!current.children.length) return;
 
-    input.value = current.children[0].name;
+    input.value = current.children[0].value;
   }
 });
 {% endhighlight %}
