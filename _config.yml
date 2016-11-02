@@ -6,9 +6,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dibaiee.ir" # the base hostname & protocol for your site
 twitter_username: mdibaiee
 github_username:  mdibaiee
-permalink: ":title/"
 
 # Build settings
 markdown: kramdown
+permalink: /:title/
 redcarpet:
   extensions: ["strikethrough"]
