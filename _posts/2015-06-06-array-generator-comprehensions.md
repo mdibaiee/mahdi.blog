@@ -17,7 +17,8 @@ Generator comprehensions allow us to easily write single-line generators, which 
 
 Comprehensions are currently only supported by Firefox, use Firefox 30+ or [Babel](https://babeljs.io/repl/) to run the examples. The Node.js version of examples using generator `function* ()`s is available at the [repository](https://github.com/mdibaiee/array-vs-generator) (doesn't require transpilation, use latest node).
 
-#Syntax
+Syntax
+======
 
 The syntax is pretty simple, you can only use `for of` and `if` inside comprehensions.
 
@@ -79,7 +80,8 @@ console.table(Array.from(nested));
 // 6, 7, 8
 {% endhighlight %}
 
-#Laziness
+Laziness
+========
 This is one of the most important advantages of generators over arrays and things alike.
 The reason why I'm including this here is to give you a good reason to write generators instead of arrays
  while generator comprehensions make it extremely easy to write them — this is a proof of their usefulness.

@@ -16,7 +16,8 @@ CSS Filters are supported by most modern browsers ([Can I Use CSS Filters](http:
 
 I don't like long-bla-bla-articles, so let's get to it.
 
-#Introduction
+Introduction
+============
 
 CSS Filters introduce a few useful effects and some image adjusting functions, namely blur, drop-shadow, contrast, brightness, [and a few others](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) which can be really useful if used properly.
 
@@ -26,10 +27,12 @@ A simple demo showing blur, contrast and brightness combined (hover over image):
 
 I group filters by the type of value they take, let's explain them briefly:
 
-##Length
+Length
+------
   These filters accept a length value (px, em, cm, [etc](http://www.w3.org/Style/Examples/007/units)). blur is the only member of this family.
 
-##Percentage
+Percentage
+----------
   These filters accept percentage values, but if you omit the percentage sign, the value is multiplied by 100, e.g. `contrast(2)` is another way of writing `contrast(200%)`. Negative values have the same effect as zero.
 
   Most filters explain themselves, I'm not going to repeat \`Adjusts ${x} level\` like a parrot.
@@ -42,15 +45,17 @@ I group filters by the type of value they take, let's explain them briefly:
   * saturate
   * sepia
 
-###invert
+### invert
+
   I first understood how cool this filter can be after I saw Tim Nguyen using this in theme switching. Yeah you can't invert everything and "Yay, I have a new theme", but you can use invert on some elements and it works flawlessly, believe me.
 
 <iframe width="100%" height="100" src="//jsfiddle.net/mdibaiee/373dnby8/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-###opacity
+### opacity
   You might wonder why do we have this function, as we already have an opacity property in CSS, that's because the opacity property is not hardware accelerated, but the filter property is hardware accelerated in most browsers, which includes this function.
 
-##Angle
+Angle
+-----
   hue-rotate is the only function to accept an angle value (degree / radian).
 
 ###hue-rotate
@@ -58,10 +63,11 @@ I group filters by the type of value they take, let's explain them briefly:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/mdibaiee/smk922fh/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-##Special
+Special
+-------
   These filter's don't fit in any of the groups above, they have special/mixed values.
 
-###drop-shadow
+### drop-shadow
   The drop-shadow filter accepts a *shadow-list*, four length values, and one color. box-shadow and text-shadow also accept shadow lists.
 
   You're probably familiar with shadow lists already: `drop-shadow(x y radius spread color)`. Unfortunaly spread doesn't work in either Chrome or Firefox as of this writing — It is treated as an error.
@@ -76,7 +82,7 @@ I group filters by the type of value they take, let's explain them briefly:
 
 <iframe width="100%" height="150" src="//jsfiddle.net/mdibaiee/z077vbs0/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-###url
+### url
   With the url function we have the power of CSS and SVG Filters in one place. You can reference an SVG element by linking to it with a hash of the filter element's ID:
 
 {% highlight css %}
@@ -85,7 +91,7 @@ filter: url(/example.svg#filter)
 
   If you want to know more about SVG Filters, I recommend [MDN's tutorial on SVG Filters](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Filter_effects).
 
-###Custom
+### Custom
   Now those filters are pretty cool, but what if I told you this is [going to be] done with CSS?
 
   ![Map Folding with Custom CSS Filters](/img/map.jpg)
@@ -98,11 +104,13 @@ filter: url(/example.svg#filter)
   * [Introducing CSS shaders: Cinematic effects for the web](http://www.adobe.com/devnet/archive/html5/articles/css-shaders.html)
   * [CSS shaders specifications](http://dev.w3.org/fxtf/custom/)
 
-#Gotchas
+Gotchas
+=======
 
 You now have a basic understanding of filters, good. Here are a few gotchas you'd better know.
 
-##Order matters
+Order matters
+-------------
 The order in which filters are applied matters. Take this example:
 
 {% highlight css %}
@@ -121,17 +129,20 @@ Here is the actual comparison:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/mdibaiee/51nLy3vs/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-##Inheritance
+Inheritance
+-----------
 
 Okay, you now know the order of filters matters, the filter property is not actually *inherited*, but when you apply a filter on a parent element, of course it's children are affected too, but what if the children have their own css filters? Ah-ha! CSS properties are applied bottom-up, which means childrens' filters are applied first.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/mdibaiee/o40d7cs7/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-##Implementation
+Implementation
+--------------
 
 I said using the url function we have "the power of CSS and SVG filters in one place", but the CSS filters are actually implemented using SVG filters! You know, the functions are actually referencing to an svg generated in the browser. Here is the list of [CSS Filter equivalents](http://www.w3.org/TR/filter-effects/#ShorthandEquivalents).
 
-#Go Wild
+Go Wild
+=======
 
 You can use CSS Filter on *any* element, experiment different things; `<video>`, `<canvas>`, `<iframe>`, GIF images, etc.
 

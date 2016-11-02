@@ -8,7 +8,9 @@ categories: algorithms
 
 In this article, I'm going over creating an autocompletion/prediction system using a data-structure called Trie, it's fast and easy to customize.
 
-#Trie
+Trie
+====
+
 [Trie](https://en.wikipedia.org/wiki/Trie) is a simple data-structure most commonly used as a dictionary, it looks like so:
 
 ![Trie](/img/trie.jpg)
@@ -24,7 +26,8 @@ child.value = parent.value + 'c';
 
 It's pretty easy to traverse this tree and predict the next possible words.
 
-##Implementation
+Implementation
+--------------
 
 We're going to use ES6 classes to create our `Trie` and `Node` classes.
 
@@ -83,7 +86,8 @@ It might be a little hard to grasp at first, so I created a visualization of thi
 
 Then we have our find method, which searches for the given value in the trie. The algorithm for searching is the same, comparing by index and moving to the next branch.
 
-#Example
+Example
+========
 That's it for our simple Trie class, now let's create an actual input with autocomplete functionality using our Trie.
 
 {% highlight html %}
@@ -126,7 +130,7 @@ input.addEventListener('keyup', () => {
   for (let node of nodes.children) {
     const category = node.category ? `- ${node.category}` : '';
 
-    results.innerHTML += `<li>${node.name} ${category}</li>`;
+    results.innerHTML += `<li>${node.value} ${category}</li>`;
   }
 });
 {% endhighlight %}

@@ -9,14 +9,16 @@ categories: api
 [BroadcastChannel API](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API)
 is a new API used to communicate between same-origin tabs opened by the same user.
 
-#Why
+Why
+===
 Let's say you open two GitHub tabs, the [rust repository](https://github.com/rust-lang/rust) and [your stars](https://github.com/stars) page. You decide to star the awesome rust repository, but then you have to
 refresh your stars page to see your new star. That's sad. There must be a way for GitHub to refresh
 your stars page in case you star something in another tab, right?
 
 ![Broadcast Channels, SATISFIED](/img/broadcast-channels.jpg)
 
-#Show me something!
+Show me something!
+==================
 Okay, open another page of my blog in a new tab. Now open up your console and enter this:
 
 {% highlight javascript %}
@@ -39,10 +41,12 @@ channel.addEventListener('message', message => {
 {% endhighlight %}
 
 
-#How
+How
+===
 BroadcastChannels are pretty easy, here I'm going over the small details.
 
-##Creating channels
+Creating channels
+-----------------
 BroadcastChannels are constructed with a single argument, their name. Browsing contexts should use
 this name to communicate over a specified channel. There's no limit to how many channels you can create.
 
@@ -55,7 +59,8 @@ var channel = new BroadcastChannel('star');
 
 Channels have only one property, `name`.
 
-##Methods
+Methods
+-------
 Channels have two methods:
 
 ### #postMessage(data: Anything)
@@ -66,18 +71,21 @@ This method is used to leave a channel, in case you don't want to hear from the 
 
 Try leaving `channel` from my blog pages, and posting messages with others.
 
-##Events
+Events
+------
 Channels inherit from [`EventTarget`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget), so you can use  `addEventListener`, `removeEventListener` and `dispatchEvent` methods.
 
 Channels have only one event:
 
-###message
+### message
 The event object passed to this event is a [`MessageEvent`](https://developer.mozilla.org/en-US/docs/Web/API/MessageEvent) with the `data` property set to the actual message sent using `postMessage`.
 
 ---
 
-#Another example
-##Let's Fix GitHub
+Another example
+===============
+Let's Fix GitHub
+----------------
 
 Okay, let's try something cool, I promise you will love it. Open a browser with [BroadcastChannel support](http://caniuse.com/#feat=broadcastchannel) and Install [GreaseMonkey](http://www.greasespot.net/).
 
