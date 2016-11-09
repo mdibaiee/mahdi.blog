@@ -3,7 +3,7 @@ layout: post
 title:  "BroadcastChannel API"
 date:   2015-04-02 17:13:46
 permalink: broadcastchannel-api/
-categories: api
+categories: programming
 ---
 
 [BroadcastChannel API](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API)

@@ -23,7 +23,8 @@ header {
   }
   h1 {
     font-size: 4rem;
-    font-family: 'Damion';
+    font-family: $head-font-family;
+    text-transform: lowercase;
   }
   h1 a, & > a {
     text-decoration: none;
@@ -51,6 +52,11 @@ header {
   text-align: center;
   font-style: italic;
   margin-bottom: 3rem;
+  width: 20%;
+  height: 1px;
+  border: 1px dotted rgba(0, 0, 0, 0.1);
+
+  margin: 5rem auto;
 }
 
 .post-list, .post-header {

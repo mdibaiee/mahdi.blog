@@ -1,7 +1,7 @@
 # Site settings
-title: Mahdi Dibaiee
-email: mdibaiee@aol.com
-description: Mahdi Dibaiee's personal blog on programming
+title: the readme
+email: knockknock@theread.me
+description: a rabbit hole
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://theread.me" # the base hostname & protocol for your site
 twitter_username: mdibaiee
@@ -12,3 +12,20 @@ markdown: kramdown
 permalink: /:title/
 redcarpet:
   extensions: ["strikethrough"]
+
+collections:
+  programming:
+    title: programming
+    output: true
+    permalink: /programming/:path/
+    path: /programming
+  life:
+    title: life
+    output: true
+    permalink: /life/:path/
+    path: /life
+  travel:
+    title: travel
+    output: true
+    permalink: /travel/:path/
+    path: /travel

@@ -3,7 +3,7 @@ layout: post
 title:  "CSS Filters are awesome!"
 date:   2015-03-28 17:13:46
 permalink: css-filters/
-categories: css
+categories: programming
 ---
 
 I've been working on the [CSS Filter Editor widget](https://bugzilla.mozilla.org/show_bug.cgi?id=1055181) in Firefox Developer Tools for a couple of weeks, <s>it should land soon</s> It's here!. Thanks to [Patrick Brosset](https://medium.com/@patrickbrosset) for mentoring me and [Tim Nguyen](https://github.com/nt1m) for his great contributions.

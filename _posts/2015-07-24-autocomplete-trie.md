@@ -3,7 +3,7 @@ layout: post
 title:  "Autocomplete using Tries"
 date:   2015-07-24 09:44:00
 permalink: autocomplete-predict-trie/
-categories: algorithms
+categories: programming
 ---
 
 In this article, I'm going over creating an autocompletion/prediction system using a data-structure called Trie, it's fast and easy to customize.

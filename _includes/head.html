@@ -6,22 +6,22 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+  <link href="https://fonts.googleapis.com/css?family=Secular+One|Ubuntu|Ubuntu+Mono" rel="stylesheet"> 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
-  <!--<script src="//dibaiee.disqus.com/embed.js"></script>-->
-  <!--<script src="//dibaiee.disqus.com/count.js"></script>-->
+  <script src="//static.getclicky.com/js" type="text/javascript"></script>
+  <script type="text/javascript">try{ clicky.init(100720175); }catch(e){}</script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100720175ns.gif" /></p></noscript>
+
+  <script>
+    var channel = new BroadcastChannel('egg');
+
+    channel.addEventListener('message', message => {
+      alert('Got a message from the other tab:\n' + message.data);
+    });
+  </script>
 </head>
 
-<script src="//static.getclicky.com/js" type="text/javascript"></script>
-<script type="text/javascript">try{ clicky.init(100720175); }catch(e){}</script>
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100720175ns.gif" /></p></noscript>
-
-<script>
-  var channel = new BroadcastChannel('egg');
-
-  channel.addEventListener('message', message => {
-    alert('Got a message from the other tab:\n' + message.data);
-  });
-</script>
