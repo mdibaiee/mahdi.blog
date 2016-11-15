@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://theread.me" # the base hostname & protocol for your site
 twitter_username: mdibaiee
 github_username:  mdibaiee
+repo: "https://github.com/mdibaiee/theread.me"
 
 # Build settings
 markdown: kramdown
