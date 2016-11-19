@@ -13,6 +13,7 @@ on this world of immortals, I'm immortal bitches.
 ---
 
 ![immortals chatting](/img/immortals.jpg)
+{% include caption.html text='There is no campfire because they don\'t need it' %}
 
 In this world, there is no excitement in jumping from a cliff or doing flips over walls
 or pretending to be a bird or even loving each other, in general, there is no
@@ -37,8 +38,8 @@ I should explain it this way:
 any number divided by infinity yields zero. Your neighbour could tell you about how he spent a thousand years
 exploring Earth, eating bugs and trying different methods to kill himself, and you could tell him
 he literally spent 0% of his life doing all that, same as you, who just stood there.
-
-![any fucking number / infinity = 0](/img/division-by-infinity.jpg)
+> 
+> ![any fucking number / infinity = 0](/img/division-by-infinity.jpg)
 
 Now I don't understand much of that, but I had enough time, and nothing else to do, to repeat this to myself
 since he told me that until now.
