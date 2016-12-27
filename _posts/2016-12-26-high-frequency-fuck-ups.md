@@ -52,7 +52,7 @@ yet I was not sure if he was right or I was, so I continued my High-Frequency Fu
 before deciding I should at least _try_ slowing down.
 
 I slowly slowed down, the depressions went away, I would accomplish the things I wanted, only slightly longer, but damn, it was great!
-I could continue getting stuff done without feeling fucked up and crying whole days and nights in my bed, I could the things I loved
+I could continue getting stuff done without feeling fucked up and crying whole days and nights in my bed, I could do the things I loved
 without any fucking side effects!
 
 At first, I had the doubt "Am I becoming one of _those_ people? People who don't get things done and don't grow?", but after some time,
