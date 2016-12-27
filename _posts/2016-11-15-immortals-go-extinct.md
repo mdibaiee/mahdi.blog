@@ -3,6 +3,7 @@ layout: post
 title:  "Immortals go extinct"
 permalink: immortals-go-extinct/
 categories: life
+excerpt_separator: <!--more-->
 ---
 
 We are all going to die, we all know that well.<br /><br />
@@ -10,10 +11,11 @@ Now I want to take you to a world of immortals where humans don't die,
 they live and live and live and... you know, live. From now on, pretend I'm a human
 on this world of immortals, I'm immortal bitches.
 
----
-
 ![immortals chatting](/img/immortals.jpg)
 {% include caption.html text='There is no campfire because they don\'t need it' %}
+
+<!--more-->
+---
 
 In this world, there is no excitement in jumping from a cliff or doing flips over walls
 or pretending to be a bird or even loving each other, in general, there is no
