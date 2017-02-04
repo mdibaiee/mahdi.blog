@@ -38,7 +38,7 @@ are missing an important point here, they defined what a _good partner_ means in
 really looked into their _good partner_'s dictionary to see what he/she wants out of a relationship, because if you don't qualify her requirements,
 it's not a deal. 
 
-Now there is a sub-group of Group A, too, and it includes the people who faced with the question "I am what she dreams of?", they 
+Now there is a sub-group of Group A, too, and it includes the people who faced with the question "am I what she dreams of?", they 
 try to cheat and modify their definition of a good partner, adding a line that goes "Loves me however I am", sorry buddy, but what if I
 tell you she could add the same line to her dictionary? That's not a deal, you want a good partner as you defined it, you have to be a good partner
 as she defines it.
