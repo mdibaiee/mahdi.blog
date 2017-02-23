@@ -8,6 +8,8 @@ twitter_username: mdibaiee
 github_username:  mdibaiee
 repo: "https://github.com/mdibaiee/theread.me"
 
+date_format: "%b %d, %Y"
+
 # Build settings
 markdown: kramdown
 permalink: /:title/

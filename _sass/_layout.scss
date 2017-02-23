@@ -9,6 +9,10 @@ body {
   background: rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   margin: 50px 0;
+
+  a {
+    margin-left: 1rem;
+  }
 }
 
 header {
@@ -67,11 +71,17 @@ header {
   h2, h1 {
     text-align: center;
   }
+
   .post-meta {
     font-size: $small-font-size;
     display: block;
     text-align: center;
     margin-bottom: 2rem;
+
+    span {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
   }
 }
 
