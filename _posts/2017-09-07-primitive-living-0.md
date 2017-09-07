@@ -47,7 +47,7 @@ But as was expected, it didn't go according to the plan.
 
 I found a nice place to stay which had a stream passing by, the stream was running and from what I knew about the area, the water was safe to drink, so water was no longer an issue. I started building my shelter, got the base wooden structure down first, but there was a catch: I couldn't find any dry debris to put on top or inside. Last time I had built the same shelter it was autumn's end/early spring, so there were lots of dry, fallen leaves on the ground; But this time it's in the summer and there very few, scattered dry leaves on the ground, uncollectable.
 
-I decided I'm going with leaves of a small tree I had found nearby which seemed to be abundant around the area and the branches had lots of close leaves on them, looked like a good choice, but it was green. I didn't find out what I was doing wrong until I tried to sleep at night, the green leaves attracted lots of flies and insects and all sorts of annoying disturbances, and the smell wasn't helping either. I had to endure the insects throughout the night, because sleeping outside the shelter was a no-go, the dirt beneath was too cold. I hadn't put as much leaves on the ground, and the leaves were green (which also means they take more heat away), but still, it was much better than sleeping directly on the ground.
+I decided I'm going with leaves of a small tree I had found nearby which seemed to be abundant around the area and the branches had lots of close leaves on them, looked like a good choice, but it was green. I didn't find out what I was doing wrong until I tried to sleep at night. The green leaves attracted lots of flies and insects and all sorts of annoying disturbances, and the smell wasn't helping either. I had to endure the insects throughout the night, because sleeping outside the shelter was a no-go, the dirt beneath was too cold. I hadn't put as much leaves on the ground, and the leaves were green (which also means they take more heat away), but still, it was much better than sleeping directly on the ground.
 
 What I learned was, **do not use green leaves for covering your shelter**. This rule applies to small shelters in which you are close to the covering, as well as the leaves you use as bedding. I've seen people using green leaves for covering big shelters which have a high ceiling, though I don't have any experience with those myself.
 
@@ -55,7 +55,7 @@ What I learned was, **do not use green leaves for covering your shelter**. This 
 
 ## Friction Fire
 
-The most important part of primitive living is fire, without fire you can't cook, you can't stay warm and you can't defy nocturnal predators. You also can't repel insects, you can't make a torch and there goes an infinite list of fire applications that you will miss.
+The most important part of primitive living is fire, without fire you can't cook, you can't stay warm and you can't defy nocturnal predators. You also can't repel insects. You can't make a torch, so there goes an infinite list of fire applications that you will miss.
 
 I knew the theory of friction fire in and out, how and why it works, but what I had missed was, **you are going to be in _real trouble_ if you can't find softwood**. To my surprise, searching portions of the forest, I couldn't find any softwood tree. Oaks were everywhere, as well as quite some other species of trees, but all of them were hardwood.
 
