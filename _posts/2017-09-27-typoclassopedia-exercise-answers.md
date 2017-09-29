@@ -4,6 +4,7 @@ title:  "Typoclassopedia: Exercise solutions"
 date:   2017-09-27 
 permalink: typoclassopedia-exercise-solutions/
 categories: programming
+math: true
 ---
 
 I wanted to get proficient in Haskell so I decided to follow [An [Essential] Haskell Reading List](http://www.stephendiehl.com/posts/essential_haskell.html), there I stumbled upon [Typoclassopedia](https://wiki.haskell.org/Typeclassopedia), while the material is great, I couldn't find solutions for the exercises to check against, so I decided I would write my own and hopefully the solutions would get fixed in case I have gone wrong by others. So if you think a solution is wrong, let me know in the comments!
@@ -167,3 +168,110 @@ fmap (g . h) = (fmap g) . (fmap h)
     **Solution**:
 
     The instance defined breaks the first law (`fmap id [1] -- [1,1]`), but holds for the second law.
+    
+Category Theory
+===============
+
+The Functor section links to [Category Theory](https://en.wikibooks.org/wiki/Haskell/Category_theory), so here I'm going to cover the exercises of that page, too.
+
+## Introduction to categories
+
+### Category laws:
+
+1. The compositions of morphisms need to be **associative**:
+   
+    $f \circ (g \circ h) = (f \circ g) \circ h$
+  
+2. The category needs to be **closed** under the composition operator. So if $f : B \to C$ and $g: A \to B$, then there must be some $h: A \to C$ in the category such that $h = f \circ g$.
+3. Every object $A$ in a category must have an identity morphism, $id_A : A \to A$ that is an identity of composition with other morphisms. So for every morphism $g: A \to B$:
+    $g \circ id_A = id_B \circ g = g$.
+    
+### Exercises
+
+1. As was mentioned, any partial order $(P, \leq)$ is a category with objects as the elements of P and a morphism between elements a and b iff $a \leq b$. Which of the above laws guarantees the transitivity of $\leq$?
+
+    **Solution**:
+    
+    The second law, which states that the category needs to be closed under the composition operator guarantess that because we have a morphism $a \leq b$, and another morphism $b \leq c$, there must also be some other morphism such that $a \leq c$.
+    
+2. If we add another morphism to the above example, as illustrated below, it fails to be a category. Why? Hint: think about associativity of the composition operation.
+   
+   ![not a category, an additional h: B -> A](/img/typoclassopedia/not-a-cat.png)
+
+    **Solution**:
+    
+    The first law does not hold:
+    
+    $f \circ (g \circ h) = (f \circ g) \circ h$
+    
+    To see that, we can evaluate each side to get an inequality:
+    
+    $g \circ h = id_B$
+    
+    $f \circ g = id_A$
+    
+    $f \circ (g \circ h) = f \circ id_B = f$
+    
+    $(f \circ g) \circ h = id_A \circ h = h$
+    
+    $f \neq h$
+    
+## Functors
+
+### Functor laws:
+
+1. Given an identity morphism $id_A$ on an object $A$, $F(id_A)$ must be the identity morphism on $F(A)$, so:
+    $F(id_A) = id_{F(A)}$
+    
+2. Functors must distribute over morphism composition:
+    $F(f \circ g) = F(f) \circ F(g)$
+    
+### Exercises
+
+1. Check the functor laws for the diagram below.
+
+    ![functor diagram](/img/typoclassopedia/functor-diagram.png)
+
+    **Solution**:
+
+    The first law is obvious as it's directly written, the pale blue dotted arrows from $id_C$ to $F(id_C) = id_{F(C)}$ and $id_A$ and $id_B$ to $F(id_A) = F(id_B) = id_{F(A)} = id_{F(B)}$ show this.
+
+    The second law also holds, the only compositions in category $C$ are between $f$ and identities, and $g$ and identities, there is no composition between $f$ and $g$.
+
+    (Note: The second law always hold as long as the first one does, as was seen in Typoclassopedia)
+    
+2. Check the laws for the Maybe and List functors.
+    
+    **Solution**:
+    
+    ```haskell
+    instance Functor [] where
+      fmap :: (a -> b) -> [a] -> [b]
+      fmap _ []     = []
+      fmap g (x:xs) = g x : fmap g xs
+    
+    -- check the first law for each part:
+    fmap id [] = []
+    fmap id (x:xs) = id x : fmap id xs = x : fmap id xs -- the first law holds recursively
+    
+    -- check the second law for each part:
+    fmap (f . g) [] = []
+    fmap (f . g) (x:xs) = (f . g) x : fmap (f . g) xs = f (g x) : fmap (f . g) xs
+    fmap f (fmap g (x:xs)) = fmap f (g x : fmap g xs) = f (g x) : fmap (f . g) xs
+    ```
+
+    ```haskell
+    instance Functor Maybe where
+      fmap :: (a -> b) -> Maybe a -> Maybe b
+      fmap _ Nothing  = Nothing
+      fmap g (Just a) = Just (g a)
+    
+    -- check the first law for each part:
+    fmap id Nothing = Nothing
+    fmap id (Just a) = Just (id a) = Just a
+    
+    -- check the second law for each part:
+    fmap (f . g) Nothing = Nothing
+    fmap (f . g) (Just x) = Just ((f . g) x) = Just (f (g x))
+    fmap f (fmap g (Just x)) = Just (f (g x)) = Just ((f . g) x)
+    ```
