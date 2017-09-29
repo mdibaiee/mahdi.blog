@@ -11,6 +11,25 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
+  {% if page.math %}
+    <link rel='stylesheet' href='{{ "/css/katex.min.css" | prepend: site.baseurl }}'>
+    <script rel='stylesheet' src='{{ "/js/katex.min.js" | prepend: site.baseurl }}'></script>
+    <script rel='stylesheet' src='{{ "/js/auto-render.min.js" | prepend: site.baseurl }}'></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "\\[", right: "\\]", display: true},
+            {left: "\\(", right: "\\)", display: false},
+            {left: "$", right: "$", display: false},
+          ],
+        });
+      });
+    </script>
+  {% endif %}
+
   <!--<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>-->
 
   <script>
