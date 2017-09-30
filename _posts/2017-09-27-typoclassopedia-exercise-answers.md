@@ -322,8 +322,25 @@ pure f <*> x = pure (flip ($)) <*> x <*> pure f
 **Solution**:
 
 ```haskell
-pure f <*> x = pure (($) f) <*> x -- identical
-pure f <*> x = pure ($) <*> pure f <*> x -- homomorphism
-pure f <*> x = pure (flip ($)) <*> x <*> pure f -- flip arguments
+pure (flip ($)) <*> x <*> pure f = (pure (flip ($)) <*> x) <*> pure f -- <*> is left-associative
+pure (flip ($)) <*> x <*> pure f = pure ($ f) <*> (pure (flip ($)) <*> x) -- interchange
+pure (flip ($)) <*> x <*> pure f = pure (.) <*> pure ($ f) <*> pure (flip ($)) <*> x -- composition
+pure (flip ($)) <*> x <*> pure f = pure (($ f) . (flip ($))) <*> x -- homomorphism
+pure (flip ($)) <*> x <*> pure f = pure ((flip ($) f) . (flip ($))) <*> x -- identical
+pure (flip ($)) <*> x <*> pure f = pure f <*> x
 ```
+Explanation of the last transformation:
 
+`flip ($)` has type `a -> (a -> c) -> c`, intuitively, it first takes an argument of type `a`, then a function that accepts that argument, and in the end it calls the function with the first argument. So `(flip ($) 5)` takes as argument a function which gets called with `5` as it's argument. If we pass `(+ 2)` to `(flip ($) 5)`, we get `(flip ($) 5) (+2)` which is equivalent to the expression `(+2) $ 5`, evaluating to `7`.
+
+`flip ($) f` is equivalent to `\x -> x $ f`, that means, it takes as input a function and calls it with the function `f` as argument.
+
+The composition of these functions works like this: First `flip ($)` takes `x` as it's first argument, and returns a function `(flip ($) x)`, this function is awaiting a function as it's last argument, which will be called with `x` as it's argument. Now this function `(flip ($) x)` is passed to `flip ($) f`, or to write it's equivalent `(\x -> x $ f) (flip ($) x)`, this results in the expression `(flip ($) x) f`, which is equivalent to `f $ x`. 
+
+You can check the type of `(flip ($) f) . (flip ($))` is something like this (depending on your function `f`):
+
+```haskell
+λ: let f = sqrt
+λ: :t (flip ($) f) . (flip ($))
+(flip ($) f) . (flip ($)) :: Floating c => c -> c
+```
