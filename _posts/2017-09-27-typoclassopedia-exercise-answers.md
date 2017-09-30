@@ -322,12 +322,13 @@ pure f <*> x = pure (flip ($)) <*> x <*> pure f
 **Solution**:
 
 ```haskell
-pure (flip ($)) <*> x <*> pure f = (pure (flip ($)) <*> x) <*> pure f -- <*> is left-associative
-pure (flip ($)) <*> x <*> pure f = pure ($ f) <*> (pure (flip ($)) <*> x) -- interchange
-pure (flip ($)) <*> x <*> pure f = pure (.) <*> pure ($ f) <*> pure (flip ($)) <*> x -- composition
-pure (flip ($)) <*> x <*> pure f = pure (($ f) . (flip ($))) <*> x -- homomorphism
-pure (flip ($)) <*> x <*> pure f = pure ((flip ($) f) . (flip ($))) <*> x -- identical
-pure (flip ($)) <*> x <*> pure f = pure f <*> x
+pure (flip ($)) <*> x <*> pure f
+  = (pure (flip ($)) <*> x) <*> pure f -- <*> is left-associative
+  = pure ($ f) <*> (pure (flip ($)) <*> x) -- interchange
+  = pure (.) <*> pure ($ f) <*> pure (flip ($)) <*> x -- composition
+  = pure (($ f) . (flip ($))) <*> x -- homomorphism
+  = pure ((flip ($) f) . (flip ($))) <*> x -- identical
+  = pure f <*> x
 ```
 Explanation of the last transformation:
 
@@ -344,3 +345,5 @@ You can check the type of `(flip ($) f) . (flip ($))` is something like this (de
 λ: :t (flip ($) f) . (flip ($))
 (flip ($) f) . (flip ($)) :: Floating c => c -> c
 ```
+
+Also see [this question on Stack Overflow](https://stackoverflow.com/questions/46503793/applicative-prove-pure-f-x-pure-flip-x-pure-f/46505868#46505868) which includes alternative proofs.
