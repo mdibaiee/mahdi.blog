@@ -224,7 +224,11 @@ pre {
     font-family: 'Ubuntu Light';
     src: url(fonts/Ubuntu-Light_gdi.woff);
 }
+//@font-face {
+    //font-family: 'Ubuntu Mono';
+    //src: url(fonts/UbuntuMono-Regular_gdi.woff);
+//}
 @font-face {
-    font-family: 'Ubuntu Mono';
-    src: url(fonts/UbuntuMono-Regular_gdi.woff);
+  font-family: Mononoki;
+  src: url(fonts/mononoki-Regular.woff);
 }

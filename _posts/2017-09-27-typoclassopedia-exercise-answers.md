@@ -275,3 +275,55 @@ The Functor section links to [Category Theory](https://en.wikibooks.org/wiki/Has
     fmap (f . g) (Just x) = Just ((f . g) x) = Just (f (g x))
     fmap f (fmap g (Just x)) = Just (f (g x)) = Just ((f . g) x)
     ```
+    
+Applicative
+===========
+
+## Laws
+
+1. The identity law:
+   
+    ```haskell
+    pure id <*> v = v
+    ```
+
+2. Homomorphism:
+
+    ```haskell
+    pure f <*> pure x = pure (f x)
+    ```
+
+    Intuitively, applying a non-effectful function to a non-effectful argument in an effectful context is the same as just applying the function to the argument and then injecting the result into the context with pure.
+    
+3. Interchange:
+
+    ```haskell
+    u <*> pure y = pure ($ y) <*> u
+    ```
+
+    Intuitively, this says that when evaluating the application of an effectful function to a pure argument, the order in which we evaluate the function and its argument doesn't matter.
+    
+4. Composition:
+
+    ```haskell
+    u <*> (v <*> w) = pure (.) <*> u <*> v <*> w
+    ```
+
+    This one is the trickiest law to gain intuition for. In some sense it is expressing a sort of associativity property of (`<*>`). The reader may wish to simply convince themselves that this law is type-correct. 
+    
+### Exercises
+
+(Tricky) One might imagine a variant of the interchange law that says something about applying a pure function to an effectful argument. Using the above laws, prove that
+
+```haskell
+pure f <*> x = pure (flip ($)) <*> x <*> pure f
+```
+
+**Solution**:
+
+```haskell
+pure f <*> x = pure (($) f) <*> x -- identical
+pure f <*> x = pure ($) <*> pure f <*> x -- homomorphism
+pure f <*> x = pure (flip ($)) <*> x <*> pure f -- flip arguments
+```
+
