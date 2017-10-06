@@ -12,6 +12,8 @@ I wanted to get proficient in Haskell so I decided to follow [An [Essential] Has
 
 In each section below, I left some reference material for the exercises and then the solutions.
 
+Note: The post will be updated as I progress in Typoclassopedia myself
+
 Functor
 ==========
 ## Instances
