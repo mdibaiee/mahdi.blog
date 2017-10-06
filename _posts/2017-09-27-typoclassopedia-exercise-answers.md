@@ -565,6 +565,7 @@ instance Applicative [] where
           = fmap (u $) y
           = fmap ($ y) u
           = pure ($ y) <*> u
+        ```
     
     4. Composition
   
