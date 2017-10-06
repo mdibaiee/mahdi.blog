@@ -1,0 +1,29 @@
+#toc-container {
+  h2 {
+    display: inline-block;
+  }
+
+  input, input + span {
+    margin-left: 1rem;
+  }
+
+  input {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    opacity: 0;
+    margin-top: 10px;
+  }
+
+  input + span::before {
+    content: '[hide]';
+  }
+
+  input:checked ~ ul {
+    display: none;
+  }
+
+  input:checked + span::before {
+    content: '[show]';
+  }
+}

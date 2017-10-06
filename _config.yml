@@ -32,3 +32,6 @@ collections:
     output: true
     permalink: /travel/:path/
     path: /travel
+
+contentsLabel: "Table of Contents"
+showToggleButton: true

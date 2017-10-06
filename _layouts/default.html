@@ -10,7 +10,11 @@
     <div class="page-content">
       <div class="wrapper">
         <h1 class="page-heading"></h1>
-        {{ content }}
+        {% if page.toc %}
+          {{ content | toc_generate }}
+        {% else %}
+          {{ content }}
+        {% endif %}
       </div>
     </div>
 

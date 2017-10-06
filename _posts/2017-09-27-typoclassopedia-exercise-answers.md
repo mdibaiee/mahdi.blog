@@ -5,9 +5,10 @@ date:   2017-09-27
 permalink: typoclassopedia-exercise-solutions/
 categories: programming
 math: true
+toc: true
 ---
 
-I wanted to get proficient in Haskell so I decided to follow [An [Essential] Haskell Reading List](http://www.stephendiehl.com/posts/essential_haskell.html), there I stumbled upon [Typoclassopedia](https://wiki.haskell.org/Typeclassopedia), while the material is great, I couldn't find solutions for the exercises to check against, so I decided I would write my own and hopefully the solutions would get fixed in case I have gone wrong by others. So if you think a solution is wrong, let me know in the comments!
+I wanted to get proficient in Haskell so I decided to follow [An [Essential] Haskell Reading List](http://www.stephendiehl.com/posts/essential_haskell.html). There I stumbled upon [Typoclassopedia](https://wiki.haskell.org/Typeclassopedia), while the material is great, I couldn't find solutions for the exercises to check against, so I decided I would write my own and hopefully the solutions would get fixed in case I have gone wrong by others. So if you think a solution is wrong, let me know in the comments!
 
 In each section below, I left some reference material for the exercises and then the solutions.
 
@@ -347,3 +348,229 @@ You can check the type of `(flip ($) f) . (flip ($))` is something like this (de
 ```
 
 Also see [this question on Stack Overflow](https://stackoverflow.com/questions/46503793/applicative-prove-pure-f-x-pure-flip-x-pure-f/46505868#46505868) which includes alternative proofs.
+
+## Instances
+
+Applicative instance of lists as a collection of values:
+
+```haskell
+newtype ZipList a = ZipList { getZipList :: [a] }
+ 
+instance Applicative ZipList where
+  pure :: a -> ZipList a
+  pure = undefined   -- exercise
+ 
+  (<*>) :: ZipList (a -> b) -> ZipList a -> ZipList b
+  (ZipList gs) <*> (ZipList xs) = ZipList (zipWith ($) gs xs)
+```
+
+Applicative instance of lists as a non-deterministic computation context:
+
+```haskell
+instance Applicative [] where
+  pure :: a -> [a]
+  pure x = [x]
+ 
+  (<*>) :: [a -> b] -> [a] -> [b]
+  gs <*> xs = [ g x | g <- gs, x <- xs ]
+```
+
+### Exercises
+
+1. Implement an instance of `Applicative` for `Maybe`.
+  
+    **Solution**:
+    
+    ```haskell
+    instance Applicative (Maybe a) where
+      pure :: a -> Maybe a
+      pure x = Just x
+      
+      (<*>) :: Maybe (a -> b) -> Maybe a -> Maybe b
+      _ <*> Nothing = Nothing
+      Nothing <*> _ = Nothing
+      (Just f) <*> (Just x) = Just (f x)
+    ```
+    
+2. Determine the correct definition of `pure` for the `ZipList` instance of `Applicative`—there is only one implementation that satisfies the law relating `pure` and `(<*>)`. 
+    
+    **Solution**:
+    
+    ```haskell
+    newtype ZipList a = ZipList { getZipList :: [a] }
+    
+    instance Functor ZipList where
+      fmap f (ZipList list) = ZipList { getZipList = fmap f list }
+    
+    instance Applicative ZipList where
+      pure = ZipList . pure
+    
+      (ZipList gs) <*> (ZipList xs) = ZipList (zipWith ($) gs xs)
+    ```
+
+    You can check the Applicative laws for this implementation.
+    
+## Utility functions
+
+### Exercises
+
+1. Implement a function
+    `sequenceAL :: Applicative f => [f a] -> f [a]`
+    There is a generalized version of this, `sequenceA`, which works for any `Traversable` (see the later section on `Traversable`), but implementing this version specialized to lists is a good exercise. 
+    
+    **Solution**:
+    
+    ```haskell
+    createList = replicate 1
+
+    sequenceAL :: Applicative f => [f a] -> f [a]
+    sequenceAL = foldr (\x b -> ((++) . createList <$> x) <*> b) (pure [])
+    ```
+    
+    Explanation:
+    
+    First, `createList` is a simple function for creating a list of a single element, e.g. `createList 2 == [2]`.
+    
+    Now let's take `sequenceAL` apart, first, it does a fold over the list `[f a]`, and `b` is initialized to `pure []`, which results in `f [a]` as required by the function's output.
+    
+    Inside the function, `createList <$> x` applies `createList` to the value inside `f a`, resulting in `f [a]`, and then `(++)` is applied to the value again, so it becomes `f ((++) [a])`, now we can apply the function `(++) [a]` to `b` by `((++) . createList <$> x) <*> b`, which results in `f ([a] ++ b)`.
+
+## Alternative formulation
+
+### Definition
+
+```haskell
+class Functor f => Monoidal f where
+  unit :: f ()
+  (**) :: f a -> f b -> f (a,b)
+```
+
+### Laws:
+
+1. Left identity
+   
+    ```haskell
+    unit ** v ≅ v
+    ```
+
+2. Right identity
+   
+    ```haskell
+    u ** unit ≅ u
+    ```
+
+3. Associativity
+   
+    ```haskell
+    u ** (v ** w) ≅ (u ** v) ** w
+    ```
+    
+4. Neutrality
+
+    ```haskell
+    fmap (g *** h) (u ** v) = fmap g u ** fmap h v
+    ```
+    
+### Isomorphism
+
+In the laws above, `≅` refers to isomorphism rather than equality. In particular we consider:
+
+```haskell
+(x,()) ≅ x ≅ ((),x)
+((x,y),z) ≅ (x,(y,z))
+```
+    
+    
+### Exercises
+
+instance Applicative [] where
+  pure :: a -> [a]
+  pure x = [x]
+ 
+  (<*>) :: [a -> b] -> [a] -> [b]
+  gs <*> xs = [ g x | g <- gs, x <- xs ]
+  
+  ```haskell
+  pure id <*> v = v
+  ```
+  ```haskell
+  pure f <*> pure x = pure (f x)
+  ```
+
+  ```haskell
+  u <*> pure y = pure ($ y) <*> u
+  ```
+
+  ```haskell
+  u <*> (v <*> w) = pure (.) <*> u <*> v <*> w
+  ```
+  
+1. Implement `pure` and `<*>` in terms of `unit` and `**`, and vice versa.
+    
+    ```haskell
+    unit :: f ()
+    unit = pure ()
+    
+    (**) :: f a -> f b -> f (a, b)
+    a ** b = fmap (,) a <*> b
+    
+    pure :: a -> f a
+    pure x = unit ** x
+    
+    (<*>) :: f (a -> b) -> f a -> f b
+    f <*> a = fmap (uncurry ($)) (f ** a) = fmap (\(f, a) -> f a) (f ** a)
+    ```
+
+2. Are there any `Applicative` instances for which there are also functions `f () -> ()` and `f (a,b) -> (f a, f b)`, satisfying some "reasonable" laws? 
+
+    The [`Arrow`](https://wiki.haskell.org/Typeclassopedia#Arrow) type class seems to satisfy these criteria.
+    
+    ```haskell
+      first unit = ()
+      
+      (id *** f) (a, b) = (f a, f b)
+    ```
+    
+3. (Tricky) Prove that given your implementations from the first exercise, the usual Applicative laws and the Monoidal laws stated above are equivalent. 
+
+    1. Identity Law
+     
+        ```haskell
+        pure id <*> v
+          = fmap (uncurry ($)) ((unit ** id) ** v)
+          = fmap (uncurry ($)) (id ** v)
+          = fmap id v
+          = v
+        ```
+    
+    2. Homomorphism
+      
+        ```haskell
+        pure f <*> pure x
+          = (unit ** f) <*> (unit ** x)
+          = fmap (\(f, a) -> f a) (unit ** f) (unit ** x)
+          = fmap (\(f, a) -> f a) (f ** x)
+          = fmap f x
+          = pure (f x)
+        ```
+        
+    3. Interchange
+  
+        ```haskell
+        u <*> pure y
+          = fmap (uncurry ($)) (u ** (unit ** y))
+          = fmap (uncurry ($)) (u ** y)
+          = fmap (u $) y
+          = fmap ($ y) u
+          = pure ($ y) <*> u
+    
+    4. Composition
+  
+        ```haskell
+        u <*> (v <*> w)
+          = fmap (uncurry ($)) (u ** (fmap (uncurry ($)) (v ** w)))
+          = fmap (uncurry ($)) (u ** (fmap v w))
+          = fmap u (fmap v w)
+          = fmap (u . v) w
+          = pure (.) <*> u <*> v <*> w =
+        ```
