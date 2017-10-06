@@ -485,28 +485,6 @@ In the laws above, `≅` refers to isomorphism rather than equality. In particul
     
 ### Exercises
 
-instance Applicative [] where
-  pure :: a -> [a]
-  pure x = [x]
- 
-  (<*>) :: [a -> b] -> [a] -> [b]
-  gs <*> xs = [ g x | g <- gs, x <- xs ]
-  
-  ```haskell
-  pure id <*> v = v
-  ```
-  ```haskell
-  pure f <*> pure x = pure (f x)
-  ```
-
-  ```haskell
-  u <*> pure y = pure ($ y) <*> u
-  ```
-
-  ```haskell
-  u <*> (v <*> w) = pure (.) <*> u <*> v <*> w
-  ```
-  
 1. Implement `pure` and `<*>` in terms of `unit` and `**`, and vice versa.
     
     ```haskell
