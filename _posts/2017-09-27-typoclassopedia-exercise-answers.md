@@ -651,3 +651,46 @@ instance Monad Maybe where
     fmap f a = a >>= (return . f)
     join m = m >>= id
     ```
+    
+## Laws
+
+Standard:
+
+```haskell
+return a >>= k  =  k a
+m >>= return    =  m
+m >>= (\x -> k x >>= h)  =  (m >>= k) >>= h
+```
+
+In terms of `>=>`:
+
+```haskell
+return >=> g  =  g
+g >=> return  =  g
+(g >=> h) >=> k  =  g >=> (h >=> k)
+```
+
+### Exercises
+
+1. Given the definition `g >=> h = \x -> g x >>= h`, prove the equivalence of the above laws and the standard monad laws.
+
+    **Solution**:
+    
+    ```haskell
+    return >=> g
+      = \x -> return x >>= g
+      = \x -> g x
+      = g
+      
+    g >=> return
+      = \x -> g x >>= return
+      = \x -> g x
+      = g
+    
+    g >=> (h >=> k)
+      = \y -> g y >>= (\x -> h x >>= k)
+      = \y -> (g y >>= h) >>= k
+      = \y -> (\x -> g x >>= h) y >>= k
+      = (\x -> g x >>= h) >=> k
+      = (g >=> h) >=> k
+    ```
