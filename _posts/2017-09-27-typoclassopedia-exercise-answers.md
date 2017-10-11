@@ -630,3 +630,24 @@ instance Monad Maybe where
       (Var x) >>= f = Var (f x)
       (Node x) >>= f = Node (fmap f x)
     ```
+
+## Intuition
+
+### Exercises
+
+1. Implement `(>>=)` in terms of `fmap` (or `liftM`) and `join`.
+  
+    **Solution**:
+    
+    ```haskell
+    a >>= f = join (fmap f a)
+    ```
+    
+2. Now implement `join` and `fmap` (`liftM`) in terms of `(>>=)` and `return`.
+
+    **Solution**:
+    
+    ```haskell
+    fmap f a = a >>= (return . f)
+    join m = m >>= id
+    ```
