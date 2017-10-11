@@ -555,3 +555,78 @@ In the laws above, `≅` refers to isomorphism rather than equality. In particul
           = fmap (u . v) w
           = pure (.) <*> u <*> v <*> w =
         ```
+
+Monad
+=====
+
+## Definition
+
+```haskell
+class Applicative m => Monad m where
+  return :: a -> m a
+  (>>=)  :: m a -> (a -> m b) -> m b
+  (>>)   :: m a -> m b -> m b
+  m >> n = m >>= \_ -> n
+ 
+  fail   :: String -> m a
+```
+
+## Instances
+
+```haskell
+instance Monad Maybe where
+  return :: a -> Maybe a
+  return = Just
+ 
+  (>>=) :: Maybe a -> (a -> Maybe b) -> Maybe b
+  (Just x) >>= g = g x
+  Nothing  >>= _ = Nothing
+```
+
+### Exercises
+
+1. Implement a `Monad` instance for the list constructor, `[]`. Follow the types!
+   
+   **Solution**:
+   
+    ```haskell
+    instance Monad [] where
+      return a = [a]
+      
+      [] >> _ = []
+      (x:xs) >>= f = f x : xs >>= f
+    ```
+    
+2. Implement a `Monad` instance for `((->) e)`.
+   
+   **Solution**:
+   
+    ```haskell
+    instance Monad ((->) e) where
+      return x = const x
+      
+      g >>= f = f . g
+    ```
+
+3. Implement `Functor` and `Monad` instance for `Free f`, defined as:
+
+    ```haskell
+    data Free f a = Var a
+                  | Node (f (Free f a))
+    ```
+    
+    You may assume that `f` has a `Functor` instance. This is known as the _free monad_ built from the functor f. 
+    
+    **Solution**:
+    
+    ```haskell
+    instance Functor (Free f) where
+      fmap f (Var a) = Var (f a)
+      fmap f (Node x) = Node (f x)
+      
+    instance Monad (Free f) where
+      return x = Var x
+      
+      (Var x) >>= f = Var (f x)
+      (Node x) >>= f = Node (fmap f x)
+    ```
