@@ -714,3 +714,20 @@ class MonadTrans t where
     `t` is of the kind `(* -> *) -> * -> *`, as we see in `(t m) a`, `t` accepts a `Monad` first, which is of type `* -> *`, and then
     another argument of kind `*`.
     
+## Composing Monads
+
+### Exercises
+
+1. Implement `join :: M (N (M (N a))) -> M (N a)` given `distrib :: N (M a) -> M (N a)` and assuming `M` and `N` are instances of `Monad`.
+
+    ```haskell
+    join :: M (N (M (N a))) -> M (N a)
+    join m = distrib ((distrib m) >>= join) >>= join
+    
+    -- one by one
+    let m :: M (N (M (N a)))
+        a = distrib m  :: N (M (M (N a)))
+        b = a >>= join :: N (M (N a))
+        c = distrib b  :: M (N (N a))
+    in c >>= join      :: M (N a)
+    ```
