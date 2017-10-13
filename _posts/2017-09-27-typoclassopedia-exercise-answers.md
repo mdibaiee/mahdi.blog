@@ -694,3 +694,23 @@ g >=> return  =  g
       = (\x -> g x >>= h) >=> k
       = (g >=> h) >=> k
     ```
+
+Monad Transformers
+==================
+
+## Definition and laws
+
+```haskell
+class MonadTrans t where
+  lift :: Monad m => m a -> t m a
+```
+
+### Exercises
+
+1. What is the kind of `t` in the declaration of `MonadTrans`?
+
+    **Solution**: 
+    
+    `t` is of the kind `(* -> *) -> * -> *`, as we see in `(t m) a`, `t` accepts a `Monad` first, which is of type `* -> *`, and then
+    another argument of kind `*`.
+    
