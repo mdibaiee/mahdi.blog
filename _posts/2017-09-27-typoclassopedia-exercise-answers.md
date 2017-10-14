@@ -731,3 +731,26 @@ class MonadTrans t where
         c = distrib b  :: M (N (N a))
     in c >>= join      :: M (N a)
     ```
+    
+MonadFix
+========
+
+## Examples and intuition
+
+```haskell
+maybeFix :: (a -> Maybe a) -> Maybe a
+maybeFix f = ma
+  where ma = f (fromJust ma)
+```
+
+### Exercises
+
+1. Implement a MonadFix instance for []. 
+    
+    **Solution**:
+    
+    ```haskell
+    listFix :: (a -> [a]) -> [a]
+    listFix f = la
+      where la = f (head la)
+    ```
