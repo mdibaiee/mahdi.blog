@@ -754,3 +754,167 @@ maybeFix f = ma
     listFix f = la
       where la = f (head la)
     ```
+    
+Foldable
+========
+
+## Definition
+
+```haskell
+class Foldable t where
+  fold    :: Monoid m => t m -> m
+  foldMap :: Monoid m => (a -> m) -> t a -> m
+  foldr   :: (a -> b -> b) -> b -> t a -> b
+  foldr'  :: (a -> b -> b) -> b -> t a -> b
+  foldl   :: (b -> a -> b) -> b -> t a -> b
+  foldl'  :: (b -> a -> b) -> b -> t a -> b
+  foldr1  :: (a -> a -> a) -> t a -> a
+  foldl1  :: (a -> a -> a) -> t a -> a
+  toList  :: t a -> [a]
+  null    :: t a -> Bool
+  length  :: t a -> Int
+  elem    :: Eq a => a -> t a -> Bool
+  maximum :: Ord a => t a -> a
+  minimum :: Ord a => t a -> a
+  sum     :: Num a => t a -> a
+  product :: Num a => t a -> a
+```
+
+## Instances and examples
+
+### Exercises
+
+1. Implement `fold` in terms of `foldMap`.
+
+    **Solution**:
+    
+    ```haskell
+    fold = foldMap id
+    ```
+    
+2. What would you need in order to implement `foldMap` in terms of `fold`? 
+
+    **Solution**:
+    
+    A `map` function should exist for the instance, so we can apply the function `(a -> m)` to the container first.
+    
+    ```haskell
+    foldMap f = fold . map f
+    ```
+    
+3. Implement `foldMap` in terms of `foldr`.
+
+    **Solution**:
+    
+    ```haskell
+    foldMap f = foldr (\a b -> mappend (f a) b) mempty
+    ```
+    
+4. Implement `foldr` in terms of `foldMap` (hint: use the `Endo` monoid).
+
+    **Solution**:
+    
+    ```haskell
+    foldr f b c = foldMap (Endo . f) c `appEndo` b
+    ```
+    
+5. What is the type of `foldMap . foldMap`? Or `foldMap . foldMap . foldMap`, etc.? What do they do?  
+
+    **Solution**:
+    
+    Each composition makes `foldMap` operate on a deeper level, so:
+    
+    ```haskell
+    foldMap :: Monoid m => (a -> m) -> t a -> m
+    foldMap . foldMap :: Monoid m => (a -> m) -> t (t a) -> m
+    foldMap . foldMap . foldMap :: Monoid m => (a -> m) -> t (t (t a)) -> m
+    
+    foldMap id [1,2,3] :: Sum Int -- 6
+    (foldMap . foldMap) id [[1,2,3]] :: Sum Int -- 6
+    (foldMap . foldMap . foldMap) id [[[1,2,3]]] :: Sum Int -- 6
+    ```
+## Derived folds
+
+### Exercises
+
+1. Implement `toList :: Foldable f => f a -> [a]` in terms of either `foldr` or `foldMap`.
+
+    **Solution**:
+    
+    ```haskell
+    toList = foldMap (replicate 1)
+    ```
+    
+2. Show how one could implement the generic version of `foldr` in terms of `toList`, assuming we had only the list-specific `foldr :: (a -> b -> b) -> b -> [a] -> b`.
+
+    **Solution**:
+    
+    ```haskell
+    foldr f b c = foldr f b (toList c)
+    ```
+    
+3. Pick some of the following functions to implement: `concat`, `concatMap`, `and`, `or`, `any`, `all`, `sum`, `product`, `maximum(By)`, `minimum(By)`, `elem`, `notElem`, and `find`. Figure out how they generalize to `Foldable` and come up with elegant implementations using `fold` or `foldMap` along with appropriate `Monoid` instances.
+
+    **Solution**:
+    
+    ```haskell
+    concat :: Foldable t => t [a] -> [a]
+    concat = foldMap id
+    
+    concatMap :: Foldable t => (a -> [b]) -> t a -> [b]
+    concatMap f = foldMap (foldMap (replicate 1 . f))
+    
+    and :: Foldable t => t Bool -> Bool
+    and = getAll . foldMap All
+    
+    or :: Foldable t => t Bool -> Bool
+    or = getAny . foldMap Any
+      
+    any :: Foldable t => (a -> Bool) -> t a -> Bool
+    any f = getAny . foldMap (Any . f)
+    
+    all :: Foldable t => (a -> Bool) t a -> Bool
+    all f = getAll . foldMap (All . f)
+    
+    sum :: (Num a, Foldable t) => t a -> a
+    sum = getSum . foldMap Sum
+    
+    product :: (Num a, Foldable t) => t a -> a
+    product = getProduct . foldMap Product
+    
+    -- I think there are more elegant implementations for maximumBy, leave a comment
+    -- if you have a suggestion
+    maximumBy :: Foldable t => (a -> a -> Ordering) -> t a -> a
+    maximumBy f c = head $ foldMap (\a -> [a | cmp a]) c
+      where
+        cmp a = all (/= LT) (map (f a) lst)
+        lst = toList c
+    
+    elem :: (Eq a, Foldable t) => a -> t a -> Bool
+    elem x c = any (==x) c
+    
+    find :: Foldable t => (a -> Bool) -> t a -> Maybe a 
+    find f c = listToMaybe $ foldMap (\a -> [a | f a]) c 
+    ```
+
+## Utility functions
+
+- `sequenceA_ :: (Applicative f, Foldable t) => t (f a) -> f ()` takes a container full of computations and runs them in sequence, discarding the results (that is, they are used only for their effects). Since the results are discarded, the container only needs to be Foldable. (Compare with `sequenceA :: (Applicative f, Traversable t) => t (f a) -> f (t a)`, which requires a stronger Traversable constraint in order to be able to reconstruct a container of results having the same shape as the original container.) 
+
+- `traverse_ :: (Applicative f, Foldable t) => (a -> f b) -> t a -> f ()` applies the given function to each element in a foldable container and sequences the effects (but discards the results).
+ 
+### Exercises
+
+1. Implement `traverse_` in terms of `sequenceA_` and vice versa. One of these will need an extra constraint. What is it? 
+
+    **Solution**:
+    
+    ```haskell
+    sequenceA_ :: (Applicative f, Foldable t) => t (f a) -> f ()
+    sequenceA_ = traverse_ id
+    
+    traverse_ :: (Applicative f, Foldable t, Functor t) => (a -> f b) -> t a -> f ()
+    traverse_ f c = sequenceA_ (fmap f c)
+    ```
+    
+    The additional constraint for implementing `traverse_` in terms of `sequenceA_` is the requirement of the `Foldable` instance `t` to be a `Functor` as well.
