@@ -918,3 +918,133 @@ class Foldable t where
     ```
     
     The additional constraint for implementing `traverse_` in terms of `sequenceA_` is the requirement of the `Foldable` instance `t` to be a `Functor` as well.
+    
+Traversable
+===========
+
+## Intuition
+
+```haskell
+traverse :: Applicative f => (a -> f b) -> t a -> f (t b)
+sequenceA :: Applicative f => t (f a) -> f (t a)
+```
+
+### Exercises
+
+1. There are at least two natural ways to turn a tree of lists into a list of trees. What are they, and why? 
+   
+   Note: I'm not really sure whether my solution is _natural_, I think the question is rather ambiguous in the sense that it's not clear whether the trees in the final list of trees can have lists as their values, i.e. `Tree [Int] -> [Tree [Int]]` is valid or only `Tree [Int] -> [Tree Int]` is, but let me know if you think otherwise.
+    
+    **Solution**:
+    
+    One way is to put each `Node`, `Leaf` or `Empty` in a list in-order, this way the structure of the tree can be recovered from the list, here is a quick sketch (`[]` is an arbitrary list):
+    
+    ![tree to list](/img/typoclassopedia/tree.jpg)
+    
+    ```haskell
+    let tree = Node (Node (Leaf []) Empty) [] (Leaf [])
+    let list = [Node Empty [] Empty, Node Empty [] Empty, Leaf [], Empty, Leaf []]
+    ```
+
+2. Give a natural way to turn a list of trees into a tree of lists. 
+
+    **Solution**:
+    
+    To recover the original tree from the list of trees, whenever we encounter a `Node` in the list, we catch the next three values as left, value, and right nodes of the original node.
+
+3. What is the type of `traverse . traverse`? What does it do? 
+
+    **Solution**:
+    
+    ```haskell
+    (traverse . traverse) :: Applicative f => (a -> f b) -> t (t2 a) -> f (t (t2 b))
+    ```
+    
+    It traverses on a deeper level, retaining the structure of the first level.
+
+4. Implement `traverse` in terms of `sequenceA`, and vice versa. 
+
+    **Solution**:
+    
+    ```haskell
+    sequenceA = traverse id
+    
+    traverseA f c = sequenceA (fmap f c)
+    ```
+    
+## Instances and examples
+
+### Exercises
+
+1. Implement `fmap` and `foldMap` using only the `Traversable` methods. (Note that the `Traversable` module provides these implementations as `fmapDefault` and `foldMapDefault`.)
+
+    **Solution**:
+    
+    ```haskell
+    newtype Id a = Id { getId :: a }
+    
+    instance Functor Id where
+      fmap f (Id x) = Id (f x)
+    
+    instance Applicative Id where
+      pure x = Id x
+      (Id f) <*> (Id x) = Id (f x)
+    
+    fmapDefault :: Traversable t => (a -> b) -> t a -> t b
+    fmapDefault f = getId . traverse (Id . f)
+    
+    foldMapDefault :: (Monoid m, Traversable t) => (a -> m) -> t a -> m
+    foldMapDefault f = getConst . traverse (Const . f)
+    ```
+    
+    See the [Const](https://www.stackage.org/haddock/lts-9.9/base-4.9.1.0/src/Data-Functor-Const.html#Const) Functor's definition for intuition.
+    
+2. Implement `Traversable` instances for `[]`, `Maybe`, `((,) a)`, and `Either a`.
+
+    **Solution**:
+    
+    ```haskell
+    instance Traversable [] where
+      traverse :: Applicative f => (a -> f b) -> [a] -> f [b]
+      traverse _ [] = pure []
+      traverse f (x:xs) = (:) <$> f x <*> Main.traverse f xs
+      
+    instance Traversable Maybe where
+      traverse :: Applicative f => (a -> f b) -> Maybe a -> f (Maybe b)
+      
+      traverse _ Nothing = pure Nothing
+      traverse f (Just x) = Just <$> f x
+      
+    instance Traversable ((,) c) where
+      traverse :: Applicative f => (a -> f b) -> (c, a) -> f (c, b)
+      
+      traverse f (c, a) = (,) c <$> f a
+      
+    instance Traversable (Either c) where
+      traverse :: Applicative f => (a -> f b) -> Either c a -> f (Either c b)
+      
+      traverse _ (Left c) = pure (Left c)
+      traverse f (Right a) = Right <$> f a
+    ```
+    
+3. Explain why `Set` is `Foldable` but not `Traversable`.
+
+    **Solution**:
+    
+    First, in terms of laws, `Set` is not a `Functor`, thus it cannot be made into a `Traversable` instance, since `Traversable` instances require `Functor` superclasses.
+    
+    Second, on an intuitive level: In `Foldable`, the goal is not to keep the shape/structure of the original container, we are trying to reduce the container into some value, and the shape of the final result doesn't matter, but in `Traversable`, we ought to keep the structure of the final result, but we can't guarantee this while using `Set`s, because we can define some transformation `f :: Set a -> Set a` which reduces the length of the `Set`.
+    
+    
+    See [Foldable vs. Traversable](https://stackoverflow.com/questions/35857733/foldable-vs-traversable) and [Sets, Functors and Eq confusion](https://stackoverflow.com/questions/19177125/sets-functors-and-eq-confusion). and [Foldable and Traversable](https://wiki.haskell.org/Foldable_and_Traversable) for more details.
+    
+4. Show that `Traversable` functors compose: that is, implement an instance for `Traversable (Compose f g)` given `Traversable` instances for `f` and `g`.
+
+    **Solution**:
+    
+    ```haskell
+    instance (Traversable f, Traversable g) => Traversable (Compose f g) where
+      traverse :: (Applicative f) => (a -> f b) -> Compose g h a -> f (Compose g h b)
+      traverse f (Compose t) = Compose <$> traverse (traverse f) t
+    ```
+      
