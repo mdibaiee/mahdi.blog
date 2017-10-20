@@ -4,6 +4,7 @@ title:  "BroadcastChannel API"
 date:   2015-04-02 17:13:46
 permalink: broadcastchannel-api/
 categories: programming
+author: Mahdi
 ---
 
 [BroadcastChannel API](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API)

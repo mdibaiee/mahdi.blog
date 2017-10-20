@@ -4,6 +4,7 @@ title:  "Immortals go extinct"
 permalink: immortals-go-extinct/
 categories: life
 excerpt_separator: <!--more-->
+author: Mahdi
 ---
 
 We are all going to die, we all know that well.<br /><br />

@@ -7,9 +7,9 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
       <span>{{ page.date | date: "%b %-d, %Y" }}</span>
-      {% if page.author %} • <span>{{ page.author }}</span>{% endif %}
       {% if page.meta %} • <span>{{ page.meta }}</span>{% endif %}
       • <span>Reading time: {{ content | reading_time }}</span>
+      {% if page.author %} • <span><a href='{{ site.authors[page.author].url }}'>{{ page.author }}</a></span>{% endif %}
     </p>
   </div>
 

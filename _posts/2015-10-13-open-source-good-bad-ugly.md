@@ -4,6 +4,7 @@ title:  "Open-source: The Good, The Bad and The Ugly"
 date:   2015-10-13 06:15:00
 permalink: open-source-good-bad-ugly/
 categories: programming
+author: Mahdi
 ---
 
 I have been doing Open-source for a while, I don't call myself an "expert" or something like that,

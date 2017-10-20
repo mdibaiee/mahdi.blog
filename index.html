@@ -12,9 +12,9 @@ layout: default
 
           <p class="post-meta">
             <span>{{ post.date | date: "%b %-d, %Y" }}</span>
-            {% if post.author %} • <span>{{ post.author }}</span>{% endif %}
             {% if post.meta %} • <span>{{ post.meta }}</span>{% endif %}
             • <span>Reading time: {{ post.content | reading_time }}</span>
+            {% if post.author %} • <span><a href='{{ site.authors[post.author].url }}'>{{ post.author }}</a></span>{% endif %}
           </p>
         </h2>
         <article class='post-content'>

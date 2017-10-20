@@ -4,6 +4,7 @@ title:  "Primitive Living Lessons Learned, Episode 0"
 permalink: primitive-living-lessons-0/
 categories: life, primitive-living, travel
 excerpt_separator: <!--more-->
+author: Mahdi
 ---
 
 ![general view of the forest](/img/primitive-living-0.jpg)

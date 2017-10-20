@@ -35,3 +35,7 @@ collections:
 
 contentsLabel: "Table of Contents"
 showToggleButton: true
+
+authors:
+  Mahdi:
+    url: https://github.com/mdibaiee/
