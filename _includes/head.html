@@ -13,8 +13,8 @@
 
   {% if page.math %}
     <link rel='stylesheet' href='{{ "/css/katex.min.css" | prepend: site.baseurl }}'>
-    <script rel='stylesheet' src='{{ "/js/katex.min.js" | prepend: site.baseurl }}'></script>
-    <script rel='stylesheet' src='{{ "/js/auto-render.min.js" | prepend: site.baseurl }}'></script>
+    <script src='{{ "/js/katex.min.js" | prepend: site.baseurl }}'></script>
+    <script src='{{ "/js/auto-render.min.js" | prepend: site.baseurl }}'></script>
 
     <script>
       document.addEventListener("DOMContentLoaded", function() {
@@ -38,6 +38,16 @@
     channel.addEventListener('message', message => {
       alert('Got a message from the other tab:\n' + message.data);
     });
+  </script>
+
+  <script>
+      var disqus_shortname = 'dibaiee';
+
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
   </script>
 </head>
 
