@@ -37,7 +37,11 @@ Now for the induction step, we have to somehow show that after adding 1 to $n$, 
 
 ----
 
-Induction Step: Suppose we have a triangle split into $4^n$ tiles, and we know by induction hypothesis that it can be covered by trapezoidal tiles. Now suppose we have another triangle with $4^{n+1}$ tiles, that means, $4$ times as many triangles as our original triangle. We can then group the new bigger triangle into 4 congruent triangles, one of which we know can be split into trapezoidal tiles by removing one of it's tiles. For the three left triangles, we can find a neighbouring corner and assume the tile on that corner to be removed, and then cover the rest by trapezoidal tiles. Afterwards, since we had three such corners, and they are neighbouring corners, we can cover these three corners with one trapezoidal tile, thus completing the triangle.
+Induction Step: Suppose we have a triangle split into $4^n$ tiles, and we know by induction hypothesis that it can be covered by trapezoidal tiles.
+
+Now suppose we have another triangle with $4^{n+1}$ tiles, that means, $4$ times as many triangles as our original triangle. We can then group the new bigger triangle into 4 congruent triangles, one of which we know can be split into trapezoidal tiles by removing one of it's tiles.
+
+For the three left triangles, we can find a neighbouring corner and assume the tile on that corner to be removed, and then cover the rest by trapezoidal tiles. Afterwards, since we had three such corners, and they are neighbouring corners, we can cover these three corners with one trapezoidal tile, thus completing the triangle.
 
 ----
 
