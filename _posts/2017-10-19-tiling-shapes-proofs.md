@@ -63,6 +63,8 @@ Afterwards, we see that the three neighbouring tiles form a trapezoidal tile, th
 
 <canvas id='final' width='200' height='200' class='centered'></canvas>
 
+This procedure can be applied recursively on larger values of $n$ as well, so this concludes a proof of tiling an equilateral triangle divided into $4^n$ equilateral triangles using trapezoidal tiles after removing a single piece.
+
 <script>
   (function() {
     var tilingTriangle = document.getElementById('tiling-triangle');
