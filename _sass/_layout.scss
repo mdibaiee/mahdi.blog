@@ -88,6 +88,11 @@ header {
 article p img {
   margin: 2rem auto;
   display: block;
+
+  &.inline {
+    display: inline;
+    margin: 0.1rem;
+  }
 }
 
 strong {
@@ -177,4 +182,9 @@ hr {
     font-size: 15px;
     text-shadow: 0 0 1px white;
   }
+}
+
+.centered {
+  margin: 2rem auto;
+  display: block;
 }
