@@ -2,7 +2,9 @@
 layout: post
 title:  "DIY Cardboard Kindle Stand (for bed)"
 permalink: diy-cardboard-kindle-stand/
-categories: life, diy
+categories:
+  - life
+  - diy
 excerpt_separator: <!--more-->
 author: Mahdi
 ---

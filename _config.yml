@@ -17,6 +17,11 @@ redcarpet:
   extensions: ["strikethrough"]
 
 collections:
+  math:
+    title: math
+    output: true
+    permalink: /math/:path/
+    path: /math
   programming:
     title: programming
     output: true

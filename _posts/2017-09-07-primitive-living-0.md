@@ -2,7 +2,10 @@
 layout: post
 title:  "Primitive Living Lessons Learned, Episode 0"
 permalink: primitive-living-lessons-0/
-categories: life, primitive-living, travel
+categories:
+  - life
+  - primitive-living
+  - travel
 excerpt_separator: <!--more-->
 author: Mahdi
 ---

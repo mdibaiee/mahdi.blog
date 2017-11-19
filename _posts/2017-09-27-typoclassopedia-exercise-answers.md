@@ -3,7 +3,9 @@ layout: post
 title:  "Typoclassopedia: Exercise solutions"
 date:   2017-09-27 
 permalink: typoclassopedia-exercise-solutions/
-categories: programming
+categories:
+  - programming
+  - math
 math: true
 toc: true
 author: Mahdi
