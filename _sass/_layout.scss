@@ -127,6 +127,19 @@ strong {
   }
 }
 
+.lang-fa {
+  font-family: $base-font-family;
+  direction: rtl !important;
+  .post-content {
+    text-align: right;
+    font-size: 1.05em;
+    line-height: 1.718em;
+  }
+  .share-page {
+    direction: ltr;
+  }
+}
+
 .post-content .heading-link {
   display: block;
   position: absolute;
