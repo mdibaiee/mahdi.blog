@@ -83,7 +83,7 @@ At each iteration, we compare the `i`th character of our value, with `i`th chara
 if we find one, we continue to search the next branch, else, we create a node with `value.slice(0, i + 1)` and move onto the created node.
 
 It might be a little hard to grasp at first, so I created a visualization of this method to help you understand it easier, take a look:
-[Trie Visualization](/autocomplete-trie/demo/add.html)
+[Trie Visualization](https://mdibaiee.github.io/autocomplete-trie/demo/add.html)
 
 Then we have our find method, which searches for the given value in the trie. The algorithm for searching is the same, comparing by index and moving to the next branch.
 
@@ -99,7 +99,7 @@ That's it for our simple Trie class, now let's create an actual input with autoc
 </div>
 {% endhighlight %}
 
-I put some random names and stuff into three categories, results: [data.json](/autocomplete-trie/demo/data.json)
+I put some random names and stuff into three categories, results: [data.json](https://mdibaiee.github.io/autocomplete-trie/demo/data.json)
 
 Now we have to create a Trie of our data:
 {% highlight javascript %}
@@ -114,7 +114,7 @@ for (let category in data) {
   }
 }
 {% endhighlight %}
-As simple as that, our trie is made, it looks like this: [Data](/autocomplete-trie/demo/data.html)
+As simple as that, our trie is made, it looks like this: [Data](https://mdibaiee.github.io/autocomplete-trie/demo/data.html)
 
 Now, let's actually show results:
 {% highlight javascript %}
@@ -135,7 +135,7 @@ input.addEventListener('keyup', () => {
   }
 });
 {% endhighlight %}
-[Autocomplete 1](/autocomplete-trie/1.html)
+[Autocomplete 1](https://mdibaiee.github.io/autocomplete-trie/1.html)
 ![Autocomplete 1](/img/autocomplete-1.png)
 This will only show the instant-childs of the word entered, but that's not what we want, we want to show *complete* words, how do we do that?
 
@@ -181,7 +181,7 @@ input.addEventListener('keyup', () => {
   }
 });
 {% endhighlight %}
-[Autocomplete 2](/autocomplete-trie/2.html)
+[Autocomplete 2](https://mdibaiee.github.io/autocomplete-trie/2.html)
 ![Autocomplete 2](/img/autocomplete-2.png)
 Ta-daa!
 
@@ -203,6 +203,6 @@ input.addEventListener('keydown', e => {
 
 That's it! We have an input with autocomplete and tab-to-next-char. Isn't it awesome?
 
-[Final Result](/autocomplete-trie/2.html)
+[Final Result](https://mdibaiee.github.io/autocomplete-trie/2.html)
 
 *Pst! I have a repository of algorithm implementations in ES6, you might want to take a look! [mdibaiee/harmony-algorithms](https://github.com/mdibaiee/harmony-algorithms)*
