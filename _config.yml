@@ -1,12 +1,11 @@
 # Site settings
-title: the readme
-email: knockknock@theread.me
+title: mahdi
+email: hi@mahdi.blog
 description: a rabbit hole
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://theread.me" # the base hostname & protocol for your site
-twitter_username: mdibaiee
+url: "https://mahdi.blog" # the base hostname & protocol for your site
 github_username:  mdibaiee
-repo: "https://github.com/mdibaiee/theread.me"
+repo: "https://github.com/mdibaiee/mahdi.blog"
 
 date_format: "%b %d, %Y"
 
