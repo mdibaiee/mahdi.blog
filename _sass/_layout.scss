@@ -41,7 +41,7 @@ header {
 
   nav {
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
   }
   nav a {
     margin: 0 1rem;
@@ -55,12 +55,11 @@ header {
 .page-heading {
   text-align: center;
   font-style: italic;
-  margin-bottom: 3rem;
   width: 20%;
   height: 1px;
   border: 1px dotted rgba(0, 0, 0, 0.1);
 
-  margin: 5rem auto;
+  margin: 2rem auto 5rem;
 }
 
 .post-list, .post-header {
