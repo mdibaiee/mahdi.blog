@@ -7,40 +7,40 @@ categories: life, iran
 author: Mahdi
 ---
 
-Let me take you through a story, a story on what it feels like to be isolated from the world, not by choice, but rather by force. This is a story of discrimination, of monopoly, of rolling eyes and of utterances that affect lives of milions.
+Let me take you through a story, a story on what it feels like to be isolated from the world, not by choice, but rather, by force. This is a story of discrimination, of monopoly, of people shrugging to these issues and of utterances that affect lives of milions.
 
-Living in Iran, or any sanctioned country for that matter, you learn to read "anyone, anywhere" as "but not you". You soon learn "worldwide shipping" excludes you, that's when you start wondering, are you not living in "the world"? Where is this "world" they talk about?
+Living in Iran, or any sanctioned country for that matter, you learn to read "anyone, anywhere" with an appendix of "except you". You soon learn "worldwide shipping" excludes you, that's when you start wondering, are you not living in "the world"? Where is this "world" they talk about?
 
 Here is an example of a beautiful, hopeful message from Khan Academy:
 
 ![Khan Academy's Landing Page: We’re a nonprofit with the mission to provide a free, world-class education for anyone, anywhere.](/img/discrimination/khan-academy.png)
 
-{% include caption.html text='We’re a nonprofit with the mission to provide a free, world-class education for anyone, anywhere.' %}
+{% include caption.html text='"We’re a nonprofit with the mission to provide a free, world-class education for anyone, anywhere."' %}
 
-No one probably realizes that this is not true, but yeah, Khan Academy is not available to Iranians, Cubans, Syrians, people of Crimea, and some others. That's because [they run on Google Cloud](https://cloud.google.com/customers/khan-academy/), an infrastructure provider that completely blocks all sanctioned countries from accessing any application hosted on it. Who else hosts their service there? Take a look at the [342 item list](https://cloud.google.com/customers/) of notable customers of Google Cloud, but remember there's more.
+No one probably realizes that this is not true, but yes, Khan Academy is not available to Iranians, Cubans, Syrians, people of Crimea, and some others. That's because [they run on Google Cloud](https://cloud.google.com/customers/khan-academy/), an infrastructure provider that completely blocks all sanctioned countries from accessing any application hosted on it. Who else hosts their service there? Take a look at [342 notable customers](https://cloud.google.com/customers/) of Google Cloud, but remember, there are thousands more customers to Google Cloud and similar American infrastructure providers.
 
 But the story doesn't end here, of course. Let's go through the effects of sanctions on everyday lives of people, who have nothing to do with the politics of the country they are living in, and who are being discriminated only because they were born in geographical coordinates that lie in a certain boundary defined by people they don't even know.
 
 # The Internet
 
-The internet, the tool of the global society for communicating across the planet (I do not want to use the term "world", lest it excludes sanctioned countries), _the_ tool for sharing knowledge and alike.
+The internet, the tool of the global society for communicating across the planet, _the_ tool for sharing knowledge and alike.
 
-As if the Iranian government's blockage and censorship of the internet wasn't enough, we now have to deal with external sanctions blocking our access as well, here's a gallery of blocked access messages we see on a daily basis:
+As if the Iranian government's blockage and censorship of the internet wasn't enough, we now have to deal with external sanctions blocking our access as well. Here's a gallery of blocked access messages we see on a daily basis:
 
 ![Various websites and their respective webpages seen only by sanctioned countries](/img/discrimination/403-forbidden-iran-sanctions.jpg)
 {% include caption.html text='Various websites and their respective webpages seen only by sanctioned countries' %}
 
 These websites include GitHub, Slack, Kaggle, Docker, GitLab, Amazon AWS, Twitter, Bluemix, Khan Academy and more. Here is a longer, developer-oriented (but definitely not exhaustive) list of hosts blocking our access: [freedomofdevelopers/domains](https://raw.githubusercontent.com/freedomofdevelopers/fod/master/domains).
 
-The websites that blocked our access, mostly did without prior notice, they just disabled our accounts, took our data from us, and did not let us even take backups or exports of our data afterwards, that means lost messages, lost files and credentials.
+The websites that blocked our access mostly did it without prior notice, they just disabled our accounts, took our data from us, and did not let us even backup or export our data afterwards, in other words, lost messages, lost files and credentials.
 
-This is, in part, caused by the global monopoly of American companies such as Google, GitHub and alike, which means if The United States decides to pressure a specific target, the target is likely to be left with not much of an alternative or option, since a great proportion of the land is covered by American companies.
+This is, in part, caused by the global monopoly of American companies such as Google, GitHub and alike. This means if The United States decides to pressure a specific target, the target population is likely to be left with not much of an alternative or option, since a great proportion of the land is covered by American companies.
 
-This is a clear discrimination based on nationality and a breach of [Internet Freedom](https://en.wikipedia.org/wiki/Internet_freedom). These websites do not block us because we acted in a wrong way, or even, at cases, because we live in Iran, but because we were "born" in Iran. Now you may say this is because of the law and they have no choice, that's true in some cases and we'll talk about it [later](#of-rolling-eyes-and-shrugs) in the post, though still sometimes the implementation of these laws seems to go further than what the law actually requires.
+This is a clear discrimination based on nationality and a breach of [Internet Freedom](https://en.wikipedia.org/wiki/Internet_freedom). These websites do not block us because we acted in a wrong way, or even, at cases, because we live in Iran, but because we were _born_ in Iran. Now, you may say this is because of the law and they have no choice. That's true in some cases and we'll talk about it [later](#of-rolling-eyes-and-shrugs) in the post, though sometimes the implementation of these laws seem to go further than what the laws actually require.
 
 # Drugs, Medicine, and Medical Devices
 
-There are various sources and articles on how the U.S. sanctions have affected Iranian patients by limiting exports of drugs, medical devices or by indirectly disrupting the pharmaceutical industry by cutting exports of raw material used by these companies to produce medical drugs. Although I am aware of, and can consciously feel the shortage myself, I will refer to an article on NCBI as a proof.
+There are various sources and articles on how the U.S. sanctions have affected Iranian patients by limiting exports of drugs, medical devices or by indirectly disrupting the pharmaceutical industry by cutting exports of raw material used by these companies to produce medical drugs. Almost every person living in Iran can consciously feel the shortage of drugs and their growing price, but I will refer to an article on NCBI as a proof.
 
 Quoting from [NCBI: Addressing the impact of economic sanctions on Iranian drug shortages in the joint comprehensive plan of action: promoting access to medicines and health diplomacy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4897941/):
 
@@ -60,12 +60,12 @@ Inaccessibility of vital medications and their raw ingredients combined with Ira
 
 [Health is a fundamental human right](https://www.who.int/mediacentre/news/statements/fundamental-human-right/en/), but the embargo clearly goes against giving people access to life-saving medicine. It brings tears to my eyes to think about people losing a loved one over inability to access a drug or medical device that's no longer available in Iran.
 
-# Rial Fluctuations: An Unpredictable Life
+# Currency Fluctuations: An Unpredictable Life
 
 I'm pretty sure most of the people reading this blog post, unless they are Iranians, will not find this section familiar. It's [fortunately] not a common experience across the planet, but let me tell you about living a life of zero predictability.
 
 Imagine this: You sell your car today, and you start a hunt for a new car to buy as a replacement. For the sake of the example, you are looking for a second-hand car.
-I don't want to bore you with millions and billions of currency being spent, as is the case in Iran, so I will use a dummy currency unit here. You sold  your car for 1000 units, and during the week you are looking for a new car, you start to see the car you just sold and every other car on the market, is gaining price like crazy, after a week, the same car that you sold is priced at 1800 units of currency and it's growing. It's like putting a car on neutral in a downward slope and seeing it go up the hill! Now you are left with 1000 units of currency, and you are only able to buy the same car if you put in your extra 800 savings, otherwise you are going to ride a car with significantly less quality. (More on [Iran's inflation](https://www.reuters.com/article/us-iran-economy-imf-idUSKCN1S509Q) as a result of tighter sanctions)
+I will use a dummy currency unit here to simplify the example. You sold  your car for 1000 units, and during the week you are looking for a new car, you start to see the car you just sold and every other car on the market, is gaining price exponentially, after a week, the same car that you sold is priced at 1800 units of currency and it's growing. It's like putting a car on neutral in a downward slope and seeing it go up the hill! Now you are left with 1000 units of currency, and you are only able to buy the same car if you put in your extra 800 savings, otherwise you are going to ride a car with significantly less quality. (More on [Iran's inflation](https://www.reuters.com/article/us-iran-economy-imf-idUSKCN1S509Q) as a result of tighter sanctions)
 
 I am pretty sure no matter how much I try to help you visualize this, you can not comprehend what it means to live in such a situation. I always use the metaphor of being a circus actor trying to balance on a moving cylinder to describe what it means to survive the fluctuations of our currency, which in turn affects all your expenses, but not your income.
 
@@ -91,9 +91,9 @@ You have probably heard of [Maslow's Hierarchy of Needs](https://en.wikipedia.or
 
 ![Maslow's Hierarchy of Needs. A pyramid, from top to bottom: Self-Actualization, Esteem, Love/Belonging, Safety, Physiological](/img/discrimination/maslow.jpg)
 
-At the bottom, there are physiological needs, like health, food, water, sleep, shelter and sex. Only once these needs are fulfilled properly, do you get motivated to even think about the next level. That means, if your physiological needs are not properly safisfied, you will not even think about safety, love and belonging, esteem or self-actualization.
+At the bottom, there are physiological needs, like health, food, water, sleep, shelter and sex. Only once these needs are fulfilled properly, you get motivated to even think about the next level. That means, if your physiological needs are not properly safisfied, you will not even think about safety, love and belonging, self-esteem or self-actualization.
 
-Now, what all these physiological needs have in common is that they are fulfilled when there is a stable economic backbone in the country you live in. Once the economic backbone is broken, you start to lose ease of access to these physiological needs. Slowly but surely, you lose your motivation for seeking self-actualization, for esteem, for love and belonging and for safety and you hunt for your physiological needs. Once this happens for a whole population in a country, you are left with people with only one goal in their lives: to survive, and may I make it clear: _by any means_.
+Now, what all these physiological needs have in common is that they are fulfilled when there is a stable economic backbone in the country you live in. Once the economic backbone is broken, you begin losing access to these physiological needs. Slowly, but surely, you lose your motivation to seek self-actualization, for self-esteem, for love and belonging and for safety and you hunt for your physiological needs. Once this happens for a whole population in a country, you are left with people with only one goal in their lives: to survive, _by any means_.
 
 With no motivation for building strong friendships and relationships, no motivation for security and safety, for feeling of accomplishment and for creative acts, the population transitions towards becoming one unsafe, cold, threatening, untrustable environment with no sense of joy or creativity.
 
@@ -102,20 +102,18 @@ I'm driving from my friend's house back to mine, it's roughly 10pm and streets a
 ![A teenager collecting trash in Iran](/img/discrimination/trash-collecting.jpg)
 {% include caption.html text='A teenage collecting trash in the streets of Tehran.' %}
 
-The rippling effects of a weakening economy are far worse and far-reaching than what the sanctions are supposed to do. I think it's too optimistic to think sanctions to weaken an economy will prevent a country from spending money on something they want to spend on. What ends up happening, or at least has happened in case of Iran is that the money is drained from places where it affects peoples lives, but I doubt anything has changed at the actual target.
+The rippling effects of a weakening economy are far worse and far-reaching than what the sanctions are supposed to do. I think it's too optimistic to think sanctions to weaken an economy will prevent a country from spending money on something they want to spend on. What ends up happening, or at least has happened in case of Iran, is that the money is drained from places where it affects peoples lives, but I doubt anything has changed at the actual target.
 
 # Of Rolling Eyes and Shrugs
 
-Often when similar stories of this kind are shared, I am ready to see comments of people shrugging to the issue with responses like "They have to comply because it's the law" or "That's how you respond to a country that wants to build nuclear weapons" or similar. They just roll their eyes and shrug it off like this is how it's supposed to be.
+Often when similar stories of this kind are shared, I am ready to see comments of people shrugging to the issue with responses like "they have to comply because it's the law" or "that's how you respond to a country that wants to build nuclear weapons" or similar. They just roll their eyes and shrug it off like this is how it's supposed to be.
 
-Now, of course, it's the law and the companies have to comply; Of course, it's not a good thing that Iran wants to build nuclear weapons. What these responses get wrong is that there is no involvement by us, the people, in this. Solely because I live my daily life in a geographical location that resides in the boundaries of a place on Earth known as "Iran" doesn't mean I agree with the politics of this country, or that I want them to build nuclear weapons and wage war against others.
+Now, of course, it's the law and the companies have to comply; of course, it's not a good thing that Iran wants to build nuclear weapons. What these responses get wrong is that there is no involvement by us, the people, in the decisions and policies of our country. Solely because I live my daily life in a geographical location that resides in the boundaries of a place on Earth known as "Iran" doesn't mean I agree with the politics of this country, or that I want them to build nuclear weapons and wage war against others.
 
-What these replies get wrong is that in democratic countries, laws can change based on what people demand. Instead of shrugging these humanitarian issues off, I suggest, please hear us out, and help echo our voice. You may not realize, but we, the people of Iran, do not have a say in what politics our government follows, or what it does, or how it interacts with other countries, but you do have a say in yours. The only thing we can do is to spread the word. You probably also don't even realize that writing this piece itself is not a completely safe act in Iran.
+What these replies get wrong is that in democratic countries, laws can change based on what people demand. Instead of shrugging these humanitarian issues off, please hear us out, and help echo our voice. You may not realize, but we, the people of Iran, do not have a say in what politics our government follows, or what it does, or how it interacts with other countries, but you do have a say in yours. The only thing we can do is to spread the word. You probably don't realize that writing this piece itself is not a completely safe act in Iran.
 
 What we feel when we see these responses is: "They are terrorists so let them be", but we are not.
 
-It seems like the Iranian people are now the common enemy of all sides of a global conflict. The ever-increasing pressure we feel is not from a single source, but rather, from all sides. We have internet censorship from the inside and restricted access from the outside. We have economic pressure from the inside, with a direct influence from the outsie, and the same applies to every part of this conflict.
-
-
+It seems like the Iranian people are now the common enemy of all sides of a global conflict. The ever-increasing pressure we feel is not from a single source, but rather, from all sides. We have internet censorship from the inside and restricted access from the outside. We have economic pressure from the inside, with a direct influence from the outside, and the same applies to every part of this conflict.
 
 I would love to hear from you what you think about this, and I really hope I have been able to put out this topic from a different perspective.
