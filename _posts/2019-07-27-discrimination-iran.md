@@ -34,7 +34,7 @@ These websites include GitHub, Slack, Kaggle, Docker, GitLab, Amazon AWS, Twitte
 
 The websites that blocked our access mostly did it without prior notice, they just disabled our accounts, took our data from us, and did not let us even backup or export our data afterwards, in other words, lost messages, lost files and credentials.
 
-This is, in part, is caused by the global monopoly of American companies such as Google, Amazon, GitHub and alike in their respective fields. This means if The United States decides to pressure a specific target, the target population is likely to be left without much of an alternative or option, since a great proportion of the land is covered by American companies.
+This, in part, is caused by the global monopoly of American companies such as Google, Amazon, GitHub and alike in their respective fields. This means if The United States decides to pressure a specific target, the target population is likely to be left without much of an alternative or option, since a great proportion of the land is covered by American companies.
 
 Iranian users rely heavily on use of VPN services and proxy servers to bypass censorship, but now with most Cloud Providers blocking access of Iranians, we are left with limited, usually more expensive options for setting up these servers.
 
