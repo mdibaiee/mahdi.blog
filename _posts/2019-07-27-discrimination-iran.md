@@ -36,6 +36,8 @@ The websites that blocked our access mostly did it without prior notice, they ju
 
 This is, in part, is caused by the global monopoly of American companies such as Google, Amazon, GitHub and alike in their respective fields. This means if The United States decides to pressure a specific target, the target population is likely to be left without much of an alternative or option, since a great proportion of the land is covered by American companies.
 
+Iranian users rely heavily on use of VPN services and proxy servers to bypass censorship, but now with most Cloud Providers blocking access of Iranians, we are left with limited, usually more expensive options for setting up these servers.
+
 This is a clear discrimination based on nationality and a breach of [Internet Freedom](https://en.wikipedia.org/wiki/Internet_freedom). These websites do not block us because we acted in a wrong way, or even, at cases, because we live in Iran, but because we were _born_ in Iran. Now, you may say this is because of the law and they have no choice. That's true in some cases and we'll talk about it [later](#of-rolling-eyes-and-shrugs) in the post, though sometimes the implementation of these laws seem to go further than what the laws actually require. The companies seem to go the _easy_ way by blocking access as much as they can.
 
 # Drugs, Medicine, and Medical Devices
