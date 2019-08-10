@@ -23,7 +23,7 @@ But the story doesn't end here, of course. Let's go through the effects of sanct
 
 # The Internet
 
-The internet, the tool of the global society for communicating across the planet, _the_ tool for sharing knowledge and alike.
+The internet, the tool of the global society for communicating across the planet, _the_ tool for sharing knowledge with the human population across the world.
 
 As if the Iranian government's blockage and censorship of the internet wasn't enough, we now have to deal with external sanctions blocking our access as well. Here's a gallery of blocked access messages we see on a daily basis:
 
@@ -38,7 +38,7 @@ This, in part, is caused by the global monopoly of American companies such as Go
 
 Iranian users rely heavily on use of VPN services and proxy servers to bypass censorship, but now with most Cloud Providers blocking access of Iranians, we are left with limited, usually more expensive options for setting up these servers.
 
-This is a clear discrimination based on nationality and a breach of [Internet Freedom](https://en.wikipedia.org/wiki/Internet_freedom). These websites do not block us because we acted in a wrong way, or even, at cases, because we live in Iran, but because we were _born_ in Iran. Now, you may say this is because of the law and they have no choice. That's true in some cases and we'll talk about it [later](#of-rolling-eyes-and-shrugs) in the post, though sometimes the implementation of these laws seem to go further than what the laws actually require. The companies seem to go the _easy_ way by blocking access as much as they can.
+This is a clear discrimination based on nationality and a breach of [Internet Freedom](https://en.wikipedia.org/wiki/Internet_freedom). These websites do not block us because we acted in a wrong way, or even, at cases, because we live in Iran, but because we were _born_ in Iran. Now, you may say this is because of the law and they have no choice. That's true in some case, though most of the time the implementation of these laws seem to go further than what the laws actually require. The companies seem to go the _easy_ way by blocking access as much as they can to avoid holes in their system.
 
 # Drugs, Medicine, and Medical Devices
 
@@ -112,12 +112,23 @@ The rippling effects of a weakening economy are far worse and far-reaching than 
 
 Often when similar stories of this kind are shared, I am ready to see comments of people shrugging to the issue with responses like "they have to comply because it's the law" or "that's how you respond to a country that wants to build nuclear weapons" or similar. They just roll their eyes and shrug it off like this is how it's supposed to be.
 
-Now, of course, it's the law and the companies have to comply; of course, it's not a good thing that Iran wants to build nuclear weapons. What these responses get wrong is that there is no involvement by us, the people, in the decisions and policies of our country. Solely because I live my daily life in a geographical location that resides in the boundaries of a place on Earth known as "Iran" doesn't mean I agree with the politics of this country, or that I want them to build nuclear weapons and wage war against others.
+Sometimes, that's true that it's the law an the companies have to comply (though most of the time the application of the law goes way beyond necessity). What these responses get wrong is that there is no involvement by us, the people, in the decisions and policies of our country. Solely because I live my daily life in a geographical location that resides in the boundaries of a place on Earth known as "Iran" doesn't mean I agree with the politics of this country, or that I should be isolated from the rest of the world because some people in my country make certain decisions.
 
-What these replies get wrong is that in democratic countries, laws can change based on what people demand. Instead of shrugging these humanitarian issues off, please hear us out, and help echo our voice. You may not realize, but we, the people of Iran, do not have a say in what what politics our government follows or how it interacts with other countries, but you do have a say in yours. The only thing we can do is to spread the word. You probably don't realize that writing this piece itself is not a completely safe act in Iran.
+What these replies get wrong is that in democratic countries, laws can change based on what people demand. Instead of shrugging these humanitarian issues off, please hear us out, and help echo our voice. You may not realize, but we, the people of Iran, do not have a say in what what politics our government follows or how it interacts with other countries, but you do have a say in yours. The only thing we can do is to spread the word.
 
-What we feel when we see these responses is: "They are terrorists so let them be", but we are not.
+What we feel when we see these responses is: "They are terrorists so let them be", but we are not. We are normal people like you, with less privileges, solely because of our living region.
 
 It seems like the Iranian people are now the common enemy of all sides of a global conflict. The ever-increasing pressure we feel is not from a single source, but rather, from all sides. We have internet censorship from the inside and restricted access from the outside. We have economic pressure from the inside, with a direct influence from the outside, and the same applies to every part of this conflict.
 
-[Racism](https://en.wikipedia.org/wiki/Racism) is defined as  "prejudice, discrimination, or antagonism directed towards other people because they are of a different race of ethnicity". Sanctions, likewise, are a clear case of prejudice, discrimination and antagonism directed towards people because they are born in a certain country, or reside in a certain part of the planet.
+# Final Message
+
+[Racism](https://en.wikipedia.org/wiki/Racism) is defined as  "prejudice, [discrimination](https://en.wikipedia.org/wiki/Discrimination), or antagonism directed towards other people because they are of a different race or ethnicity". Sanctions, likewise, are a clear case of prejudice, discrimination and antagonism directed towards people because they are born in a certain country, or reside in a certain part of the planet.
+
+If a person is jailed, or killed because of the color of their skin, you feel furious and protest against the act to show that racism has no place in your country. Sanctions are a case of jailing a whole country, killing the people inside by cutting their lifelines and causing lifetime distress for innocent people who didn't do anything wrong. It's discrimination on the scale of a whole population of millions. Although the people who are being effected by these sanctions are far away from your home, their misery is caused by your country's policies and actions, and you have the right to stand up against these discriminations.
+
+[The Universal Declaration of Human Rights](https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights), Article 2, states:
+
+> Everyone is entitled to all the rights and freedoms set forth in this Declaration, without distinction of any kind, such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status.
+> Furthermore, no distinction shall be made on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be independent, trust, non-self-governing or under any other limitation of sovereignty.
+
+That doesn't sound like what's happening now by enforcement of sanctions. Silence on this massive case of discrimination against people around the world must be broken, it must be recognized that discrimination, in any form, is not to be tolerated by humans.
