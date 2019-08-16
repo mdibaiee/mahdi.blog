@@ -7,7 +7,7 @@ categories: life, iran
 author: Mahdi
 ---
 
-Let me take you through a story, a story on what it feels like to be isolated from the world, not by choice, but rather, by force. This is a story of discrimination, of monopoly, of people shrugging to these issues and of utterances that affect lives of millions.
+Let me take you through a story on what it feels like to be isolated from the world, not by choice, but rather, by force. This is a story of discrimination, of monopoly, of people shrugging to these issues and of utterances that affect lives of millions.
 
 Living in Iran, or any sanctioned country for that matter, you learn to read "anyone, anywhere" with an appendix of "except you". You soon learn "worldwide shipping" excludes you, that's when you start wondering, are you not living in "the world"? Where is this "world" they talk about?
 
