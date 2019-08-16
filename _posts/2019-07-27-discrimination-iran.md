@@ -138,3 +138,10 @@ If a person is jailed, or killed because of the color of their skin, you feel fu
 > Furthermore, no distinction shall be made on the basis of the political, jurisdictional or international status of the country or territory to which a person belongs, whether it be independent, trust, non-self-governing or under any other limitation of sovereignty.
 
 That doesn't sound like what's happening now by enforcement of sanctions. Silence on this massive case of discrimination against people around the world must be broken, it must be recognized that discrimination, in any form, is not to be tolerated by humans.
+
+# More Content
+
+- [Ron Paul: "Sanctions Are A Deadly Act Of War"](https://twitter.com/RonPaul/status/1162067004733476864)
+- [Hamed Saeedi: Yellow badges are back. This time not by Nazi Germany & not for Jews, but by U.S. tech companies](https://medium.com/@hamed/yellow-badges-are-back-this-time-not-by-nazi-germany-not-for-jews-but-by-u-s-tech-companies-48e92d690176)
+Hamed]
+- [Foreign Policy: U.S. Sanctions Are Killing Cancer Patients in Iran](https://medium.com/@hamed/yellow-badges-are-back-this-time-not-by-nazi-germany-not-for-jews-but-by-u-s-tech-companies-48e92d690176)
