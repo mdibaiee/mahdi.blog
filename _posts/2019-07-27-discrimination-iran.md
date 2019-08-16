@@ -85,7 +85,7 @@ A re-imposition of sanctions is expected to cause a drop in Iranian oil exports,
 “Iran is likely to experience depreciatory pressures on the rial and rising inflation as a result of lower foreign currency inflows that will constrain domestic investment and consumption,” BMI said.
 </blockquote>
 
-Unpredictability is only part of the story, in general a high inflation rate means a degradation of life quality over time, and a lower quality of life includes a lack of acces to even the most basic needs. It means having to put your children in less qualified schools, it means avoiding doctor appointments by any means necessary, it means cutting corners in every section of your life, it means a less balanced environment to live in, an environment where people get angry more easily since they are under a constant pressure as a cause of their degrading lives. No matter how hard you try, your life quality only goes downhill, never up.
+Unpredictability is only part of the story, in general a high inflation rate means a degradation of life quality over time, and a lower quality of life includes a lack of access to even the most basic needs. It means having to put your children in less qualified schools, it means avoiding doctor appointments by any means necessary, it means cutting corners in every section of your life, it means a less balanced environment to live in, an environment where people get angry more easily since they are under a constant pressure as a cause of their degrading lives. No matter how hard you try, your life quality only goes downhill, never up.
 
 # A Weak Economy's Rippling Effect
 
