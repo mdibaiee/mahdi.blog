@@ -132,6 +132,10 @@ It seems like the Iranian people are now the common enemy of all sides of a glob
 
 If a person is jailed, or killed because of the color of their skin, you feel furious and protest against the act to show that racism has no place in your country. Sanctions are a case of jailing a whole country, killing the people inside by cutting their lifelines and causing lifetime distress for innocent people who didn't do anything wrong. It's discrimination on the scale of a whole population of millions. Although the people who are being effected by these sanctions are far away from your home, their misery is caused by your country's policies and actions, and you have the right to stand up against these discriminations.
 
+Run Paul, former Congressman [touches on topic](https://twitter.com/RonPaul/status/1162067004733476864):
+
+> I think sanctions are really really bad, because it brings people in to think that "well I'm not quite as violent as other people who would use a drone", well, hopefully it is a little bit less violent, but it's every bit as dangerous, it's still attacking personal liberties and it's undermining the principle of trying to get along with people with free trade.
+
 [The Universal Declaration of Human Rights](https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights), Article 2, states:
 
 > Everyone is entitled to all the rights and freedoms set forth in this Declaration, without distinction of any kind, such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status.
