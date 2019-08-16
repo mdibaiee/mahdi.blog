@@ -60,6 +60,12 @@ And on the topic of weakening of the pharmaceutical companies:
 Inaccessibility of vital medications and their raw ingredients combined with Iran’s weakening domestic pharmaceutical industry has also resulted in an influx of counterfeit, fraudulent, and substandard medicines into Iran’s health care system. An unregulated black market has developed as a byproduct of drug shortages, introducing medications whose origins and authenticity are often unknown, and has led to expired medications’ distribution and sale, even at potentially very high prices [8]. Hence, the global counterfeit medicines trade, recognized as a serious public health concern, is one that is currently being enabled as a consequence of drug shortages and ongoing Iranian economic sanctions 
 </blockquote>
 
+Foreign Policy also writes [U.S. Sanctions Are Killing Cancer Patients in Iran](https://foreignpolicy.com/2019/08/14/u-s-sanctions-are-killing-cancer-patients-in-iran/):
+
+> Washington claims that maximum pressure won’t stop the supply of medicine and other humanitarian necessities, but banking sanctions are driving up import prices, blocking supply chains, and creating deadly drug shortages.
+
+> Although U.S. sanctions are engineered in a way that may appear not to target humanitarian access to food and medicine, in practice U.S. sanctions function as a tool of economic war.
+
 [Health is a fundamental human right](https://www.who.int/mediacentre/news/statements/fundamental-human-right/en/), but the embargo clearly goes against giving people access to life-saving medicine. It brings tears to my eyes to think about people losing a loved one over inability to access a drug or medical device that's no longer available in Iran.
 
 # Currency Fluctuations: An Unpredictable Life
