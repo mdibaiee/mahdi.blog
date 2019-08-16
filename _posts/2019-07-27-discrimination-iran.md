@@ -143,8 +143,11 @@ Run Paul, former Congressman [touches on topic](https://twitter.com/RonPaul/stat
 
 That doesn't sound like what's happening now by enforcement of sanctions. Silence on this massive case of discrimination against people around the world must be broken, it must be recognized that discrimination, in any form, is not to be tolerated by humans.
 
-# More Content
+---
 
-- [Ron Paul: "Sanctions Are A Deadly Act Of War"](https://twitter.com/RonPaul/status/1162067004733476864)
+### Links
+
+- [NCBI: Addressing the impact of economic sanctions on Iranian drug shortages in the joint comprehensive plan of action: promoting access to medicines and health diplomacy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4897941/)
 - [Hamed Saeedi: Yellow badges are back. This time not by Nazi Germany & not for Jews, but by U.S. tech companies](https://medium.com/@hamed/yellow-badges-are-back-this-time-not-by-nazi-germany-not-for-jews-but-by-u-s-tech-companies-48e92d690176)
 - [Foreign Policy: U.S. Sanctions Are Killing Cancer Patients in Iran](https://medium.com/@hamed/yellow-badges-are-back-this-time-not-by-nazi-germany-not-for-jews-but-by-u-s-tech-companies-48e92d690176)
+- [Ron Paul: "Sanctions Are A Deadly Act Of War"](https://twitter.com/RonPaul/status/1162067004733476864)
