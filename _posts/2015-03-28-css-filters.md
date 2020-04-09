@@ -128,7 +128,7 @@ Hey browser, please double the contrast of my element, then blur it out. (high c
 
 Here is the actual comparison:
 
-<iframe width="100%" height="300" src="//jsfiddle.net/mdibaiee/51nLy3vs/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/mdibaiee/36suf74z/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Inheritance
 -----------
