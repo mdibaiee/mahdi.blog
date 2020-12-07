@@ -7,18 +7,20 @@
   </h1>
 
   <nav>
-    <p class='categories'>
-      {% for collection in site.collections %}
-        {% if collection.title %}
-        <a href="{{ collection.path | prepend: site.baseurl }}">{{ collection.title }}</a>
-        {% endif %}
-      {% endfor %}
+    <p>
+      <a href="/snippets">snippets</a>
     </p>
+    <!--<p class='categories'>-->
+      <!--{% for collection in site.collections %}-->
+        <!--{% if collection.title %}-->
+        <!--<a href="{{ collection.path | prepend: site.baseurl }}">{{ collection.title }}</a>-->
+        <!--{% endif %}-->
+      <!--{% endfor %}-->
+    <!--</p>-->
     <p>
       <a href='mailto:{{ site.email }}'>email</a>
       <a href='https://github.com/mdibaiee'>github</a>
       <a href='https://www.goodreads.com/mdibaiee'>goodreads</a>
-      <a href='https://twitter.com/mdibaiee'>twitter</a>
       <a href='https://www.linkedin.com/in/mdibaiee/'>linkedin</a>
       <a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">feed</a>
     </p>
