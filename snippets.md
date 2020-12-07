@@ -8,3 +8,5 @@ author: Mahdi
 ---
 
 Short snippets of thought. Ramblings. Random shite.
+
+Was thinking about what is creativity: connection of seemingly irrelevant concepts. Puns are creative because they make a non-obvious connection. The connection is not nonsensical, but not obvious either.
