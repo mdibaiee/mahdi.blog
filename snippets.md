@@ -43,3 +43,72 @@ Pieces from Austerlitz:
 -----
 
 "What if some day or night, a demon were to steal after you into your loneliest loneliness and say to you: "This life as now live it and have lived it, you will have to live once more and innumerable times more; and there will be nothing new in it, but every pain and every joy and every thought and sigh and everything unutterably small or great in your life will have to return to you, all in the same succession and sequence--even this spider and this moonlight between the trees, and even this moment and I myself. The eternal hourglass of existance is turned upside down again and again, and you with it, speck of dust!" Would you not throw yourself down and gnash your teeth and curse the demon who spoke thus? Or have you once experienced a tremendous moment when you would have answered him: "You are a god and never have I heard anything more divine." If this thought gained possession of you, it would change you as you are, or perhaps crush you." - Nietzsche
+
+-----
+
+Pieces from The Reader's Block by David Markson:
+
+"If an ox could paint a picture, his god would look like an ox. Said Xenophanes"
+
+"What has happened? It is life that has happened; and I am old."
+
+"Despite decades of self analysis, Freud was so anxiety-ridden about missing trains that he would arrive at the station as much as an hour early. Freud."
+
+Sylvia Plath: Horder prescribed her an anti-depressant, a monoamine oxidase inhibitor, a few days before her suicide. Knowing she was at risk alone with two young children, he says he visited her daily and made strenuous efforts to have her admitted to a hospital; when that failed, he arranged for a live-in nurse. Commentators have argued that because anti-depressants may take up to three weeks to take effect, her prescription from Horder would not have taken full effect.
+The nurse was due to arrive at nine on the morning of February 11, 1963, to help Plath with the care of her children. Upon arrival, she could not get into the flat but eventually gained access with the help of a workman, Charles Langridge. They found Plath dead of carbon monoxide poisoning with her head in the oven, having sealed the rooms between her and her sleeping children with tape, towels and cloths. At approximately 4:30 a.m. Plath had placed her head in the oven, with the gas turned on. She was 30 years old. She left bread and butter and milk in the bedroom for her two children who were sleeping.
+
+"John Donne posed for a painting in his own shroud. And kept it beside his bed during a long final illness."
+
+"Manet was so vituperatively condemned by critics that for a time he was too embarrassed to ask anyone to pose for him.
+Before Cezanne had gained any recognition he once burst into tears when someone sincerely admired his work"
+
+"The Persians deployed so many bowmen at Thermopylae that it was said their arrows would blot out the sun.
+To which a Spartan commander: all the better, then we will be fighting in the shade
+In fact only two Spartans survived Thermopylae. One was killed in a battle elsewhere. The other hanged himself in disgrace."
+
+"At twenty, Bach made a pilgrimage of more than two hundred miles, on foot, to hear Buxtehude play the organ."
+
+"Aesop was a slave. Terence was a slave. Epictetus was a slave."
+
+"I am weary, Ananda, and wish to lie down."
+
+Galileo’s Abjuration 1633 ...I abjure with sincere heart and unfeigned faith, I curse and detest the said errors and heresies, and generally all and every error and sect contrary to the Holy Catholic Church. And I swear that for the future I will neither say nor assert in speaking or writing such things as may bring upon me similar suspicion; and if I know any heretic, or one suspected of heresy, I will denounce him to this Holy Office, or to the Inquisitor and Ordinary of the place in which I may be. I also swear and promise to adopt and observe entirely all the penances which have been or may be by this Holy Office imposed on me. And if I contravene any of these said promises, protests, or oaths, (which God forbid!) I submit myself to all the pains and penalties which by the Sacred Canons and other Decrees general and particular are against such offenders imposed and promulgated. So help me God and the Holy Gospels, which I touch with my own hands.  I Galileo Galilei aforesaid have abjured, sworn, and promised, and hold myself bound as above; and in token of the truth, with my own hand have subscribed the present schedule of my abjuration, and have recited it word by word. In Rome, at the Convent della Minerva, this 22nd day of June, 1633.  I, Galileo Galilei, have abjured as above, with my own ha
+
+["Eppur si muove"](https://en.wikipedia.org/wiki/And_yet_it_moves)
+
+-----
+
+Pieces from Sohrab Sepehri's poems:
+
+<p class="lang-fa">
+
+روزگاری است در این گوشه پژمرده هوا
+هر نشاطی مرده است.
+
+..
+
+با درون سوخته دارم سخن.
+کی به پایان می‌رسد افسانه‌ام؟
+
+..
+
+گرجه می‌سوزم از این آتش به جان،
+لیک بر این سوختن دل بسته‌ام.
+
+تیرگی پا می‌کشد از بام‌ها:
+صبح می‌خندد به راه شهر من.
+دود می خیزد هنوز از خلوتم.
+با درون سوخته دارم سخن.
+
+..
+
+راه فرو بسته گرچه مرغ به آوا،
+قالب خاموشی او صدایی گویاست.
+می‌گذرد لحظه‌ها به چشمش بیدار،
+پیکر او لیک سایه-روشن رویاست.
+
+</p>
+
+-----
+
+Bill Murray: "I think if you can take care of yourself, and then maybe try to take care of someone else, that's sort of how you're supposed to live."
