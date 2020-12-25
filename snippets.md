@@ -80,7 +80,7 @@ Galileo’s Abjuration 1633 ...I abjure with sincere heart and unfeigned faith, 
 
 Pieces from Sohrab Sepehri's poems:
 
-<p class="lang-fa">
+<div class="lang-fa">
 
 روزگاری است در این گوشه پژمرده هوا
 هر نشاطی مرده است.
@@ -107,7 +107,7 @@ Pieces from Sohrab Sepehri's poems:
 می‌گذرد لحظه‌ها به چشمش بیدار،
 پیکر او لیک سایه-روشن رویاست.
 
-</p>
+</div>
 
 -----
 
