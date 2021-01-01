@@ -141,21 +141,27 @@ Which bore so sweet a burden"
 ["Trees" (1913)](https://en.wikipedia.org/wiki/Trees_(poem))
 
 I think that I shall never see
+<br/>
 A poem lovely as a tree.
 
 A tree whose hungry mouth is prest
+<br/>
 Against the earth's sweet flowing breast;
 
 A tree that looks at God all day,
+<br/>
 And lifts her leafy arms to pray;
 
 A tree that may in Summer wear
+<br/>
 A nest of robins in her hair;
 
 Upon whose bosom snow has lain;
+<br/>
 Who intimately lives with rain.
 
 Poems are made by fools like me,
+<br/>
 But only God can make a tree.
 
 ----
@@ -163,21 +169,35 @@ But only God can make a tree.
 [In Flanders Fields (1915)](https://en.wikipedia.org/wiki/In_Flanders_Fields?wprov=sfti1)
 
 In Flanders fields the poppies blow
+<br/>
 Between the crosses, row on row,
+<br/>
   That mark our place; and in the sky
+<br/>
   The larks, still bravely singing, fly
+<br/>
 Scarce heard amid the guns below.
+<br/>
 
 We are the Dead. Short days ago
+<br/>
 We lived, felt dawn, saw sunset glow,
+<br/>
   Loved and were loved, and now we lie
+<br/>
       In Flanders fields.
+<br/>
 
 Take up our quarrel with the foe:
+<br/>
 To you from failing hands we throw
+<br/>
   The torch; be yours to hold it high.
+<br/>
   If ye break faith with us who die
+<br/>
 We shall not sleep, though poppies grow
+<br/>
       In Flanders fields. 
 
 -----
