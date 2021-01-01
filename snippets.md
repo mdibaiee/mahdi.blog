@@ -76,6 +76,110 @@ Galileo’s Abjuration 1633 ...I abjure with sincere heart and unfeigned faith, 
 
 ["Eppur si muove"](https://en.wikipedia.org/wiki/And_yet_it_moves)
 
+"Petrarch sometimes wrote letters to long-dead authors. He was also a dedicated hunter of classic manuscripts. Once, after discovering some previously unknown works of Cicero, he wrote Cicero the news."
+
+"Poe was expelled from West Point for refusing to obey military orders. Later, James McNeill Whistler would fail there academically."
+
+"im westen nichts neues: nothing new in the west"
+
+"Impoverished and freezing, Gerard de Nerval hanged himself near a cheap Paris doss-house after no one responded to his late-night knock"
+
+"Walter Benjamin committed suicide at the border between France and Spain in 1940. Fleeing the Nazis, he had been turned back by Spanish authorities."
+
+"The vocabulary in Shakespeare's plays includes 29,066 different words. There are 29,899 different words in Ulysses."
+
+Jarndyce and Jarndyce 
+
+Occam’s razor
+
+"Life is a long preparation for something that never happens" -Yeats
+
+"Mark Rothko committed suicide by slashing the inside of his arms at the elbows with a double-edged razor blade. First folding Kleenex over one edge of the blade to keep from cutting his fingers"
+
+"Jacques Louis David's _Death of Socrates_ shows Plato seated at the scene in despair. In the _Phaedo_, Plato says he aws sick and not there."
+
+[Maya Lin](https://en.wikipedia.org/wiki/Maya_Lin?wprov=sfti1)
+
+"Horace dictated that a writer should set aside a finished poem for nine years. And only then decide if it is worth publishing."
+
+"Unquestionably it would have been Mary Magdalen who did the dishes at the Last Supper. Concluded Marguerite Yourcenar."
+
+[Bohemianism](https://en.wikipedia.org/wiki/Bohemianism)
+
+[Lully](https://en.wikipedia.org/wiki/Jean-Baptiste_Lully?wprov=sfti1) died from gangrene, having struck his foot with his long conducting staff during a performance of his Te Deum to celebrate Louis XIV's recovery from surgery. He refused to have his leg amputated so he could still dance.
+
+"The tyranny of the ignoramuses is insurmountable and assured for all time. Said Einstein."
+
+"Mithridates. Who as Housman says took poison in small doses, to build an immunity. And was run through by a sword."
+
+[Heinrich von Kleist](https://en.wikipedia.org/wiki/Heinrich_von_Kleist?wprov=sfti1): On November 21, 1811, the two traveled from Berlin to Wannsee. Prior to their departure, they both penned farewell letters, which along with an account of the final night they spent at the inn Gasthof Stimming, are now part of world literature. Upon their arrival in the vicinity of the Wannsee in Potsdam, Kleist first shot Henriette and then turned the gun on himself. They were buried together in a common grave at Kleine Wannsee (Bismarckstrasse), which has become a tourist attraction. 
+
+"Bertrand Russell, _re_ having contemplated suicide at sixteen: I did not, however, commit suicide, because I wished to know more about mathematics."
+
+"During his interlude with George Sand, Alfred de Musset more than once woke up not long after exhausting sex to find her gone from bed. Intently at work on a novel."
+
+"Et Verbum caro factum est: And the Word was made flesh"
+
+"Our life is but a warfare and a stranger’s sojourn -Marcus Aurelius"
+
+"'[Come Back to the Raft Ag'in, Huck Honey!](http://www.artandpopularculture.com/Come_Back_to_the_Raft_Ag%27in%2C_Huck_Honey%21)' argued a recurrent theme in American literature was an unspoken or implied homoerotic relationship between men, famously using Huckleberry Finn and Jim as examples. Pairs of men flee for wilderness rather than remain in the civilizing and domesticated world of women."
+
+"Michelangelo finished _The Last Judgement_ in 1541. Fourteen years later Pope Paul IV ordered Daniele da Volterra to drape forty of the naked figures. Which Salvator Rosa would subsequently suggest made the whole wall look like a public bath."
+
+"Sweet the nails, sweet the wood 
+<br/>
+Which bore so sweet a burden"
+
+"Then we will have Homer and _Don Quixote_, and then we will have saunter and chat, and one more laugh before we die. Said William Cowper, who was mad through most of his life."
+
+"One does not finish a poem, one only abandons it."
+
+[Jacqueline du Pré](https://www.youtube.com/watch?v=U_yxtaeFuEQ&feature=youtu.be)
+
+----
+
+["Trees" (1913)](https://en.wikipedia.org/wiki/Trees_(poem))
+
+I think that I shall never see
+A poem lovely as a tree.
+
+A tree whose hungry mouth is prest
+Against the earth's sweet flowing breast;
+
+A tree that looks at God all day,
+And lifts her leafy arms to pray;
+
+A tree that may in Summer wear
+A nest of robins in her hair;
+
+Upon whose bosom snow has lain;
+Who intimately lives with rain.
+
+Poems are made by fools like me,
+But only God can make a tree.
+
+----
+
+[In Flanders Fields (1915)](https://en.wikipedia.org/wiki/In_Flanders_Fields?wprov=sfti1)
+
+In Flanders fields the poppies blow
+Between the crosses, row on row,
+  That mark our place; and in the sky
+  The larks, still bravely singing, fly
+Scarce heard amid the guns below.
+
+We are the Dead. Short days ago
+We lived, felt dawn, saw sunset glow,
+  Loved and were loved, and now we lie
+      In Flanders fields.
+
+Take up our quarrel with the foe:
+To you from failing hands we throw
+  The torch; be yours to hold it high.
+  If ye break faith with us who die
+We shall not sleep, though poppies grow
+      In Flanders fields. 
+
 -----
 
 Pieces from Sohrab Sepehri's poems:
@@ -132,3 +236,17 @@ Pieces from Sohrab Sepehri's poems:
 -----
 
 Bill Murray: "I think if you can take care of yourself, and then maybe try to take care of someone else, that's sort of how you're supposed to live."
+
+----
+
+[Fatalism](https://en.wikipedia.org/wiki/Fatalism)
+
+----
+
+Once upon a time there was a king, then a few dress makers offered to make him a dress that only noble and decent people could see. King really liked the idea and ordered them to make a coat for him. They start sewing their seemingly magical material, meanwhile no one actually sees anything, they look as if they are sewing on the air. They are finished with the coat at last and they carefully put it on the king. The king doesn’t see the dress himself, but because he doesn’t want to be found out to be not noble or decent, he starts praising the coat and pays them. Everyone in the palace also praised the dress in the fear of being found as not noble. Even people on street praise the coat of the king. I feel like someone once said Love and made a big deal out of his fantasy of being with someone and everyone else, in fear of being called weirdos just followed along and now we live in a world obsessed with love even though they can’t hold it together most of times 
+
+----
+
+In 1845, the Illustrated London News reported that a Newfoundland dog had been acting less lively over a period of days before being seen "to throw himself in the water and endeavor to sink by preserving perfect stillness of the legs and feet". Every time he was rescued he attempted to do this again before he finally held his head underwater until death. [source](https://web.archive.org/web/20150326032017/http://news.discovery.com/animals/zoo-animals/animal-suicide-behavior.htm)
+
+----
