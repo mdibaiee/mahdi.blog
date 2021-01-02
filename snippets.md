@@ -96,7 +96,7 @@ Occam’s razor
 
 "Mark Rothko committed suicide by slashing the inside of his arms at the elbows with a double-edged razor blade. First folding Kleenex over one edge of the blade to keep from cutting his fingers"
 
-"Jacques Louis David's _Death of Socrates_ shows Plato seated at the scene in despair. In the _Phaedo_, Plato says he aws sick and not there."
+"Jacques Louis David's _Death of Socrates_ shows Plato seated at the scene in despair. In the _Phaedo_, Plato says he was sick and not there."
 
 [Maya Lin](https://en.wikipedia.org/wiki/Maya_Lin?wprov=sfti1)
 
@@ -135,6 +135,60 @@ Which bore so sweet a burden"
 "One does not finish a poem, one only abandons it."
 
 [Jacqueline du Pré](https://www.youtube.com/watch?v=U_yxtaeFuEQ&feature=youtu.be)
+
+Verweile doch, du bist so schön: Stay a while, you are so beautiful
+
+[Longinus](https://en.wikipedia.org/wiki/Longinus) is the name given to the _unnamed_ Roman soldier who pierced the side of Jesus with a lance and who in medieval and some modern Christian traditions is described as a convert to Christianity.
+
+[Tasso](https://en.wikipedia.org/wiki/Jerusalem_Delivered?wprov=sfti1) suffered from mental illness and died a few days before he was due to be crowned on the Capitoline Hill as the king of poets by the Pope.
+
+All of Plato came down from antiquity in less maimed form than any other writings, an undeniable sign of the esteem in which it was held.
+Nonetheless when Aquinas and other medieval thinkers referred to _the_ philosopher, with no additional identification, it was universally understood that Aristotle was meant.
+
+il maestro di color che sanno: the master of those who know
+
+Within a few days of his death, Akhmatova wrote:
+<br/>
+Terror fingers all things in the dark,
+<br/>
+Leads moonlight to the axe.
+<br/>
+There's an ominous knock behind the wall:
+<br/>
+A ghost, a thief or a rat...
+<br/>
+
+As Nietzsche saw it, the last Christian died on the Cross. (Mahdi: Christianity was not a thing until after Christ’s death though)
+
+[Tecumseh](https://en.wikipedia.org/wiki/Tecumseh)
+
+Mary Shelley was nineteen when she finished Frankenstein 
+
+Je finis par trouver sacre le desordre de mon esprit: I end up finding sacred the disorder of my mind
+
+[Simeon Stylites](https://en.wikipedia.org/wiki/Simeon_Stylites), who spent thirty-six years on top of a sixty-foot pillar in the Syrian desert. For most of that time his body a mass of maggot-infested sores.
+The maggots no more than eating what God had intended for them, he said.
+
+In 65 AD, Gaius Calpurnius Piso, a Roman statesman, organized a conspiracy against Nero with the help of Subrius Flavus and Sulpicius Asper, a tribune and a centurion of the Praetorian Guard. According to Tacitus, many conspirators wished to "rescue the state" from the emperor and restore the Republic. The freedman Milichus discovered the conspiracy and reported it to Nero's secretary, Epaphroditos. As a result, the conspiracy failed and its members were executed including Lucan, the poet. Nero's previous advisor Seneca was accused by Natalis; he denied the charges but was still ordered to commit suicide as by this point he had fallen out of favor with Nero. Also Petronius. Lucan was 25 and recited his own verses as he bled to death.
+
+Three years later Nero would be a suicide on his own part.
+
+Lorenzo Ghiberti worked for 21 years on the eastern gates of the [Florence Baptistery](https://en.wikipedia.org/wiki/Florence_Baptistery). Michelangelo dubbed them the [Gates of Paradise](https://www.khanacademy.org/humanities/renaissance-reformation/early-renaissance1/sculpture-architecture-florence/v/ghiberti-gates-paradise).
+
+[Salomé's Dance](https://www.youtube.com/watch?v=QvshzV591Gg&feature=youtu.be)
+
+"I tell you before God, and as an honest man, your son is the greatest composer known to me by person and repute, he has taste and what is more the greatest skill in composition". Joseph Haydn told Mozart's father.
+
+Children depart, miscellaneous relationships wither. Friends move to distant places. Friends die.
+
+Non amo te 
+
+Sempre libera
+
+The question of truth versus legend in Alexander's having razed Persepolis at the bidding of Thais. The fair certainty that excessive wine played a part.
+
+In Las Meninas, [Maria Bárbola](https://en.wikipedia.org/wiki/Maria_B%C3%A1rbola?wprov=sfti1) is depicted in an unusual way for a person in her position at the time. While people with dwarfism normally did not enjoy much respect in the 17th century and were often depicted in an insulting fashion, Maria Bárbola is depicted in a dignified position, standing upright beside the princess, with a thoughtful and controlled expression, meeting the eyes of the viewer.
+
 
 ----
 
@@ -270,3 +324,94 @@ Once upon a time there was a king, then a few dress makers offered to make him a
 In 1845, the Illustrated London News reported that a Newfoundland dog had been acting less lively over a period of days before being seen "to throw himself in the water and endeavor to sink by preserving perfect stillness of the legs and feet". Every time he was rescued he attempted to do this again before he finally held his head underwater until death. [source](https://web.archive.org/web/20150326032017/http://news.discovery.com/animals/zoo-animals/animal-suicide-behavior.htm)
 
 ----
+
+[Category: People who committed suicide](https://simple.wikipedia.org/wiki/Category:People_who_committed_suicide)
+
+----
+
+[A Man's A Man For A' That](https://www.scotsconnection.com/t-forathat.aspx)
+
+Is there for honest Poverty
+<br />
+That hings his head, an' a' that;
+<br />
+The coward slave-we pass him by,
+<br />
+We dare be poor for a' that!
+<br />
+For a' that, an' a' that.
+<br />
+Our toils obscure an' a' that,
+<br />
+The rank is but the guinea's stamp,
+<br />
+The Man's the gowd for a' that.
+<br />
+
+What though on hamely fare we dine,
+<br />
+Wear hoddin grey, an' a that;
+<br />
+Gie fools their silks, and knaves their wine;
+<br />
+A Man's a Man for a' that:
+<br />
+For a' that, and a' that,
+<br />
+Their tinsel show, an' a' that;
+<br />
+The honest man, tho' e'er sae poor,
+<br />
+Is king o' men for a' that.
+<br />
+
+Ye see yon birkie, ca'd a lord,
+<br />
+Wha struts, an' stares, an' a' that;
+<br />
+Tho' hundreds worship at his word,
+<br />
+He's but a coof for a' that:
+<br />
+For a' that, an' a' that,
+<br />
+His ribband, star, an' a' that:
+<br />
+The man o' independent mind
+<br />
+He looks an' laughs at a' that.
+<br />
+
+A prince can mak a belted knight,
+<br />
+A marquis, duke, an' a' that;
+<br />
+But an honest man's abon his might,
+<br />
+Gude faith, he maunna fa' that!
+<br />
+For a' that, an' a' that,
+<br />
+Their dignities an' a' that;
+<br />
+The pith o' sense, an' pride o' worth,
+<br />
+Are higher rank than a' that.
+<br />
+
+Then let us pray that come it may,
+<br />
+(As come it will for a' that,)
+<br />
+That Sense and Worth, o'er a' the earth,
+<br />
+Shall bear the gree, an' a' that.
+<br />
+For a' that, an' a' that,
+<br />
+It's comin' yet for a' that,
+<br />
+That Man to Man, the world o'er,
+<br />
+Shall brothers be for a' that.
+<br />
