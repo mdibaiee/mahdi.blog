@@ -189,6 +189,137 @@ The question of truth versus legend in Alexander's having razed Persepolis at th
 
 In Las Meninas, [Maria Bárbola](https://en.wikipedia.org/wiki/Maria_B%C3%A1rbola?wprov=sfti1) is depicted in an unusual way for a person in her position at the time. While people with dwarfism normally did not enjoy much respect in the 17th century and were often depicted in an insulting fashion, Maria Bárbola is depicted in a dignified position, standing upright beside the princess, with a thoughtful and controlled expression, meeting the eyes of the viewer.
 
+Cento: patchwork composition of quotations
+
+In Canto IV of the _Inferno_, which is to say with 96 percent of his chief work yet unwritten, Dante has the temerity to rank himself sixth in the company of Homer, Virgil, Horace, Ovid and Lucan. Underestimating.
+
+Sir John Denham once saved George Wither from being hanged by pleading that so long as Wither was alive, he, Denham, could never be the worst poet in England.
+
+Except for Aquinas and the Bible, Descartes almost never read a word. He called the classics a waste of time.
+
+[Animula vagula blandula](https://en.wikipedia.org/wiki/Animula_vagula_blandula)
+
+Bentham defined as the "fundamental axiom" of his philosophy the principle that "it is the greatest happiness of the greatest number that is the measure of right and wrong."
+
+“Caddy held me. She smelled like trees” 
+
+Freud had thirty-three operations for cancer on his mouth and throat. Joyce had twenty-five operations on his eyes.
+
+On mourra seul: we will die alone.
+
+Philosopher: lover of knowledge
+
+[Djuna Barnes](https://en.wikipedia.org/wiki/Djuna_Barnes) had no formal education whatsoever.
+
+Caxton me fieri fecit: Caxton caused me to be made.
+
+Ah, what a dusty answer gets the soul <br/>
+When hot for certainties in this our life
+
+"Art will remain the most astonishing activity of mankind born out of struggle between wisdom and madness, between dream and reality in our mind." -Magdalena Abakanowicz
+
+God is dead, everything is permitted.
+
+Preoccupied, Beethoven was known to lather his face and then forget to shave. He also possessed an unstrung piano, adequate in his deafness.
+
+From Rabelais's will: I have nothing. I owe much. The rest I leave to the poor.
+
+[Nadezhda von Meck](https://en.wikipedia.org/wiki/Nadezhda_von_Meck): She is best known today for her artistic relationship with Pyotr Ilyich Tchaikovsky, supporting him financially for thirteen years, so that he could devote himself full-time to composition, while stipulating that they were never to meet. Tchaikovsky dedicated his Symphony No. 4 in F minor to her. She also gave financial support to several other musicians, including Nikolai Rubinstein and Claude Debussy. 
+
+I do not believe in God, though I believe in Picasso, said Diego Rivera.
+
+Thy necessity is greater than mine. Said Philip Sidney, in passing a drink to a dying soldier while dying himself.
+
+No needle marks on your Annunciation's arm now.
+
+We do not come to thoughts. They come to us.
+
+I am! yet what I am who cares, or knows? <br/>
+My friends forsake me like a memory lost. <br/>
+I am the self-consumer of my woes.
+
+Wallace Steven's wife Elsie was the model for the face on the United States dime and half-dollar.<br />
+Wallace Steven's wife Elsie and Wallace Stevens had separate bedrooms.
+
+When I could have used a wife, I could not support one; when I could support one, I no longer needed any. Said Kant.
+
+[Percy Williams Bridgman](https://en.wikipedia.org/wiki/Percy_Williams_Bridgman?wprov=sfti1), who received the 1946 Nobel Prize in Physics committed suicide.
+
+By the early Middle Ages, every third church in Europe claimed to possess splinters from the True Cross. Or the nails. Or thorns from the Crown of Thorns. Several heads of John the Baptist existed, at least as many corpses of Mary Magdalen. Not to add Christ's foreskin.
+
+Nietzsche lost his reason because he thought too much. I do not think and therefore cannot go mad. Said Nijinsky, mad.
+
+When Dickens, at twelve, worked from 8 A.M. until 8 P.M., six days a week, at the blacking factory, he also walked an hour each way to and from his family's Camden Town slum. And spent Sunday visiting his father in debtor's prison.
+
+A small inheritance a few months later allowed his family to leave prison. Dickens was finally allowed to attend school over his mother's objections — she did not want to lose his income. School was short-lived though: At fifteen, Dickens had to return to work. Dickens never got over the time he spent at Warren's and his fierce sense of betrayal and rage at his mother's callousness stayed with him for life. Recalling that time, he said: "I never afterwards forgot, I never shall forget, I never can forget, that my mother was warm for my being sent back [to Warren's Blacking]."
+
+Sir Thomas Browne wished that men could reproduce without intercourse. Like trees, he suggested. Fathering twelve children nevertheless.
+
+‘Between life and death there is a library,’ she said. ‘And within that library, the shelves go on for ever. Every book provides a chance to try another life you could have lived. To see how things would be if you had made other choices . . . Would you have done anything different, if you had the chance to undo your regrets?’ -Matt Haig
+
+October 7, 1849. At forty, in Baltimore. Filthy, starving, drunk and/or with delirium tremens, crying out at unseen creatures.
+
+[Ruth Ann Steinhagen](https://en.wikipedia.org/wiki/Ruth_Ann_Steinhagen): She told her doctors, after the incident, "I used to go to all the ball games to watch him. We used to wait for them to come out of the clubhouse after the game, and all the time I was watching I was building in my mind that idea of killing him."[5] In 1948, Steinhagen's family sent her to a psychiatrist, but her obsession didn't diminish, even after Waitkus was traded to Philadelphia.[3] After the shooting, police found extensive clippings in her suitcase and even pictures papering the ceiling of her bedroom.
+
+[Tanaquil Le Clercq](https://en.wikipedia.org/wiki/Tanaquil_Le_Clercq). Performing major roles for Balanchine at seventeen. And in a wheelchair from polio not ten years later.
+
+An enormous dungheap, Voltaire dismissed the sum of Shakespeare as.
+
+Le monde est fait pour aboutir à un beau livre: The world was made in order to result in a beautiful book. Stéphane Mallarmé
+
+Oscar Wilde: "One would have to have a heart of stone to read the death of little Nell without dissolving into tears...of laughter".
+
+When Hemingway committed suicide, it was by leaning to press his forehead against the barrels of a shotgun braced at the floor. Thirty-odd years earlier his father had used a revolver.
+
+In the decade before his death, Ad Reinhardt painted nothing but black canvases.
+
+[Edwin Arlington Robinson](https://en.wikipedia.org/wiki/Edwin_Arlington_Robinson) who was nominated for Nobel Prizei in Literature four times, was working ten hours a day on the construction of a New York subway in his mid-thirties. Checking materials for twenty cents an hour.
+
+Virgil worked on the _Aeneid_ for eleven years. And said near his death that it was not finished and should be burned.
+
+Levi-Strauss: The invention of melody is the supreme mystery of man.
+
+Men never do evil so completely and so cheerfully as when they do it from religious conviction. Said Pascal.
+
+Jeanne Hebuterne, with child, jumped from a window on the morning after Modigliani's death.
+
+[Enantiosis](https://en.wikipedia.org/wiki/Enantiosis?wprov=sfti1):<br />
+By honour and dishonour, by evil report and good report: as deceivers, and yet true; <br/>
+As unknown, and yet well known; as dying, and, behold, we live; as chastened, and not killed; <br/>
+As sorrowful, yet alway rejoicing; as poor, yet making many rich; as having nothing, and yet possessing all things. <br/>
+
+It cost Baudelaire five years of letters and poems to coax Madame Sabatier into bed. Once. Whatever calamity occured, the affair was terminated on the same night.
+
+[Dies irae](https://en.wikipedia.org/wiki/Dies_irae?wprov=sfti1), latin poem about judgement day.
+
+Kafka laughed repeatedly when he was reading his own work.
+
+Ignis fatuus: will’o the wisp 
+
+[Käthe Kollwitz](https://en.wikipedia.org/wiki/K%C3%A4the_Kollwitz) dark etchings / drawings / illustrations.
+
+Elizabeth Shaw Melville: Herman has taken to writing poetry. You need not tell anyone, for you know how such things get around.
+
+This Way for the Gas, Ladies and Gentlemen. Two years after the book's appearance Borowski committed suicide. Via gas.
+
+"It was a dark and stormy night; the rain fell in torrents—except at occasional intervals, when it was checked by a violent gust of wind which swept up the streets (for it is in London that our scene lies), rattling along the housetops, and fiercely agitating the scanty flame of the lamps that struggled against the darkness." ([Opening lines of Paul Clifford](https://marginalrevolution.com/marginalrevolution/2011/12/the-opening-sentences-of-paul-clifford.html))
+
+Kant knew no music. And said that reading novels diluted the mind.
+
+Though I never saw him, or had any personal communication with him, now that he is suddenly dead I realise that he was nearer, dearer and more important to me than anyone else. Said Tolstoy of Dostoievsky. (Mahdi: I used this method to measure how much I love someone. By imagiging how I would feel if they died.)
+
+O yes! I am poison'd; mother, make my bed soon,<br />
+For I'm sick at the heart, and I fain wald lie down.
+
+[Key Sage artworks](https://www.wikiart.org/en/kay-sage)
+
+[Isabel Nicholas painter](https://en.wikipedia.org/wiki/Isabel_Nicholas)
+
+Trying to articulate for himself precisely why or even when it was that he commenced to fall out of touch. Not to call. Not to go. Not to do. Or was he not even that fully aware of the process until he found it to be a fait accompli?
+
+----
+
+"Thinking can hurt your chances, and I want to last". From the Handmaid's Tale
 
 ----
 
@@ -305,6 +436,266 @@ Pieces from Sohrab Sepehri's poems:
 <br />
 پیکر او لیک سایه-روشن رویاست.
 
+<br/>
+..
+<br />
+
+تیرگی می‌آید.
+<br/>
+دشت می‌گیرد آرام.
+<br/>
+قصه رنگی روز
+<br/>
+می‌رود رو به تمام.
+<br/>
+<br/>
+
+شاخه‌ها پژمرده است.
+<br/>
+سنگ‌ها افسرده است.
+<br/>
+رود می‌نالد.
+<br/>
+جغد می‌خواند.
+<br/>
+غم بیامیخته با رنگ غروب.
+<br/>
+می‌تراود ز لبم قصه سرد:
+<br/>
+دلم افسرده در این تنگ غروب.
+<br/>
+
+<br/>
+..
+<br/>
+
+غمی غمناک
+<br/>
+
+شب سردی است، و من افسرده.
+<br/>
+راه دوری است، و پایی خسته.
+<br/>
+تیرگی هست و چراغی مرده.
+<br/>
+
+می‌کنم، تنها، از جاده عبور:
+<br/>
+دور ماندند ز من آدم‌ها.
+<br/>
+سایه‌ای از سر دیوار گذشت،
+<br/>
+غمی افزود مرا بر غم‌ها.
+<br/>
+
+فکر تاریکی و این ویرانی
+<br/>
+بی‌خبر آمد تا با دل من
+<br/>
+قصه‌ها ساز کند پنهانی.
+<br/>
+
+نیست رنگی که بگوید با من
+<br/>
+اندکی صبر، سحر نزدیک است
+<br/>
+هر دم این بانگ بر آرم از دل:
+<br/>
+وای، این شب چقدر تاریک است.
+<br/>
+
+خنده‌ای کو که به دل انگیزم؟
+<br/>
+قطره‌ای کو که به دریا ریزم؟
+<br/>
+صخره‌ای کو که بدان آویزم؟
+<br/>
+
+مثل این است که شب نمناک است.
+<br/>
+دیگران را هم غم هست به دل،
+<br/>
+غم من، لیک، غمی غمناک است.
+<br/>
+
+<br />
+..
+<br />
+
+خشت می‌افتد از این دیوار.
+<br />
+رنج بیهوده نگهبانش برد.
+<br />
+دست باید نرود سوی کلنگ،
+<br />
+سیل اگر آمد آسانش برد.
+<br />
+
+باد نمناک زمان می‌گذرد،
+<br />
+رنگ می‌ریزد از پیکر ما.
+<br />
+خانه را نقش فساد است به سقف،
+<br />
+سر نگون خواهد شد بر سر ما.
+<br />
+
+<br />
+..
+<br />
+
+دره خاموش
+
+سکوت، بند گسسته است.
+<br />
+کنار دره، درخت شکوه پیکر بیدی.
+<br />
+در آسمان شفق رنگ
+<br />
+عبور ابر سپیدی.
+<br />
+
+نسیم در رگ هر برگ می‌دود خاموش.
+<br />
+نشسته در پس هر صخره وحشتی به کمین.
+<br />
+کشیده از پس یک سنگ سوسماری سر.
+<br />
+ز خوف دره خاموش
+<br />
+نهفته جنبش پیکر.
+<br />
+به راه می‌نگرد سرد، خشک، تلخ، غمین.
+<br />
+
+چو مار روی تن کوهی می‌خزد راهی،
+<br />
+به راه، رهگذری.
+<br />
+خیال دره و تنهایی
+<br />
+دوانده در رگ او ترس.
+<br />
+کشیده چشم به هر گوشه نقش چشمه وهم:
+<br />
+ز هر شکاف تن کوه
+<br />
+خزیده بیرون ماری.
+<br />
+
+به خشم از پس هر سنگ
+<br />
+کشیده خنجر خاری.
+<br />
+
+غروب پر زده از کوه.
+<br />
+به چشم گم شده تصویر راه و راهگذر.
+<br />
+غمی بزرگ، پر از وهم
+<br />
+به صخره سار نشسته است.
+<br />
+درون دره تاریک
+<br />
+سکوت بند گسسته است.
+<br />
+
+<br />
+دنگ...
+
+دنگ...، دنگ...
+<br />
+ساعت گیچ زمان در شب عمر
+<br />
+می‌زند پی در پی زنگ.
+<br />
+زهر این فکر که این دم گذر است
+<br />
+می‌شود نقش به دیوار رگ هستی من.
+<br />
+لحظه‌ام پر شده از اذت
+<br />
+پا به زنگار غمی آلوده است.
+<br />
+لیک چون باید این دم گذرد،
+<br />
+پس اگر می‌گریم
+<br />
+گریه آم بی‌ثمر است.
+<br />
+و اگر می‌خندم
+<br />
+خنده‌ام بیهوده است.
+<br />
+
+دنگ...، دنگ...
+<br />
+لحظه‌ها می‌گذرد.
+<br />
+آنچه بگذشت، نمی‌آید باز.
+<br />
+قصه‌ای هست که هرگز دیگر
+<br />
+نتواند شد آغاز.
+<br />
+مثل این است که یک پرسش بی‌پاسخ
+<br />
+بر لب سرد زمان ماسیده است.
+<br />
+تند برمی‌خیزم
+<br />
+تا به دیوار همین لحظه که در آن همه چیز
+<br />
+رنگ اذت دارد، آویزم.
+<br />
+
+آنچه می‌ماند از این جهد به جای:
+<br />
+خنده لحظه پنهان شده از چشمانم.
+<br />
+و آنچه بر پیکر او می‌ماند:
+<br />
+نقش انگشتانم.
+<br />
+
+دنگ...
+<br />
+فرصتی از کف رفت.
+<br />
+قصه‌ای گشت تمام.
+<br />
+لحظه باید پی لحظه گذرد
+<br />
+تا که جان گیرد در فکر دوام،
+<br />
+این دوامی که درون رگ من ریخته زهر،
+<br />
+وا رهانیده از اندیشه من رشته حال
+<br />
+وز رهی دور و دراز
+<br />
+داده پیوندم با فکر زوال.
+<br />
+
+پرده‌ای می‌گذرد،
+<br />
+پرده‌ای می‌آید:
+<br />
+می‌رود نقش پی نقش دگر،
+<br />
+رنگ می‌لغزد بر رنگ.
+<br />
+ساعت گیج زمان در شب عمر
+<br />
+می‌زند پر در پی زنگ:
+<br />
+دنگ...، دنگ...،
+<br />
+دنگ...
+<br />
+
+
 </div>
 
 -----
@@ -415,3 +806,24 @@ That Man to Man, the world o'er,
 <br />
 Shall brothers be for a' that.
 <br />
+
+----
+
+Longfellow poems
+Voices of the Night
+
+![Voices of the Night Prelude Page 1](/img/snippets/longfellow/prelude-1.jpg)
+![Voices of the Night Prelude Page 2](/img/snippets/longfellow/prelude-2.jpg)
+![Voices of the Night Prelude Page 3](/img/snippets/longfellow/prelude-3.jpg)
+
+A Psalm of Life
+
+![A Psalm of Life](/img/snippets/longfellow/a-psalm-of-life.jpg)
+
+Footsteps of Angels
+
+![Footsteps of Angels](/img/snippets/longfellow/footsteps-of-angels.jpg)
+
+Flowers
+
+![Flowers](/img/snippets/longfellow/flowers.jpg)
