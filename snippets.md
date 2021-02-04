@@ -317,9 +317,252 @@ For I'm sick at the heart, and I fain wald lie down.
 
 Trying to articulate for himself precisely why or even when it was that he commenced to fall out of touch. Not to call. Not to go. Not to do. Or was he not even that fully aware of the process until he found it to be a fait accompli?
 
+"I am going to put myself to sleep now for a bit longer than usual. Call it Eternity."- jerzy Kosinski 
+
+An audience of fully three thousand gave Akhmatova a standing ovation after a reading in Moscow in 1944. About which Stalin, hearing of it: Who _organised_ this response?
+
+She has no wit, but enough sound human sense to be able to fulfill her duties as a wife and mother. Said Mozart of Constanze.
+
+Kant almost certainly died a virgin.
+
+[Lou Andreas-Salomé](https://en.wikipedia.org/wiki/Lou_Andreas-Salom%C3%A9)
+
+Patrick Kavanagh was married for the first time at sixty-three. And died the same year.
+
+It is my general impression that the editors of _Partisan Review_ are capable, educated, intelligent, but have nothing to say. Said Leon Trotsky.
+
+Never to have been born is best.
+
+Jonathan Swift left his money to found a hospital for insane. And died mad.
+
+I couldn't read it. The human mind isn't that complex. Said Einstein, returning a Kafka to Thomas Mann.
+
+Pascal was a hypochondriac.
+
+This long disease, my life.
+That long malaise, my life.
+
+Eliot's first wife Vivien was in a mental institution for the nine years before her death in 1947.
+
+Joyce's daughter Lucia was in a mental institution for the forty-six years before her death in 1982.
+
+Heinrich Heine: Dieu me pardonnera c'est son metier. (God will pardon me, that's his job.)
+
+Dein aschenes haar (your ashen hair)
+
+[Ludwig Boltzmann](https://en.wikipedia.org/wiki/Ludwig_Boltzmann), who provided the current definition of entropy $S=k_B \ln\Omega$, committed suicide.
+
+[Nazim Hikmet](https://en.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet): Only the Americans didn't give me a visa.
+
+Praxiteles' mistress/model Phyrne was once on the verge of being convicted of impiety. It appears factual that the orator Hyperides, defending her, signaled for her to bare her bosom. And won acquittal.
+
+In his [_Beheading of John the Baptist_](https://en.wikipedia.org/wiki/The_Beheading_of_St_John_the_Baptist_(Caravaggio)), Caravaggio spells out his name in some of the Baptist's spilled blood at the lower edge of the canvas. Otherwise he signed no paintings.
+
+Gaudeamus Igitur (So Let Us Rejoice) 
+
+Living in slums, literally pawning clothes to buy food, at times Karl Marx could not afford paper to write on. Between 1850 and 1855 three of his children died. For one he had to beg a loan for a coffin.
+
+The casual face of Judith on [_Judith Beheading Holofernes_](https://en.wikipedia.org/wiki/Judith_Beheading_Holofernes_(Caravaggio))
+
+![Judith BEheading Holofernes](/img/snippets/Judith_Beheading_Holofernes_-_Caravaggio.jpg)
+
+Moritz Schlick was shot and killed on the steps of the university library in Vienna by a student whose thesis he had failed.
+
+[Jules Bastien Lepage](https://en.wikipedia.org/wiki/Jules_Bastien-Lepage)
+
+![Going_to_School_1882_by_Jules_Bastien-Lepage](/img/snippets/Going_to_School_\(1882\)_by_Jules_Bastien-Lepage.jpg)
+
+If indeed three or four years, will Protagonist have at least begun to become accustomed to the solitude? Accustomed, or wearily acquiescent, does Reader mean?
+
+When Queen Christina of Sweden hired Descartes as a personal philosophy tutor in 1649, she dispatched a warship under a full admiral to convey him to Stockholm. But then demanded daily instruction at 5 A.M. in the Scandinavian winter. Descartes caught pneumonia and died.
+
+gnōmōn, literally: "one that knows or examines"
+
+Go tell the Spartans, stranger passing by,<br/>
+that here, obedient to their laws, we lie.<br/>
+[Steven Pressfield, in Gates of Fire](http://battle-of-thermopylae.eu/main_monuments.html)
+
+[James George Grazer](https://en.wikipedia.org/wiki/James_George_Frazer): The Golden Bough, mythology, etc.
+
+[Arthur Koestler](https://en.wikipedia.org/wiki/Arthur_Koestler?wprov=sfti1) committed suicide with his wife Cynthia. The notes:
+
+>To whom it may concern.
+
+> The purpose of this note is to make it unmistakably clear that I intend to commit suicide by taking an overdose of drugs without the knowledge or aid of any other person. The drugs have been legally obtained and hoarded over a considerable period.
+
+> Trying to commit suicide is a gamble the outcome of which will be known to the gambler only if the attempt fails, but not if it succeeds. Should this attempt fail and I survive it in a physically or mentally impaired state, in which I can no longer control what is done to me, or communicate my wishes, I hereby request that I be allowed to die in my own home and not be resuscitated or kept alive by artificial means. I further request that my wife, or a physician, or any friend present, should invoke habeas corpus against any attempt to remove me forcibly from my house to hospital.
+
+> My reasons for deciding to put an end to my life are simple and compelling: Parkinson's disease and the slow-killing variety of leukaemia (CCI). I kept the latter a secret even from intimate friends to save them distress. After a more or less steady physical decline over the last years, the process has now reached an acute state with added complications which make it advisable to seek self-deliverance now, before I become incapable of making the necessary arrangements.
+
+> I wish my friends to know that I am leaving their company in a peaceful frame of mind, with some timid hopes for a de-personalised after-life beyond due confines of space, time and matter and beyond the limits of our comprehension. This "oceanic feeling" has often sustained me at difficult moments, and does so now, while I am writing this.
+
+> What makes it nevertheless hard to take this final step is the reflection of the pain it is bound to inflict on my surviving friends, above all my wife Cynthia. It is to her that I owe the relative peace and happiness that I enjoyed in the last period of my life – and never before. 
+
+> Since the above was written in June 1982, my wife decided that after thirty-four years of working together she could not face life after my death.
+
+Cynthias notes:
+
+> I fear both death and the act of dying that lies ahead of us. I should have liked to finish my account of working for Arthur – a story which began when our paths happened to cross in 1949. However, I cannot live without Arthur, despite certain inner resources.
+
+> Double suicide has never appealed to me, but now Arthur's incurable diseases have reached a stage where there is nothing else to do.
+
+Nirvana means without wind, or blown out. In the sense that desire no longer exists.
+
+Abstract Expressionism was invented by New York drunks.
+
+Ombra mai fur: Never was a shade
+
+[Incitatus](https://en.wikipedia.org/wiki/Incitatus): swift (horse name)
+
+Pages read and read, who has passed here before me
+
+Prud'hon's wife died and Mayer had expected that she would marry him. Prone to depression throughout her life, this prompted a crisis in Mayer's life, "when Prud'hon refused to acknowledge her assistance and marry her after the many years she had served as his assistant and his housekeeper", she then seized "the artist's razor, drew it across her throat." 
+
+There is no there there.
+
+There is no now now.
+
+"Là ci darem la mano" (Italian for "There we will give each other our hands"
+
+[George Eastman](https://en.wikipedia.org/wiki/George_Eastman) who founded Kodak, committed suicide, writing a note: "To my friends: my work is done. Why wait?"
+
+Now I know you. No field, no home, no wife, no woman-no friends, no love.
+
+Jacques Louis David was repeatedly drawn to sketch prisoners being led to the guillotine.
+
+Dear me, I am about to become a god.
+
+Doch das Sein- was ist das Sein?: but be that - what is that to be?
+
+Even in the solemn moments of the mass, when prayer should be the purest... when I should groan for what I have done, I sigh for what I have lost.
+
+Harry Crosby shot himself in the head. After first shooting the young married woman with whom he was having an affair.
+
+Eliot, as an editor, rejected _Animal Farm_.
+
+dormoir nonchalamment a l'ombre de ses seins: sleeping casually in the shade of her breasts
+
+There is no mention of Achilles' heel in Homer. In fact there is no mention of it by anyone until Statius, in Latin, nine hundred years later.
+
+[William Blake](https://en.wikipedia.org/wiki/William_Blake)'s _Europe Supported by Africa and America_
+
+![Europe Supported by Africa and America](/img/snippets/440px-William_Blake-Europe_Supported_By_Africa_and_America_1796.png)
+
+El Greco had to sue the Toledo Cathedral to be paid for his _Disrobing of Christ_. Which the Cathedral had commissioned.
+
+Ōdī et amō: I hate and I love
+
+[Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing?wprov=sfti1) committed suicide.
+
+This sentence is a lie.
+
+Louis Althusser spent four years in a psychiatric hospital after strangling his wife.
+
+[Hapax legomenon](https://en.wikipedia.org/wiki/Hapax_legomenon) is a word or an expression that occurs only once within a context: either in the written record of an entire language, in the works of an author, or in a single text.
+
+John Kennedy Toole committed suicide by running a hose from his exhaust pipe into his car.
+
+Like Socrates, Aristotle was charged with impiety late in life. But went into exile rather than stand trial. Refusing to allow Athens to sin twice against philosophy, being how he put it.
+
+Assia Wevill, for whom Ted Hughes left Sylvia Plath, committed suicide the same way Plath did. With the difference that she gassed the child she had had by Hughes a well.
+
+[Xanthippe](https://en.wikipedia.org/wiki/Xanthippe)
+
+In Book XVI of the _Iliad_, Apollo wrenches off Petroclus's armor, leading to the latter's death.
+Little more than two hundred lines later, Hector is shown stripping the same armor from Petroclus's corpse.
+
+It is only the man whose intellect is clouded by his sexual impulses who could give the name of the afir sex to that under-sized, narrow-shouldered, nbroad-hipped and short-legged race. Said Schopenhauer.
+
+There is no such thing as a good painting about nothing. Said Mark Rothko.
+
+[Tulsidas](https://en.wikipedia.org/wiki/Tulsidas) was born into a family of beggars, and abandoned. And said that as a boy he sometimes lived on scraps thrown to dogs.
+
+
+Ite, missa est: go, the dismissal is made
+
+You care for nothing but shooting, dogs, and rat-catching, and you will be a disgrace to yourself and all your family. Said Charles Darwin's father.
+
+
+Du mußt dein Leben ändern: you must change your life
+
+[Virginia Hill](https://en.wikipedia.org/wiki/Virginia_Hill?wprov=sfti1) was an American organized crime figure.
+
+Lord, don't help us. But don't muck it up for us either.
+
+O lente, lente currite, noctis equi!<br/>
+O Slowly, Slowly, Run Horses of the Night)<br/>
+-Marlowe’s Dr Faustus Act V Sc 2
+
+Melville and Whitman were born within two months of each othera nd died within six. And were in close proximity in or near New York through much of their lives. Never meeting.
+
+
+The Sleep of Reason Produces Monsters (Spanish: El sueño de la razón produce monstruos)
+![The Sleep of Reason Produces Monsters](/img/snippets/monsters.png)
+
+[Ilse Koch](https://en.wikipedia.org/wiki/Ilse_Koch), also known as The Witch of Buchenwald.
+
 ----
 
 "Thinking can hurt your chances, and I want to last". From the Handmaid's Tale
+
+----
+
+More and more he went running to the public house. But it was no longer to be among men, it was to get drunk. One might imagine him sitting there thinking those slow thoughts without words. One might predict that the day would come when we would realise very suddenly, very clearly, all that he had been thinking about, and, when this urgent, terrible thought had been translated into its own terms of action, he would be quietly hanged by the neck until he was as dead as he had been before he was alive.
+
+- The Blind Man, James Stephens
+
+----
+
+The familiar saying that the exception proves the rule contains a good deal of wisdom, though from the standpoint of formal logic it became an absurdity as soon as “prove” no longer meant “put on trial.” The old saw began to be profound psychology from the time it ceased to have standing in logic. What it might well suggest to us today is that, if a rule has absolutely no exceptions, it is not recognized as a rule or as anything else; it is then part of the background of experience of which we tend to remain unconscious. Never having experienced anything in contrast to it, we cannot isolate it and formulate it as a rule until we so enlarge our experience and expand our base of reference that we encounter an interruption of its regularity. The situation is somewhat analogous to that of not missing the water till the well runs dry, or not realizing that we need air till we are choking.
+
+----
+
+[The Human Condition (Magritte)](https://en.wikipedia.org/wiki/The_Human_Condition_(Magritte))
+
+![The Human Condition](/img/snippets/René_Magritte_The_Human_Condition.jpg)
+
+Magritte had this to say of his 1933 work:
+
+> In front of a window seen from inside a room, I placed a painting representing exactly that portion of the landscape covered by the painting. Thus, the tree in the picture hid the tree behind it, outside the room. For the spectator, it was both inside the room within the painting and outside in the real landscape.
+
+----
+
+This is why you don't read reliable science from newspapers and magazines, let alone DO science based on them!
+
+[Pullum - The great Eskimo vocabulary hoax 1989.pdf](/files/Pullum - The great Eskimo vocabulary hoax 1989.pdf)
+
+----
+
+[The Rape of Proserpina](https://en.wikipedia.org/wiki/The_Rape_of_Proserpina?wprov=sfti1)
+
+![The Rape of Proserpina](/img/snippets/440px-The_Rape_of_Proserpina_(Rome).jpg)
+
+----
+
+“Think about it. We have all had the experience of uttering or writing a sentence, then stopping and realising that it wasn’t exactly what we meant to say. To have that feeling, there has to be a ‘what we meant to say’ that is different from what we said” - Pinker, The Language Instinct
+
+----
+
+Regarding emotions and hype of a relationship / love:
+
+The pour water on the fire, now the fire that was easy to create is now muddled with water.
+
+
+Paraffin puts a fire out if poured too fast, but otherwise burns with the fire if done slowly 
+
+----
+
+I hold the knife. I just used it to scrap off some tape from my art prints so I could put them on the wall again, with new tape.
+I think of the possibilities. Imagine cutting myself and sitting silently, and calmly, considering that I will be bereft or anything at all in due time. I consider what happens tomorrow (although there will be no notion of tomorrow anymore, soon). What will the people who knew me think? Feel? Anyone feeling guilty? Responsible? Cause and effect?
+Knives look different now. So do bridges, high buildings. The custom house is my favourite, to make it absolutely clear to this place and its people. They will brushing it off as insanity or whatnot anyway. Or will they change? Very unlikely.
+Electric shock. Wall plug.
+Pills? Gun? Rope? I think I prefer the jump. Always loved parkour and skydiving and extreme sports. One last jump where I won’t have to be conscious of a need to open the parachute. One last, free jump. Take in the scenery. Liffey? Asphalt. Bam.
+
+----
+
+In the pale grass, under the vivid colors of the sky, the two gravediggers were lying on their backs, staring silently up at the heavens. The widow looked at them as she paused on the stile. Her thoughts of these men had been indifferent, subconscious up to this instant. They were handsome young men. Perhaps if there had been only one of them the widow would ahve been more attentive. The dark handsomeness did not seem the same thing when repeated. Their beauty, if one could call it beauty, had been collective, the beauty of flowers, of dark, velvety pansies, the distinctive marks of one faithfully duplicated on the other. The good looks of one had, to the mind of the widow, somehow nullified the good looks of the other. There was too much borrowing of Peter to pay Paul in their well-favored features. The first gravedigger spoiled the illusion of individuality in the second gravedigger. The widow had not thought so, but she would have agreed if anybody whispered to her that a good-looking man who wanted to win favor with a woman should never have so complete a twin brother. It would be possible for a woman to part tenderly with a man, and, if she met his iamge and likeness around the corner, knock him down. There is nothing more powerful, but nothing more delicate in life than the valves of individuality.
+
+-The Weaver's Grave, Seamas O'Kelly
 
 ----
 
@@ -695,6 +938,239 @@ Pieces from Sohrab Sepehri's poems:
 دنگ...
 <br />
 
+<br />
+..
+<br />
+
+دریا و مرد
+<br/>
+
+تنها، و روی ساحل،
+<br/>
+مردی به راه می‌گذرد.
+<br/>
+نزدیک پای او
+<br/>
+دریا، همه صدا.
+<br/>
+شب، گیج در تلاطم امواج.
+<br/>
+باد هراس پیکر
+<br/>
+رو می‌کند به ساحل و در چشم‌های مرد
+<br/>
+نقش خطر را پر رنگ می‌کند.
+<br/>
+انگار
+<br/>
+هی می‌زند که: مرد! کجا می‌روی، کجا؟
+<br/>
+و مرد می‌رود به ره خویش.
+<br/>
+و باد سرگردان
+<br/>
+هی می‌زند دوباره: کجا می‌روی؟
+<br/>
+و مرد می‌رود.
+<br/>
+و باد همچنان...
+<br/>
+
+امواج، بی امان،
+<br/>
+از راه می‌رسند
+<br/>
+لبریز از غرور تهاجم.
+<br/>
+موجی پر از نهیب
+<br/>
+ره می‌کشد به ساحل و می‌لبعد،
+<br/>
+یک ساله را که برده شب از پیکرش شکیب.
+<br/>
+
+دریا، همه صدا.
+<br/>
+شب، گیج در طلاتم امواج،
+<br/>
+باد هراس پیکر
+<br/>
+رو می‌کند به ساحل و ...
+<br/>
+
+<br />
+..
+<br />
+
+روز خاموش است، آرام است.
+<br/>
+از چه دیگر میکنی پروا؟
+<br/>
+
+<br />
+..
+<br />
+
+<br/>
+(مرغ ساز افسردگی می‌کند)
+
+<br />
+..
+<br />
+
+از پی نابودی‌ام، دیری است
+<br />
+زهر می‌ریزد به رگ‌های خود این جادوی بی‌آزرم
+<br />
+تا کند آلوده با آن شیر
+<br />
+پس برای آن که رد فکر او را گم کند فکرم،
+<br />
+می‌کند رفتار با من نرم.
+<br />
+لیک چه غافل!
+<br />
+نقشه‌های او چه بی حاصل!
+<br />
+نبض من هر لحظه می‌خندد به پندارش.
+<br />
+او نمی‌داند که روییده است
+<br />
+هستی پر بار من در منجلاب زهر
+<br />
+و نمی‌داند که من در زهر می‌شویم
+<br />
+پیکر هر گریه، هر خنده،
+<br />
+در نم زهر است کرم فکر من زنده،
+<br />
+در زمین زهر می‌روید گیاه تلخ شعر من.
+<br />
+
+
+<br />
+..
+<br />
+
+هنگامی که او از پنجره بیرون می‌پرید
+<br />
+چشمانش خوابی را گم کرده بود
+<br />
+
+<br />
+..
+<br />
+
+لحظه گمشده
+
+<br />
+مرداب اتاقم کدر شده بود
+<br />
+و من زمزه خون را در رگ‌هایم می‌شنیدم.
+<br />
+زندگی‌ام در تاریکی ژرفی می‌گذشت.
+<br />
+این تاریکی، طرح وجودم را روشن می‌کرد
+<br />
+
+<br />
+در باز شد
+<br />
+و او با فانوسش به درون وزید.
+<br />
+زیبایی رها شده‌ای بود
+<br />
+و من دیده براهش بودم:
+<br />
+رویای بی شکل زندگی‌ام بود.
+<br />
+عطری در چشمم زمزه کرد.
+<br />
+رگ‌هایم از تپش افتاد
+<br />
+همه رشته‌هایی که مرا به من نشان می‌داد
+<br />
+در شعله فانوسش سوخت:
+<br />
+زمان در من نمی‌گذشت.
+<br />
+شور برهنه‌ای بودم.
+<br />
+
+اون فانوسش را به فضا آویخت.
+<br />
+مرا در روشن‌ها می‌جست.
+<br />
+تار و پود اتاقم را پیمود
+<br />
+و به من ره نیافت.
+<br />
+نسیمی شعله فانوس را نوشید.
+<br />
+
+<br />
+..
+<br />
+
+نیلوفر
+<br />
+
+از مرز خوابم می‌گذشتم، سایه تاریک یک نیلوفر
+<br />
+روی همه این ویرانه فرو افتاده بود.
+<br />
+کدامین باد بی‌پروا
+<br />
+دانه این نیلوفر را به سرزمین خواب من آورد؟
+<br />
+
+در پس درهای شیشه‌ای رویاها،
+<br />
+در مرداب بی ته آیینه‌ها،
+<br />
+هر جا که من گوشه‌ای از خودم را مرده بودم
+<br />
+یک نیلوفر روییده بود.
+<br />
+گویی او لحظه لحظه در تهی من می‌ریخت
+<br />
+و من در صدای شکفتن او
+<br />
+لحظه لحظه خودم را می‌مردم.
+<br />
+
+بام ایوان فرو می‌ریزد
+<br />
+و ساقه نیلوفر برگرد همه ستون‌ها می‌پیچد.
+<br />
+کدامین باد بی‌پروا
+<br />
+دانه این نیلوفر را به سرزمین خواب من آورد؟
+<br />
+
+نیلوفر رویید،
+<br />
+ساقه‌اش از ته خواب شفافم سر کشید.
+<br />
+من به رویا بودم،
+<br />
+سیلاب بیداری رسید.
+<br />
+
+جشمانم را در ویرانه خوابم گشودم:
+<br />
+نیلوفر به همه زندگی‌ام پیچیده بود.
+<br />
+در رگ‌هایش، من بودم که می‌دویدم.
+<br />
+هستی‌اش در من ریشه داشت،
+<br />
+همه من بود.
+<br />
+کدامین باد بی‌پروا
+<br />
+دانه این نیلوفر را به سرزمین خواب من آورد؟
+<br />
 
 </div>
 
@@ -717,6 +1193,15 @@ In 1845, the Illustrated London News reported that a Newfoundland dog had been a
 ----
 
 [Category: People who committed suicide](https://simple.wikipedia.org/wiki/Category:People_who_committed_suicide)
+
+----
+
+Merda taurorum animas conturbit : Bullshit baffles brains
+
+----
+
+https://en.wikipedia.org/wiki/Krakatoa?wprov=sfti1 - Indonesia islands destroyed by volcanoes / wizard islands (cauldron like)
+
 
 ----
 
@@ -827,3 +1312,4 @@ Footsteps of Angels
 Flowers
 
 ![Flowers](/img/snippets/longfellow/flowers.jpg)
+
