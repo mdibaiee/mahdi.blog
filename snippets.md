@@ -370,7 +370,7 @@ Moritz Schlick was shot and killed on the steps of the university library in Vie
 
 [Jules Bastien Lepage](https://en.wikipedia.org/wiki/Jules_Bastien-Lepage)
 
-![Going_to_School_1882_by_Jules_Bastien-Lepage](/img/snippets/Going_to_School_\(1882\)_by_Jules_Bastien-Lepage.jpg)
+![Going_to_School_1882_by_Jules_Bastien-Lepage](/img/snippets/Going_to_School_1882_by_Jules_Bastien-Lepage.jpg)
 
 If indeed three or four years, will Protagonist have at least begun to become accustomed to the solitude? Accustomed, or wearily acquiescent, does Reader mean?
 
