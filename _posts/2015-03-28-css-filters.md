@@ -7,9 +7,9 @@ categories: programming
 author: Mahdi
 ---
 
-I've been working on the [CSS Filter Editor widget](https://bugzilla.mozilla.org/show_bug.cgi?id=1055181) in Firefox Developer Tools for a couple of weeks, <s>it should land soon</s> It's here!. Thanks to [Patrick Brosset](https://medium.com/@patrickbrosset) for mentoring me and [Tim Nguyen](https://github.com/nt1m) for his great contributions.
+I've been working on the [CSS Filter Editor widget](https://bugzilla.mozilla.org/show_bug.cgi?id=1055181) in Firefox Developer Tools for a couple of weeks, thanks to [Patrick Brosset](https://medium.com/@patrickbrosset) for mentoring me and [Tim Nguyen](https://github.com/nt1m) for his great contributions.
 
-Here is an [online version](http://mdibaiee.github.io/CSS-Filter-Tooltip/) to use as a playground. This version is modified to be cross-browser and therefore is a little different from the original widget used in Firefox. <s>It doesn't seem to work in Chrome.</s>
+Here is an [online version](http://mdibaiee.github.io/CSS-Filter-Tooltip/) to use as a playground. This version is modified to be cross-browser and therefore is a little different from the original widget used in Firefox.
 
 You can also use [David Walsh's demo](http://davidwalsh.name/demo/css-filters.php), although it doesn't have as much flexibility.
 
@@ -128,7 +128,7 @@ Hey browser, please double the contrast of my element, then blur it out. (high c
 
 Here is the actual comparison:
 
-<iframe width="100%" height="300" src="//jsfiddle.net/mdibaiee/36suf74z/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/mdibaiee/608yoqrx/embedded/result,css" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 Inheritance
 -----------
