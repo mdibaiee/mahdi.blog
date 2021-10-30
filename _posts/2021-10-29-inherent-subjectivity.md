@@ -9,10 +9,12 @@ author: Mahdi
 draft: true
 ---
 
+{% comment %}
 https://postcognitivism.wordpress.com/2021/04/06/the-great-escape-can-we-transcend-our-own-conceptual-frameworks/
 https://gatelessgateblog.wordpress.com/
 https://www.sciencedirect.com/science/article/pii/S0388000121000802
 Distinctions and Common Ground in Collective Epistemology
+{% endcomment %}
 
 As a computer scientist and someone who loves [mathematics](/mathematical-induction-proving-tiling-methods) and [abstractions](/typoclassopedia-exercise-solutions), I was obsessed with the idea of rationality, that is, an _objective_ and absolute rationality.
 
