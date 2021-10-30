@@ -36,6 +36,11 @@ collections:
     output: true
     permalink: /travel/:path/
     path: /travel
+  philosophy:
+    title: philosophy
+    output: true
+    permalink: /philosophy/:path/
+    path: /philosophy
 
 contentsLabel: "Table of Contents"
 showToggleButton: true
