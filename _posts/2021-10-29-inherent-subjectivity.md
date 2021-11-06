@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "An Alternative Definition of Objectivity for Rigid Scientists"
-subtitle: "On Inherent Subjectivity of Some Things"
+title: "On Inherent Subjectivity of Some Things"
+subtitle: "An Alternative Definition of Objectivity for Rigid Scientists"
 date: 2021-10-30 12:57:46
 permalink: alternative-objectivity-and-inherent-subjectivity/
 categories: philosophy
@@ -9,12 +9,10 @@ author: Mahdi
 draft: true
 ---
 
-{% comment %}
-https://postcognitivism.wordpress.com/2021/04/06/the-great-escape-can-we-transcend-our-own-conceptual-frameworks/
+<!--https://postcognitivism.wordpress.com/2021/04/06/the-great-escape-can-we-transcend-our-own-conceptual-frameworks/
 https://gatelessgateblog.wordpress.com/
 https://www.sciencedirect.com/science/article/pii/S0388000121000802
-Distinctions and Common Ground in Collective Epistemology
-{% endcomment %}
+Distinctions and Common Ground in Collective Epistemology-->
 
 As a computer scientist and someone who loves [mathematics](/mathematical-induction-proving-tiling-methods) and [abstractions](/typoclassopedia-exercise-solutions), I was obsessed with the idea of rationality, that is, an _objective_ and absolute rationality.
 
@@ -26,4 +24,13 @@ So I enter this course with this mindset: we can objectively analyse the world a
 
 However... I found myself to be more and more interested in the philosophy side of this course than the psychology side, hell I even started to not like the psychology side anymore, but fall in love with the philosophy. This is where I found the opposite of what I had come for: an alternative definition of objectivity, and an inherent subjectivity of some things.
 
+## What is Objectivity anyway?
 
+This is probably the main question here. What is objectivity? I don't think dictionary definitions are particularly authoritative when it comes to philosophy discussions, but I found this dictionary definition interesting to open the topic with:
+
+> the quality or character of being objective : lack of favoritism toward one side or another : freedom from bias. {% cite objectivity-merriam-webster %}
+
+References
+----------
+
+{% bibliography --cited %}
