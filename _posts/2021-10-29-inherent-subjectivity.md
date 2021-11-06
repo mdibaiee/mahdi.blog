@@ -22,9 +22,9 @@ The book basically looks at the world as a probabilistic system, and everything 
 
 So I enter this course with this mindset: we can objectively analyse the world around us using probability and statistics (mathematics), but we are limited by our cognitive biases, so I want to learn about these cognitive biases: where do they come from, how can they be resisted to allow us to act more rationally and so on. These questions would mainly fall under the umbrella of psychology...
 
-However... I found myself to be more and more interested in the philosophy side of this course than the psychology side, hell I even started to not like the psychology side anymore, but fall in love with the philosophy. This is where I found the opposite of what I had come for: an alternative definition of objectivity, and an inherent subjectivity of some things.
+However... I found myself to be more and more interested in the philosophy side of this course than the psychology side, hell I even started to not like the psychology side anymore, but fall in love with the philosophy. This is where I found the opposite of what I had come for: an alternative definition of objectivity, and an inherent subjectivity of some things. This is mainly inspired by Thomas Nagel's What Is It Like To Be A Bat {% cite nagel1974like %}.
 
-What is Objectivity anyway?
+What is Objectivity Anyway?
 ---------------------------
 
 This is probably the main question here. What is objectivity? I don't think dictionary definitions are particularly authoritative when it comes to philosophy discussions, but I found this dictionary definition interesting to open the topic with:
@@ -50,6 +50,9 @@ In this sense, there is no black-and-white distinction between subjectivity and 
 ![Subjective-Objective spectrum: On Subjective side we have Individual perception, in the middle Agreement with others, and on the Objective side Agreement with other apparatus](/img/inherent-subjectivity/subjective-objective.png)
 
 We start with our individual perceptions as the most objective view and description, we then move towards descriptions that allow us to agree with other (human) beings, and finally we move towards descriptions that can be verified and agreed upon by other apparatus, although it is important to understand that even the apparatus that we may use to describe things are not necessarily free from bias, since they are created by biased individuals and groups. By now you may notice that if a measuring device is made to be agreeable between a large group of people, it is already more objective than a device made by a single individual! However, absolute objectivity, which we may call "a view from nowhere" may not be attainable by us, because we will always be viewing things from our own perspectives, even if it is a large, collective perspective that we agree on, it is not a view from nowhere.
+
+Inherently Subjective Things
+----------------------------
 
 References
 ----------
