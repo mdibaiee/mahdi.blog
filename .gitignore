@@ -2,3 +2,4 @@ deploy.sh
 _site
 .sass-cache
 .DS_Store
+img/.DS_Store
