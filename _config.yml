@@ -48,3 +48,6 @@ showToggleButton: true
 authors:
   Mahdi:
     url: https://github.com/mdibaiee/
+
+scholar:
+  style: apa
