@@ -43,7 +43,7 @@ Is it possible for us to have a view of something without it being part of our e
 
 What does this leave us with then when we ask what is objectivity? A better definition of objectivity in my opinion is one given by Thomas Nagel:
 
-> It may be more accurate to think of objectivity as a direction in which the understanding can travel. [...] [T]he process of reduction is a move in the direction of greater objectivity, toward a more accurate view of the real nature of things. This is accomplished by reducing our dependence on individual or species-specific points of view toward the object of investigation. We describe it not in terms of the impressions it makes on our senses, but in terms of its more general effects and of properties detectable by means other than the human senses. {% cite nagel1974like %}
+> It may be more accurate to think of objectivity as a direction in which the understanding can travel. [...] The process of reduction is a move in the direction of greater objectivity, toward a more accurate view of the real nature of things. This is accomplished by reducing our dependence on individual or species-specific points of view toward the object of investigation. We describe it not in terms of the impressions it makes on our senses, but in terms of its more general effects and of properties detectable by means other than the human senses. {% cite nagel1974like %}
 
 In this sense, there is no black-and-white distinction between subjectivity and objectivity, but rather it is a spectrum, a line on which we can walk from subjectivity towards objectivity.
 
