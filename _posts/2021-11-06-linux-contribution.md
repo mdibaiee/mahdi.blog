@@ -13,7 +13,7 @@ Create a virtual machine for Archlinux on my macOS using QEMU:
 - [Download the Archlinux iso image](https://archlinux.org/download/)
 - Create a qemu disk:
 {% highlight bash %}
-qemu-img create disk.img 10G
+qemu-img create disk.img 15G
 {% endhighlight %}
 - Start the machine and [install Archlinux](https://wiki.archlinux.org/title/Installation_guide)
 {% highlight bash %}
