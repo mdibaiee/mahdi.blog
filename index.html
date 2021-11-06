@@ -6,7 +6,7 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-      {% if post.draft %}
+      {% if post.published == false %}
         {% continue %}
       {% endif %}
       <li class='lang-{% if post.lang %}{{ post.lang }}{% else %}en{% endif %}'>

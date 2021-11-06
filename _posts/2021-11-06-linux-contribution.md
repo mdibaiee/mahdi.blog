@@ -5,7 +5,7 @@ date: 2021-11-06 00:00:00
 permalink: first-linux-contribution/
 categories: programming
 author: Mahdi
-draft: true
+published: false
 ---
 
 November 6th:
