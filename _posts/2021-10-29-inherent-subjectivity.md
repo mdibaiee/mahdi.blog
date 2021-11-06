@@ -24,7 +24,8 @@ So I enter this course with this mindset: we can objectively analyse the world a
 
 However... I found myself to be more and more interested in the philosophy side of this course than the psychology side, hell I even started to not like the psychology side anymore, but fall in love with the philosophy. This is where I found the opposite of what I had come for: an alternative definition of objectivity, and an inherent subjectivity of some things.
 
-## What is Objectivity anyway?
+What is Objectivity anyway?
+---------------------------
 
 This is probably the main question here. What is objectivity? I don't think dictionary definitions are particularly authoritative when it comes to philosophy discussions, but I found this dictionary definition interesting to open the topic with:
 
