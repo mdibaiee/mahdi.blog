@@ -34,11 +34,11 @@ This definition itself has ambiguous phrases such as "freedom from bias", what d
 
 > an inclination of temperament or outlook {% cite bias-merriam-webster %}
 
-But... is it really possible to have no inclination at all in our temperament and outlook? As the last word, let's look at the definition of subjective:
+But... is it really possible to have no inclination at all in our temperament and outlook? Let's look at the definition of subjective, that will help us here:
 
-> relating to the way a person experiences things in his or her own mind {cite subjective-merriam-webster %}
+> relating to the way a person experiences things in his or her own mind {% cite subjective-merriam-webster %}
 
-Is it possible for us to have a view of something without it being part of our experience? It seems not, all that we do, all our views and expressions and our interactions are part of our experience as a person, and it relates to us on an intimate level, which means that everything that we do as individuals is subjective. In that sense, it seems impossible for any individual to be objective, since they will always have some form of inclination about everything.
+Is it possible for us to have a view of something without it being part of our experience? It seems not. All that we do, all our views and expressions and our interactions are part of our experience as a person, and it relates to us on an intimate level, which means that everything that we do as individuals is subjective. In that sense, it seems impossible for any individual to be objective, since they will always have some form of inclination about everything.
 
 What does this leave us with then when we ask what is objectivity? A better definition of objectivity in my opinion is one given by Thomas Nagel:
 
@@ -46,7 +46,7 @@ What does this leave us with then when we ask what is objectivity? A better defi
 
 In this sense, there is no black-and-white distinction between subjectivity and objectivity, but rather it is a spectrum, a line on which we can walk from subjectivity towards objectivity.
 
-![Subjective-Objective spectrum: On Subjective side we have Individual perception, in the middle Agreement with others, and on the Objective side Agreement with other apparatus](img/inherent-subjectivity/subjective-objective.png)
+![Subjective-Objective spectrum: On Subjective side we have Individual perception, in the middle Agreement with others, and on the Objective side Agreement with other apparatus](/img/inherent-subjectivity/subjective-objective.png)
 
 We start with our individual perceptions as the most objective view and description, we then move towards descriptions that allow us to agree with other (human) beings, and finally we move towards descriptions that can be verified and agreed upon by other apparatus, although it is important to understand that even the apparatus that we may use to describe things are not necessarily free from bias, since they are created by biased individuals and groups. By now you may notice that if a measuring device is made to be agreeable between a large group of people, it is already more objective than a device made by a single individual!
 
