@@ -501,6 +501,90 @@ The Sleep of Reason Produces Monsters (Spanish: El sueño de la razón produce m
 
 [Ilse Koch](https://en.wikipedia.org/wiki/Ilse_Koch), also known as The Witch of Buchenwald.
 
+Dear Sir,<br/>
+I [am in a Madhouse and] quite forget your Name <br/>
+or who you are You must excuse me [for] I have nothing<br/>
+to commu(n)icate [or tell of] and why I am shut up<br/>
+[I dont know] I have nothing [to say so] I conclude.<br/>
+
+[Yours respectfully,]<br/>
+John Clare (To James Hipkins, 1860)
+
+Though Dante claims to have seen Beatrice no more than twice himself. While immortalizing her even more extraordinarily.
+
+Conrad Aiken's father shot his wife and then himself. Leaving it to Aiken, at eleven, to climb a flight of stairs after hearing the shots and walk in on the bodies.
+
+"Der Tod und das Mädchen", "Death and the Maiden"
+
+Long live the weeds and the wilderness yet.
+
+It is impossible for man's happiness to be in this world. Said Aquinas.
+
+[L'Origine du monde (The Origin of the World)](https://en.wikipedia.org/wiki/L'Origine_du_monde)
+![The Origin of the World](/img/snippets/Origin-of-the-World.jpg)
+
+[Paideia](https://en.wikipedia.org/wiki/Paideia)
+
+Pietro Torrigiano took a hammer to a Madonna he had sculpted in Seville when he was not paid what he anticipated. And was jailed by the Inquisition for sacrilege.
+
+[By Grand Canal Station I Sat Down and Wept](https://en.wikipedia.org/wiki/By_Grand_Central_Station_I_Sat_Down_and_Wept)
+
+In a lawsuit that prevented him from teaching in New York in 1940, Bertrand Russell's writings were described as lecherous, libidinous, lustful, venerous, erotomaniac, aphrodisiac, irreverent, narrow-minded, untruthful, and bereft of moral fiber. Unquote.
+
+
+[Vachel_Lindsay](https://en.wikipedia.org/wiki/Vachel_Lindsay) founder of singing poetry committed suicide.
+
+Why do you always wear black?<br/>
+I am in mourning for my life. -Anton Chekhov
+
+ipse dixit: he said
+
+The first edition of Thus Spoke Zarathustra sold forty copies. Nietzsche had had to pay for publication.
+
+I had been only a mediocre caretaker of most of the things left in my hands, even of my talent, Scott Fitzgerald said.
+
+That nearby, Protagonist awakening mornings to the wash of the surf?</br>
+Mitigating, will it, the mornings recollection of the emptiness of the day before?<br/>
+Its anticipation of the emptiness of the day to come?
+
+was willst du, fremder Mensch: what do you want, stranger
+
+Les Nuits d'Été: the summer nights
+
+I am old, and can no longer work, and am without means of livelihood, and my wife is ill.
+Said Paolo Uccello on a tax declaration in Florence in 1469.
+
+un grand peut-être: a grand maybe 
+
+Cavafy, acknowledged as the great Greek poet of his time. Who lived his entire writing life in Egypt.
+
+o che dolce cosa é questa prospettiva: or what a sweet thing this prospect is
+
+potestas clavium: the power of the keys
+
+Y la vida no es noble, ni buena, ni sagrada: And life is not noble, nor good, nor sacred
+
+A Christ of our neighbourhood, Ortega called Don Quixote.
+
+Did Jesus ever laugh?
+
+But I was desolate and sick of an old passion
+
+Shakespeare's mother and father were illiterate. And only one of his two daughters, Susanna, could sign her name. The other, Judith, made a mark.
+
+Did it ever, once, enter even Protagonist's bleakest conjecturings that he would finish out his life alone?
+
+No survivor could ever recall having ever seen a single bird flying near any of the Nazi death camps.
+
+Toward what final grievous contemplation amid the disarray?
+
+In the end one experiences only one's self.
+Said Nietzsche.
+
+Nonlinear. Discontinuous. Collage-like. An assemblage.
+
+Wastebasket.
+
 ----
 
 "Thinking can hurt your chances, and I want to last". From the Handmaid's Tale
@@ -563,6 +647,21 @@ Pills? Gun? Rope? I think I prefer the jump. Always loved parkour and skydiving 
 In the pale grass, under the vivid colors of the sky, the two gravediggers were lying on their backs, staring silently up at the heavens. The widow looked at them as she paused on the stile. Her thoughts of these men had been indifferent, subconscious up to this instant. They were handsome young men. Perhaps if there had been only one of them the widow would ahve been more attentive. The dark handsomeness did not seem the same thing when repeated. Their beauty, if one could call it beauty, had been collective, the beauty of flowers, of dark, velvety pansies, the distinctive marks of one faithfully duplicated on the other. The good looks of one had, to the mind of the widow, somehow nullified the good looks of the other. There was too much borrowing of Peter to pay Paul in their well-favored features. The first gravedigger spoiled the illusion of individuality in the second gravedigger. The widow had not thought so, but she would have agreed if anybody whispered to her that a good-looking man who wanted to win favor with a woman should never have so complete a twin brother. It would be possible for a woman to part tenderly with a man, and, if she met his iamge and likeness around the corner, knock him down. There is nothing more powerful, but nothing more delicate in life than the valves of individuality.
 
 -The Weaver's Grave, Seamas O'Kelly
+
+----
+
+I Know the Truth
+
+I know the truth—give up all other truths!<br />
+No need for people anywhere on earth to struggle.<br />
+Look—it is evening, look, it is nearly night:<br />
+what do you speak of, poets, lovers, generals?<br />
+<br />
+The wind is level now, the earth is wet with dew,<br />
+the storm of stars in the sky will turn to quiet.<br />
+And soon all of us will sleep under the earth, we<br />
+who never let each other sleep above it.<br />
+"I know the truth" Tsvetaeva (1915).  Trans. by Elaine Feinstein
 
 ----
 
