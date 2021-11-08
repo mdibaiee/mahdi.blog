@@ -31,4 +31,15 @@ pacman -S gcc git make
 {% highlight bash %}
 git clone git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
 {% endhighlight %}
-
+- Install necessary dependencies
+{% highlight bash %}
+pacman -S flex base-devel xmlto kmod inetutils bc libelf git cpio perl tar xz
+{% endhighlight %}
+- Generate a configuration file
+{% highlight bash %}
+make nconfig
+{% endhighlight %}
+- Make!
+{% highlight bash %}
+make
+{% endhighlight %}

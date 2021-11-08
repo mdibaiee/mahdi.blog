@@ -51,6 +51,8 @@ In this sense, there is no black-and-white distinction between subjectivity and 
 
 We start with our individual perceptions as the most objective view and description, we then move towards descriptions that allow us to agree with other (human) beings, and finally we move towards descriptions that can be verified and agreed upon by other apparatus, although it is important to understand that even the apparatus that we may use to describe things are not necessarily free from bias, since they are created by biased individuals and groups. By now you may notice that if a measuring device is made to be agreeable between a large group of people, it is already more objective than a device made by a single individual! However, absolute objectivity, which we may call "a view from nowhere" may not be attainable by us, because we will always be viewing things from our own perspectives, even if it is a large, collective perspective that we agree on, it is not a view from nowhere.
 
+![Subjective-Objective spectrum: A single person says a ball is 10cm radius, 1/4 objectivity. A group of people say it's 10cm radius, 1/2 objectivity. A group of people with a ruler say it's 10cm radius, 3/4 objectivity](/img/inherent-subjectivity/subjective-objective-example.png)
+
 Inherently Subjective Things
 ----------------------------
 
