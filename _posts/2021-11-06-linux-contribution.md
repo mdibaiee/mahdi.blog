@@ -35,11 +35,23 @@ git clone git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
 {% highlight bash %}
 pacman -S flex base-devel xmlto kmod inetutils bc libelf git cpio perl tar xz
 {% endhighlight %}
-- Generate a configuration file
+- Copy configuration of archlinux (optional: also [use modprobed-db to remove unnecessary modules](https://wiki.archlinux.org/title/Kernel/Traditional_compilation#Default_Arch_configuration))
 {% highlight bash %}
-make nconfig
+zcat /proc/config.gz > .config
 {% endhighlight %}
 - Make!
 {% highlight bash %}
 make
 {% endhighlight %}
+- Install the newly built Kernel
+{% highlight bash %}
+make install_modules
+VERSION=5.10
+cp -v arch/x86_64/boot/bzImage /boot/vmlinuz-linux${VERSION}
+mkinitcpio -k linux-${VERSION} -g /boot/initramfs-linux${VERSION}.img
+{% endhighlight %}
+- Run grub-mkconfig to add a menu option for this new kernel
+{% highlight bash %}
+grub-mkconfig -o /boot/grub/grub.cfg
+{% endhighlight %}
+- Reboot and choose the new kernel (might be under "Advanced" in the bootloader)
