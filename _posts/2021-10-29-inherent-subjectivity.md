@@ -75,7 +75,7 @@ This realisation means that objectifying people's subjective experiences is not 
 
 This video was sent to me by a friend today, and it is great timing, because it is very relevant:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oRG2jlQWCsY" title="Good Will Hunting | 'Your Move Chief' (HD) - Matt Damon, Robin Williams | MIRAMAX" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
+<iframe class="centered" width="560" height="315" src="https://www.youtube-nocookie.com/embed/oRG2jlQWCsY" title="Good Will Hunting | 'Your Move Chief' (HD) - Matt Damon, Robin Williams | MIRAMAX" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
 
 References
 ----------
