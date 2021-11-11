@@ -45,10 +45,10 @@ make
 {% endhighlight %}
 - Install the newly built Kernel
 {% highlight bash %}
-make install_modules
+make modules_install
 VERSION=5.10
 cp -v arch/x86_64/boot/bzImage /boot/vmlinuz-linux${VERSION}
-mkinitcpio -k linux-${VERSION} -g /boot/initramfs-linux${VERSION}.img
+mkinitcpio -k $VERSION -g /boot/initramfs-linux${VERSION}.img
 {% endhighlight %}
 - Run grub-mkconfig to add a menu option for this new kernel
 {% highlight bash %}
