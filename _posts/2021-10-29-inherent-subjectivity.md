@@ -66,12 +66,12 @@ This is how Nagel puts it (I think this may be a bit hard to read without readin
 
 >  Experience itself, however, does not seem to fit the pattern. The idea of moving from appearance to reality seems to make no sense here. What is the analogue in this case to pursuing a more objective understanding of the same phenomena by abandoning the initial subjective viewpoint toward them in favor of another that is more objective but concerns the same thing? Certainly it appears unlikely that we will get closer to the real nature of human experience by leaving behind the particularity of our human point of view and striving for a description in terms accessible to beings that could not imagine what it was like to be us. If the subjective character of experience is fully comprehensible only from one point of view, then any shift to greater objectivity that is, less attachment to a specific viewpoint does not take us nearer to the real nature of the phenomenon: it takes us farther away from it. {% cite nagel1974like %} 
 
-In the end one experiences only one's self. Said Nietzsche.
-
 So What? (Or: Why is This Important?)
 ----------------------
 
 This realisation means that objectifying people's subjective experiences is not possible, we will never be able to decipher someone's subjective experience of something. This does not mean we should not try to _understand_ people, rather, it means we should always consider that our understanding of someone's subjective experience will never be objective, it will always be merely our perspective of it. When it comes to people's personal experiences, we can't be sure that we are right, the way we are confident we are right after measuring a distance using our agreed-upon metric ruler; when it comes to subjective experiences it's always only a crude approximation.
+
+"In the end one experiences only one's self." Said Nietzsche.
 
 This video was sent to me by a friend today, and it is great timing, because it is very relevant:
 
