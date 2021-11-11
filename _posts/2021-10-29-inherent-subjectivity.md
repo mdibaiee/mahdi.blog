@@ -8,12 +8,7 @@ categories: philosophy
 author: Mahdi
 ---
 
-<!--https://postcognitivism.wordpress.com/2021/04/06/the-great-escape-can-we-transcend-our-own-conceptual-frameworks/
-https://gatelessgateblog.wordpress.com/
-https://www.sciencedirect.com/science/article/pii/S0388000121000802
-Distinctions and Common Ground in Collective Epistemology-->
-
-As a computer scientist and someone who loves [mathematics](/mathematical-induction-proving-tiling-methods) and [abstractions](/typoclassopedia-exercise-solutions), I was obsessed with the idea of rationality, that is, an _objective_ and absolute rationality.
+As a computer scientist and someone who loves [mathematics](/mathematical-induction-proving-tiling-methods) and [abstractions](/typoclassopedia-exercise-solutions), I was obsessed with the idea of rationality, that is, an _objective_ and absolute rationality, however I ended up in a philosophy course that showed me the opposite.
 
 I somehow stumbled upon Eliezer Yudkowsky's [Rationality: From AI to Zombies](https://www.readthesequences.com/) about 4 years ago, and it took me two years to go through it all but I was absolutely fascinated by this book. I _knew_ how to be rational now, and I could _prove_ it using mathematics, what else could I ask for!
 
@@ -75,6 +70,12 @@ This realisation means that objectifying people's subjective experiences is not 
 This video was sent to me by a friend today, and it is great timing, because it is very relevant:
 
 <iframe class="centered" width="560" height="315" src="https://www.youtube-nocookie.com/embed/oRG2jlQWCsY" title="Good Will Hunting | 'Your Move Chief' (HD) - Matt Damon, Robin Williams | MIRAMAX" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
+
+<!--https://postcognitivism.wordpress.com/2021/04/06/the-great-escape-can-we-transcend-our-own-conceptual-frameworks/
+https://gatelessgateblog.wordpress.com/
+https://www.sciencedirect.com/science/article/pii/S0388000121000802
+Distinctions and Common Ground in Collective Epistemology-->
+
 
 References
 ----------
