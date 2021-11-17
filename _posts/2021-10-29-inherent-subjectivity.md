@@ -63,9 +63,7 @@ This is how Nagel puts it (I think this may be a bit hard to read without readin
 So What? (Or: Why is This Important?)
 ----------------------
 
-This realisation means that objectifying people's subjective experiences is not possible, we will never be able to decipher someone's subjective experience of something. This does not mean we should not try to _understand_ people, rather, it means we should always consider that our understanding of someone's subjective experience will never be objective, it will always be merely our perspective of it. When it comes to people's personal experiences, we can't be sure that we are right, the way we are confident we are right after measuring a distance using our agreed-upon metric ruler; when it comes to subjective experiences it's always only a crude approximation.
-
-"In the end one experiences only one's self." Said Nietzsche.
+This realisation means that objectifying people's subjective experiences is not possible, we will never be able to decipher someone's subjective experience of something. This does not mean we should not try to _understand_ people, rather, it means we should always consider that our understanding of someone's subjective experience will never be objective, it will always be merely our perspective of it. When it comes to people's personal experiences, we can't be sure that we are right, the way we are confident we are right after measuring a distance using our agreed-upon metric ruler; when it comes to subjective experiences it's always only a crude approximation. "In the end one experiences only oneself." {% cite nietzsche2008thus %}
 
 This video was sent to me by a friend today, and it is great timing, because it is very relevant:
 
