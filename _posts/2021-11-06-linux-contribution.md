@@ -17,7 +17,7 @@ qemu-img create disk.img 15G
 {% endhighlight %}
 - Start the machine and [install Archlinux](https://wiki.archlinux.org/title/Installation_guide)
 {% highlight bash %}
-qemu-system-x86_64 -cdrom archlinux-2021.11.01-x86_64.iso -boot order=d -drive format=raw,file=disk.img -m 8G
+qemu-system-x86_64 -cdrom archlinux-2021.11.01-x86_64.iso -boot order=d -drive format=raw,file=disk.img -m 8G -smp cpus=4
 {% endhighlight %}
 - Start the machine after installing
 {% highlight bash %}
@@ -41,7 +41,7 @@ zcat /proc/config.gz > .config
 {% endhighlight %}
 - Make!
 {% highlight bash %}
-make
+make -j8
 {% endhighlight %}
 - Install the newly built Kernel
 {% highlight bash %}
