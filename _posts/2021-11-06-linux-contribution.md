@@ -5,8 +5,10 @@ date: 2021-11-06 00:00:00
 permalink: first-linux-contribution/
 categories: programming
 author: Mahdi
-published: false
+published: true
 ---
+
+_*This post is under construction. I am in the process of trying to contribute to the Linux Kernel. This post is not finished and will get updated as I go*_
 
 I use a MacBook Pro (mid-2014) with macOS, so I need to have a virtual machine for running a linux system with my kernel. I will also be doing the coding on this linux virtual machine as building the kernel is easier in a linux system than macOS.
 
