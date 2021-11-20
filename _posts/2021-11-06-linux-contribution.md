@@ -17,7 +17,7 @@ I use a MacBook Pro (mid-2014) with macOS, so I need to have a virtual machine f
 I create a virtual machine with Archlinux on my macOS using QEMU:
 
 1. [Download the Archlinux iso image](https://archlinux.org/download/)
-2. Create a qemu disk:
+2. Create a qemu disk
 {% highlight bash %}
 qemu-img create disk.img 15G
 {% endhighlight %}
@@ -29,15 +29,15 @@ qemu-system-x86_64 -cdrom archlinux-2021.11.01-x86_64.iso -boot order=d -drive f
 {% highlight bash %}
 qemu-system-x86_64 -boot -drive format=raw,file=disk.img -m 8G -smp cpus=4 -net user,hostfwd=tcp::2222-:22 -net nic
 {% endhighlight %}
-5. Install dependencies for building the kernel:
+5. Install dependencies for building the kernel
 {% highlight bash %}
 pacman -S gcc git make
 {% endhighlight %}
-6. Clone linux:
+6. Clone linux
 {% highlight bash %}
 git clone git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
 {% endhighlight %}
-7. necessary dependencies
+7. Install the necessary dependencies for building the kernel
 {% highlight bash %}
 pacman -S flex base-devel xmlto kmod inetutils bc libelf git cpio perl tar xz
 {% endhighlight %}
