@@ -39,16 +39,17 @@ pacman -S flex base-devel xmlto kmod inetutils bc libelf git cpio perl tar xz
 {% highlight bash %}
 zcat /proc/config.gz > .config
 {% endhighlight %}
-- Make!
+- Make! The `-j8` parameter specifies the number of threads to be used by the build. My CPU has 8 threads and so I use it all.
 {% highlight bash %}
 make -j8
 {% endhighlight %}
-- Install the newly built Kernel
+- Install the newly built Kernel. I create this as a script file and run it after every build from the root of repository.
 {% highlight bash %}
-make modules_install
-VERSION=5.10
-cp -v arch/x86_64/boot/bzImage /boot/vmlinuz-linux${VERSION}
-mkinitcpio -k $VERSION -g /boot/initramfs-linux${VERSION}.img
+make -j8 modules_install
+RELEASE=$(cat include/config/kernel.release)
+cp -v arch/x86_64/boot/bzImage /boot/vmlinuz-linux${RELEASE}
+mkinitcpio -k $RELEASE -g /boot/initramfs-linux${RELEASE}.img
+mkinitcpio -k $RELEASE -s autodetect -g /boot/initramfs-linux-fallback${RELEASE}.img
 {% endhighlight %}
 - Run grub-mkconfig to add a menu option for this new kernel
 {% highlight bash %}
