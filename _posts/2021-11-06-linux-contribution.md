@@ -73,6 +73,7 @@ scp -r -P 2222 ~/.config/nvim root@localhost:/root/.config/
 There is a `pr_debug` function used over the code, in order to enable those logs in `dmesg` for a specific module, you can do this:
 
 {% highlight bash %}
+echo 8 > /proc/sys/kernel/printk
 echo 'module ip_set +p' > /sys/kernel/debug/dynamic_debug/control
 {% endhighlight %}
 
