@@ -17,11 +17,11 @@ qemu-img create disk.img 15G
 {% endhighlight %}
 - Start the machine and [install Archlinux](https://wiki.archlinux.org/title/Installation_guide)
 {% highlight bash %}
-qemu-system-x86_64 -cdrom archlinux-2021.11.01-x86_64.iso -boot order=d -drive format=raw,file=disk.img -m 8G -smp cpus=4
+qemu-system-x86_64 -cdrom archlinux-2021.11.01-x86_64.iso -boot order=d -drive format=raw,file=disk.img -m 8G
 {% endhighlight %}
-- Start the machine after installing
+- Start the machine after installing (note I forward 2222 to 22 so I can SSH/SCP to the virtual machine. I also set 4 CPUs so I can use threads for faster builds in the VM)
 {% highlight bash %}
-qemu-system-x86_64 -drive format=raw,file=disk.img -m 2G
+qemu-system-x86_64 -boot -drive format=raw,file=disk.img -m 8G -smp cpus=4 -net user,hostfwd=tcp::2222-:22 -net nic
 {% endhighlight %}
 - Install dependencies:
 {% highlight bash %}
@@ -56,3 +56,33 @@ mkinitcpio -k $RELEASE -s autodetect -g /boot/initramfs-linux-fallback${RELEASE}
 grub-mkconfig -o /boot/grub/grub.cfg
 {% endhighlight %}
 - Reboot and choose the new kernel (might be under "Advanced" in the bootloader)
+- Setup your environment for development. Mine consists of setting up tmux so I can have multiple terminals and neovim.
+{% highlight bash %}
+pacman -S neovim openssh tmux
+echo '[[ -z "$TMUX" ]] && exec tmux' >> /etc/profile
+# also follow https://github.com/junegunn/vim-plug for Neovim
+{% endhighlight %}
+
+And in the host:
+{% highlight bash %}
+scp -P 2222 ~/.tmux.conf root@localhost:/root
+scp -r -P 2222 ~/.config/nvim root@localhost:/root/.config/
+{% endhighlight %}
+
+# Debugging Logs
+There is a `pr_debug` function used over the code, in order to enable those logs in `dmesg` for a specific module, you can do this:
+
+{% highlight bash %}
+echo 'module ip_set +p' > /sys/kernel/debug/dynamic_debug/control
+{% endhighlight %}
+
+Note that, this works if you have dynamic debug enabled in your `.config`:
+{% highlight bash %}
+CONFIG_DYNAMIC_DEBUG=y
+CONFIG_DYNAMIC_DEBUG_CORE=y
+{% endhighlight %}
+
+You can then look at `dmesg` while running the code to see those logs:
+{% highlight bash %}
+dmesg
+{% endhighlight %}
