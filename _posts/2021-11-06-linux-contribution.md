@@ -95,3 +95,9 @@ You can then look at `dmesg` while running the code to see those logs:
 {% highlight bash %}
 dmesg
 {% endhighlight %}
+
+# What did I work on?
+
+The first issue I was interested in turned out to be an invalid bug: I found that out by simply investigating the script the user was testing and measuring how much time each part of the script took to find out the main culprit: [bug-214851](https://bugzilla.kernel.org/show_bug.cgi?id=214851).
+
+
