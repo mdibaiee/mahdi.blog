@@ -98,6 +98,6 @@ dmesg
 
 # What did I work on?
 
-The first issue I was interested in turned out to be an invalid bug: I found that out by simply investigating the script the user was testing and measuring how much time each part of the script took to find out the main culprit: [bug-214851](https://bugzilla.kernel.org/show_bug.cgi?id=214851).
+The first issue I was interested in turned out to be an invalid bug: I found that out by investigating the script the user was testing and measuring how much time each part of the script took to find out the main culprit: [bug-214851](https://bugzilla.kernel.org/show_bug.cgi?id=214851). But I learned a lot during this alone, mostly about how to build things quickly, where to look for modules, how to enable debugging for them, etc.
 
 
