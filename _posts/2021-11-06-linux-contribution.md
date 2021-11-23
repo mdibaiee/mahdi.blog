@@ -45,11 +45,18 @@ pacman -S flex base-devel xmlto kmod inetutils bc libelf git cpio perl tar xz
 {% highlight bash %}
 zcat /proc/config.gz > .config
 {% endhighlight %}
-9. Make! The `-j8` parameter specifies the number of threads to be used by the build. My CPU has 8 threads and so I use it all.
+9. Make sure you enable debugging configurations
+{% highlight bash %}
+CONFIG_FRAME_POINTER=y
+CONFIG_KGDB=y
+CONFIG_KGDB_SERIAL_CONSOLE=y
+CONFIG_DEBUG_INFO=y
+{% endhighlight %}
+10. Make! The `-j8` parameter specifies the number of threads to be used by the build. My CPU has 8 threads and so I use it all.
 {% highlight bash %}
 make -j8
 {% endhighlight %}
-10. Install the newly built Kernel. I create this as a script file and run it after every build from the root of repository.
+11. Install the newly built Kernel. I create this as a script file and run it after every build from the root of repository.
 {% highlight bash %}
 make -j8 modules_install
 RELEASE=$(cat include/config/kernel.release)
@@ -95,6 +102,72 @@ You can then look at `dmesg` while running the code to see those logs:
 {% highlight bash %}
 dmesg
 {% endhighlight %}
+
+## Kernel Oops, Bug and Panic
+
+If you get a Kernel Oops, Kernel Bug or similar, here are some good resources on how to read and understand the output:
+
+- [Understanding a Kernel Oops!](https://www.opensourceforu.com/2011/01/understanding-a-kernel-oops/)
+- [How to read, understand, analyze and debug a linux kernel panic](https://stackoverflow.com/questions/13468286/how-to-read-understand-analyze-and-debug-a-linux-kernel-panic)
+- [Kernel Debugging](https://docs.freebsd.org/en/books/developers-handbook/kerneldebug/)
+
+### Reading The Call Trace
+
+For example, I wanted to be able to understand the call trace of this Kernel Bug: [bug-207773](https://bugzilla.kernel.org/show_bug.cgi?id=207773)
+
+The call trace section starts with:
+```
+[226832.533889] Call Trace:
+[226832.534377]  <IRQ>
+[226832.534776]  recent_entry_update+0x52/0xa0 [xt_recent]
+[226832.535690]  recent_mt+0x167/0x328 [xt_recent]
+[226832.536488]  ? set_match_v4+0x96/0xb0 [xt_set]
+[226832.537407]  ipt_do_table+0x24f/0x610 [ip_tables]
+[226832.538277]  ? ipt_do_table+0x33e/0x610 [ip_tables]
+[226832.539146]  ? l4proto_manip_pkt+0xde/0x440 [nf_nat]
+[226832.540049]  ? ip_route_input_rcu+0x40/0x280
+[226832.540831]  nf_hook_slow+0x40/0xb0
+[226832.541477]  ip_forward+0x424/0x450
+[226832.542116]  ? ip_defrag.cold+0x37/0x37
+[226832.542814]  ip_rcv+0x9c/0xb0
+```
+
+The way I did it was to run `gdb` on the `vmlinux` file in the root of the repository after build, and then load the symbol files of each module that is relevant:
+
+{% highlight gdb %}
+gdb vmlinux
+
+(gdb) add-symbol-file vmlinux.o
+(gdb) add-symbol-file net/ipv4/netfilter/ip_tables.o
+(gdb) list *(ipt_do_table+0x24f)
+(gdb) list *(nf_hook_slow+0x40)
+{% endhighlight %}
+
+<!--However, sometimes some files in some modules might not have their object files available readily (e.g. `xt_recent.o` was missing from my tree). In this case, I had to look at the Makefile in `net/netfilter`, and found this:
+{% highlight make %}
+obj-$(CONFIG_NETFILTER_XT_MATCH_RECENT) += xt_recent.o
+{% endhighlight %}
+
+So I enabled this flag in `.config`:
+{% highlight bash %}
+CONFIG_NETFILTER_XT_MATCH_RECENT=m
+{% endhighlight %}
+
+And then built the module again (I had to export the config in this case for some reason):
+{% highlight bash %}
+export CONFIG_NETFILTER_XT_MATCH_RECENT=m
+# rebuild the module
+cd net/netfilter
+make -j8 -C ../../ M=$PWD modules
+{% endhighlight %}
+
+And then, I can load this symbol file as well:
+
+{% highlight gdb %}
+(gdb) add-symbol-file net/netfilter/xt_recent.o
+(gdb) list *(recent_entry_update+0x52)
+(gdb) list *(recent_mt+0x167)
+{% endhighlight %}-->
 
 # What did I work on?
 
