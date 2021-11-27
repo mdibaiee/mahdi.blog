@@ -33,9 +33,11 @@ qemu-system-x86_64 -boot -drive format=raw,file=disk.img -m 8G -smp cpus=4 -net 
 {% highlight bash %}
 pacman -S gcc git make
 {% endhighlight %}
-6. Clone linux
+6. Clone linux (note that you may want to clone another repository other than the stable if you are working on a specific part. For example I had to clone the `netdev` group's tree). [List of different trees](https://git.kernel.org/).
 {% highlight bash %}
 git clone git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
+# netdev group
+git clone git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
 {% endhighlight %}
 7. Install the necessary dependencies for building the kernel
 {% highlight bash %}
@@ -184,6 +186,8 @@ And then, I can load this symbol file as well:
 Here are some good guidelines on how to prepare and send your patch:
 - [The perfect patch](https://www.ozlabs.org/~akpm/stuff/tpp.txt)
 - [Linux kernel patch submission checklist](https://www.kernel.org/doc/html/v4.10/process/submit-checklist.html)
+
+There might be a file called `MAINTAINERS` in the root of the repository you cloned, it may include some notes and tips on how to make the life of maintainers easier by following some guidelines, read it!
 
 # What did I work on?
 
