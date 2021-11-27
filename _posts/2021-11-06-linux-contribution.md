@@ -84,6 +84,16 @@ scp -P 2222 ~/.tmux.conf root@localhost:/root
 scp -r -P 2222 ~/.config/nvim root@localhost:/root/.config/
 {% endhighlight %}
 
+One thing I found necessary, due to limited storage, is a script to cleanup each linux version after I'm done with them, since they create a couple of files in different places. I call this `cleanup-linux.sh`:
+
+{% highlight bash %}
+VERSION=$1
+rm /boot/vmlinuz-linux${VERSION}
+rm /boot/initramfs-linux${VERSION}.img
+rm /boot/initramfs-linux-fallback${VERSION}.img
+rm -r /usr/lib/modules/${VERSION}
+{% endhighlight %}
+
 # Debugging
 There is a `pr_debug` function used over the code, in order to enable those logs in `dmesg` for a specific module, you can do this:
 
