@@ -119,6 +119,7 @@ dmesg
 
 If you get a Kernel Oops, Kernel Bug or similar, here are some good resources on how to read and understand the output:
 
+- [Bug Hunting](https://www.kernel.org/doc/html/v5.0/admin-guide/bug-hunting.html?highlight=dmesg)
 - [Understanding a Kernel Oops!](https://www.opensourceforu.com/2011/01/understanding-a-kernel-oops/)
 - [How to read, understand, analyze and debug a linux kernel panic](https://stackoverflow.com/questions/13468286/how-to-read-understand-analyze-and-debug-a-linux-kernel-panic)
 - [Kernel Debugging](https://docs.freebsd.org/en/books/developers-handbook/kerneldebug/)
@@ -193,4 +194,8 @@ There might be a file called `MAINTAINERS` in the root of the repository you clo
 
 The first issue I was interested in turned out to be an invalid bug: I found that out by investigating the script the user was testing and measuring how much time each part of the script took to find out the main culprit: [bug-214851](https://bugzilla.kernel.org/show_bug.cgi?id=214851). But I learned a lot during this alone, mostly about how to build things quickly, where to look for modules, how to enable debugging for them, etc.
 
-Next, I found [bug-]()
+I wanted to work on the network modules, so I looked around there.
+
+In order to understand how networking module of linux works, I read these resources:
+- [Tracing the Way of Data in a TCP Connec- tion through the Linux Kernel](https://archive.org/details/linux_kernel_data_flow_short_paper/page/n1/mode/1up?view=theater)
+
