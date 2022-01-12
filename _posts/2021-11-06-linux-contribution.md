@@ -5,7 +5,7 @@ date: 2021-11-06 00:00:00
 permalink: first-linux-contribution/
 categories: programming
 author: Mahdi
-published: true
+published: false
 ---
 
 _*This post is under construction. I am in the process of trying to contribute to the Linux Kernel. This post is not finished and will get updated as I go*_
