@@ -16,31 +16,34 @@ redcarpet:
   extensions: ["strikethrough"]
 
 collections:
-  math:
-    title: math
-    output: true
-    permalink: /math/:path/
-    path: /math
-  programming:
-    title: programming
-    output: true
-    permalink: /programming/:path/
-    path: /programming
-  life:
-    title: life
-    output: true
-    permalink: /life/:path/
-    path: /life
-  travel:
-    title: travel
-    output: true
-    permalink: /travel/:path/
-    path: /travel
-  philosophy:
-    title: philosophy
-    output: true
-    permalink: /philosophy/:path/
-    path: /philosophy
+  art:
+    title: art
+    permalink: /art/:path/
+  #math:
+    #title: math
+    #output: true
+    #permalink: /math/:path/
+    #path: /math
+  #programming:
+    #title: programming
+    #output: true
+    #permalink: /programming/:path/
+    #path: /programming
+  #life:
+    #title: life
+    #output: true
+    #permalink: /life/:path/
+    #path: /life
+  #travel:
+    #title: travel
+    #output: true
+    #permalink: /travel/:path/
+    #path: /travel
+  #philosophy:
+    #title: philosophy
+    #output: true
+    #permalink: /philosophy/:path/
+    #path: /philosophy
 
 contentsLabel: "Table of Contents"
 showToggleButton: true

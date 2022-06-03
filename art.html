@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <ul class="post-list">
+    {% for post in site.art %}
+      {% if post.published == false %}
+        {% continue %}
+      {% endif %}
+      <li class='lang-{% if post.lang %}{{ post.lang }}{% else %}en{% endif %}'>
+        <h2>
+          <!--<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>-->
+
+          <!--<p class="post-meta">
+            <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+            {% if post.meta %} • <span>{{ post.meta }}</span>{% endif %}
+          </p>-->
+
+        <article class='post-content'>
+          {{ post.content | markdownify }}
+        </article>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via rss</a></p>
+
+</div>
