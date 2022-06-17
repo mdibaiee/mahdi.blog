@@ -11,7 +11,7 @@ layout: default
       {% endif %}
       <li class='lang-{% if post.lang %}{{ post.lang }}{% else %}en{% endif %}'>
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | markdownify }}</a>
 
           <p class="post-meta">
             <span>{{ post.date | date: "%b %-d, %Y" }}</span>
