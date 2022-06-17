@@ -13,7 +13,7 @@ Today I and a friend went down a rabbit hole about Rust and how it manages the h
 
 TL;DR:
 
-`Box<str>` is a primitive `str` allocated on the heap, whereas `String` is actually a `Vec<unsigned char>`, also allocated on the heap, which allows for efficient removals and appendages. `Box<str>` (16 bytes) uses less memory than `String` (24 bytes).
+`Box<str>` is a fixed-size primitive `str` allocated on the heap, whereas `String` is actually a `Vec<unsigned char>`, also allocated on the heap, which allows for efficient removals and appendages. `Box<str>` (16 bytes) uses less memory than `String` (24 bytes).
 
 ------
 
