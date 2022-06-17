@@ -13,7 +13,7 @@ Today I and a friend went down a rabbit hole about Rust and how it manages the h
 
 TL;DR:
 
-`Box<str>` is a primitive, immutable `str` allocated on the heap, whereas `String` is actually a `Vec<unsigned char>`, also allocated on the heap, but allowing for removals and appendages. `Box<str>` uses less memory than `String`.
+`Box<str>` is a primitive `str` allocated on the heap, whereas `String` is actually a `Vec<unsigned char>`, also allocated on the heap, which allows for efficient removals and appendages. `Box<str>` (16 bytes) uses less memory than `String` (24 bytes).
 
 ------
 
@@ -232,7 +232,7 @@ And `lldb` tells us:
 }
 ```
 
-Okay, so a `Box<str>` is much simpler than a `String`: there is no `Vec`, and no `capacity`, and the underlying data is a fixed primitive `str` that does not allow appending or removing, so basically `Box<str>` is an immutable `String`. It is a smaller representation as well, due to the missing `capacity` field, comparing their memory size on stack using [std::mem::size_of_val](https://doc.rust-lang.org/std/mem/fn.size_of_val.html):
+Okay, so a `Box<str>` is much simpler than a `String`: there is no `Vec`, and no `capacity`, and the underlying data is a fixed primitive `str` that does not allow appending or removing. It is a smaller representation as well, due to the missing `capacity` field, comparing their memory size on stack using [std::mem::size_of_val](https://doc.rust-lang.org/std/mem/fn.size_of_val.html):
 
 ```rust
 let boxed_str: Box<str> = "hello".into();
@@ -270,3 +270,13 @@ dhat: At t-gmax: 1,029 bytes in 2 blocks
 dhat: At t-end:  1,024 bytes in 1 blocks
 dhat: The data has been saved to dhat-heap.json, and is viewable with dhat/dh_view.html
 ```
+
+There is also `Box<[T]>` which is the fixed size counterpart to `Box<Vec<T>>`.
+
+# Should I use `Box<str>` or `String`?
+
+The only use case for `Box<str>` over `String` that I can think of, is optimising for memory usage when the string is fixed and you do not intend to append or remove from it. I looked for examples of `Box<str>` being used, and I found a few examples:
+
+- Hyper uses it in a part to reduce memory usage, since the string they have is read-only: [hyper#2727](https://github.com/hyperium/hyper/pull/2727)
+- Rust-analyzer uses it to store some strings in their snippets data structre: [rust-lang/rust-analyzer/crates/ide-completion/src/snippet.rs](https://github.com/rust-lang/rust-analyzer/blob/5c88d9344c5b32988bfbfc090f50aba5de1db062/crates/ide-completion/src/snippet.rs#L123)
+- It is also used in some parts in the compiler itself, probably with the same aim of optimising memory usage: [rust-lang/rust/src/libsyntax/symbol.rs](https://github.com/rust-lang/rust/blob/7846610470392abc3ab1470853bbe7b408fe4254/src/libsyntax/symbol.rs#L82-L85)
