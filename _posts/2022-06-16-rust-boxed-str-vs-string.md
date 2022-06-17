@@ -13,7 +13,7 @@ Today I and a friend went down a rabbit hole about Rust and how it manages the h
 
 TL;DR:
 
-`Box<str>` is a fixed-size primitive `str` allocated on the heap, whereas `String` is actually a `Vec<unsigned char>`, also allocated on the heap, which allows for efficient removals and appendages. `Box<str>` (16 bytes) uses less memory than `String` (24 bytes).
+`Box<str>` is a fixed-size primitive `str` allocated on the heap, whereas `String` is actually a `Vec<u8>`, also allocated on the heap, which allows for efficient removals and appendages. `Box<str>` (16 bytes) uses less memory than `String` (24 bytes).
 
 ------
 
@@ -176,7 +176,7 @@ Process 68317 stopped
 }
 ```
 
-This is a formatted output from `lldb`, and here you can see that the `String` type is basically a `Vec<unsigned char, alloc::Global>`, let's now look at the same command but this time raw and unformatted (`-R`):
+This is a formatted output from `lldb`, and here you can see that the `String` type is basically a `Vec<unsigned char, alloc::Global>` (note that `unsigned char` is represented using `u8` in Rust, so in Rust terminology the type is `Vec<u8>`), let's now look at the same command but this time raw and unformatted (`-R`):
 
 ```
 (lldb) frame var -L -T -R
