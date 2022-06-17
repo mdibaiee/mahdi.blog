@@ -13,7 +13,7 @@ Today I and a friend went down a rabbit hole about Rust and how it manages the h
 
 TL;DR:
 
-`Box<str>` is a fixed-size primitive `str` allocated on the heap, whereas `String` is actually a `Vec<u8>`, also allocated on the heap, which allows for efficient removals and appendages. `Box<str>` (16 bytes) uses less memory than `String` (24 bytes).
+`Box<str>` is a primitive `str` allocated on the heap, whereas `String` is actually a `Vec<u8>`, also allocated on the heap, which allows for efficient removals and appends. `Box<str>` (16 bytes) uses less memory than `String` (24 bytes).
 
 ------
 
@@ -195,7 +195,7 @@ This is a formatted output from `lldb`, and here you can see that the `String` t
 }
 ```
 
-Ah! I see the `ptr` field of `RawVec` with a value of `0x0000600000004010`, that is the memory address of the beginning of our string (namely the `h` of our `hello`)! There is also `cap` and `len`, which respectively stand for capacity and length, with the value 6, indicating that our string is of capacity and length 6 (the difference between the two being that a [Vec is not automatically shrunk down](https://doc.rust-lang.org/nightly/std/vec/struct.Vec.html#guarantees) in size when items are removed from it to avoid unnecessary deallocations, hence the length might be smaller than the capacity). So in a nutshell, our String is basically something like this (inspired by [std::vec::Vec](https://doc.rust-lang.org/nightly/std/vec/struct.Vec.html#guarantees)):
+Ah! I see the `ptr` field of `RawVec` with a value of `0x0000600000004010`, that is the memory address of the beginning of our string (namely the `h` of our `hello`)! There is also `cap` and `len`, which respectively stand for capacity and length, with the value 6, indicating that our string is of capacity and length 6; the difference between the two being that [you can have a `Vec` with a capacity of 10 while it has zero items](https://doc.rust-lang.org/nightly/std/vec/struct.Vec.html#capacity-and-reallocation), this would allow you to append 10 items to the `Vec` without having a new allocation for each append, making the process more efficient, and also a [Vec is not automatically shrunk down](https://doc.rust-lang.org/nightly/std/vec/struct.Vec.html#guarantees) in size when items are removed from it to avoid unnecessary deallocations, hence the length might be smaller than the capacity. So in a nutshell, our String is basically something like this (inspired by [std::vec::Vec](https://doc.rust-lang.org/nightly/std/vec/struct.Vec.html#guarantees)):
 
 ```
 Stack:
@@ -232,7 +232,7 @@ And `lldb` tells us:
 }
 ```
 
-Okay, so a `Box<str>` is much simpler than a `String`: there is no `Vec`, and no `capacity`, and the underlying data is a fixed primitive `str` that does not allow appending or removing. It is a smaller representation as well, due to the missing `capacity` field, comparing their memory size on stack using [std::mem::size_of_val](https://doc.rust-lang.org/std/mem/fn.size_of_val.html):
+Okay, so a `Box<str>` is much simpler than a `String`: there is no `Vec`, and no `capacity`, and the underlying data is a primitive `str` that does not allow efficient appending or removing. It is a smaller representation as well, due to the missing `capacity` field, comparing their memory size on stack using [std::mem::size_of_val](https://doc.rust-lang.org/std/mem/fn.size_of_val.html):
 
 ```rust
 let boxed_str: Box<str> = "hello".into();
@@ -271,7 +271,7 @@ dhat: At t-end:  1,024 bytes in 1 blocks
 dhat: The data has been saved to dhat-heap.json, and is viewable with dhat/dh_view.html
 ```
 
-There is also `Box<[T]>` which is the fixed size counterpart to `Box<Vec<T>>`.
+There is also `Box<[T]>` which is the fixed size counterpart to `Vec<T>`.
 
 # Should I use `Box<str>` or `String`?
 
