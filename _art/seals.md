@@ -1,0 +1,14 @@
+---
+layout: post
+title: "seals"
+date:   2022-06-27
+categories: art
+author: Mahdi
+---
+
+![seals](/img/arts/seals.jpeg)
+
+<span class='image-details'>
+Seals meetup.<br/>
+Lundy Island
+</span>
