@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/deer-silhouette.jpg)
+![deer-silhouette](/img/arts/deer-silhouette.jpg)
+
+<span class='image-details'>
+Killarney, Ireland.
+</span>

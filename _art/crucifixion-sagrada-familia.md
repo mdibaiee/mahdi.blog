@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/crucifixion-sagrada-familia.jpg)
+![crucifixion](/img/arts/crucifixion-sagrada-familia.jpg)
+
+<span class='image-details'>
+Crucifixion | تصلیب
+</span>

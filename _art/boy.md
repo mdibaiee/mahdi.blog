@@ -7,3 +7,7 @@ author: Mahdi
 ---
 
 ![boy.](/img/arts/boy.jpg)
+
+<span class='image-details'>
+Boy.
+</span>

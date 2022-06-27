@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/un-grand-peut-etre.jpg)
+![un-grand-peut-etre](/img/arts/un-grand-peut-etre.jpg)
+
+<span class='image-details'>
+Un grand peut-être.
+</span>

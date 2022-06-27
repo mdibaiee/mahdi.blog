@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/iran-yeylaq.jpg)
+![iran-yeylaq](/img/arts/iran-yeylaq.jpg)
+
+<span class='image-details'>
+Shaft, Iran.
+</span>

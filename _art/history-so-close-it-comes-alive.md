@@ -6,4 +6,9 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/history-so-close-it-comes-alive.jpg)
+![history-so-close-it-comes-alive](/img/arts/history-so-close-it-comes-alive.jpg)
+
+<span class='image-details'>
+History so close it comes alive.
+</span>
+

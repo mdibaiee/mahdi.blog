@@ -6,4 +6,9 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/head-wall.jpg)
+![head-wall](/img/arts/head-wall.jpg)
+
+<span class='image-details'>
+"I am going to put myself to sleep now for a bit longer than usual. Call it Eternity." - Jerzy Kosinski
+</span>
+

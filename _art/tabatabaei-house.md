@@ -6,4 +6,10 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/tabatabaei-house.jpg)
+![tabatabaei-house](/img/arts/tabatabaei-house.jpg)
+
+
+<span class='image-details'>
+Marvels of hand.<br/>
+Kashan, Iran.
+</span>

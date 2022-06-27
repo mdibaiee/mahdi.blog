@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/birds-sunrise-sea-iran.jpg)
+![birds-sunrise-sea-iran](/img/arts/birds-sunrise-sea-iran.jpg)
+
+<span class='image-details'>
+Bandar Abbas, Iran
+</span>

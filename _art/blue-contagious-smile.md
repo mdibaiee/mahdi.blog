@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/blue-contagious-smile.jpg)
+![blue-contagious-smile](/img/arts/blue-contagious-smile.jpg)
+
+<span class='image-details'>
+A blue, contagious smile
+</span>

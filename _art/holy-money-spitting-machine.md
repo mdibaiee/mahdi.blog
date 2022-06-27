@@ -6,4 +6,9 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/holy-money-spitting-machine.jpg)
+![holy-money-spitting-machine](/img/arts/holy-money-spitting-machine.jpg)
+
+<span class='image-details'>
+Holy money-spitting machine
+</span>
+

@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/organs.jpg)
+![organs](/img/arts/organs.jpg)
+
+<span class='image-details'>
+At twenty, Bach made a pilgrimage of almost four hundred kilometres, on foot, to hear Buxtehude play the organ. 1705.
+</span>

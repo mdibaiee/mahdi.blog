@@ -6,4 +6,9 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/dublin-chimneys.jpg)
+![dublin-chimneys](/img/arts/dublin-chimneys.jpg)
+
+<span class='image-details'>
+The Chimneys.<br/>
+Dublin.
+</span>

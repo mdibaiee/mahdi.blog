@@ -118,6 +118,10 @@ strong {
   font-size: 1.3rem;
 }
 
+.post-content {
+  position: relative;
+}
+
 .post-content [id] {
   position: relative;
 
@@ -199,4 +203,28 @@ hr {
 .centered {
   margin: 2rem auto;
   display: block;
+}
+
+.art .image-details {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 12px;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-family: monospace;
+  text-align: left;
+
+  transition: opacity 0.2s;
+}
+
+.art .image-details.lang-fa {
+  left: none;
+  right: 10px;
+  text-align: right;
+  font-family: $base-font-family;
+}
+
+.art .post-content:hover .image-details {
+  opacity: 0;
 }

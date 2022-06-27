@@ -6,4 +6,9 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/i-cast-a-spell-on-the-city.jpg)
+![i-cast-a-spell-on-the-city](/img/arts/i-cast-a-spell-on-the-city.jpg)
+
+<span class='image-details'>
+I cast a spell on the city, asking it to last.
+</span>
+

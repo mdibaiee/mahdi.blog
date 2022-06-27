@@ -6,4 +6,10 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/male-back.jpg)
+![male-back](/img/arts/male-back.jpg)
+
+
+<span class='image-details'>
+"The stillness covers my ears<br/>
+Tenderly, until all sound disappears" - Tamino
+</span>

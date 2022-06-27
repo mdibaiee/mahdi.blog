@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/et-les-extremes-se-touchent.jpg)
+![et-les-extremes-se-touchent](/img/arts/et-les-extremes-se-touchent.jpg)
+
+<span class='image-details'>
+Et les extremes se touchent.
+</span>

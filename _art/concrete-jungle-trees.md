@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/concrete-jungle-trees.jpg)
+![concrete-jungle-trees](/img/arts/concrete-jungle-trees.jpg)
+
+<span class='image-details'>
+Long trees of our concrete jungle.
+</span>

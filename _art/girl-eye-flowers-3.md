@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/girl-eye-flowers-3.jpg)
+![girl-eye-flowers-3](/img/arts/girl-eye-flowers-3.jpg)
+
+<span class='image-details'>
+A narration.
+</span>

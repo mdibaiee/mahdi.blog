@@ -6,4 +6,10 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/hill-of-tara.jpg)
+![hill-of-tara](/img/arts/hill-of-tara.jpg)
+
+<span class='image-details'>
+Hill of Tara.<br/>
+Meath, Ireland.
+</span>
+

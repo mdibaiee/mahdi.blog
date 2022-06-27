@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/ireland-abandoned.jpg)
+![ireland-abandoned](/img/arts/ireland-abandoned.jpg)
+
+<span class='image-details'>
+Is this the real life? Is this just fantasy?
+</span>

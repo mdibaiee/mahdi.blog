@@ -6,4 +6,10 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/flamingos-iran.jpg)
+![flamingos-iran](/img/arts/flamingos-iran.jpg)
+
+
+<span class='image-details'>
+Breakfast for the flamingos.<br/>
+Bandar Abbas, Iran.
+</span>

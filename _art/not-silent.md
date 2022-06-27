@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/not-silent.jpg)
+![not-silent](/img/arts/not-silent.jpg)
+
+<span class='image-details'>
+This image is not silent.
+</span>

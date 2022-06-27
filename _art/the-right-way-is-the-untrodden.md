@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/the-right-way-is-the-untrodden.jpg)
+![the-right-way-is-the-untrodden](/img/arts/the-right-way-is-the-untrodden.jpg)
+
+<span class='image-details'>
+The right way is the untrodden. It becomes the wrong when you step on it.
+</span>

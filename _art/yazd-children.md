@@ -7,3 +7,7 @@ author: Mahdi
 ---
 
 ![Children in Yazd](/img/arts/yazd-children.jpg)
+
+<span class='image-details'>
+Yazd, Iran.
+</span>

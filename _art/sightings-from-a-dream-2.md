@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/sightings-from-a-dream-2.jpg)
+![sightings-from-a-dream-2](/img/arts/sightings-from-a-dream-2.jpg)
+
+<span class='image-details'>
+Sightings from a dream.
+</span>

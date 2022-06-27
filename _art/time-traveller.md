@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/time-traveller.jpg)
+![time-traveller](/img/arts/time-traveller.jpg)
+
+<span class='image-details'>
+Time traveller.
+</span>

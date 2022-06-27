@@ -6,4 +6,9 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/punk-gangster.jpg)
+![punk-gangster](/img/arts/punk-gangster.jpg)
+
+
+<span class='image-details'>
+Punk gangster!
+</span>

@@ -6,4 +6,9 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/cemetery.jpg)
+![cemetery](/img/arts/cemetery.jpg)
+
+<span class='image-details'>
+It’s strange how we are reminded of our mortality when something goes completely wrong.<br/>
+Mount Venus Cemetery.
+</span>

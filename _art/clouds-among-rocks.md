@@ -6,4 +6,9 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/clouds-among-rocks.jpg)
+![clouds-among-rocks](/img/arts/clouds-among-rocks.jpg)
+
+<span class='image-details'>
+Dance of clouds.<br/>
+Killarney, Ireland.
+</span>

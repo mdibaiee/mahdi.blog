@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/drummer-vanishing.jpg)
+![drummer-vanishing](/img/arts/drummer-vanishing.jpg)
+
+<span class='image-details'>
+Vanishing
+</span>

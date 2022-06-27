@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/milan-cathedral.jpg)
+![milan-cathedral](/img/arts/milan-cathedral.jpg)
+
+<span class='image-details'>
+It took 579 years to build the Milan Cathedral. 1386-1965. 
+</span>

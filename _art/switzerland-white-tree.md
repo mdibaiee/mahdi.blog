@@ -6,4 +6,9 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/switzerland-white-tree.jpg)
+![switzerland-white-tree](/img/arts/switzerland-white-tree.jpg)
+
+
+<span class='image-details'>
+Encanto blanco.
+</span>

@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/god-will-pardon-me.jpg)
+![god-will-pardon-me](/img/arts/god-will-pardon-me.jpg)
+
+<span class='image-details'>
+"Dieu me pardonnera c'est son metier." - Heinrich Heine
+</span>

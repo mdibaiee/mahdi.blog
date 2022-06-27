@@ -6,4 +6,9 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/tired-eyes-tired-minds-tired-souls.jpg)
+![tired-eyes-tired-minds-tired-souls](/img/arts/tired-eyes-tired-minds-tired-souls.jpg)
+
+
+<span class='image-details'>
+With tired eyes, tired minds, tired souls, we slept.
+</span>

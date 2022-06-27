@@ -6,4 +6,9 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/christmas-day-homeless-man-church.jpg)
+![christmas-day-homeless-man-church](/img/arts/christmas-day-homeless-man-church.jpg)
+
+<span class='image-details'>
+Homeless man praying in front of John's Lane Church.<br/>
+Christmas day. 
+</span>

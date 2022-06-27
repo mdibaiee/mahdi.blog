@@ -6,4 +6,9 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/shepherd.jpg)
+![shepherd](/img/arts/shepherd.jpg)
+
+<span class='image-details'>
+Shepherd.<br/>
+Semnan, Iran.
+</span>

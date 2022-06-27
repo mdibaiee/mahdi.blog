@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/baled-hay.jpg)
+![baled-hay](/img/arts/baled-hay.jpg)
+
+<span class='image-details'>
+Somewhere in Ireland
+</span>

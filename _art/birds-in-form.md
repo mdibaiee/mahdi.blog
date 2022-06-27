@@ -6,4 +6,8 @@ categories: art
 author: Mahdi
 ---
 
-![boy.](/img/arts/birds-in-form.jpg)
+![birds-in-form](/img/arts/birds-in-form.jpg)
+
+<span class='image-details'>
+"Je finis par trouver sacre le desordre de mon esprit." - Arthur Rimbaud
+</span>
