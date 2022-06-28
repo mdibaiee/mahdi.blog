@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "What is `Box<str>` and how is it different from `String` in Rust?"
+subtitle: Using `rust-lldb` to understand rust memory internals
 date: 2022-06-16 00:00:00
 permalink: rust-box-str-vs-string/
 categories: programming
