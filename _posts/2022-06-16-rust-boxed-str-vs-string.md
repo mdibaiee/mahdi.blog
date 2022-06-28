@@ -143,7 +143,7 @@ Turns out, `String` and `Vec` cover two of the most common cases where we may wa
 
 ```rust
 fn main() {
-    let s = String::from("hello!");
+    let s = String::from("hello");
     println!("{}", s);
 }
 ```
@@ -159,19 +159,18 @@ Process 68317 stopped
 * thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
     frame #0: 0x000000010000476c string-program`string_program::main::h64ca96ee87b0ceaf at main.rs:3:5
    1    fn main() {
-   2        let s = String::from("hello!");
+   2        let s = String::from("hello");
 -> 3        println!("{}", s);
    4    }
    
 (lldb) frame var -L -T
-0x000000016fdfed78: (alloc::string::String) s = "hello!" {
-0x000000016fdfed78:   (alloc::vec::Vec<unsigned char, alloc::alloc::Global>) vec = size=6 {
+0x000000016fdfed78: (alloc::string::String) s = "hello" {
+0x000000016fdfed78:   (alloc::vec::Vec<unsigned char, alloc::alloc::Global>) vec = size=5 {
 0x0000600000004010:     (unsigned char) [0] = 'h'
 0x0000600000004011:     (unsigned char) [1] = 'e'
 0x0000600000004012:     (unsigned char) [2] = 'l'
 0x0000600000004013:     (unsigned char) [3] = 'l'
 0x0000600000004014:     (unsigned char) [4] = 'o'
-0x0000600000004015:     (unsigned char) [5] = '!'
   }
 }
 ```
@@ -238,7 +237,7 @@ Okay, so a `Box<str>` is much simpler than a `String`: there is no `Vec`, and no
 let boxed_str: Box<str> = "hello".into();
 println!("size of boxed_str on stack: {}", std::mem::size_of_val(&boxed_str));
 
-let s = String::from("hello!");
+let s = String::from("hello");
 println!("size of string on stack: {}", std::mem::size_of_val(&s));
 ```
 
