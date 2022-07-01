@@ -18,10 +18,10 @@ TL;DR:
 
 ------
 
-I will be using `rust-lldb` throughout this post to understand what is going on in the rust programs we write and run. The source code for this blog post is available on [mdibaiee/rust-memory-playground](https://github.com/mdibaiee/rust-memory-playground).
+I will be using `rust-lldb` throughout this post to understand what is going on in the rust programs we write and run. The source code for this blog post is available on [mdibaiee/rust-memory-playground](https://git.mahdi.blog/mahdi/rust-memory-playground).
 
 ```bash
-git clone git@github.com:mdibaiee/rust-memory-playground
+git clone https://git.mahdi.blog/mahdi/rust-memory-playground
 cd rust-memory-playground
 ```
 
