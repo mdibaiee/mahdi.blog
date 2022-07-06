@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Typoclassopedia: Exercise solutions</title>
+  <meta name="description" content="I wanted to get proficient in Haskell so I decided to follow An [Essential] Haskell Reading List. There I stumbled upon Typoclassopedia, while the material i...">
+
+  <link href="https://fonts.googleapis.com/css?family=Secular+One|Nunito|Mononoki" rel="stylesheet"> 
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/typoclassopedia-exercise-solutions/">
+  <link rel="alternate" type="application/rss+xml" title="mahdi" href="http://localhost:4000/feed.xml" />
+
+  
+    <link rel='stylesheet' href='/css/katex.min.css'>
+    <script src='/js/katex.min.js'></script>
+    <script src='/js/auto-render.min.js'></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "\\[", right: "\\]", display: true},
+            {left: "\\(", right: "\\)", display: false},
+            {left: "$", right: "$", display: false},
+          ],
+        });
+      });
+    </script>
+  
+
+  <!--<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>-->
+
+  <script>
+    var channel = new BroadcastChannel('egg');
+
+    channel.addEventListener('message', message => {
+      alert('Got a message from the other tab:\n' + message.data);
+    });
+  </script>
+</head>
+
+
+
+  <body>
+
+    <header class="site-header">
+
+  <h1>
+    <a class='site-title' href='/'>
+      mahdi
+    </a>
+  </h1>
+
+  <nav>
+    <p>
+      <a href="/snippets">snippets</a>
+      <a href="/art">pictures</a>
+    </p>
+    <!--<p class='categories'>-->
+      <!---->
+        <!---->
+        <!--<a href="">art</a>-->
+        <!---->
+      <!---->
+        <!---->
+      <!---->
+    <!--</p>-->
+    <p>
+      <a href='mailto:mdibaiee@pm.me'>email</a>
+      <a href='https://git.mahdi.blog/mahdi'>git</a>
+      <a href='https://www.librarything.com/profile/mdibaiee'>librarything</a>
+      <a href="http://localhost:4000/feed.xml">feed</a>
+    </p>
+  </nav>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <h1 class="page-heading"></h1>
+        
+          <div class="post lang-en">
+
+  <div class="post-header">
+    <h1 class="post-title" id="tocAnchor-1-1"></h1><p>Typoclassopedia: Exercise solutions</p>
+
+    
+    <p class="post-meta">
+      <span>Sep 27, 2017</span>
+      
+      • <span>Reading time: 55  minutes</span>
+    </p>
+  </div><div id="toc-container"><table class="toc" id="toc"><tbody><tr><td><h2>Table of Contents</h2><input type="checkbox" id="toctogglelink" href="#" checked="checked" /><span></span><ul><li class="toc_level-1 toc_section-1"><a href="#tocAnchor-1-1"><span class="tocnumber">1</span> <span class="toctext"></span></a></li><li class="toc_level-1 toc_section-2"><a href="#tocAnchor-1-2"><span class="tocnumber">2</span> <span class="toctext">Functor</span></a><ul><li class="toc_level-2 toc_section-3"><a href="#tocAnchor-1-2-1"><span class="tocnumber">2.1</span> <span class="toctext">Instances</span></a></li><li class="toc_level-2 toc_section-4"><a href="#tocAnchor-1-2-2"><span class="tocnumber">2.2</span> <span class="toctext">Functor Laws</span></a></li></ul></li><li class="toc_level-1 toc_section-5"><a href="#tocAnchor-1-5"><span class="tocnumber">3</span> <span class="toctext">Category Theory</span></a><ul><li class="toc_level-2 toc_section-6"><a href="#tocAnchor-1-5-1"><span class="tocnumber">3.1</span> <span class="toctext">Introduction to categories</span></a></li><li class="toc_level-2 toc_section-7"><a href="#tocAnchor-1-5-2"><span class="tocnumber">3.2</span> <span class="toctext">Functors</span></a></li></ul></li><li class="toc_level-1 toc_section-8"><a href="#tocAnchor-1-8"><span class="tocnumber">4</span> <span class="toctext">Applicative</span></a><ul><li class="toc_level-2 toc_section-9"><a href="#tocAnchor-1-8-1"><span class="tocnumber">4.1</span> <span class="toctext">Laws</span></a></li><li class="toc_level-2 toc_section-10"><a href="#tocAnchor-1-8-2"><span class="tocnumber">4.2</span> <span class="toctext">Instances</span></a></li><li class="toc_level-2 toc_section-11"><a href="#tocAnchor-1-8-3"><span class="tocnumber">4.3</span> <span class="toctext">Utility functions</span></a></li><li class="toc_level-2 toc_section-12"><a href="#tocAnchor-1-8-4"><span class="tocnumber">4.4</span> <span class="toctext">Alternative formulation</span></a></li></ul></li><li class="toc_level-1 toc_section-13"><a href="#tocAnchor-1-13"><span class="tocnumber">5</span> <span class="toctext">Monad</span></a><ul><li class="toc_level-2 toc_section-14"><a href="#tocAnchor-1-13-1"><span class="tocnumber">5.1</span> <span class="toctext">Definition</span></a></li><li class="toc_level-2 toc_section-15"><a href="#tocAnchor-1-13-2"><span class="tocnumber">5.2</span> <span class="toctext">Instances</span></a></li><li class="toc_level-2 toc_section-16"><a href="#tocAnchor-1-13-3"><span class="tocnumber">5.3</span> <span class="toctext">Intuition</span></a></li><li class="toc_level-2 toc_section-17"><a href="#tocAnchor-1-13-4"><span class="tocnumber">5.4</span> <span class="toctext">Laws</span></a></li></ul></li><li class="toc_level-1 toc_section-18"><a href="#tocAnchor-1-18"><span class="tocnumber">6</span> <span class="toctext">Monad Transformers</span></a><ul><li class="toc_level-2 toc_section-19"><a href="#tocAnchor-1-18-1"><span class="tocnumber">6.1</span> <span class="toctext">Definition and laws</span></a></li><li class="toc_level-2 toc_section-20"><a href="#tocAnchor-1-18-2"><span class="tocnumber">6.2</span> <span class="toctext">Composing Monads</span></a></li></ul></li><li class="toc_level-1 toc_section-21"><a href="#tocAnchor-1-21"><span class="tocnumber">7</span> <span class="toctext">MonadFix</span></a><ul><li class="toc_level-2 toc_section-22"><a href="#tocAnchor-1-21-1"><span class="tocnumber">7.1</span> <span class="toctext">Examples and intuition</span></a></li></ul></li><li class="toc_level-1 toc_section-23"><a href="#tocAnchor-1-23"><span class="tocnumber">8</span> <span class="toctext">Foldable</span></a><ul><li class="toc_level-2 toc_section-24"><a href="#tocAnchor-1-23-1"><span class="tocnumber">8.1</span> <span class="toctext">Definition</span></a></li><li class="toc_level-2 toc_section-25"><a href="#tocAnchor-1-23-2"><span class="tocnumber">8.2</span> <span class="toctext">Instances and examples</span></a></li><li class="toc_level-2 toc_section-26"><a href="#tocAnchor-1-23-3"><span class="tocnumber">8.3</span> <span class="toctext">Utility functions</span></a></li></ul></li><li class="toc_level-1 toc_section-27"><a href="#tocAnchor-1-27"><span class="tocnumber">9</span> <span class="toctext">Traversable</span></a><ul><li class="toc_level-2 toc_section-28"><a href="#tocAnchor-1-27-1"><span class="tocnumber">9.1</span> <span class="toctext">Intuition</span></a></li><li class="toc_level-2 toc_section-29"><a href="#tocAnchor-1-27-2"><span class="tocnumber">9.2</span> <span class="toctext">Instances and examples</span></a></li></ul></li></ul></td></tr></tbody></table></div>
+
+  <article class="post-content">
+    <p>I wanted to get proficient in Haskell so I decided to follow <a href="http://www.stephendiehl.com/posts/essential_haskell.html">An [Essential] Haskell Reading List</a>. There I stumbled upon <a href="https://wiki.haskell.org/Typeclassopedia">Typoclassopedia</a>, while the material is great, I couldn’t find solutions for the exercises to check against, so I decided I would write my own and hopefully the solutions would get fixed in case I have gone wrong by others. So if you think a solution is wrong, let me know in the comments!</p>
+
+<p>In each section below, I left some reference material for the exercises and then the solutions.</p>
+
+<p>Note: The post will be updated as I progress in Typoclassopedia myself</p>
+
+<h1 id="tocAnchor-1-2">Functor</h1>
+<h2 id="tocAnchor-1-2-1">Instances</h2>
+
+<div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">instance</span> <span class="kt">Functor</span> <span class="kt">[]</span> <span class="kr">where</span>
+  <span class="n">fmap</span> <span class="o">::</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="n">a</span><span class="p">]</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="n">b</span><span class="p">]</span>
+  <span class="n">fmap</span> <span class="kr">_</span> <span class="kt">[]</span>     <span class="o">=</span> <span class="kt">[]</span>
+  <span class="n">fmap</span> <span class="n">g</span> <span class="p">(</span><span class="n">x</span><span class="o">:</span><span class="n">xs</span><span class="p">)</span> <span class="o">=</span> <span class="n">g</span> <span class="n">x</span> <span class="o">:</span> <span class="n">fmap</span> <span class="n">g</span> <span class="n">xs</span>
+  <span class="c1">-- or we could just say fmap = map</span>
+ 
+<span class="kr">instance</span> <span class="kt">Functor</span> <span class="kt">Maybe</span> <span class="kr">where</span>
+  <span class="n">fmap</span> <span class="o">::</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Maybe</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">Maybe</span> <span class="n">b</span>
+  <span class="n">fmap</span> <span class="kr">_</span> <span class="kt">Nothing</span>  <span class="o">=</span> <span class="kt">Nothing</span>
+  <span class="n">fmap</span> <span class="n">g</span> <span class="p">(</span><span class="kt">Just</span> <span class="n">a</span><span class="p">)</span> <span class="o">=</span> <span class="kt">Just</span> <span class="p">(</span><span class="n">g</span> <span class="n">a</span><span class="p">)</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p>((,) e) represents a container which holds an “annotation” of type e along with the actual value it holds. It might be clearer to write it as (e,), by analogy with an operator section like (1+), but that syntax is not allowed in types (although it is allowed in expressions with the TupleSections extension enabled). However, you can certainly think of it as (e,).</p>
+</blockquote>
+
+<blockquote>
+  <p>((-&gt;) e) (which can be thought of as (e -&gt;); see above), the type of functions which take a value of type e as a parameter, is a Functor. As a container, (e -&gt; a) represents a (possibly infinite) set of values of a, indexed by values of e. Alternatively, and more usefully, ((-&gt;) e) can be thought of as a context in which a value of type e is available to be consulted in a read-only fashion. This is also why ((-&gt;) e) is sometimes referred to as the reader monad; more on this later.</p>
+</blockquote>
+
+<h3 id="exercises">Exercises</h3>
+
+<ol>
+  <li>
+    <p>Implement <code class="language-plaintext highlighter-rouge">Functor</code> instances for <code class="language-plaintext highlighter-rouge">Either e</code> and <code class="language-plaintext highlighter-rouge">((-&gt;) e)</code>.</p>
+
+    <p><strong>Solution</strong>:</p>
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">instance</span> <span class="kt">Functor</span> <span class="p">(</span><span class="kt">Either</span> <span class="n">e</span><span class="p">)</span> <span class="kr">where</span>
+  <span class="n">fmap</span> <span class="kr">_</span> <span class="p">(</span><span class="kt">Left</span> <span class="n">e</span><span class="p">)</span> <span class="o">=</span> <span class="kt">Left</span> <span class="n">e</span>
+  <span class="n">fmap</span> <span class="n">g</span> <span class="p">(</span><span class="kt">Right</span> <span class="n">a</span><span class="p">)</span> <span class="o">=</span> <span class="kt">Right</span> <span class="p">(</span><span class="n">g</span> <span class="n">a</span><span class="p">)</span>
+      
+<span class="kr">instance</span> <span class="kt">Functor</span> <span class="p">((</span><span class="o">-&gt;</span><span class="p">)</span> <span class="n">e</span><span class="p">)</span> <span class="kr">where</span>
+  <span class="n">fmap</span> <span class="n">g</span> <span class="n">f</span> <span class="o">=</span> <span class="n">g</span> <span class="o">.</span> <span class="n">f</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Implement <code class="language-plaintext highlighter-rouge">Functor</code> instances for <code class="language-plaintext highlighter-rouge">((,) e)</code> and for <code class="language-plaintext highlighter-rouge">Pair</code>, defined as below. Explain their similarities and differences.</p>
+
+    <p><strong>Solution</strong>:</p>
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">instance</span> <span class="kt">Functor</span> <span class="p">((,)</span> <span class="n">e</span><span class="p">)</span> <span class="kr">where</span>
+  <span class="n">fmap</span> <span class="n">g</span> <span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="o">=</span> <span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">g</span> <span class="n">b</span><span class="p">)</span> 
+      
+      
+<span class="kr">data</span> <span class="kt">Pair</span> <span class="n">a</span> <span class="o">=</span> <span class="kt">Pair</span> <span class="n">a</span> <span class="n">a</span>
+<span class="kr">instance</span> <span class="kt">Functor</span> <span class="kt">Pair</span> <span class="kr">where</span>
+  <span class="n">fmap</span> <span class="n">g</span> <span class="p">(</span><span class="kt">Pair</span> <span class="n">a</span> <span class="n">b</span><span class="p">)</span> <span class="o">=</span> <span class="kt">Pair</span> <span class="p">(</span><span class="n">g</span> <span class="n">a</span><span class="p">)</span> <span class="p">(</span><span class="n">g</span> <span class="n">b</span><span class="p">)</span>
+</code></pre></div>    </div>
+
+    <p>Their similarity is in the fact that they both represent types of two values.
+Their difference is that <code class="language-plaintext highlighter-rouge">((,) e)</code> (tuples of two) can have values of different types (kind of <code class="language-plaintext highlighter-rouge">(,)</code> is <code class="language-plaintext highlighter-rouge">* -&gt; *</code>) while both values of <code class="language-plaintext highlighter-rouge">Pair</code> have the same type <code class="language-plaintext highlighter-rouge">a</code>, so <code class="language-plaintext highlighter-rouge">Pair</code> has kind <code class="language-plaintext highlighter-rouge">*</code>.</p>
+  </li>
+  <li>
+    <p>Implement a <code class="language-plaintext highlighter-rouge">Functor</code> instance for the type <code class="language-plaintext highlighter-rouge">ITree</code>, defined as</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kr">data</span> <span class="kt">ITree</span> <span class="n">a</span> <span class="o">=</span> <span class="kt">Leaf</span> <span class="p">(</span><span class="kt">Int</span> <span class="o">-&gt;</span> <span class="n">a</span><span class="p">)</span>
+             <span class="o">|</span> <span class="kt">Node</span> <span class="p">[</span><span class="kt">ITree</span> <span class="n">a</span><span class="p">]</span>
+</code></pre></div>    </div>
+
+    <p><strong>Solution</strong>:</p>
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kr">instance</span> <span class="kt">Functor</span> <span class="kt">ITree</span> <span class="kr">where</span>
+   <span class="n">fmap</span> <span class="n">g</span> <span class="p">(</span><span class="kt">Leaf</span> <span class="n">f</span><span class="p">)</span> <span class="o">=</span> <span class="kt">Leaf</span> <span class="p">(</span><span class="n">g</span> <span class="o">.</span> <span class="n">f</span><span class="p">)</span>
+   <span class="n">fmap</span> <span class="n">g</span> <span class="p">(</span><span class="kt">Node</span> <span class="n">xs</span><span class="p">)</span> <span class="o">=</span> <span class="kt">Node</span> <span class="p">(</span><span class="n">fmap</span> <span class="p">(</span><span class="n">fmap</span> <span class="n">g</span><span class="p">)</span> <span class="n">xs</span><span class="p">)</span>
+</code></pre></div>    </div>
+
+    <p>To test this instance, I defined a function to apply the tree to an <code class="language-plaintext highlighter-rouge">Int</code>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">applyTree</span> <span class="o">::</span> <span class="kt">ITree</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">Int</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="n">a</span><span class="p">]</span>
+ <span class="n">applyTree</span> <span class="p">(</span><span class="kt">Leaf</span> <span class="n">g</span><span class="p">)</span> <span class="n">i</span> <span class="o">=</span> <span class="p">[</span><span class="n">g</span> <span class="n">i</span><span class="p">]</span>
+ <span class="n">applyTree</span> <span class="p">(</span><span class="kt">Node</span> <span class="kt">[]</span><span class="p">)</span> <span class="kr">_</span> <span class="o">=</span> <span class="kt">[]</span>
+ <span class="n">applyTree</span> <span class="p">(</span><span class="kt">Node</span> <span class="p">(</span><span class="n">x</span><span class="o">:</span><span class="n">xs</span><span class="p">))</span> <span class="n">i</span> <span class="o">=</span> <span class="n">applyTree</span> <span class="n">x</span> <span class="n">i</span> <span class="o">++</span> <span class="n">applyTree</span> <span class="p">(</span><span class="kt">Node</span> <span class="n">xs</span><span class="p">)</span> <span class="n">i</span>
+</code></pre></div>    </div>
+
+    <p>This is not a standard tree traversing algorithm, I just wanted it to be simple for testing.</p>
+
+    <p>Now test the instance:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="err">λ</span><span class="o">:</span> <span class="kr">let</span> <span class="n">t</span> <span class="o">=</span> <span class="kt">Node</span> <span class="p">[</span><span class="kt">Node</span> <span class="p">[</span><span class="kt">Leaf</span> <span class="p">(</span><span class="o">+</span><span class="mi">5</span><span class="p">),</span> <span class="kt">Leaf</span> <span class="p">(</span><span class="o">+</span><span class="mi">1</span><span class="p">)],</span> <span class="kt">Leaf</span> <span class="p">(</span><span class="o">*</span><span class="mi">2</span><span class="p">)]</span>
+ <span class="err">λ</span><span class="o">:</span> <span class="n">applyTree</span> <span class="n">t</span> <span class="mi">1</span>
+ <span class="p">[</span><span class="mi">6</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span>
+ <span class="err">λ</span><span class="o">:</span> <span class="n">applyTree</span> <span class="p">(</span><span class="n">fmap</span> <span class="n">id</span> <span class="n">t</span><span class="p">)</span> <span class="mi">1</span>
+ <span class="p">[</span><span class="mi">6</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span>
+ <span class="err">λ</span><span class="o">:</span> <span class="n">applyTree</span> <span class="p">(</span><span class="n">fmap</span> <span class="p">(</span><span class="o">+</span><span class="mi">10</span><span class="p">)</span> <span class="n">t</span><span class="p">)</span> <span class="mi">1</span>
+ <span class="p">[</span><span class="mi">16</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">12</span><span class="p">]</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Give an example of a type of kind <code class="language-plaintext highlighter-rouge">* -&gt; *</code> which cannot be made an instance of <code class="language-plaintext highlighter-rouge">Functor</code> (without using <code class="language-plaintext highlighter-rouge">undefined</code>).</p>
+
+    <p>I don’t know the answer to this one yet!</p>
+  </li>
+  <li>
+    <p>Is this statement true or false?</p>
+
+    <blockquote>
+      <p>The composition of two <code class="language-plaintext highlighter-rouge">Functor</code>s is also a <code class="language-plaintext highlighter-rouge">Functor</code>.</p>
+    </blockquote>
+
+    <p>If false, give a counterexample; if true, prove it by exhibiting some appropriate Haskell code.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <p>It’s true, and can be proved by the following function:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">ffmap</span> <span class="o">::</span> <span class="p">(</span><span class="kt">Functor</span> <span class="n">f</span><span class="p">,</span> <span class="kt">Functor</span> <span class="n">j</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="p">(</span><span class="n">j</span> <span class="n">a</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="p">(</span><span class="n">j</span> <span class="n">b</span><span class="p">)</span>
+ <span class="n">ffmap</span> <span class="n">g</span> <span class="o">=</span> <span class="n">fmap</span> <span class="p">(</span><span class="n">fmap</span> <span class="n">g</span><span class="p">)</span>
+</code></pre></div>    </div>
+
+    <p>You can test this on arbitrary compositions of <code class="language-plaintext highlighter-rouge">Functor</code>s:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">main</span> <span class="o">=</span> <span class="kr">do</span>
+   <span class="kr">let</span> <span class="n">result</span> <span class="o">::</span> <span class="kt">Maybe</span> <span class="p">(</span><span class="kt">Either</span> <span class="kt">String</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">=</span> <span class="n">ffmap</span> <span class="p">(</span><span class="o">+</span> <span class="mi">2</span><span class="p">)</span> <span class="p">(</span><span class="kt">Just</span> <span class="o">.</span> <span class="kt">Right</span> <span class="o">$</span> <span class="mi">5</span><span class="p">)</span>
+   <span class="n">print</span> <span class="n">result</span> <span class="c1">-- (Just (Right 7))</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="tocAnchor-1-2-2">Functor Laws</h2>
+
+<div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fmap</span> <span class="n">id</span> <span class="o">=</span> <span class="n">id</span>
+<span class="n">fmap</span> <span class="p">(</span><span class="n">g</span> <span class="o">.</span> <span class="n">h</span><span class="p">)</span> <span class="o">=</span> <span class="p">(</span><span class="n">fmap</span> <span class="n">g</span><span class="p">)</span> <span class="o">.</span> <span class="p">(</span><span class="n">fmap</span> <span class="n">h</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="exercises-1">Exercises</h3>
+
+<ol>
+  <li>
+    <p>Although it is not possible for a Functor instance to satisfy the first Functor law but not the second (excluding undefined), the reverse is possible. Give an example of a (bogus) Functor instance which satisfies the second law but not the first.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <p>This is easy, consider this instance:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kr">instance</span> <span class="kt">Functor</span> <span class="kt">[]</span> <span class="kr">where</span>
+   <span class="n">fmap</span> <span class="kr">_</span> <span class="kt">[]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+   <span class="n">fmap</span> <span class="n">g</span> <span class="p">(</span><span class="n">x</span><span class="o">:</span><span class="n">xs</span><span class="p">)</span> <span class="o">=</span> <span class="n">g</span> <span class="n">x</span><span class="o">:</span> <span class="n">fmap</span> <span class="n">g</span> <span class="n">xs</span>
+</code></pre></div>    </div>
+
+    <p>Then, you can test the first and second laws:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="err">λ</span><span class="o">:</span> <span class="n">fmap</span> <span class="n">id</span> <span class="kt">[]</span> <span class="c1">-- [1], breaks the first law</span>
+ <span class="err">λ</span><span class="o">:</span> <span class="n">fmap</span> <span class="p">((</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">.</span> <span class="p">(</span><span class="o">+</span><span class="mi">2</span><span class="p">))</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span> <span class="c1">-- [4, 5], second law holds</span>
+ <span class="err">λ</span><span class="o">:</span> <span class="n">fmap</span> <span class="p">(</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">.</span> <span class="n">fmap</span> <span class="p">(</span><span class="o">+</span><span class="mi">2</span><span class="p">)</span> <span class="o">$</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span> <span class="c1">-- [4, 5]</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Which laws are violated by the evil Functor instance for list shown above: both laws, or the first law alone? Give specific counterexamples.</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="c1">-- Evil Functor instance</span>
+ <span class="kr">instance</span> <span class="kt">Functor</span> <span class="kt">[]</span> <span class="kr">where</span>
+   <span class="n">fmap</span> <span class="o">::</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="n">a</span><span class="p">]</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="n">b</span><span class="p">]</span>
+   <span class="n">fmap</span> <span class="kr">_</span> <span class="kt">[]</span> <span class="o">=</span> <span class="kt">[]</span>
+   <span class="n">fmap</span> <span class="n">g</span> <span class="p">(</span><span class="n">x</span><span class="o">:</span><span class="n">xs</span><span class="p">)</span> <span class="o">=</span> <span class="n">g</span> <span class="n">x</span> <span class="o">:</span> <span class="n">g</span> <span class="n">x</span> <span class="o">:</span> <span class="n">fmap</span> <span class="n">g</span> <span class="n">xs</span>
+</code></pre></div>    </div>
+
+    <p><strong>Solution</strong>:</p>
+
+    <p>The instance defined breaks the first law (<code class="language-plaintext highlighter-rouge">fmap id [1] -- [1,1]</code>), but holds for the second law.</p>
+  </li>
+</ol>
+
+<h1 id="tocAnchor-1-5">Category Theory</h1>
+
+<p>The Functor section links to <a href="https://en.wikibooks.org/wiki/Haskell/Category_theory">Category Theory</a>, so here I’m going to cover the exercises of that page, too.</p>
+
+<h2 id="tocAnchor-1-5-1">Introduction to categories</h2>
+
+<h3 id="category-laws">Category laws:</h3>
+
+<ol>
+  <li>
+    <p>The compositions of morphisms need to be <strong>associative</strong>:</p>
+
+    <p>$f \circ (g \circ h) = (f \circ g) \circ h$</p>
+  </li>
+  <li>The category needs to be <strong>closed</strong> under the composition operator. So if $f : B \to C$ and $g: A \to B$, then there must be some $h: A \to C$ in the category such that $h = f \circ g$.</li>
+  <li>Every object $A$ in a category must have an identity morphism, $id_A : A \to A$ that is an identity of composition with other morphisms. So for every morphism $g: A \to B$:
+ $g \circ id_A = id_B \circ g = g$.</li>
+</ol>
+
+<h3 id="exercises-2">Exercises</h3>
+
+<ol>
+  <li>
+    <p>As was mentioned, any partial order $(P, \leq)$ is a category with objects as the elements of P and a morphism between elements a and b iff $a \leq b$. Which of the above laws guarantees the transitivity of $\leq$?</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <p>The second law, which states that the category needs to be closed under the composition operator guarantess that because we have a morphism $a \leq b$, and another morphism $b \leq c$, there must also be some other morphism such that $a \leq c$.</p>
+  </li>
+  <li>
+    <p>If we add another morphism to the above example, as illustrated below, it fails to be a category. Why? Hint: think about associativity of the composition operation.</p>
+
+    <p><img src="/img/typoclassopedia/not-a-cat.png" alt="not a category, an additional h: B -&gt; A" /></p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <p>The first law does not hold:</p>
+
+    <p>$f \circ (g \circ h) = (f \circ g) \circ h$</p>
+
+    <p>To see that, we can evaluate each side to get an inequality:</p>
+
+    <p>$g \circ h = id_B$</p>
+
+    <p>$f \circ g = id_A$</p>
+
+    <p>$f \circ (g \circ h) = f \circ id_B = f$</p>
+
+    <p>$(f \circ g) \circ h = id_A \circ h = h$</p>
+
+    <p>$f \neq h$</p>
+  </li>
+</ol>
+
+<h2 id="tocAnchor-1-5-2">Functors</h2>
+
+<h3 id="functor-laws-1">Functor laws:</h3>
+
+<ol>
+  <li>
+    <p>Given an identity morphism $id_A$ on an object $A$, $F(id_A)$ must be the identity morphism on $F(A)$, so:
+ $F(id_A) = id_{F(A)}$</p>
+  </li>
+  <li>
+    <p>Functors must distribute over morphism composition:
+ $F(f \circ g) = F(f) \circ F(g)$</p>
+  </li>
+</ol>
+
+<h3 id="exercises-3">Exercises</h3>
+
+<ol>
+  <li>
+    <p>Check the functor laws for the diagram below.</p>
+
+    <p><img src="/img/typoclassopedia/functor-diagram.png" alt="functor diagram" /></p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <p>The first law is obvious as it’s directly written, the pale blue dotted arrows from $id_C$ to $F(id_C) = id_{F(C)}$ and $id_A$ and $id_B$ to $F(id_A) = F(id_B) = id_{F(A)} = id_{F(B)}$ show this.</p>
+
+    <p>The second law also holds, the only compositions in category $C$ are between $f$ and identities, and $g$ and identities, there is no composition between $f$ and $g$.</p>
+
+    <p>(Note: The second law always hold as long as the first one does, as was seen in Typoclassopedia)</p>
+  </li>
+  <li>
+    <p>Check the laws for the Maybe and List functors.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kr">instance</span> <span class="kt">Functor</span> <span class="kt">[]</span> <span class="kr">where</span>
+   <span class="n">fmap</span> <span class="o">::</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="n">a</span><span class="p">]</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="n">b</span><span class="p">]</span>
+   <span class="n">fmap</span> <span class="kr">_</span> <span class="kt">[]</span>     <span class="o">=</span> <span class="kt">[]</span>
+   <span class="n">fmap</span> <span class="n">g</span> <span class="p">(</span><span class="n">x</span><span class="o">:</span><span class="n">xs</span><span class="p">)</span> <span class="o">=</span> <span class="n">g</span> <span class="n">x</span> <span class="o">:</span> <span class="n">fmap</span> <span class="n">g</span> <span class="n">xs</span>
+    
+ <span class="c1">-- check the first law for each part:</span>
+ <span class="n">fmap</span> <span class="n">id</span> <span class="kt">[]</span> <span class="o">=</span> <span class="kt">[]</span>
+ <span class="n">fmap</span> <span class="n">id</span> <span class="p">(</span><span class="n">x</span><span class="o">:</span><span class="n">xs</span><span class="p">)</span> <span class="o">=</span> <span class="n">id</span> <span class="n">x</span> <span class="o">:</span> <span class="n">fmap</span> <span class="n">id</span> <span class="n">xs</span> <span class="o">=</span> <span class="n">x</span> <span class="o">:</span> <span class="n">fmap</span> <span class="n">id</span> <span class="n">xs</span> <span class="c1">-- the first law holds recursively</span>
+    
+ <span class="c1">-- check the second law for each part:</span>
+ <span class="n">fmap</span> <span class="p">(</span><span class="n">f</span> <span class="o">.</span> <span class="n">g</span><span class="p">)</span> <span class="kt">[]</span> <span class="o">=</span> <span class="kt">[]</span>
+ <span class="n">fmap</span> <span class="p">(</span><span class="n">f</span> <span class="o">.</span> <span class="n">g</span><span class="p">)</span> <span class="p">(</span><span class="n">x</span><span class="o">:</span><span class="n">xs</span><span class="p">)</span> <span class="o">=</span> <span class="p">(</span><span class="n">f</span> <span class="o">.</span> <span class="n">g</span><span class="p">)</span> <span class="n">x</span> <span class="o">:</span> <span class="n">fmap</span> <span class="p">(</span><span class="n">f</span> <span class="o">.</span> <span class="n">g</span><span class="p">)</span> <span class="n">xs</span> <span class="o">=</span> <span class="n">f</span> <span class="p">(</span><span class="n">g</span> <span class="n">x</span><span class="p">)</span> <span class="o">:</span> <span class="n">fmap</span> <span class="p">(</span><span class="n">f</span> <span class="o">.</span> <span class="n">g</span><span class="p">)</span> <span class="n">xs</span>
+ <span class="n">fmap</span> <span class="n">f</span> <span class="p">(</span><span class="n">fmap</span> <span class="n">g</span> <span class="p">(</span><span class="n">x</span><span class="o">:</span><span class="n">xs</span><span class="p">))</span> <span class="o">=</span> <span class="n">fmap</span> <span class="n">f</span> <span class="p">(</span><span class="n">g</span> <span class="n">x</span> <span class="o">:</span> <span class="n">fmap</span> <span class="n">g</span> <span class="n">xs</span><span class="p">)</span> <span class="o">=</span> <span class="n">f</span> <span class="p">(</span><span class="n">g</span> <span class="n">x</span><span class="p">)</span> <span class="o">:</span> <span class="n">fmap</span> <span class="p">(</span><span class="n">f</span> <span class="o">.</span> <span class="n">g</span><span class="p">)</span> <span class="n">xs</span>
+</code></pre></div>    </div>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kr">instance</span> <span class="kt">Functor</span> <span class="kt">Maybe</span> <span class="kr">where</span>
+   <span class="n">fmap</span> <span class="o">::</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Maybe</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">Maybe</span> <span class="n">b</span>
+   <span class="n">fmap</span> <span class="kr">_</span> <span class="kt">Nothing</span>  <span class="o">=</span> <span class="kt">Nothing</span>
+   <span class="n">fmap</span> <span class="n">g</span> <span class="p">(</span><span class="kt">Just</span> <span class="n">a</span><span class="p">)</span> <span class="o">=</span> <span class="kt">Just</span> <span class="p">(</span><span class="n">g</span> <span class="n">a</span><span class="p">)</span>
+    
+ <span class="c1">-- check the first law for each part:</span>
+ <span class="n">fmap</span> <span class="n">id</span> <span class="kt">Nothing</span> <span class="o">=</span> <span class="kt">Nothing</span>
+ <span class="n">fmap</span> <span class="n">id</span> <span class="p">(</span><span class="kt">Just</span> <span class="n">a</span><span class="p">)</span> <span class="o">=</span> <span class="kt">Just</span> <span class="p">(</span><span class="n">id</span> <span class="n">a</span><span class="p">)</span> <span class="o">=</span> <span class="kt">Just</span> <span class="n">a</span>
+    
+ <span class="c1">-- check the second law for each part:</span>
+ <span class="n">fmap</span> <span class="p">(</span><span class="n">f</span> <span class="o">.</span> <span class="n">g</span><span class="p">)</span> <span class="kt">Nothing</span> <span class="o">=</span> <span class="kt">Nothing</span>
+ <span class="n">fmap</span> <span class="p">(</span><span class="n">f</span> <span class="o">.</span> <span class="n">g</span><span class="p">)</span> <span class="p">(</span><span class="kt">Just</span> <span class="n">x</span><span class="p">)</span> <span class="o">=</span> <span class="kt">Just</span> <span class="p">((</span><span class="n">f</span> <span class="o">.</span> <span class="n">g</span><span class="p">)</span> <span class="n">x</span><span class="p">)</span> <span class="o">=</span> <span class="kt">Just</span> <span class="p">(</span><span class="n">f</span> <span class="p">(</span><span class="n">g</span> <span class="n">x</span><span class="p">))</span>
+ <span class="n">fmap</span> <span class="n">f</span> <span class="p">(</span><span class="n">fmap</span> <span class="n">g</span> <span class="p">(</span><span class="kt">Just</span> <span class="n">x</span><span class="p">))</span> <span class="o">=</span> <span class="kt">Just</span> <span class="p">(</span><span class="n">f</span> <span class="p">(</span><span class="n">g</span> <span class="n">x</span><span class="p">))</span> <span class="o">=</span> <span class="kt">Just</span> <span class="p">((</span><span class="n">f</span> <span class="o">.</span> <span class="n">g</span><span class="p">)</span> <span class="n">x</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h1 id="tocAnchor-1-8">Applicative</h1>
+
+<h2 id="tocAnchor-1-8-1">Laws</h2>
+
+<ol>
+  <li>
+    <p>The identity law:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">pure</span> <span class="n">id</span> <span class="o">&lt;*&gt;</span> <span class="n">v</span> <span class="o">=</span> <span class="n">v</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Homomorphism:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">pure</span> <span class="n">f</span> <span class="o">&lt;*&gt;</span> <span class="n">pure</span> <span class="n">x</span> <span class="o">=</span> <span class="n">pure</span> <span class="p">(</span><span class="n">f</span> <span class="n">x</span><span class="p">)</span>
+</code></pre></div>    </div>
+
+    <p>Intuitively, applying a non-effectful function to a non-effectful argument in an effectful context is the same as just applying the function to the argument and then injecting the result into the context with pure.</p>
+  </li>
+  <li>
+    <p>Interchange:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">u</span> <span class="o">&lt;*&gt;</span> <span class="n">pure</span> <span class="n">y</span> <span class="o">=</span> <span class="n">pure</span> <span class="p">(</span><span class="o">$</span> <span class="n">y</span><span class="p">)</span> <span class="o">&lt;*&gt;</span> <span class="n">u</span>
+</code></pre></div>    </div>
+
+    <p>Intuitively, this says that when evaluating the application of an effectful function to a pure argument, the order in which we evaluate the function and its argument doesn’t matter.</p>
+  </li>
+  <li>
+    <p>Composition:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">u</span> <span class="o">&lt;*&gt;</span> <span class="p">(</span><span class="n">v</span> <span class="o">&lt;*&gt;</span> <span class="n">w</span><span class="p">)</span> <span class="o">=</span> <span class="n">pure</span> <span class="p">(</span><span class="o">.</span><span class="p">)</span> <span class="o">&lt;*&gt;</span> <span class="n">u</span> <span class="o">&lt;*&gt;</span> <span class="n">v</span> <span class="o">&lt;*&gt;</span> <span class="n">w</span>
+</code></pre></div>    </div>
+
+    <p>This one is the trickiest law to gain intuition for. In some sense it is expressing a sort of associativity property of (<code class="language-plaintext highlighter-rouge">&lt;*&gt;</code>). The reader may wish to simply convince themselves that this law is type-correct.</p>
+  </li>
+</ol>
+
+<h3 id="exercises-4">Exercises</h3>
+
+<p>(Tricky) One might imagine a variant of the interchange law that says something about applying a pure function to an effectful argument. Using the above laws, prove that</p>
+
+<div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pure</span> <span class="n">f</span> <span class="o">&lt;*&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="n">pure</span> <span class="p">(</span><span class="n">flip</span> <span class="p">(</span><span class="o">$</span><span class="p">))</span> <span class="o">&lt;*&gt;</span> <span class="n">x</span> <span class="o">&lt;*&gt;</span> <span class="n">pure</span> <span class="n">f</span>
+</code></pre></div></div>
+
+<p><strong>Solution</strong>:</p>
+
+<div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pure</span> <span class="p">(</span><span class="n">flip</span> <span class="p">(</span><span class="o">$</span><span class="p">))</span> <span class="o">&lt;*&gt;</span> <span class="n">x</span> <span class="o">&lt;*&gt;</span> <span class="n">pure</span> <span class="n">f</span>
+  <span class="o">=</span> <span class="p">(</span><span class="n">pure</span> <span class="p">(</span><span class="n">flip</span> <span class="p">(</span><span class="o">$</span><span class="p">))</span> <span class="o">&lt;*&gt;</span> <span class="n">x</span><span class="p">)</span> <span class="o">&lt;*&gt;</span> <span class="n">pure</span> <span class="n">f</span> <span class="c1">-- &lt;*&gt; is left-associative</span>
+  <span class="o">=</span> <span class="n">pure</span> <span class="p">(</span><span class="o">$</span> <span class="n">f</span><span class="p">)</span> <span class="o">&lt;*&gt;</span> <span class="p">(</span><span class="n">pure</span> <span class="p">(</span><span class="n">flip</span> <span class="p">(</span><span class="o">$</span><span class="p">))</span> <span class="o">&lt;*&gt;</span> <span class="n">x</span><span class="p">)</span> <span class="c1">-- interchange</span>
+  <span class="o">=</span> <span class="n">pure</span> <span class="p">(</span><span class="o">.</span><span class="p">)</span> <span class="o">&lt;*&gt;</span> <span class="n">pure</span> <span class="p">(</span><span class="o">$</span> <span class="n">f</span><span class="p">)</span> <span class="o">&lt;*&gt;</span> <span class="n">pure</span> <span class="p">(</span><span class="n">flip</span> <span class="p">(</span><span class="o">$</span><span class="p">))</span> <span class="o">&lt;*&gt;</span> <span class="n">x</span> <span class="c1">-- composition</span>
+  <span class="o">=</span> <span class="n">pure</span> <span class="p">((</span><span class="o">$</span> <span class="n">f</span><span class="p">)</span> <span class="o">.</span> <span class="p">(</span><span class="n">flip</span> <span class="p">(</span><span class="o">$</span><span class="p">)))</span> <span class="o">&lt;*&gt;</span> <span class="n">x</span> <span class="c1">-- homomorphism</span>
+  <span class="o">=</span> <span class="n">pure</span> <span class="p">((</span><span class="n">flip</span> <span class="p">(</span><span class="o">$</span><span class="p">)</span> <span class="n">f</span><span class="p">)</span> <span class="o">.</span> <span class="p">(</span><span class="n">flip</span> <span class="p">(</span><span class="o">$</span><span class="p">)))</span> <span class="o">&lt;*&gt;</span> <span class="n">x</span> <span class="c1">-- identical</span>
+  <span class="o">=</span> <span class="n">pure</span> <span class="n">f</span> <span class="o">&lt;*&gt;</span> <span class="n">x</span>
+</code></pre></div></div>
+<p>Explanation of the last transformation:</p>
+
+<p><code class="language-plaintext highlighter-rouge">flip ($)</code> has type <code class="language-plaintext highlighter-rouge">a -&gt; (a -&gt; c) -&gt; c</code>, intuitively, it first takes an argument of type <code class="language-plaintext highlighter-rouge">a</code>, then a function that accepts that argument, and in the end it calls the function with the first argument. So <code class="language-plaintext highlighter-rouge">(flip ($) 5)</code> takes as argument a function which gets called with <code class="language-plaintext highlighter-rouge">5</code> as it’s argument. If we pass <code class="language-plaintext highlighter-rouge">(+ 2)</code> to <code class="language-plaintext highlighter-rouge">(flip ($) 5)</code>, we get <code class="language-plaintext highlighter-rouge">(flip ($) 5) (+2)</code> which is equivalent to the expression <code class="language-plaintext highlighter-rouge">(+2) $ 5</code>, evaluating to <code class="language-plaintext highlighter-rouge">7</code>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">flip ($) f</code> is equivalent to <code class="language-plaintext highlighter-rouge">\x -&gt; x $ f</code>, that means, it takes as input a function and calls it with the function <code class="language-plaintext highlighter-rouge">f</code> as argument.</p>
+
+<p>The composition of these functions works like this: First <code class="language-plaintext highlighter-rouge">flip ($)</code> takes <code class="language-plaintext highlighter-rouge">x</code> as it’s first argument, and returns a function <code class="language-plaintext highlighter-rouge">(flip ($) x)</code>, this function is awaiting a function as it’s last argument, which will be called with <code class="language-plaintext highlighter-rouge">x</code> as it’s argument. Now this function <code class="language-plaintext highlighter-rouge">(flip ($) x)</code> is passed to <code class="language-plaintext highlighter-rouge">flip ($) f</code>, or to write it’s equivalent <code class="language-plaintext highlighter-rouge">(\x -&gt; x $ f) (flip ($) x)</code>, this results in the expression <code class="language-plaintext highlighter-rouge">(flip ($) x) f</code>, which is equivalent to <code class="language-plaintext highlighter-rouge">f $ x</code>.</p>
+
+<p>You can check the type of <code class="language-plaintext highlighter-rouge">(flip ($) f) . (flip ($))</code> is something like this (depending on your function <code class="language-plaintext highlighter-rouge">f</code>):</p>
+
+<div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">λ</span><span class="o">:</span> <span class="kr">let</span> <span class="n">f</span> <span class="o">=</span> <span class="n">sqrt</span>
+<span class="err">λ</span><span class="o">:</span> <span class="o">:</span><span class="n">t</span> <span class="p">(</span><span class="n">flip</span> <span class="p">(</span><span class="o">$</span><span class="p">)</span> <span class="n">f</span><span class="p">)</span> <span class="o">.</span> <span class="p">(</span><span class="n">flip</span> <span class="p">(</span><span class="o">$</span><span class="p">))</span>
+<span class="p">(</span><span class="n">flip</span> <span class="p">(</span><span class="o">$</span><span class="p">)</span> <span class="n">f</span><span class="p">)</span> <span class="o">.</span> <span class="p">(</span><span class="n">flip</span> <span class="p">(</span><span class="o">$</span><span class="p">))</span> <span class="o">::</span> <span class="kt">Floating</span> <span class="n">c</span> <span class="o">=&gt;</span> <span class="n">c</span> <span class="o">-&gt;</span> <span class="n">c</span>
+</code></pre></div></div>
+
+<p>Also see <a href="https://stackoverflow.com/questions/46503793/applicative-prove-pure-f-x-pure-flip-x-pure-f/46505868#46505868">this question on Stack Overflow</a> which includes alternative proofs.</p>
+
+<h2 id="tocAnchor-1-8-2">Instances</h2>
+
+<p>Applicative instance of lists as a collection of values:</p>
+
+<div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">newtype</span> <span class="kt">ZipList</span> <span class="n">a</span> <span class="o">=</span> <span class="kt">ZipList</span> <span class="p">{</span> <span class="n">getZipList</span> <span class="o">::</span> <span class="p">[</span><span class="n">a</span><span class="p">]</span> <span class="p">}</span>
+ 
+<span class="kr">instance</span> <span class="kt">Applicative</span> <span class="kt">ZipList</span> <span class="kr">where</span>
+  <span class="n">pure</span> <span class="o">::</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">ZipList</span> <span class="n">a</span>
+  <span class="n">pure</span> <span class="o">=</span> <span class="n">undefined</span>   <span class="c1">-- exercise</span>
+ 
+  <span class="p">(</span><span class="o">&lt;*&gt;</span><span class="p">)</span> <span class="o">::</span> <span class="kt">ZipList</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ZipList</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">ZipList</span> <span class="n">b</span>
+  <span class="p">(</span><span class="kt">ZipList</span> <span class="n">gs</span><span class="p">)</span> <span class="o">&lt;*&gt;</span> <span class="p">(</span><span class="kt">ZipList</span> <span class="n">xs</span><span class="p">)</span> <span class="o">=</span> <span class="kt">ZipList</span> <span class="p">(</span><span class="n">zipWith</span> <span class="p">(</span><span class="o">$</span><span class="p">)</span> <span class="n">gs</span> <span class="n">xs</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Applicative instance of lists as a non-deterministic computation context:</p>
+
+<div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">instance</span> <span class="kt">Applicative</span> <span class="kt">[]</span> <span class="kr">where</span>
+  <span class="n">pure</span> <span class="o">::</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="n">a</span><span class="p">]</span>
+  <span class="n">pure</span> <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">]</span>
+ 
+  <span class="p">(</span><span class="o">&lt;*&gt;</span><span class="p">)</span> <span class="o">::</span> <span class="p">[</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span><span class="p">]</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="n">a</span><span class="p">]</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="n">b</span><span class="p">]</span>
+  <span class="n">gs</span> <span class="o">&lt;*&gt;</span> <span class="n">xs</span> <span class="o">=</span> <span class="p">[</span> <span class="n">g</span> <span class="n">x</span> <span class="o">|</span> <span class="n">g</span> <span class="o">&lt;-</span> <span class="n">gs</span><span class="p">,</span> <span class="n">x</span> <span class="o">&lt;-</span> <span class="n">xs</span> <span class="p">]</span>
+</code></pre></div></div>
+
+<h3 id="exercises-5">Exercises</h3>
+
+<ol>
+  <li>
+    <p>Implement an instance of <code class="language-plaintext highlighter-rouge">Applicative</code> for <code class="language-plaintext highlighter-rouge">Maybe</code>.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kr">instance</span> <span class="kt">Applicative</span> <span class="p">(</span><span class="kt">Maybe</span> <span class="n">a</span><span class="p">)</span> <span class="kr">where</span>
+   <span class="n">pure</span> <span class="o">::</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">Maybe</span> <span class="n">a</span>
+   <span class="n">pure</span> <span class="n">x</span> <span class="o">=</span> <span class="kt">Just</span> <span class="n">x</span>
+      
+   <span class="p">(</span><span class="o">&lt;*&gt;</span><span class="p">)</span> <span class="o">::</span> <span class="kt">Maybe</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Maybe</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">Maybe</span> <span class="n">b</span>
+   <span class="kr">_</span> <span class="o">&lt;*&gt;</span> <span class="kt">Nothing</span> <span class="o">=</span> <span class="kt">Nothing</span>
+   <span class="kt">Nothing</span> <span class="o">&lt;*&gt;</span> <span class="kr">_</span> <span class="o">=</span> <span class="kt">Nothing</span>
+   <span class="p">(</span><span class="kt">Just</span> <span class="n">f</span><span class="p">)</span> <span class="o">&lt;*&gt;</span> <span class="p">(</span><span class="kt">Just</span> <span class="n">x</span><span class="p">)</span> <span class="o">=</span> <span class="kt">Just</span> <span class="p">(</span><span class="n">f</span> <span class="n">x</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Determine the correct definition of <code class="language-plaintext highlighter-rouge">pure</code> for the <code class="language-plaintext highlighter-rouge">ZipList</code> instance of <code class="language-plaintext highlighter-rouge">Applicative</code>—there is only one implementation that satisfies the law relating <code class="language-plaintext highlighter-rouge">pure</code> and <code class="language-plaintext highlighter-rouge">(&lt;*&gt;)</code>.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kr">newtype</span> <span class="kt">ZipList</span> <span class="n">a</span> <span class="o">=</span> <span class="kt">ZipList</span> <span class="p">{</span> <span class="n">getZipList</span> <span class="o">::</span> <span class="p">[</span><span class="n">a</span><span class="p">]</span> <span class="p">}</span>
+    
+ <span class="kr">instance</span> <span class="kt">Functor</span> <span class="kt">ZipList</span> <span class="kr">where</span>
+   <span class="n">fmap</span> <span class="n">f</span> <span class="p">(</span><span class="kt">ZipList</span> <span class="n">list</span><span class="p">)</span> <span class="o">=</span> <span class="kt">ZipList</span> <span class="p">{</span> <span class="n">getZipList</span> <span class="o">=</span> <span class="n">fmap</span> <span class="n">f</span> <span class="n">list</span> <span class="p">}</span>
+    
+ <span class="kr">instance</span> <span class="kt">Applicative</span> <span class="kt">ZipList</span> <span class="kr">where</span>
+   <span class="n">pure</span> <span class="o">=</span> <span class="kt">ZipList</span> <span class="o">.</span> <span class="n">pure</span>
+    
+   <span class="p">(</span><span class="kt">ZipList</span> <span class="n">gs</span><span class="p">)</span> <span class="o">&lt;*&gt;</span> <span class="p">(</span><span class="kt">ZipList</span> <span class="n">xs</span><span class="p">)</span> <span class="o">=</span> <span class="kt">ZipList</span> <span class="p">(</span><span class="n">zipWith</span> <span class="p">(</span><span class="o">$</span><span class="p">)</span> <span class="n">gs</span> <span class="n">xs</span><span class="p">)</span>
+</code></pre></div>    </div>
+
+    <p>You can check the Applicative laws for this implementation.</p>
+  </li>
+</ol>
+
+<h2 id="tocAnchor-1-8-3">Utility functions</h2>
+
+<h3 id="exercises-6">Exercises</h3>
+
+<ol>
+  <li>
+    <p>Implement a function
+ <code class="language-plaintext highlighter-rouge">sequenceAL :: Applicative f =&gt; [f a] -&gt; f [a]</code>
+ There is a generalized version of this, <code class="language-plaintext highlighter-rouge">sequenceA</code>, which works for any <code class="language-plaintext highlighter-rouge">Traversable</code> (see the later section on <code class="language-plaintext highlighter-rouge">Traversable</code>), but implementing this version specialized to lists is a good exercise.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">createList</span> <span class="o">=</span> <span class="n">replicate</span> <span class="mi">1</span>
+
+ <span class="n">sequenceAL</span> <span class="o">::</span> <span class="kt">Applicative</span> <span class="n">f</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="n">f</span> <span class="n">a</span><span class="p">]</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="p">[</span><span class="n">a</span><span class="p">]</span>
+ <span class="n">sequenceAL</span> <span class="o">=</span> <span class="n">foldr</span> <span class="p">(</span><span class="nf">\</span><span class="n">x</span> <span class="n">b</span> <span class="o">-&gt;</span> <span class="p">((</span><span class="o">++</span><span class="p">)</span> <span class="o">.</span> <span class="n">createList</span> <span class="o">&lt;$&gt;</span> <span class="n">x</span><span class="p">)</span> <span class="o">&lt;*&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="p">(</span><span class="n">pure</span> <span class="kt">[]</span><span class="p">)</span>
+</code></pre></div>    </div>
+
+    <p>Explanation:</p>
+
+    <p>First, <code class="language-plaintext highlighter-rouge">createList</code> is a simple function for creating a list of a single element, e.g. <code class="language-plaintext highlighter-rouge">createList 2 == [2]</code>.</p>
+
+    <p>Now let’s take <code class="language-plaintext highlighter-rouge">sequenceAL</code> apart, first, it does a fold over the list <code class="language-plaintext highlighter-rouge">[f a]</code>, and <code class="language-plaintext highlighter-rouge">b</code> is initialized to <code class="language-plaintext highlighter-rouge">pure []</code>, which results in <code class="language-plaintext highlighter-rouge">f [a]</code> as required by the function’s output.</p>
+
+    <p>Inside the function, <code class="language-plaintext highlighter-rouge">createList &lt;$&gt; x</code> applies <code class="language-plaintext highlighter-rouge">createList</code> to the value inside <code class="language-plaintext highlighter-rouge">f a</code>, resulting in <code class="language-plaintext highlighter-rouge">f [a]</code>, and then <code class="language-plaintext highlighter-rouge">(++)</code> is applied to the value again, so it becomes <code class="language-plaintext highlighter-rouge">f ((++) [a])</code>, now we can apply the function <code class="language-plaintext highlighter-rouge">(++) [a]</code> to <code class="language-plaintext highlighter-rouge">b</code> by <code class="language-plaintext highlighter-rouge">((++) . createList &lt;$&gt; x) &lt;*&gt; b</code>, which results in <code class="language-plaintext highlighter-rouge">f ([a] ++ b)</code>.</p>
+  </li>
+</ol>
+
+<h2 id="tocAnchor-1-8-4">Alternative formulation</h2>
+
+<h3 id="definition">Definition</h3>
+
+<div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">class</span> <span class="kt">Functor</span> <span class="n">f</span> <span class="o">=&gt;</span> <span class="kt">Monoidal</span> <span class="n">f</span> <span class="kr">where</span>
+  <span class="n">unit</span> <span class="o">::</span> <span class="n">f</span> <span class="nb">()</span>
+  <span class="p">(</span><span class="o">**</span><span class="p">)</span> <span class="o">::</span> <span class="n">f</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="n">b</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="laws-1">Laws:</h3>
+
+<ol>
+  <li>
+    <p>Left identity</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">unit</span> <span class="o">**</span> <span class="n">v</span> <span class="err">≅</span> <span class="n">v</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Right identity</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">u</span> <span class="o">**</span> <span class="n">unit</span> <span class="err">≅</span> <span class="n">u</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Associativity</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">u</span> <span class="o">**</span> <span class="p">(</span><span class="n">v</span> <span class="o">**</span> <span class="n">w</span><span class="p">)</span> <span class="err">≅</span> <span class="p">(</span><span class="n">u</span> <span class="o">**</span> <span class="n">v</span><span class="p">)</span> <span class="o">**</span> <span class="n">w</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Neutrality</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">fmap</span> <span class="p">(</span><span class="n">g</span> <span class="o">***</span> <span class="n">h</span><span class="p">)</span> <span class="p">(</span><span class="n">u</span> <span class="o">**</span> <span class="n">v</span><span class="p">)</span> <span class="o">=</span> <span class="n">fmap</span> <span class="n">g</span> <span class="n">u</span> <span class="o">**</span> <span class="n">fmap</span> <span class="n">h</span> <span class="n">v</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h3 id="isomorphism">Isomorphism</h3>
+
+<p>In the laws above, <code class="language-plaintext highlighter-rouge">≅</code> refers to isomorphism rather than equality. In particular we consider:</p>
+
+<div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="nb">()</span><span class="p">)</span> <span class="err">≅</span> <span class="n">x</span> <span class="err">≅</span> <span class="p">(</span><span class="nb">()</span><span class="p">,</span><span class="n">x</span><span class="p">)</span>
+<span class="p">((</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">),</span><span class="n">z</span><span class="p">)</span> <span class="err">≅</span> <span class="p">(</span><span class="n">x</span><span class="p">,(</span><span class="n">y</span><span class="p">,</span><span class="n">z</span><span class="p">))</span>
+</code></pre></div></div>
+
+<h3 id="exercises-7">Exercises</h3>
+
+<ol>
+  <li>
+    <p>Implement <code class="language-plaintext highlighter-rouge">pure</code> and <code class="language-plaintext highlighter-rouge">&lt;*&gt;</code> in terms of <code class="language-plaintext highlighter-rouge">unit</code> and <code class="language-plaintext highlighter-rouge">**</code>, and vice versa.</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">unit</span> <span class="o">::</span> <span class="n">f</span> <span class="nb">()</span>
+ <span class="n">unit</span> <span class="o">=</span> <span class="n">pure</span> <span class="nb">()</span>
+    
+ <span class="p">(</span><span class="o">**</span><span class="p">)</span> <span class="o">::</span> <span class="n">f</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="n">b</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+ <span class="n">a</span> <span class="o">**</span> <span class="n">b</span> <span class="o">=</span> <span class="n">fmap</span> <span class="p">(,)</span> <span class="n">a</span> <span class="o">&lt;*&gt;</span> <span class="n">b</span>
+    
+ <span class="n">pure</span> <span class="o">::</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="n">a</span>
+ <span class="n">pure</span> <span class="n">x</span> <span class="o">=</span> <span class="n">unit</span> <span class="o">**</span> <span class="n">x</span>
+    
+ <span class="p">(</span><span class="o">&lt;*&gt;</span><span class="p">)</span> <span class="o">::</span> <span class="n">f</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="n">b</span>
+ <span class="n">f</span> <span class="o">&lt;*&gt;</span> <span class="n">a</span> <span class="o">=</span> <span class="n">fmap</span> <span class="p">(</span><span class="n">uncurry</span> <span class="p">(</span><span class="o">$</span><span class="p">))</span> <span class="p">(</span><span class="n">f</span> <span class="o">**</span> <span class="n">a</span><span class="p">)</span> <span class="o">=</span> <span class="n">fmap</span> <span class="p">(</span><span class="nf">\</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">a</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="n">a</span><span class="p">)</span> <span class="p">(</span><span class="n">f</span> <span class="o">**</span> <span class="n">a</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Are there any <code class="language-plaintext highlighter-rouge">Applicative</code> instances for which there are also functions <code class="language-plaintext highlighter-rouge">f () -&gt; ()</code> and <code class="language-plaintext highlighter-rouge">f (a,b) -&gt; (f a, f b)</code>, satisfying some “reasonable” laws?</p>
+
+    <p>The <a href="https://wiki.haskell.org/Typeclassopedia#Arrow"><code class="language-plaintext highlighter-rouge">Arrow</code></a> type class seems to satisfy these criteria.</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   <span class="n">first</span> <span class="n">unit</span> <span class="o">=</span> <span class="nb">()</span>
+      
+   <span class="p">(</span><span class="n">id</span> <span class="o">***</span> <span class="n">f</span><span class="p">)</span> <span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="o">=</span> <span class="p">(</span><span class="n">f</span> <span class="n">a</span><span class="p">,</span> <span class="n">f</span> <span class="n">b</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>(Tricky) Prove that given your implementations from the first exercise, the usual Applicative laws and the Monoidal laws stated above are equivalent.</p>
+
+    <ol>
+      <li>
+        <p>Identity Law</p>
+
+        <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">pure</span> <span class="n">id</span> <span class="o">&lt;*&gt;</span> <span class="n">v</span>
+   <span class="o">=</span> <span class="n">fmap</span> <span class="p">(</span><span class="n">uncurry</span> <span class="p">(</span><span class="o">$</span><span class="p">))</span> <span class="p">((</span><span class="n">unit</span> <span class="o">**</span> <span class="n">id</span><span class="p">)</span> <span class="o">**</span> <span class="n">v</span><span class="p">)</span>
+   <span class="o">=</span> <span class="n">fmap</span> <span class="p">(</span><span class="n">uncurry</span> <span class="p">(</span><span class="o">$</span><span class="p">))</span> <span class="p">(</span><span class="n">id</span> <span class="o">**</span> <span class="n">v</span><span class="p">)</span>
+   <span class="o">=</span> <span class="n">fmap</span> <span class="n">id</span> <span class="n">v</span>
+   <span class="o">=</span> <span class="n">v</span>
+</code></pre></div>        </div>
+      </li>
+      <li>
+        <p>Homomorphism</p>
+
+        <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">pure</span> <span class="n">f</span> <span class="o">&lt;*&gt;</span> <span class="n">pure</span> <span class="n">x</span>
+   <span class="o">=</span> <span class="p">(</span><span class="n">unit</span> <span class="o">**</span> <span class="n">f</span><span class="p">)</span> <span class="o">&lt;*&gt;</span> <span class="p">(</span><span class="n">unit</span> <span class="o">**</span> <span class="n">x</span><span class="p">)</span>
+   <span class="o">=</span> <span class="n">fmap</span> <span class="p">(</span><span class="nf">\</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">a</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="n">a</span><span class="p">)</span> <span class="p">(</span><span class="n">unit</span> <span class="o">**</span> <span class="n">f</span><span class="p">)</span> <span class="p">(</span><span class="n">unit</span> <span class="o">**</span> <span class="n">x</span><span class="p">)</span>
+   <span class="o">=</span> <span class="n">fmap</span> <span class="p">(</span><span class="nf">\</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">a</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="n">a</span><span class="p">)</span> <span class="p">(</span><span class="n">f</span> <span class="o">**</span> <span class="n">x</span><span class="p">)</span>
+   <span class="o">=</span> <span class="n">fmap</span> <span class="n">f</span> <span class="n">x</span>
+   <span class="o">=</span> <span class="n">pure</span> <span class="p">(</span><span class="n">f</span> <span class="n">x</span><span class="p">)</span>
+</code></pre></div>        </div>
+      </li>
+      <li>
+        <p>Interchange</p>
+
+        <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">u</span> <span class="o">&lt;*&gt;</span> <span class="n">pure</span> <span class="n">y</span>
+   <span class="o">=</span> <span class="n">fmap</span> <span class="p">(</span><span class="n">uncurry</span> <span class="p">(</span><span class="o">$</span><span class="p">))</span> <span class="p">(</span><span class="n">u</span> <span class="o">**</span> <span class="p">(</span><span class="n">unit</span> <span class="o">**</span> <span class="n">y</span><span class="p">))</span>
+   <span class="o">=</span> <span class="n">fmap</span> <span class="p">(</span><span class="n">uncurry</span> <span class="p">(</span><span class="o">$</span><span class="p">))</span> <span class="p">(</span><span class="n">u</span> <span class="o">**</span> <span class="n">y</span><span class="p">)</span>
+   <span class="o">=</span> <span class="n">fmap</span> <span class="p">(</span><span class="n">u</span> <span class="o">$</span><span class="p">)</span> <span class="n">y</span>
+   <span class="o">=</span> <span class="n">fmap</span> <span class="p">(</span><span class="o">$</span> <span class="n">y</span><span class="p">)</span> <span class="n">u</span>
+   <span class="o">=</span> <span class="n">pure</span> <span class="p">(</span><span class="o">$</span> <span class="n">y</span><span class="p">)</span> <span class="o">&lt;*&gt;</span> <span class="n">u</span>
+</code></pre></div>        </div>
+      </li>
+      <li>
+        <p>Composition</p>
+
+        <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">u</span> <span class="o">&lt;*&gt;</span> <span class="p">(</span><span class="n">v</span> <span class="o">&lt;*&gt;</span> <span class="n">w</span><span class="p">)</span>
+   <span class="o">=</span> <span class="n">fmap</span> <span class="p">(</span><span class="n">uncurry</span> <span class="p">(</span><span class="o">$</span><span class="p">))</span> <span class="p">(</span><span class="n">u</span> <span class="o">**</span> <span class="p">(</span><span class="n">fmap</span> <span class="p">(</span><span class="n">uncurry</span> <span class="p">(</span><span class="o">$</span><span class="p">))</span> <span class="p">(</span><span class="n">v</span> <span class="o">**</span> <span class="n">w</span><span class="p">)))</span>
+   <span class="o">=</span> <span class="n">fmap</span> <span class="p">(</span><span class="n">uncurry</span> <span class="p">(</span><span class="o">$</span><span class="p">))</span> <span class="p">(</span><span class="n">u</span> <span class="o">**</span> <span class="p">(</span><span class="n">fmap</span> <span class="n">v</span> <span class="n">w</span><span class="p">))</span>
+   <span class="o">=</span> <span class="n">fmap</span> <span class="n">u</span> <span class="p">(</span><span class="n">fmap</span> <span class="n">v</span> <span class="n">w</span><span class="p">)</span>
+   <span class="o">=</span> <span class="n">fmap</span> <span class="p">(</span><span class="n">u</span> <span class="o">.</span> <span class="n">v</span><span class="p">)</span> <span class="n">w</span>
+   <span class="o">=</span> <span class="n">pure</span> <span class="p">(</span><span class="o">.</span><span class="p">)</span> <span class="o">&lt;*&gt;</span> <span class="n">u</span> <span class="o">&lt;*&gt;</span> <span class="n">v</span> <span class="o">&lt;*&gt;</span> <span class="n">w</span> <span class="o">=</span>
+</code></pre></div>        </div>
+      </li>
+    </ol>
+  </li>
+</ol>
+
+<h1 id="tocAnchor-1-13">Monad</h1>
+
+<h2 id="tocAnchor-1-13-1">Definition</h2>
+
+<div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">class</span> <span class="kt">Applicative</span> <span class="n">m</span> <span class="o">=&gt;</span> <span class="kt">Monad</span> <span class="n">m</span> <span class="kr">where</span>
+  <span class="n">return</span> <span class="o">::</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">m</span> <span class="n">a</span>
+  <span class="p">(</span><span class="o">&gt;&gt;=</span><span class="p">)</span>  <span class="o">::</span> <span class="n">m</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">m</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">m</span> <span class="n">b</span>
+  <span class="p">(</span><span class="o">&gt;&gt;</span><span class="p">)</span>   <span class="o">::</span> <span class="n">m</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">m</span> <span class="n">b</span> <span class="o">-&gt;</span> <span class="n">m</span> <span class="n">b</span>
+  <span class="n">m</span> <span class="o">&gt;&gt;</span> <span class="n">n</span> <span class="o">=</span> <span class="n">m</span> <span class="o">&gt;&gt;=</span> <span class="nf">\</span><span class="kr">_</span> <span class="o">-&gt;</span> <span class="n">n</span>
+ 
+  <span class="n">fail</span>   <span class="o">::</span> <span class="kt">String</span> <span class="o">-&gt;</span> <span class="n">m</span> <span class="n">a</span>
+</code></pre></div></div>
+
+<h2 id="tocAnchor-1-13-2">Instances</h2>
+
+<div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">instance</span> <span class="kt">Monad</span> <span class="kt">Maybe</span> <span class="kr">where</span>
+  <span class="n">return</span> <span class="o">::</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">Maybe</span> <span class="n">a</span>
+  <span class="n">return</span> <span class="o">=</span> <span class="kt">Just</span>
+ 
+  <span class="p">(</span><span class="o">&gt;&gt;=</span><span class="p">)</span> <span class="o">::</span> <span class="kt">Maybe</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">Maybe</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Maybe</span> <span class="n">b</span>
+  <span class="p">(</span><span class="kt">Just</span> <span class="n">x</span><span class="p">)</span> <span class="o">&gt;&gt;=</span> <span class="n">g</span> <span class="o">=</span> <span class="n">g</span> <span class="n">x</span>
+  <span class="kt">Nothing</span>  <span class="o">&gt;&gt;=</span> <span class="kr">_</span> <span class="o">=</span> <span class="kt">Nothing</span>
+</code></pre></div></div>
+
+<h3 id="exercises-8">Exercises</h3>
+
+<ol>
+  <li>
+    <p>Implement a <code class="language-plaintext highlighter-rouge">Monad</code> instance for the list constructor, <code class="language-plaintext highlighter-rouge">[]</code>. Follow the types!</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kr">instance</span> <span class="kt">Monad</span> <span class="kt">[]</span> <span class="kr">where</span>
+   <span class="n">return</span> <span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="n">a</span><span class="p">]</span>
+      
+   <span class="kt">[]</span> <span class="o">&gt;&gt;</span> <span class="kr">_</span> <span class="o">=</span> <span class="kt">[]</span>
+   <span class="p">(</span><span class="n">x</span><span class="o">:</span><span class="n">xs</span><span class="p">)</span> <span class="o">&gt;&gt;=</span> <span class="n">f</span> <span class="o">=</span> <span class="n">f</span> <span class="n">x</span> <span class="o">:</span> <span class="n">xs</span> <span class="o">&gt;&gt;=</span> <span class="n">f</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Implement a <code class="language-plaintext highlighter-rouge">Monad</code> instance for <code class="language-plaintext highlighter-rouge">((-&gt;) e)</code>.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kr">instance</span> <span class="kt">Monad</span> <span class="p">((</span><span class="o">-&gt;</span><span class="p">)</span> <span class="n">e</span><span class="p">)</span> <span class="kr">where</span>
+   <span class="n">return</span> <span class="n">x</span> <span class="o">=</span> <span class="n">const</span> <span class="n">x</span>
+      
+   <span class="n">g</span> <span class="o">&gt;&gt;=</span> <span class="n">f</span> <span class="o">=</span> <span class="n">f</span> <span class="o">.</span> <span class="n">g</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Implement <code class="language-plaintext highlighter-rouge">Functor</code> and <code class="language-plaintext highlighter-rouge">Monad</code> instance for <code class="language-plaintext highlighter-rouge">Free f</code>, defined as:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kr">data</span> <span class="kt">Free</span> <span class="n">f</span> <span class="n">a</span> <span class="o">=</span> <span class="kt">Var</span> <span class="n">a</span>
+               <span class="o">|</span> <span class="kt">Node</span> <span class="p">(</span><span class="n">f</span> <span class="p">(</span><span class="kt">Free</span> <span class="n">f</span> <span class="n">a</span><span class="p">))</span>
+</code></pre></div>    </div>
+
+    <p>You may assume that <code class="language-plaintext highlighter-rouge">f</code> has a <code class="language-plaintext highlighter-rouge">Functor</code> instance. This is known as the <em>free monad</em> built from the functor f.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kr">instance</span> <span class="kt">Functor</span> <span class="p">(</span><span class="kt">Free</span> <span class="n">f</span><span class="p">)</span> <span class="kr">where</span>
+   <span class="n">fmap</span> <span class="n">f</span> <span class="p">(</span><span class="kt">Var</span> <span class="n">a</span><span class="p">)</span> <span class="o">=</span> <span class="kt">Var</span> <span class="p">(</span><span class="n">f</span> <span class="n">a</span><span class="p">)</span>
+   <span class="n">fmap</span> <span class="n">f</span> <span class="p">(</span><span class="kt">Node</span> <span class="n">x</span><span class="p">)</span> <span class="o">=</span> <span class="kt">Node</span> <span class="p">(</span><span class="n">f</span> <span class="n">x</span><span class="p">)</span>
+      
+ <span class="kr">instance</span> <span class="kt">Monad</span> <span class="p">(</span><span class="kt">Free</span> <span class="n">f</span><span class="p">)</span> <span class="kr">where</span>
+   <span class="n">return</span> <span class="n">x</span> <span class="o">=</span> <span class="kt">Var</span> <span class="n">x</span>
+      
+   <span class="p">(</span><span class="kt">Var</span> <span class="n">x</span><span class="p">)</span> <span class="o">&gt;&gt;=</span> <span class="n">f</span> <span class="o">=</span> <span class="kt">Var</span> <span class="p">(</span><span class="n">f</span> <span class="n">x</span><span class="p">)</span>
+   <span class="p">(</span><span class="kt">Node</span> <span class="n">x</span><span class="p">)</span> <span class="o">&gt;&gt;=</span> <span class="n">f</span> <span class="o">=</span> <span class="kt">Node</span> <span class="p">(</span><span class="n">fmap</span> <span class="n">f</span> <span class="n">x</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="tocAnchor-1-13-3">Intuition</h2>
+
+<h3 id="exercises-9">Exercises</h3>
+
+<ol>
+  <li>
+    <p>Implement <code class="language-plaintext highlighter-rouge">(&gt;&gt;=)</code> in terms of <code class="language-plaintext highlighter-rouge">fmap</code> (or <code class="language-plaintext highlighter-rouge">liftM</code>) and <code class="language-plaintext highlighter-rouge">join</code>.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">a</span> <span class="o">&gt;&gt;=</span> <span class="n">f</span> <span class="o">=</span> <span class="n">join</span> <span class="p">(</span><span class="n">fmap</span> <span class="n">f</span> <span class="n">a</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Now implement <code class="language-plaintext highlighter-rouge">join</code> and <code class="language-plaintext highlighter-rouge">fmap</code> (<code class="language-plaintext highlighter-rouge">liftM</code>) in terms of <code class="language-plaintext highlighter-rouge">(&gt;&gt;=)</code> and <code class="language-plaintext highlighter-rouge">return</code>.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">fmap</span> <span class="n">f</span> <span class="n">a</span> <span class="o">=</span> <span class="n">a</span> <span class="o">&gt;&gt;=</span> <span class="p">(</span><span class="n">return</span> <span class="o">.</span> <span class="n">f</span><span class="p">)</span>
+ <span class="n">join</span> <span class="n">m</span> <span class="o">=</span> <span class="n">m</span> <span class="o">&gt;&gt;=</span> <span class="n">id</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="tocAnchor-1-13-4">Laws</h2>
+
+<p>Standard:</p>
+
+<div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">return</span> <span class="n">a</span> <span class="o">&gt;&gt;=</span> <span class="n">k</span>  <span class="o">=</span>  <span class="n">k</span> <span class="n">a</span>
+<span class="n">m</span> <span class="o">&gt;&gt;=</span> <span class="n">return</span>    <span class="o">=</span>  <span class="n">m</span>
+<span class="n">m</span> <span class="o">&gt;&gt;=</span> <span class="p">(</span><span class="nf">\</span><span class="n">x</span> <span class="o">-&gt;</span> <span class="n">k</span> <span class="n">x</span> <span class="o">&gt;&gt;=</span> <span class="n">h</span><span class="p">)</span>  <span class="o">=</span>  <span class="p">(</span><span class="n">m</span> <span class="o">&gt;&gt;=</span> <span class="n">k</span><span class="p">)</span> <span class="o">&gt;&gt;=</span> <span class="n">h</span>
+</code></pre></div></div>
+
+<p>In terms of <code class="language-plaintext highlighter-rouge">&gt;=&gt;</code>:</p>
+
+<div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">return</span> <span class="o">&gt;=&gt;</span> <span class="n">g</span>  <span class="o">=</span>  <span class="n">g</span>
+<span class="n">g</span> <span class="o">&gt;=&gt;</span> <span class="n">return</span>  <span class="o">=</span>  <span class="n">g</span>
+<span class="p">(</span><span class="n">g</span> <span class="o">&gt;=&gt;</span> <span class="n">h</span><span class="p">)</span> <span class="o">&gt;=&gt;</span> <span class="n">k</span>  <span class="o">=</span>  <span class="n">g</span> <span class="o">&gt;=&gt;</span> <span class="p">(</span><span class="n">h</span> <span class="o">&gt;=&gt;</span> <span class="n">k</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="exercises-10">Exercises</h3>
+
+<ol>
+  <li>
+    <p>Given the definition <code class="language-plaintext highlighter-rouge">g &gt;=&gt; h = \x -&gt; g x &gt;&gt;= h</code>, prove the equivalence of the above laws and the standard monad laws.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">return</span> <span class="o">&gt;=&gt;</span> <span class="n">g</span>
+   <span class="o">=</span> <span class="nf">\</span><span class="n">x</span> <span class="o">-&gt;</span> <span class="n">return</span> <span class="n">x</span> <span class="o">&gt;&gt;=</span> <span class="n">g</span>
+   <span class="o">=</span> <span class="nf">\</span><span class="n">x</span> <span class="o">-&gt;</span> <span class="n">g</span> <span class="n">x</span>
+   <span class="o">=</span> <span class="n">g</span>
+      
+ <span class="n">g</span> <span class="o">&gt;=&gt;</span> <span class="n">return</span>
+   <span class="o">=</span> <span class="nf">\</span><span class="n">x</span> <span class="o">-&gt;</span> <span class="n">g</span> <span class="n">x</span> <span class="o">&gt;&gt;=</span> <span class="n">return</span>
+   <span class="o">=</span> <span class="nf">\</span><span class="n">x</span> <span class="o">-&gt;</span> <span class="n">g</span> <span class="n">x</span>
+   <span class="o">=</span> <span class="n">g</span>
+    
+ <span class="n">g</span> <span class="o">&gt;=&gt;</span> <span class="p">(</span><span class="n">h</span> <span class="o">&gt;=&gt;</span> <span class="n">k</span><span class="p">)</span>
+   <span class="o">=</span> <span class="nf">\</span><span class="n">y</span> <span class="o">-&gt;</span> <span class="n">g</span> <span class="n">y</span> <span class="o">&gt;&gt;=</span> <span class="p">(</span><span class="nf">\</span><span class="n">x</span> <span class="o">-&gt;</span> <span class="n">h</span> <span class="n">x</span> <span class="o">&gt;&gt;=</span> <span class="n">k</span><span class="p">)</span>
+   <span class="o">=</span> <span class="nf">\</span><span class="n">y</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="n">g</span> <span class="n">y</span> <span class="o">&gt;&gt;=</span> <span class="n">h</span><span class="p">)</span> <span class="o">&gt;&gt;=</span> <span class="n">k</span>
+   <span class="o">=</span> <span class="nf">\</span><span class="n">y</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="nf">\</span><span class="n">x</span> <span class="o">-&gt;</span> <span class="n">g</span> <span class="n">x</span> <span class="o">&gt;&gt;=</span> <span class="n">h</span><span class="p">)</span> <span class="n">y</span> <span class="o">&gt;&gt;=</span> <span class="n">k</span>
+   <span class="o">=</span> <span class="p">(</span><span class="nf">\</span><span class="n">x</span> <span class="o">-&gt;</span> <span class="n">g</span> <span class="n">x</span> <span class="o">&gt;&gt;=</span> <span class="n">h</span><span class="p">)</span> <span class="o">&gt;=&gt;</span> <span class="n">k</span>
+   <span class="o">=</span> <span class="p">(</span><span class="n">g</span> <span class="o">&gt;=&gt;</span> <span class="n">h</span><span class="p">)</span> <span class="o">&gt;=&gt;</span> <span class="n">k</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h1 id="tocAnchor-1-18">Monad Transformers</h1>
+
+<h2 id="tocAnchor-1-18-1">Definition and laws</h2>
+
+<div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">class</span> <span class="kt">MonadTrans</span> <span class="n">t</span> <span class="kr">where</span>
+  <span class="n">lift</span> <span class="o">::</span> <span class="kt">Monad</span> <span class="n">m</span> <span class="o">=&gt;</span> <span class="n">m</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">m</span> <span class="n">a</span>
+</code></pre></div></div>
+
+<h3 id="exercises-11">Exercises</h3>
+
+<ol>
+  <li>
+    <p>What is the kind of <code class="language-plaintext highlighter-rouge">t</code> in the declaration of <code class="language-plaintext highlighter-rouge">MonadTrans</code>?</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <p><code class="language-plaintext highlighter-rouge">t</code> is of the kind <code class="language-plaintext highlighter-rouge">(* -&gt; *) -&gt; * -&gt; *</code>, as we see in <code class="language-plaintext highlighter-rouge">(t m) a</code>, <code class="language-plaintext highlighter-rouge">t</code> accepts a <code class="language-plaintext highlighter-rouge">Monad</code> first, which is of type <code class="language-plaintext highlighter-rouge">* -&gt; *</code>, and then
+ another argument of kind <code class="language-plaintext highlighter-rouge">*</code>.</p>
+  </li>
+</ol>
+
+<h2 id="tocAnchor-1-18-2">Composing Monads</h2>
+
+<h3 id="exercises-12">Exercises</h3>
+
+<ol>
+  <li>
+    <p>Implement <code class="language-plaintext highlighter-rouge">join :: M (N (M (N a))) -&gt; M (N a)</code> given <code class="language-plaintext highlighter-rouge">distrib :: N (M a) -&gt; M (N a)</code> and assuming <code class="language-plaintext highlighter-rouge">M</code> and <code class="language-plaintext highlighter-rouge">N</code> are instances of <code class="language-plaintext highlighter-rouge">Monad</code>.</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">join</span> <span class="o">::</span> <span class="kt">M</span> <span class="p">(</span><span class="kt">N</span> <span class="p">(</span><span class="kt">M</span> <span class="p">(</span><span class="kt">N</span> <span class="n">a</span><span class="p">)))</span> <span class="o">-&gt;</span> <span class="kt">M</span> <span class="p">(</span><span class="kt">N</span> <span class="n">a</span><span class="p">)</span>
+ <span class="n">join</span> <span class="n">m</span> <span class="o">=</span> <span class="n">distrib</span> <span class="p">((</span><span class="n">distrib</span> <span class="n">m</span><span class="p">)</span> <span class="o">&gt;&gt;=</span> <span class="n">join</span><span class="p">)</span> <span class="o">&gt;&gt;=</span> <span class="n">join</span>
+    
+ <span class="c1">-- one by one</span>
+ <span class="kr">let</span> <span class="n">m</span> <span class="o">::</span> <span class="kt">M</span> <span class="p">(</span><span class="kt">N</span> <span class="p">(</span><span class="kt">M</span> <span class="p">(</span><span class="kt">N</span> <span class="n">a</span><span class="p">)))</span>
+     <span class="n">a</span> <span class="o">=</span> <span class="n">distrib</span> <span class="n">m</span>  <span class="o">::</span> <span class="kt">N</span> <span class="p">(</span><span class="kt">M</span> <span class="p">(</span><span class="kt">M</span> <span class="p">(</span><span class="kt">N</span> <span class="n">a</span><span class="p">)))</span>
+     <span class="n">b</span> <span class="o">=</span> <span class="n">a</span> <span class="o">&gt;&gt;=</span> <span class="n">join</span> <span class="o">::</span> <span class="kt">N</span> <span class="p">(</span><span class="kt">M</span> <span class="p">(</span><span class="kt">N</span> <span class="n">a</span><span class="p">))</span>
+     <span class="n">c</span> <span class="o">=</span> <span class="n">distrib</span> <span class="n">b</span>  <span class="o">::</span> <span class="kt">M</span> <span class="p">(</span><span class="kt">N</span> <span class="p">(</span><span class="kt">N</span> <span class="n">a</span><span class="p">))</span>
+ <span class="kr">in</span> <span class="n">c</span> <span class="o">&gt;&gt;=</span> <span class="n">join</span>      <span class="o">::</span> <span class="kt">M</span> <span class="p">(</span><span class="kt">N</span> <span class="n">a</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h1 id="tocAnchor-1-21">MonadFix</h1>
+
+<h2 id="tocAnchor-1-21-1">Examples and intuition</h2>
+
+<div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">maybeFix</span> <span class="o">::</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">Maybe</span> <span class="n">a</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Maybe</span> <span class="n">a</span>
+<span class="n">maybeFix</span> <span class="n">f</span> <span class="o">=</span> <span class="n">ma</span>
+  <span class="kr">where</span> <span class="n">ma</span> <span class="o">=</span> <span class="n">f</span> <span class="p">(</span><span class="n">fromJust</span> <span class="n">ma</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="exercises-13">Exercises</h3>
+
+<ol>
+  <li>
+    <p>Implement a MonadFix instance for [].</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">listFix</span> <span class="o">::</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="n">a</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="n">a</span><span class="p">]</span>
+ <span class="n">listFix</span> <span class="n">f</span> <span class="o">=</span> <span class="n">la</span>
+   <span class="kr">where</span> <span class="n">la</span> <span class="o">=</span> <span class="n">f</span> <span class="p">(</span><span class="n">head</span> <span class="n">la</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h1 id="tocAnchor-1-23">Foldable</h1>
+
+<h2 id="tocAnchor-1-23-1">Definition</h2>
+
+<div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kr">class</span> <span class="kt">Foldable</span> <span class="n">t</span> <span class="kr">where</span>
+  <span class="n">fold</span>    <span class="o">::</span> <span class="kt">Monoid</span> <span class="n">m</span> <span class="o">=&gt;</span> <span class="n">t</span> <span class="n">m</span> <span class="o">-&gt;</span> <span class="n">m</span>
+  <span class="n">foldMap</span> <span class="o">::</span> <span class="kt">Monoid</span> <span class="n">m</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">m</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">m</span>
+  <span class="n">foldr</span>   <span class="o">::</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span> <span class="o">-&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">b</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span>
+  <span class="n">foldr'</span>  <span class="o">::</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span> <span class="o">-&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">b</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span>
+  <span class="n">foldl</span>   <span class="o">::</span> <span class="p">(</span><span class="n">b</span> <span class="o">-&gt;</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">b</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span>
+  <span class="n">foldl'</span>  <span class="o">::</span> <span class="p">(</span><span class="n">b</span> <span class="o">-&gt;</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">b</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span>
+  <span class="n">foldr1</span>  <span class="o">::</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">a</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">a</span>
+  <span class="n">foldl1</span>  <span class="o">::</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">a</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">a</span>
+  <span class="n">toList</span>  <span class="o">::</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="n">a</span><span class="p">]</span>
+  <span class="n">null</span>    <span class="o">::</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">Bool</span>
+  <span class="n">length</span>  <span class="o">::</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">Int</span>
+  <span class="n">elem</span>    <span class="o">::</span> <span class="kt">Eq</span> <span class="n">a</span> <span class="o">=&gt;</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">Bool</span>
+  <span class="n">maximum</span> <span class="o">::</span> <span class="kt">Ord</span> <span class="n">a</span> <span class="o">=&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">a</span>
+  <span class="n">minimum</span> <span class="o">::</span> <span class="kt">Ord</span> <span class="n">a</span> <span class="o">=&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">a</span>
+  <span class="n">sum</span>     <span class="o">::</span> <span class="kt">Num</span> <span class="n">a</span> <span class="o">=&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">a</span>
+  <span class="n">product</span> <span class="o">::</span> <span class="kt">Num</span> <span class="n">a</span> <span class="o">=&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">a</span>
+</code></pre></div></div>
+
+<h2 id="tocAnchor-1-23-2">Instances and examples</h2>
+
+<h3 id="exercises-14">Exercises</h3>
+
+<ol>
+  <li>
+    <p>Implement <code class="language-plaintext highlighter-rouge">fold</code> in terms of <code class="language-plaintext highlighter-rouge">foldMap</code>.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">fold</span> <span class="o">=</span> <span class="n">foldMap</span> <span class="n">id</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>What would you need in order to implement <code class="language-plaintext highlighter-rouge">foldMap</code> in terms of <code class="language-plaintext highlighter-rouge">fold</code>?</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <p>A <code class="language-plaintext highlighter-rouge">map</code> function should exist for the instance, so we can apply the function <code class="language-plaintext highlighter-rouge">(a -&gt; m)</code> to the container first.</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">foldMap</span> <span class="n">f</span> <span class="o">=</span> <span class="n">fold</span> <span class="o">.</span> <span class="n">map</span> <span class="n">f</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Implement <code class="language-plaintext highlighter-rouge">foldMap</code> in terms of <code class="language-plaintext highlighter-rouge">foldr</code>.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">foldMap</span> <span class="n">f</span> <span class="o">=</span> <span class="n">foldr</span> <span class="p">(</span><span class="nf">\</span><span class="n">a</span> <span class="n">b</span> <span class="o">-&gt;</span> <span class="n">mappend</span> <span class="p">(</span><span class="n">f</span> <span class="n">a</span><span class="p">)</span> <span class="n">b</span><span class="p">)</span> <span class="n">mempty</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Implement <code class="language-plaintext highlighter-rouge">foldr</code> in terms of <code class="language-plaintext highlighter-rouge">foldMap</code> (hint: use the <code class="language-plaintext highlighter-rouge">Endo</code> monoid).</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">foldr</span> <span class="n">f</span> <span class="n">b</span> <span class="n">c</span> <span class="o">=</span> <span class="n">foldMap</span> <span class="p">(</span><span class="kt">Endo</span> <span class="o">.</span> <span class="n">f</span><span class="p">)</span> <span class="n">c</span> <span class="p">`</span><span class="n">appEndo</span><span class="p">`</span> <span class="n">b</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>What is the type of <code class="language-plaintext highlighter-rouge">foldMap . foldMap</code>? Or <code class="language-plaintext highlighter-rouge">foldMap . foldMap . foldMap</code>, etc.? What do they do?</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <p>Each composition makes <code class="language-plaintext highlighter-rouge">foldMap</code> operate on a deeper level, so:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">foldMap</span> <span class="o">::</span> <span class="kt">Monoid</span> <span class="n">m</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">m</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">m</span>
+ <span class="n">foldMap</span> <span class="o">.</span> <span class="n">foldMap</span> <span class="o">::</span> <span class="kt">Monoid</span> <span class="n">m</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">m</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="p">(</span><span class="n">t</span> <span class="n">a</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">m</span>
+ <span class="n">foldMap</span> <span class="o">.</span> <span class="n">foldMap</span> <span class="o">.</span> <span class="n">foldMap</span> <span class="o">::</span> <span class="kt">Monoid</span> <span class="n">m</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">m</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="p">(</span><span class="n">t</span> <span class="p">(</span><span class="n">t</span> <span class="n">a</span><span class="p">))</span> <span class="o">-&gt;</span> <span class="n">m</span>
+    
+ <span class="n">foldMap</span> <span class="n">id</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span> <span class="o">::</span> <span class="kt">Sum</span> <span class="kt">Int</span> <span class="c1">-- 6</span>
+ <span class="p">(</span><span class="n">foldMap</span> <span class="o">.</span> <span class="n">foldMap</span><span class="p">)</span> <span class="n">id</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]]</span> <span class="o">::</span> <span class="kt">Sum</span> <span class="kt">Int</span> <span class="c1">-- 6</span>
+ <span class="p">(</span><span class="n">foldMap</span> <span class="o">.</span> <span class="n">foldMap</span> <span class="o">.</span> <span class="n">foldMap</span><span class="p">)</span> <span class="n">id</span> <span class="p">[[[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]]]</span> <span class="o">::</span> <span class="kt">Sum</span> <span class="kt">Int</span> <span class="c1">-- 6</span>
+</code></pre></div>    </div>
+    <h2 id="derived-folds">Derived folds</h2>
+  </li>
+</ol>
+
+<h3 id="exercises-15">Exercises</h3>
+
+<ol>
+  <li>
+    <p>Implement <code class="language-plaintext highlighter-rouge">toList :: Foldable f =&gt; f a -&gt; [a]</code> in terms of either <code class="language-plaintext highlighter-rouge">foldr</code> or <code class="language-plaintext highlighter-rouge">foldMap</code>.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">toList</span> <span class="o">=</span> <span class="n">foldMap</span> <span class="p">(</span><span class="n">replicate</span> <span class="mi">1</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Show how one could implement the generic version of <code class="language-plaintext highlighter-rouge">foldr</code> in terms of <code class="language-plaintext highlighter-rouge">toList</code>, assuming we had only the list-specific <code class="language-plaintext highlighter-rouge">foldr :: (a -&gt; b -&gt; b) -&gt; b -&gt; [a] -&gt; b</code>.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">foldr</span> <span class="n">f</span> <span class="n">b</span> <span class="n">c</span> <span class="o">=</span> <span class="n">foldr</span> <span class="n">f</span> <span class="n">b</span> <span class="p">(</span><span class="n">toList</span> <span class="n">c</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Pick some of the following functions to implement: <code class="language-plaintext highlighter-rouge">concat</code>, <code class="language-plaintext highlighter-rouge">concatMap</code>, <code class="language-plaintext highlighter-rouge">and</code>, <code class="language-plaintext highlighter-rouge">or</code>, <code class="language-plaintext highlighter-rouge">any</code>, <code class="language-plaintext highlighter-rouge">all</code>, <code class="language-plaintext highlighter-rouge">sum</code>, <code class="language-plaintext highlighter-rouge">product</code>, <code class="language-plaintext highlighter-rouge">maximum(By)</code>, <code class="language-plaintext highlighter-rouge">minimum(By)</code>, <code class="language-plaintext highlighter-rouge">elem</code>, <code class="language-plaintext highlighter-rouge">notElem</code>, and <code class="language-plaintext highlighter-rouge">find</code>. Figure out how they generalize to <code class="language-plaintext highlighter-rouge">Foldable</code> and come up with elegant implementations using <code class="language-plaintext highlighter-rouge">fold</code> or <code class="language-plaintext highlighter-rouge">foldMap</code> along with appropriate <code class="language-plaintext highlighter-rouge">Monoid</code> instances.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">concat</span> <span class="o">::</span> <span class="kt">Foldable</span> <span class="n">t</span> <span class="o">=&gt;</span> <span class="n">t</span> <span class="p">[</span><span class="n">a</span><span class="p">]</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="n">a</span><span class="p">]</span>
+ <span class="n">concat</span> <span class="o">=</span> <span class="n">foldMap</span> <span class="n">id</span>
+    
+ <span class="n">concatMap</span> <span class="o">::</span> <span class="kt">Foldable</span> <span class="n">t</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="n">b</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="n">b</span><span class="p">]</span>
+ <span class="n">concatMap</span> <span class="n">f</span> <span class="o">=</span> <span class="n">foldMap</span> <span class="p">(</span><span class="n">foldMap</span> <span class="p">(</span><span class="n">replicate</span> <span class="mi">1</span> <span class="o">.</span> <span class="n">f</span><span class="p">))</span>
+    
+ <span class="n">and</span> <span class="o">::</span> <span class="kt">Foldable</span> <span class="n">t</span> <span class="o">=&gt;</span> <span class="n">t</span> <span class="kt">Bool</span> <span class="o">-&gt;</span> <span class="kt">Bool</span>
+ <span class="n">and</span> <span class="o">=</span> <span class="n">getAll</span> <span class="o">.</span> <span class="n">foldMap</span> <span class="kt">All</span>
+    
+ <span class="n">or</span> <span class="o">::</span> <span class="kt">Foldable</span> <span class="n">t</span> <span class="o">=&gt;</span> <span class="n">t</span> <span class="kt">Bool</span> <span class="o">-&gt;</span> <span class="kt">Bool</span>
+ <span class="n">or</span> <span class="o">=</span> <span class="n">getAny</span> <span class="o">.</span> <span class="n">foldMap</span> <span class="kt">Any</span>
+      
+ <span class="n">any</span> <span class="o">::</span> <span class="kt">Foldable</span> <span class="n">t</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">Bool</span>
+ <span class="n">any</span> <span class="n">f</span> <span class="o">=</span> <span class="n">getAny</span> <span class="o">.</span> <span class="n">foldMap</span> <span class="p">(</span><span class="kt">Any</span> <span class="o">.</span> <span class="n">f</span><span class="p">)</span>
+    
+ <span class="n">all</span> <span class="o">::</span> <span class="kt">Foldable</span> <span class="n">t</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">Bool</span><span class="p">)</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">Bool</span>
+ <span class="n">all</span> <span class="n">f</span> <span class="o">=</span> <span class="n">getAll</span> <span class="o">.</span> <span class="n">foldMap</span> <span class="p">(</span><span class="kt">All</span> <span class="o">.</span> <span class="n">f</span><span class="p">)</span>
+    
+ <span class="n">sum</span> <span class="o">::</span> <span class="p">(</span><span class="kt">Num</span> <span class="n">a</span><span class="p">,</span> <span class="kt">Foldable</span> <span class="n">t</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">a</span>
+ <span class="n">sum</span> <span class="o">=</span> <span class="n">getSum</span> <span class="o">.</span> <span class="n">foldMap</span> <span class="kt">Sum</span>
+    
+ <span class="n">product</span> <span class="o">::</span> <span class="p">(</span><span class="kt">Num</span> <span class="n">a</span><span class="p">,</span> <span class="kt">Foldable</span> <span class="n">t</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">a</span>
+ <span class="n">product</span> <span class="o">=</span> <span class="n">getProduct</span> <span class="o">.</span> <span class="n">foldMap</span> <span class="kt">Product</span>
+    
+ <span class="c1">-- I think there are more elegant implementations for maximumBy, leave a comment</span>
+ <span class="c1">-- if you have a suggestion</span>
+ <span class="n">maximumBy</span> <span class="o">::</span> <span class="kt">Foldable</span> <span class="n">t</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">Ordering</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">a</span>
+ <span class="n">maximumBy</span> <span class="n">f</span> <span class="n">c</span> <span class="o">=</span> <span class="n">head</span> <span class="o">$</span> <span class="n">foldMap</span> <span class="p">(</span><span class="nf">\</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="n">a</span> <span class="o">|</span> <span class="n">cmp</span> <span class="n">a</span><span class="p">])</span> <span class="n">c</span>
+   <span class="kr">where</span>
+     <span class="n">cmp</span> <span class="n">a</span> <span class="o">=</span> <span class="n">all</span> <span class="p">(</span><span class="o">/=</span> <span class="kt">LT</span><span class="p">)</span> <span class="p">(</span><span class="n">map</span> <span class="p">(</span><span class="n">f</span> <span class="n">a</span><span class="p">)</span> <span class="n">lst</span><span class="p">)</span>
+     <span class="n">lst</span> <span class="o">=</span> <span class="n">toList</span> <span class="n">c</span>
+    
+ <span class="n">elem</span> <span class="o">::</span> <span class="p">(</span><span class="kt">Eq</span> <span class="n">a</span><span class="p">,</span> <span class="kt">Foldable</span> <span class="n">t</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">Bool</span>
+ <span class="n">elem</span> <span class="n">x</span> <span class="n">c</span> <span class="o">=</span> <span class="n">any</span> <span class="p">(</span><span class="o">==</span><span class="n">x</span><span class="p">)</span> <span class="n">c</span>
+    
+ <span class="n">find</span> <span class="o">::</span> <span class="kt">Foldable</span> <span class="n">t</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="kt">Maybe</span> <span class="n">a</span> 
+ <span class="n">find</span> <span class="n">f</span> <span class="n">c</span> <span class="o">=</span> <span class="n">listToMaybe</span> <span class="o">$</span> <span class="n">foldMap</span> <span class="p">(</span><span class="nf">\</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="n">a</span> <span class="o">|</span> <span class="n">f</span> <span class="n">a</span><span class="p">])</span> <span class="n">c</span> 
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="tocAnchor-1-23-3">Utility functions</h2>
+
+<ul>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">sequenceA_ :: (Applicative f, Foldable t) =&gt; t (f a) -&gt; f ()</code> takes a container full of computations and runs them in sequence, discarding the results (that is, they are used only for their effects). Since the results are discarded, the container only needs to be Foldable. (Compare with <code class="language-plaintext highlighter-rouge">sequenceA :: (Applicative f, Traversable t) =&gt; t (f a) -&gt; f (t a)</code>, which requires a stronger Traversable constraint in order to be able to reconstruct a container of results having the same shape as the original container.)</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">traverse_ :: (Applicative f, Foldable t) =&gt; (a -&gt; f b) -&gt; t a -&gt; f ()</code> applies the given function to each element in a foldable container and sequences the effects (but discards the results).</p>
+  </li>
+</ul>
+
+<h3 id="exercises-16">Exercises</h3>
+
+<ol>
+  <li>
+    <p>Implement <code class="language-plaintext highlighter-rouge">traverse_</code> in terms of <code class="language-plaintext highlighter-rouge">sequenceA_</code> and vice versa. One of these will need an extra constraint. What is it?</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">sequenceA_</span> <span class="o">::</span> <span class="p">(</span><span class="kt">Applicative</span> <span class="n">f</span><span class="p">,</span> <span class="kt">Foldable</span> <span class="n">t</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">t</span> <span class="p">(</span><span class="n">f</span> <span class="n">a</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="nb">()</span>
+ <span class="n">sequenceA_</span> <span class="o">=</span> <span class="n">traverse_</span> <span class="n">id</span>
+    
+ <span class="n">traverse_</span> <span class="o">::</span> <span class="p">(</span><span class="kt">Applicative</span> <span class="n">f</span><span class="p">,</span> <span class="kt">Foldable</span> <span class="n">t</span><span class="p">,</span> <span class="kt">Functor</span> <span class="n">t</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="nb">()</span>
+ <span class="n">traverse_</span> <span class="n">f</span> <span class="n">c</span> <span class="o">=</span> <span class="n">sequenceA_</span> <span class="p">(</span><span class="n">fmap</span> <span class="n">f</span> <span class="n">c</span><span class="p">)</span>
+</code></pre></div>    </div>
+
+    <p>The additional constraint for implementing <code class="language-plaintext highlighter-rouge">traverse_</code> in terms of <code class="language-plaintext highlighter-rouge">sequenceA_</code> is the requirement of the <code class="language-plaintext highlighter-rouge">Foldable</code> instance <code class="language-plaintext highlighter-rouge">t</code> to be a <code class="language-plaintext highlighter-rouge">Functor</code> as well.</p>
+  </li>
+</ol>
+
+<h1 id="tocAnchor-1-27">Traversable</h1>
+
+<h2 id="tocAnchor-1-27-1">Intuition</h2>
+
+<div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">traverse</span> <span class="o">::</span> <span class="kt">Applicative</span> <span class="n">f</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="p">(</span><span class="n">t</span> <span class="n">b</span><span class="p">)</span>
+<span class="n">sequenceA</span> <span class="o">::</span> <span class="kt">Applicative</span> <span class="n">f</span> <span class="o">=&gt;</span> <span class="n">t</span> <span class="p">(</span><span class="n">f</span> <span class="n">a</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="p">(</span><span class="n">t</span> <span class="n">a</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="exercises-17">Exercises</h3>
+
+<ol>
+  <li>
+    <p>There are at least two natural ways to turn a tree of lists into a list of trees. What are they, and why?</p>
+
+    <p>Note: I’m not really sure whether my solution is <em>natural</em>, I think the question is rather ambiguous in the sense that it’s not clear whether the trees in the final list of trees can have lists as their values, i.e. <code class="language-plaintext highlighter-rouge">Tree [Int] -&gt; [Tree [Int]]</code> is valid or only <code class="language-plaintext highlighter-rouge">Tree [Int] -&gt; [Tree Int]</code> is, but let me know if you think otherwise.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <p>One way is to put each <code class="language-plaintext highlighter-rouge">Node</code>, <code class="language-plaintext highlighter-rouge">Leaf</code> or <code class="language-plaintext highlighter-rouge">Empty</code> in a list in-order, this way the structure of the tree can be recovered from the list, here is a quick sketch (<code class="language-plaintext highlighter-rouge">[]</code> is an arbitrary list):</p>
+
+    <p><img src="/img/typoclassopedia/tree.jpg" alt="tree to list" /></p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kr">let</span> <span class="n">tree</span> <span class="o">=</span> <span class="kt">Node</span> <span class="p">(</span><span class="kt">Node</span> <span class="p">(</span><span class="kt">Leaf</span> <span class="kt">[]</span><span class="p">)</span> <span class="kt">Empty</span><span class="p">)</span> <span class="kt">[]</span> <span class="p">(</span><span class="kt">Leaf</span> <span class="kt">[]</span><span class="p">)</span>
+ <span class="kr">let</span> <span class="n">list</span> <span class="o">=</span> <span class="p">[</span><span class="kt">Node</span> <span class="kt">Empty</span> <span class="kt">[]</span> <span class="kt">Empty</span><span class="p">,</span> <span class="kt">Node</span> <span class="kt">Empty</span> <span class="kt">[]</span> <span class="kt">Empty</span><span class="p">,</span> <span class="kt">Leaf</span> <span class="kt">[]</span><span class="p">,</span> <span class="kt">Empty</span><span class="p">,</span> <span class="kt">Leaf</span> <span class="kt">[]</span><span class="p">]</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Give a natural way to turn a list of trees into a tree of lists.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <p>To recover the original tree from the list of trees, whenever we encounter a <code class="language-plaintext highlighter-rouge">Node</code> in the list, we catch the next three values as left, value, and right nodes of the original node.</p>
+  </li>
+  <li>
+    <p>What is the type of <code class="language-plaintext highlighter-rouge">traverse . traverse</code>? What does it do?</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="p">(</span><span class="n">traverse</span> <span class="o">.</span> <span class="n">traverse</span><span class="p">)</span> <span class="o">::</span> <span class="kt">Applicative</span> <span class="n">f</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="p">(</span><span class="n">t2</span> <span class="n">a</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="p">(</span><span class="n">t</span> <span class="p">(</span><span class="n">t2</span> <span class="n">b</span><span class="p">))</span>
+</code></pre></div>    </div>
+
+    <p>It traverses on a deeper level, retaining the structure of the first level.</p>
+  </li>
+  <li>
+    <p>Implement <code class="language-plaintext highlighter-rouge">traverse</code> in terms of <code class="language-plaintext highlighter-rouge">sequenceA</code>, and vice versa.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">sequenceA</span> <span class="o">=</span> <span class="n">traverse</span> <span class="n">id</span>
+    
+ <span class="n">traverseA</span> <span class="n">f</span> <span class="n">c</span> <span class="o">=</span> <span class="n">sequenceA</span> <span class="p">(</span><span class="n">fmap</span> <span class="n">f</span> <span class="n">c</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="tocAnchor-1-27-2">Instances and examples</h2>
+
+<h3 id="exercises-18">Exercises</h3>
+
+<ol>
+  <li>
+    <p>Implement <code class="language-plaintext highlighter-rouge">fmap</code> and <code class="language-plaintext highlighter-rouge">foldMap</code> using only the <code class="language-plaintext highlighter-rouge">Traversable</code> methods. (Note that the <code class="language-plaintext highlighter-rouge">Traversable</code> module provides these implementations as <code class="language-plaintext highlighter-rouge">fmapDefault</code> and <code class="language-plaintext highlighter-rouge">foldMapDefault</code>.)</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kr">newtype</span> <span class="kt">Id</span> <span class="n">a</span> <span class="o">=</span> <span class="kt">Id</span> <span class="p">{</span> <span class="n">getId</span> <span class="o">::</span> <span class="n">a</span> <span class="p">}</span>
+    
+ <span class="kr">instance</span> <span class="kt">Functor</span> <span class="kt">Id</span> <span class="kr">where</span>
+   <span class="n">fmap</span> <span class="n">f</span> <span class="p">(</span><span class="kt">Id</span> <span class="n">x</span><span class="p">)</span> <span class="o">=</span> <span class="kt">Id</span> <span class="p">(</span><span class="n">f</span> <span class="n">x</span><span class="p">)</span>
+    
+ <span class="kr">instance</span> <span class="kt">Applicative</span> <span class="kt">Id</span> <span class="kr">where</span>
+   <span class="n">pure</span> <span class="n">x</span> <span class="o">=</span> <span class="kt">Id</span> <span class="n">x</span>
+   <span class="p">(</span><span class="kt">Id</span> <span class="n">f</span><span class="p">)</span> <span class="o">&lt;*&gt;</span> <span class="p">(</span><span class="kt">Id</span> <span class="n">x</span><span class="p">)</span> <span class="o">=</span> <span class="kt">Id</span> <span class="p">(</span><span class="n">f</span> <span class="n">x</span><span class="p">)</span>
+    
+ <span class="n">fmapDefault</span> <span class="o">::</span> <span class="kt">Traversable</span> <span class="n">t</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">b</span>
+ <span class="n">fmapDefault</span> <span class="n">f</span> <span class="o">=</span> <span class="n">getId</span> <span class="o">.</span> <span class="n">traverse</span> <span class="p">(</span><span class="kt">Id</span> <span class="o">.</span> <span class="n">f</span><span class="p">)</span>
+    
+ <span class="n">foldMapDefault</span> <span class="o">::</span> <span class="p">(</span><span class="kt">Monoid</span> <span class="n">m</span><span class="p">,</span> <span class="kt">Traversable</span> <span class="n">t</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">m</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">t</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">m</span>
+ <span class="n">foldMapDefault</span> <span class="n">f</span> <span class="o">=</span> <span class="n">getConst</span> <span class="o">.</span> <span class="n">traverse</span> <span class="p">(</span><span class="kt">Const</span> <span class="o">.</span> <span class="n">f</span><span class="p">)</span>
+</code></pre></div>    </div>
+
+    <p>See the <a href="https://www.stackage.org/haddock/lts-9.9/base-4.9.1.0/src/Data-Functor-Const.html#Const">Const</a> Functor’s definition for intuition.</p>
+  </li>
+  <li>
+    <p>Implement <code class="language-plaintext highlighter-rouge">Traversable</code> instances for <code class="language-plaintext highlighter-rouge">[]</code>, <code class="language-plaintext highlighter-rouge">Maybe</code>, <code class="language-plaintext highlighter-rouge">((,) a)</code>, and <code class="language-plaintext highlighter-rouge">Either a</code>.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kr">instance</span> <span class="kt">Traversable</span> <span class="kt">[]</span> <span class="kr">where</span>
+   <span class="n">traverse</span> <span class="o">::</span> <span class="kt">Applicative</span> <span class="n">f</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="n">a</span><span class="p">]</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="p">[</span><span class="n">b</span><span class="p">]</span>
+   <span class="n">traverse</span> <span class="kr">_</span> <span class="kt">[]</span> <span class="o">=</span> <span class="n">pure</span> <span class="kt">[]</span>
+   <span class="n">traverse</span> <span class="n">f</span> <span class="p">(</span><span class="n">x</span><span class="o">:</span><span class="n">xs</span><span class="p">)</span> <span class="o">=</span> <span class="p">(</span><span class="o">:</span><span class="p">)</span> <span class="o">&lt;$&gt;</span> <span class="n">f</span> <span class="n">x</span> <span class="o">&lt;*&gt;</span> <span class="kt">Main</span><span class="o">.</span><span class="n">traverse</span> <span class="n">f</span> <span class="n">xs</span>
+      
+ <span class="kr">instance</span> <span class="kt">Traversable</span> <span class="kt">Maybe</span> <span class="kr">where</span>
+   <span class="n">traverse</span> <span class="o">::</span> <span class="kt">Applicative</span> <span class="n">f</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Maybe</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="p">(</span><span class="kt">Maybe</span> <span class="n">b</span><span class="p">)</span>
+      
+   <span class="n">traverse</span> <span class="kr">_</span> <span class="kt">Nothing</span> <span class="o">=</span> <span class="n">pure</span> <span class="kt">Nothing</span>
+   <span class="n">traverse</span> <span class="n">f</span> <span class="p">(</span><span class="kt">Just</span> <span class="n">x</span><span class="p">)</span> <span class="o">=</span> <span class="kt">Just</span> <span class="o">&lt;$&gt;</span> <span class="n">f</span> <span class="n">x</span>
+      
+ <span class="kr">instance</span> <span class="kt">Traversable</span> <span class="p">((,)</span> <span class="n">c</span><span class="p">)</span> <span class="kr">where</span>
+   <span class="n">traverse</span> <span class="o">::</span> <span class="kt">Applicative</span> <span class="n">f</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">a</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+      
+   <span class="n">traverse</span> <span class="n">f</span> <span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">a</span><span class="p">)</span> <span class="o">=</span> <span class="p">(,)</span> <span class="n">c</span> <span class="o">&lt;$&gt;</span> <span class="n">f</span> <span class="n">a</span>
+      
+ <span class="kr">instance</span> <span class="kt">Traversable</span> <span class="p">(</span><span class="kt">Either</span> <span class="n">c</span><span class="p">)</span> <span class="kr">where</span>
+   <span class="n">traverse</span> <span class="o">::</span> <span class="kt">Applicative</span> <span class="n">f</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Either</span> <span class="n">c</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="p">(</span><span class="kt">Either</span> <span class="n">c</span> <span class="n">b</span><span class="p">)</span>
+      
+   <span class="n">traverse</span> <span class="kr">_</span> <span class="p">(</span><span class="kt">Left</span> <span class="n">c</span><span class="p">)</span> <span class="o">=</span> <span class="n">pure</span> <span class="p">(</span><span class="kt">Left</span> <span class="n">c</span><span class="p">)</span>
+   <span class="n">traverse</span> <span class="n">f</span> <span class="p">(</span><span class="kt">Right</span> <span class="n">a</span><span class="p">)</span> <span class="o">=</span> <span class="kt">Right</span> <span class="o">&lt;$&gt;</span> <span class="n">f</span> <span class="n">a</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Explain why <code class="language-plaintext highlighter-rouge">Set</code> is <code class="language-plaintext highlighter-rouge">Foldable</code> but not <code class="language-plaintext highlighter-rouge">Traversable</code>.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <p>First, in terms of laws, <code class="language-plaintext highlighter-rouge">Set</code> is not a <code class="language-plaintext highlighter-rouge">Functor</code>, thus it cannot be made into a <code class="language-plaintext highlighter-rouge">Traversable</code> instance, since <code class="language-plaintext highlighter-rouge">Traversable</code> instances require <code class="language-plaintext highlighter-rouge">Functor</code> superclasses.</p>
+
+    <p>Second, on an intuitive level: In <code class="language-plaintext highlighter-rouge">Foldable</code>, the goal is not to keep the shape/structure of the original container, we are trying to reduce the container into some value, and the shape of the final result doesn’t matter, but in <code class="language-plaintext highlighter-rouge">Traversable</code>, we ought to keep the structure of the final result, but we can’t guarantee this while using <code class="language-plaintext highlighter-rouge">Set</code>s, because we can define some transformation <code class="language-plaintext highlighter-rouge">f :: Set a -&gt; Set a</code> which reduces the length of the <code class="language-plaintext highlighter-rouge">Set</code>.</p>
+
+    <p>See <a href="https://stackoverflow.com/questions/35857733/foldable-vs-traversable">Foldable vs. Traversable</a> and <a href="https://stackoverflow.com/questions/19177125/sets-functors-and-eq-confusion">Sets, Functors and Eq confusion</a>. and <a href="https://wiki.haskell.org/Foldable_and_Traversable">Foldable and Traversable</a> for more details.</p>
+  </li>
+  <li>
+    <p>Show that <code class="language-plaintext highlighter-rouge">Traversable</code> functors compose: that is, implement an instance for <code class="language-plaintext highlighter-rouge">Traversable (Compose f g)</code> given <code class="language-plaintext highlighter-rouge">Traversable</code> instances for <code class="language-plaintext highlighter-rouge">f</code> and <code class="language-plaintext highlighter-rouge">g</code>.</p>
+
+    <p><strong>Solution</strong>:</p>
+
+    <div class="language-haskell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kr">instance</span> <span class="p">(</span><span class="kt">Traversable</span> <span class="n">f</span><span class="p">,</span> <span class="kt">Traversable</span> <span class="n">g</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="kt">Traversable</span> <span class="p">(</span><span class="kt">Compose</span> <span class="n">f</span> <span class="n">g</span><span class="p">)</span> <span class="kr">where</span>
+   <span class="n">traverse</span> <span class="o">::</span> <span class="p">(</span><span class="kt">Applicative</span> <span class="n">f</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="n">b</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Compose</span> <span class="n">g</span> <span class="n">h</span> <span class="n">a</span> <span class="o">-&gt;</span> <span class="n">f</span> <span class="p">(</span><span class="kt">Compose</span> <span class="n">g</span> <span class="n">h</span> <span class="n">b</span><span class="p">)</span>
+   <span class="n">traverse</span> <span class="n">f</span> <span class="p">(</span><span class="kt">Compose</span> <span class="n">t</span><span class="p">)</span> <span class="o">=</span> <span class="kt">Compose</span> <span class="o">&lt;$&gt;</span> <span class="n">traverse</span> <span class="p">(</span><span class="n">traverse</span> <span class="n">f</span><span class="p">)</span> <span class="n">t</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+
+  </article>
+
+  <div class="share-page">
+    Share in
+
+    <a href="https://twitter.com/intent/tweet?text=Typoclassopedia: Exercise solutions&amp;url=http://localhost:4000/typoclassopedia-exercise-solutions/&amp;via=&amp;related=" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
+    <a href="https://facebook.com/sharer.php?u=http://localhost:4000/typoclassopedia-exercise-solutions/" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
+    <a href="https://plus.google.com/share?url=http://localhost:4000/typoclassopedia-exercise-solutions/" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
+</div>
+
+  
+  <div id="commento"></div>
+  <script defer="defer" src="//commento.mahdi.blog/js/commento.js"><![CDATA[
+  ]]></script>
+
+  <script src="/js/heading-links.js"></script>
+</div>
+
+        
+      </div>
+    </div>
+
+  </body>
+
+</html>

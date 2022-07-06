@@ -4,7 +4,7 @@ layout: default
 
 <div class="home art">
   <ul class="post-list">
-    {% for post in site.art %}
+    {% for post in site.art reversed %}
       {% if post.published == false %}
         {% continue %}
       {% endif %}

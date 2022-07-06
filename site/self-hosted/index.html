@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Going Self-Hosted: Moving away from Google and others</title>
+  <meta name="description" content="Since 3 years ago, I have always been eager to move away from Google and other privacy-invading companies. I have had my successes and failures in doing so, ...">
+
+  <link href="https://fonts.googleapis.com/css?family=Secular+One|Nunito|Mononoki" rel="stylesheet"> 
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/self-hosted/">
+  <link rel="alternate" type="application/rss+xml" title="mahdi" href="http://localhost:4000/feed.xml" />
+
+  
+
+  <!--<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>-->
+
+  <script>
+    var channel = new BroadcastChannel('egg');
+
+    channel.addEventListener('message', message => {
+      alert('Got a message from the other tab:\n' + message.data);
+    });
+  </script>
+</head>
+
+
+
+  <body>
+
+    <header class="site-header">
+
+  <h1>
+    <a class='site-title' href='/'>
+      mahdi
+    </a>
+  </h1>
+
+  <nav>
+    <p>
+      <a href="/snippets">snippets</a>
+      <a href="/art">pictures</a>
+    </p>
+    <!--<p class='categories'>-->
+      <!---->
+        <!---->
+        <!--<a href="">art</a>-->
+        <!---->
+      <!---->
+        <!---->
+      <!---->
+    <!--</p>-->
+    <p>
+      <a href='mailto:mdibaiee@pm.me'>email</a>
+      <a href='https://git.mahdi.blog/mahdi'>git</a>
+      <a href='https://www.librarything.com/profile/mdibaiee'>librarything</a>
+      <a href="http://localhost:4000/feed.xml">feed</a>
+    </p>
+  </nav>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <h1 class="page-heading"></h1>
+        
+          <div class='post lang-en'>
+
+  <div class="post-header">
+    <h1 class="post-title"><p>Going Self-Hosted: Moving away from Google and others</p>
+</h1>
+    
+    <p class="post-meta">
+      <span>Feb 11, 2019</span>
+      
+      • <span>Reading time: 6  minutes</span>
+    </p>
+  </div>
+
+  <article class="post-content">
+    <p>Since 3 years ago, I have always been eager to move away from Google and other privacy-invading companies. I have had my successes and failures in doing so, here I’m going to put out my stack of tools for moving away from Google and going self-hosted.</p>
+
+<!--more-->
+
+<p>I first tried to move away from Google 3 years ago, and at the time, I did not have enough resources to self-host much. I started by creating my own email server, but I couldn’t afford a cloud storage. I also did not know about the alternatives available to Google Calendar, Google Keep, and other tools I was using at the time, so it was pretty hard keeping up that way.</p>
+
+<p>After a year and a half, after my phone was stolen, I decided I will stick with Google apps with the coming of my new phone. I kept using Google services for less than a year, but I was frustrated. I had given up my privacy and control over my data for convenience, but that’s not what I wanted. So I decided I’m going to switch away again, and I will self-host the tools necessary.</p>
+
+<p>A lot has changed since the first time I switched away, I will sketch below the tools that I have replaced and how.</p>
+
+<h1 id="microg">microG</h1>
+
+<p>If you want to avoid using Google Services on your Android phone, there is <a href="https://microg.org/">microG</a> for that. I flashed my phone with an <a href="http://aospextended.com/">AEX</a> ROM which supports microG, so it was not particularly hard to set-up on my phone, but I’ve heard it can be hard to set it up since it’s doing some trickery to replace Google’s services on your phone.</p>
+
+<p>This also means you have to flash a custom ROM and root your device in order to do this, so maybe this option is not for everyone, but I think with Google Services active in your phone, you can’t really be sure what’s going on behind the curtains.</p>
+
+<h1 id="email">Email</h1>
+
+<p>One of the most common means of communication for us in the digital world, we exchange a lot of information through email, including personal and work-related information. As such, I deem email an important piece of privacy-sensitive information.</p>
+
+<p>My solution for email is a self-hosted Postfix + Dovecot + SpamAssassin on my server. It is not the most straightforward thing to set up, by <a href="https://www.digitalocean.com/community/tutorials/how-to-configure-a-mail-server-using-postfix-dovecot-mysql-and-spamassassin">this DigitalOcean tutorial</a> makes it all the easier.</p>
+
+<p>I have also heard of <a href="https://mailinabox.email/">Mail-in-a-Box</a> which is supposed to make setting up your own mail server a breeze! I didn’t know about this at the time I set up my server, but it could be a better choice, so perhaps give it a try and let me know.</p>
+
+<h1 id="cloud-storage">Cloud Storage</h1>
+
+<p>A cloud storage is necessary for syncng your data among your devices and keeping your information safe from physical loss. I chose <a href="https://nextcloud.com/">Nextcloud</a> and I couldn’t be more satisfied. It has clients for every major operating system, and I use it to back up my files, synchronize my calendar and contacts between my Linux and my Android devices.</p>
+
+<p>The installation and activation is fairly straightforward, and again, I followed a <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-nextcloud-on-ubuntu-16-04">DigitalOcean tutorial</a> to set up the service and have been using it since.</p>
+
+<p>I also bought a DigitalOcean Space for $5/month, with a capacity of 250G, which is a fairly good price and worth its value. See <a href="https://www.digitalocean.com/community/questions/is-it-possible-to-mount-do-spaces-as-external-storage-in-nextcloud-as-i-mount-aws-s3-storage">this discussion</a> about attaching a DigitalOcean space to Nextcloud.</p>
+
+<h1 id="contacts-and-calendar">Contacts and Calendar</h1>
+
+<p>I learned about <a href="https://f-droid.org/packages/at.bitfire.davdroid/">DAVx</a> and <a href="https://f-droid.org/en/packages/at.bitfire.icsdroid/">ICSx</a>, which are tools for syncing your contacts and calendar, with support for Google Calendar as well. This means that I can still have access to my workplace calendar which is on Google, and have my own personal calendars synchronized using Nextcloud.</p>
+
+<p>These tools integrate with whatever Calendar and Contacts application you are using on your phone, so you are free to choose whatever calendar and contacts application you like.</p>
+
+<h1 id="notes">Notes</h1>
+
+<p>For note-taking, I use a simple Markdown/todo.txt editor called <a href="https://f-droid.org/en/packages/net.gsantner.markor/">Markor</a> while Nextcloud handles the synchronization so I have access to my notes both on my computer and my phone. I use <a href="https://github.com/vimwiki/vimwiki">vimwiki</a> to organize and edit my notes on my computer. Nextcloud also provides extra applications for editing Markdown files on the web interface, which is great if you like doing everything in your browser.</p>
+
+<h1 id="application-store">Application Store</h1>
+
+<p>For downloading applications, I default to searching through <a href="https://f-droid.org/en/">F-Droid</a>, and in case I don’t find the tool I’m looking for (which I mostly do!), or I’m looking for a properietary application, such as Slack, I use <a href="https://f-droid.org/en/packages/com.dragons.aurora/">Aurora Store</a> or <a href="https://f-droid.org/en/packages/com.github.yeriomin.yalpstore/">Yalp Store</a>, which lets you search through all Google Play applications and install applications without a fuss.</p>
+
+<p>Of course, you can install the official Google Play store as well if you would like to, but I personally am cautious about using any of Google’s applications.</p>
+
+<h1 id="two-factor-authentication">Two-factor Authentication</h1>
+
+<p>I use <a href="https://github.com/andOTP/andOTP/">andOTP</a> instead of Google Authenticator. One feature I love about andOTP is the ability to take an encrypted backup of your OTP keys, so you do not have to re-set all your two-factor authentications across all services if you ever want to switch your phone.</p>
+
+<h1 id="password-manager">Password Manager</h1>
+
+<p>I switched from LastPass, with its ugly, broken and distorted user experience to <a href="https://bitwarden.com/">BitWarden</a>, and I couldn’t ask for more! The user experience is far superior compared to LastPass, the extension doesn’t kill my browser’s performance and the Android application is great, too!</p>
+
+<h1 id="firefox-containers">Firefox Containers</h1>
+
+<p>Lastly, it’s natural that we can’t completely avoid using Google’s tools, we can just try to limit Google’s access to our data and avoid being tracked as much as possible. For this purpose, I started using Firefox Containers, and God, this is a killer feature!</p>
+
+<p>So now, I have a few containers set up:</p>
+
+<ul>
+  <li>Personal: This one includes my personal accounts on websites other than Google that I want to stay logged-in on.</li>
+  <li>Work: I’m logged into services that I use for work here, and it includes Google as well, but only for work.</li>
+  <li>Google: This one, I use for accessing a personal Google Account I keep for YouTube and other services, but I’m not a serious user.</li>
+  <li><a href="https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/">Temporary Containers</a>: Any websites that I have not explicitly chosen to be opened in one of the above containers, opens up in a new, temporary container, which means it doesn’t have access to any cookies or information from the other containers. I may sometimes choose to open Google or other services in Temporary Containers as well if I don’t see the necessity to be logged in.</li>
+</ul>
+
+<p>This means Google will not be able to track me using my account when I’m logged in to other services since they live in a different container, even though other methods such as <a href="https://clearcode.cc/blog/device-fingerprinting/">device fingerprinting</a> are still possible. With Firefox’s Tracking Protection and <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock/">uBlock</a> always turned on, I am less concerned about tracking.</p>
+
+<h1 id="not-the-easiet-thing">Not the easiet thing</h1>
+
+<p>I have to admit, it’s not the easiest thing to move your digital life away from the giants, their products are built for maximum convenience, so you can’t expect to have that maximum convenience if you stop using those products, and I think it’s a far-fetched ideal to expect the same level of convenience using free applications and tools, but I personally think it’s worth it.</p>
+
+
+  </article>
+
+  <div class="share-page">
+    Share in
+
+    <a href="https://twitter.com/intent/tweet?text=Going Self-Hosted: Moving away from Google and others&url=http://localhost:4000/self-hosted/&via=&related=" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
+    <a href="https://facebook.com/sharer.php?u=http://localhost:4000/self-hosted/" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
+    <a href="https://plus.google.com/share?url=http://localhost:4000/self-hosted/" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
+</div>
+
+  
+  <div id="commento"></div>
+  <script defer
+    src="//commento.mahdi.blog/js/commento.js">
+  </script>
+
+  <script src="/js/heading-links.js"></script>
+</div>
+
+        
+      </div>
+    </div>
+
+  </body>
+
+</html>

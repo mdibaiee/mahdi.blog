@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>mahdi</title>
+  <meta name="description" content="a rabbit hole">
+
+  <link href="https://fonts.googleapis.com/css?family=Secular+One|Nunito|Mononoki" rel="stylesheet"> 
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="alternate" type="application/rss+xml" title="mahdi" href="http://localhost:4000/feed.xml" />
+
+  
+
+  <!--<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>-->
+
+  <script>
+    var channel = new BroadcastChannel('egg');
+
+    channel.addEventListener('message', message => {
+      alert('Got a message from the other tab:\n' + message.data);
+    });
+  </script>
+</head>
+
+
+
+  <body>
+
+    <header class="site-header">
+
+  <h1>
+    <a class='site-title' href='/'>
+      mahdi
+    </a>
+  </h1>
+
+  <nav>
+    <p>
+      <a href="/snippets">snippets</a>
+      <a href="/art">pictures</a>
+    </p>
+    <!--<p class='categories'>-->
+      <!---->
+        <!---->
+        <!--<a href="">art</a>-->
+        <!---->
+      <!---->
+        <!---->
+      <!---->
+    <!--</p>-->
+    <p>
+      <a href='mailto:mdibaiee@pm.me'>email</a>
+      <a href='https://git.mahdi.blog/mahdi'>git</a>
+      <a href='https://www.librarything.com/profile/mdibaiee'>librarything</a>
+      <a href="http://localhost:4000/feed.xml">feed</a>
+    </p>
+  </nav>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <h1 class="page-heading"></h1>
+        
+          <div class="home">
+
+  <ul class="post-list">
+    
+      
+      <li class='lang-en'>
+        <h2>
+          <a class="post-link" href="/rust-box-str-vs-string/"><p>What is <code class="language-plaintext highlighter-rouge">Box&lt;str&gt;</code> and how is it different from <code class="language-plaintext highlighter-rouge">String</code> in Rust?</p>
+</a>
+
+          <p class="post-meta">
+            <span>Jun 16, 2022</span>
+            
+            • <span>Reading time: 13  minutes</span>
+          </p>
+        </h2>
+        <article class='post-content'>
+          <p>Today I and a friend went down a rabbit hole about Rust and how it manages the heap when we use <code class="language-plaintext highlighter-rouge">Box</code>, or <code class="language-plaintext highlighter-rouge">String</code>, or <code class="language-plaintext highlighter-rouge">Vec</code>, and while we were at it, I found out there is such a thing as <code class="language-plaintext highlighter-rouge">Box&lt;str&gt;</code>, which might look a bit <em>strange</em> to an untrained eye, since most of the time the <code class="language-plaintext highlighter-rouge">str</code> primitive type is passed around as <code class="language-plaintext highlighter-rouge">&amp;str</code>.</p>
+
+        </article>
+      </li>
+    
+      
+      <li class='lang-en'>
+        <h2>
+          <a class="post-link" href="/alternative-objectivity-and-inherent-subjectivity/"><p>On Inherent Subjectivity of Some Things</p>
+</a>
+
+          <p class="post-meta">
+            <span>Oct 30, 2021</span>
+            
+            • <span>Reading time: 8  minutes</span>
+          </p>
+        </h2>
+        <article class='post-content'>
+          <p>As a computer scientist and someone who loves <a href="/mathematical-induction-proving-tiling-methods">mathematics</a> and <a href="/typoclassopedia-exercise-solutions">abstractions</a>, I was obsessed with the idea of rationality, that is, an <em>objective</em> and absolute rationality, however I ended up in a philosophy course that showed me the opposite.</p>
+
+        </article>
+      </li>
+    
+      
+      <li class='lang-en'>
+        <h2>
+          <a class="post-link" href="/sanctions-discrimination-isolation-iran"><p>Iran Sanctions: A Story of Discrimination and Isolation</p>
+</a>
+
+          <p class="post-meta">
+            <span>Jul 27, 2019</span>
+            
+            • <span>Reading time: 17  minutes</span>
+          </p>
+        </h2>
+        <article class='post-content'>
+          <p>Let me take you through a story on what it feels like to be isolated from the world, not by choice, but rather, by force. This is a story of discrimination, of monopoly, of people shrugging to these issues and of utterances that affect lives of millions.</p>
+
+        </article>
+      </li>
+    
+      
+      <li class='lang-en'>
+        <h2>
+          <a class="post-link" href="/self-hosted/"><p>Going Self-Hosted: Moving away from Google and others</p>
+</a>
+
+          <p class="post-meta">
+            <span>Feb 11, 2019</span>
+            
+            • <span>Reading time: 6  minutes</span>
+          </p>
+        </h2>
+        <article class='post-content'>
+          <p>Since 3 years ago, I have always been eager to move away from Google and other privacy-invading companies. I have had my successes and failures in doing so, here I’m going to put out my stack of tools for moving away from Google and going self-hosted.</p>
+
+
+        </article>
+      </li>
+    
+      
+      <li class='lang-en'>
+        <h2>
+          <a class="post-link" href="/mathematical-induction-proving-tiling-methods/"><p>Mathematical Induction for proving tiling methods</p>
+</a>
+
+          <p class="post-meta">
+            <span>Oct 19, 2017</span>
+            
+            • <span>Reading time: 9  minutes</span>
+          </p>
+        </h2>
+        <article class='post-content'>
+          <p>On my way towards self-taught data science, I’ve stumbled upon the need to be proficient with mathematical proofs, so I picked up the amazing <a href="https://www.amazon.com/How-Prove-It-Structured-Approach/dp/0521675995">How To Prove It: A Structured Approach</a> by Daniel J. Velleman; and I’ve been fascinated by mathematical proofs since then.</p>
+
+        </article>
+      </li>
+    
+      
+      <li class='lang-en'>
+        <h2>
+          <a class="post-link" href="/typoclassopedia-exercise-solutions/"><p>Typoclassopedia: Exercise solutions</p>
+</a>
+
+          <p class="post-meta">
+            <span>Sep 27, 2017</span>
+            
+            • <span>Reading time: 55  minutes</span>
+          </p>
+        </h2>
+        <article class='post-content'>
+          <p>I wanted to get proficient in Haskell so I decided to follow <a href="http://www.stephendiehl.com/posts/essential_haskell.html">An [Essential] Haskell Reading List</a>. There I stumbled upon <a href="https://wiki.haskell.org/Typeclassopedia">Typoclassopedia</a>, while the material is great, I couldn’t find solutions for the exercises to check against, so I decided I would write my own and hopefully the solutions would get fixed in case I have gone wrong by others. So if you think a solution is wrong, let me know in the comments!</p>
+
+        </article>
+      </li>
+    
+      
+      <li class='lang-en'>
+        <h2>
+          <a class="post-link" href="/diy-cardboard-kindle-stand/"><p>DIY Cardboard Kindle Stand (for bed)</p>
+</a>
+
+          <p class="post-meta">
+            <span>Sep 24, 2017</span>
+            
+            • <span>Reading time: 1  minute</span>
+          </p>
+        </h2>
+        <article class='post-content'>
+          <p><img src="/img/kindle-stand/1.jpg" alt="a view of the stand + kindle" /></p>
+
+<p>I’ve had a Kindle for more than a year now, but I’ve only recently started to read books on it frequently, I used to read paperworks before that, and I still do sometimes prefer paperbooks if available. Anyways, my Kindle has helped me to fall asleep without struggling with all my thoughts, all I have to do is read until I fall asleep, so in a way, it has also been a remedy for my insomnia.</p>
+
+<p>Now to read the Kindle in bed, you would have to hold it using your hands or buy a stand or make one, motivated by <a href="https://blog.xkcd.com/2009/04/13/the-pursuit-of-laziness/">The Pursuit of Laziness</a> I set to create mine, but I didn’t use a piece of steel, instead I used a single box of cardboard I had in home to create one in minutes. :D</p>
+
+
+        </article>
+      </li>
+    
+      
+      <li class='lang-en'>
+        <h2>
+          <a class="post-link" href="/travis-ci-pr-push/"><p>Difference between Travis CI tests: PR and Push</p>
+</a>
+
+          <p class="post-meta">
+            <span>Sep 9, 2017</span>
+            
+            • <span>Reading time: 1  minute</span>
+          </p>
+        </h2>
+        <article class='post-content'>
+          <p>I just want to leave this here as I often tend to look it up myself and the first time it was not as easy to figure out.</p>
+
+<p>When using Travis CI along with GitHub (or other git integrations), Travis runs two tests: <code>pr</code> and <code>push</code>.</p>
+
+<p><img src="/img/travis-ci-pr-push-github.jpg" alt="travis-pr-push-github" /></p>
+
+<p>Most of the time you see both tests passing and you do not have to even wonder how they are different, but it has
+happened to me that one of the tests fails while the other passes and I started to wonder why.</p>
+
+<h3 id="pr">pr</h3>
+<p>The <code>pr</code> test is a test run on the result of a merge between the pull-request branch and the main branch.
+As an example, let’s say your pull-request’s branch is called <code>fix-user-auth</code> and your main branch is <code>master</code>, 
+in this case, <code>pr</code> merges <code>fix-user-auth</code> into <code>master</code> and then runs the tests on the result of the merge.</p>
+
+<h3 id="push">push</h3>
+<p>On the other hand, <code>push</code> is run on the pull-request branch itself, without merging. So in our example above, Travis would checkout to <code>fix-user-auth</code> and run the tests.</p>
+
+<h3 id="a-case-of-difference">A case of difference</h3>
+
+<p>A case in which this difference might be more apparent is when your pull-request is based on a branch other than <code>master</code>, and some changes that your pull-request depends on are missing from <code>master</code>, in this case the <code>push</code> test may pass, but the <code>pr</code> test will fail.</p>
+
+
+        </article>
+      </li>
+    
+      
+      <li class='lang-en'>
+        <h2>
+          <a class="post-link" href="/primitive-living-lessons-0/"><p>Primitive Living Lessons Learned, Episode 0</p>
+</a>
+
+          <p class="post-meta">
+            <span>Sep 7, 2017</span>
+            
+            • <span>Reading time: 11  minutes</span>
+          </p>
+        </h2>
+        <article class='post-content'>
+          <p><img src="/img/primitive-living-0.jpg" alt="general view of the forest" /></p>
+
+<p>So I just went on my first primitive living practice trip in the woods, alone, with only a pocket knife.</p>
+
+<p>I decided I’m going to share the lessons I’ve learned in each trip as they are certainly going to be useful if you want to practice primitive living, I would find these useful if I could find them anywhere. I spend a lot of time reading and watching primitive living guides and experience reports, but they are never exhaustive, and this series is not meant to be exhaustive either.</p>
+
+
+        </article>
+      </li>
+    
+      
+      <li class='lang-en'>
+        <h2>
+          <a class="post-link" href="/dont-chase-become-the-good-one/"><p>Don’t chase: Become the good one</p>
+</a>
+
+          <p class="post-meta">
+            <span>Feb 4, 2017</span>
+            
+            • <span>Reading time: 3  minutes</span>
+          </p>
+        </h2>
+        <article class='post-content'>
+          <p>When it comes to relationships, most (unsuccessful) people are <em>chasing</em> the good ones.
+They spend time trying to find their dream partner, the perfect match, but hey, do you qualify
+as the dream partner of your dream partner? You fantasize about your dream partner, but have you ever
+thought what kind of partner does he/she dream of?</p>
+
+<p><img src="/img/angel.jpg" alt="I want an angel with..." />
+<span class="image-caption">I want an angel with…</span></p>
+
+
+        </article>
+      </li>
+    
+      
+      <li class='lang-en'>
+        <h2>
+          <a class="post-link" href="/stop-high-frequency-fuck-ups/"><p>Stop High-Frequency Fuck-ups</p>
+</a>
+
+          <p class="post-meta">
+            <span>Dec 26, 2016</span>
+            
+            • <span>Reading time: 5  minutes</span>
+          </p>
+        </h2>
+        <article class='post-content'>
+          <p><strong>High-Frequency Fuck-Ups</strong>:</p>
+
+<blockquote>
+  <p>The cyclic process of “pushing yourself hard for a week, getting something done, and then feeling depressed and fucked up
+ for the next week”</p>
+</blockquote>
+
+<p>Sounds familiar? Read on.</p>
+
+<p><img src="/img/productivity-chart.jpg" alt="High-Frequency Fuck-ups" />
+<span class="image-caption">Visual demonstration of High-Frequency Fuck-ups</span></p>
+
+
+        </article>
+      </li>
+    
+      
+      <li class='lang-en'>
+        <h2>
+          <a class="post-link" href="/immortals-go-extinct/"><p>Immortals go extinct</p>
+</a>
+
+          <p class="post-meta">
+            <span>Nov 15, 2016</span>
+            
+            • <span>Reading time: 3  minutes</span>
+          </p>
+        </h2>
+        <article class='post-content'>
+          <p>We are all going to die, we all know that well.<br /><br />
+Now I want to take you to a world of immortals where humans don’t die,
+they live and live and live and… you know, live. From now on, pretend I’m a human
+on this world of immortals, I’m immortal bitches.</p>
+
+<p><img src="/img/immortals.jpg" alt="immortals chatting" />
+<span class="image-caption">There is no campfire because they don’t need it</span></p>
+
+
+        </article>
+      </li>
+    
+      
+      <li class='lang-en'>
+        <h2>
+          <a class="post-link" href="/open-source-good-bad-ugly/"><p>Open-source: The Good, The Bad and The Ugly</p>
+</a>
+
+          <p class="post-meta">
+            <span>Oct 13, 2015</span>
+            
+            • <span>Reading time: 5  minutes</span>
+          </p>
+        </h2>
+        <article class='post-content'>
+          <p>I have been doing Open-source for a while, I don’t call myself an “expert” or something like that,
+but I’d like to share my opinion and experience on contributing to, and maintaining open-source code.</p>
+
+        </article>
+      </li>
+    
+      
+      <li class='lang-en'>
+        <h2>
+          <a class="post-link" href="/autocomplete-predict-trie/"><p>Autocomplete using Tries</p>
+</a>
+
+          <p class="post-meta">
+            <span>Jul 24, 2015</span>
+            
+            • <span>Reading time: 8  minutes</span>
+          </p>
+        </h2>
+        <article class='post-content'>
+          <p>In this article, I’m going over creating an autocompletion/prediction system using a data-structure called Trie, it’s fast and easy to customize.</p>
+
+        </article>
+      </li>
+    
+      
+      <li class='lang-en'>
+        <h2>
+          <a class="post-link" href="/es7-array-generator-comprehensions/"><p>ES7 Array and Generator comprehensions</p>
+</a>
+
+          <p class="post-meta">
+            <span>Jun 6, 2015</span>
+            
+            • <span>Reading time: 6  minutes</span>
+          </p>
+        </h2>
+        <article class='post-content'>
+          <p>Array comprehension is a new feature proposed for ES7, with a new syntax
+to create new arrays from existing <a href="http://www.2ality.com/2015/02/es6-iteration.html">iterables</a>,
+comprehensions can replace map and filter.</p>
+
+        </article>
+      </li>
+    
+      
+      <li class='lang-en'>
+        <h2>
+          <a class="post-link" href="/broadcastchannel-api/"><p>BroadcastChannel API</p>
+</a>
+
+          <p class="post-meta">
+            <span>Apr 2, 2015</span>
+            
+            • <span>Reading time: 4  minutes</span>
+          </p>
+        </h2>
+        <article class='post-content'>
+          <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API">BroadcastChannel API</a>
+is a new API used to communicate between same-origin tabs opened by the same user.</p>
+
+        </article>
+      </li>
+    
+      
+      <li class='lang-en'>
+        <h2>
+          <a class="post-link" href="/css-filters/"><p>CSS Filters are awesome!</p>
+</a>
+
+          <p class="post-meta">
+            <span>Mar 28, 2015</span>
+            
+            • <span>Reading time: 6  minutes</span>
+          </p>
+        </h2>
+        <article class='post-content'>
+          <p>I’ve been working on the <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1055181">CSS Filter Editor widget</a> in Firefox Developer Tools for a couple of weeks, thanks to <a href="https://medium.com/@patrickbrosset">Patrick Brosset</a> for mentoring me and <a href="https://github.com/nt1m">Tim Nguyen</a> for his great contributions.</p>
+
+        </article>
+      </li>
+    
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="/feed.xml">via rss</a></p>
+
+</div>
+
+        
+      </div>
+    </div>
+
+  </body>
+
+</html>
