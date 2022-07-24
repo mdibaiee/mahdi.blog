@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Embodying the Avatar in Videogames"
+subtitle: "Videogames as an embodied activity"
 date: 2022-07-23 00:00:00
 permalink: embodying-the-avatar-videogames/
 categories: programming
