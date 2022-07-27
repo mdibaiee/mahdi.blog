@@ -7,16 +7,25 @@ categories: programming
 author: Mahdi
 ---
 
-Array comprehension is a new feature proposed for ES7, with a new syntax
-to create new arrays from existing [iterables](http://www.2ality.com/2015/02/es6-iteration.html),
-comprehensions can replace map and filter.
+Array comprehension is a new feature proposed for ES7, with a new syntax to
+create new arrays from existing
+[iterables](http://www.2ality.com/2015/02/es6-iteration.html), comprehensions
+can replace map and filter.
 
 Generator comprehension brings the same feature to generators, this is a more
-useful feature as it removes the need to write new generators for simple map/filter operations.
+useful feature as it removes the need to write new generators for simple
+map/filter operations.
 
-Generator comprehensions allow us to easily write single-line generators, which can replace our arrays in some situations, you might ask why we might consider replacing arrays with generators, the most important reason is their [laziness](#laziness). I've explained laziness later in the article.
+Generator comprehensions allow us to easily write single-line generators, which
+can replace our arrays in some situations, you might ask why we might consider
+replacing arrays with generators, the most important reason is their
+[laziness](#laziness). I've explained laziness later in the article.
 
-Comprehensions are currently only supported by Firefox, use Firefox 30+ or [Babel](https://babeljs.io/repl/) to run the examples. The Node.js version of examples using generator `function* ()`s is available at the [repository](https://github.com/mdibaiee/array-vs-generator) (doesn't require transpilation, use latest node).
+Comprehensions are currently only supported by Firefox, use Firefox 30+ or
+[Babel](https://babeljs.io/repl/) to run the examples. The Node.js version of
+examples using generator `function* ()`s is available at the
+[repository](https://github.com/mdibaiee/array-vs-generator) (doesn't require
+transpilation, use latest node).
 
 Syntax
 ======
@@ -83,12 +92,15 @@ console.table(Array.from(nested));
 
 Laziness
 ========
-This is one of the most important advantages of generators over arrays and things alike.
-The reason why I'm including this here is to give you a good reason to write generators instead of arrays
- while generator comprehensions make it extremely easy to write them — this is a proof of their usefulness.
+This is one of the most important advantages of generators over arrays and
+things alike. The reason why I'm including this here is to give you a good
+reason to write generators instead of arrays while generator comprehensions make
+it extremely easy to write them — this is a proof of their usefulness.
 
-In programming, laziness means doing nothing until the results are requested or in simpler terms, avoiding unnecessary work.
-For example, when you create an array and map it, the result will be evaluated no matter you need it now or not, you need the whole thing or a part of it, etc.
+In programming, laziness means doing nothing until the results are requested or
+in simpler terms, avoiding unnecessary work. For example, when you create an
+array and map it, the result will be evaluated no matter you need it now or not,
+you need the whole thing or a part of it, etc.
 
 Take this example:
 
@@ -102,11 +114,14 @@ let first = bigArray.map(n => n * n)[0];
 console.log(first);
 {% endhighlight %}
 
-You know what happens here, first, map is evaluated, returning thousands of squared numbers, then
-the first element is returned. We must allocate and evaluate the whole squared array to be able to know about it's first or second element.
+You know what happens here, first, map is evaluated, returning thousands of
+squared numbers, then the first element is returned. We must allocate and
+evaluate the whole squared array to be able to know about it's first or second
+element.
 
 Think of optimizing it, is it possible to get the desired result without storing
-temporary arrays in memory? Can we get the first number directly without consuming a big chunk of memory?
+temporary arrays in memory? Can we get the first number directly without
+consuming a big chunk of memory?
 
 Yes, using generators, Look at this:
 
@@ -122,11 +137,17 @@ let squared = ( for (n of bigGenerator()) n * n );
 console.log(squared.next());
 {% endhighlight %}
 
-Let's see what happens in this case.
-Here, we create a generator which will yield numbers 0...100000, nothing is actually allocated or evaluated, we just have a generator which will return a new number every time we call `next()`.
-Then we use generator comprehension to create another generator which squares the numbers our `bigGenerator()` yields, again, we don't evaluate or allocate anything, we just create a generator which will call another generator's `next()` method, square the results, and yield it.
+Let's see what happens in this case. Here, we create a generator which will
+yield numbers 0...100000, nothing is actually allocated or evaluated, we just
+have a generator which will return a new number every time we call `next()`.
+Then we use generator comprehension to create another generator which squares
+the numbers our `bigGenerator()` yields, again, we don't evaluate or allocate
+anything, we just create a generator which will call another generator's
+`next()` method, square the results, and yield it.
 
-Now when we call `squared.next()`, the `squared` generator calls `bigArray().next()`, squares the results and yields it, it doesn't do any unnecessary work, it's lazy.
+Now when we call `squared.next()`, the `squared` generator calls
+`bigArray().next()`, squares the results and yields it, it doesn't do any
+unnecessary work, it's lazy.
 
 [
   ![Generator diagram](/img/generator-diagram.png)

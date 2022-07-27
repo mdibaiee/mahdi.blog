@@ -8,17 +8,27 @@ categories: programming
 author: Mahdi
 ---
 
-Today I and a friend went down a rabbit hole about Rust and how it manages the heap when we use `Box`, or `String`, or `Vec`, and while we were at it, I found out there is such a thing as `Box<str>`, which might look a bit _strange_ to an untrained eye, since most of the time the `str` primitive type is passed around as `&str`.
+Today I and a friend went down a rabbit hole about Rust and how it manages the
+heap when we use `Box`, or `String`, or `Vec`, and while we were at it, I found
+out there is such a thing as `Box<str>`, which might look a bit _strange_ to an
+untrained eye, since most of the time the `str` primitive type is passed around
+as `&str`.
 
 -----
 
 TL;DR:
 
-`Box<str>` is a primitive `str` allocated on the heap, whereas `String` is actually a `Vec<u8>`, also allocated on the heap, which allows for efficient removals and appends. `Box<str>` (16 bytes) uses less memory than `String` (24 bytes).
+`Box<str>` is a primitive `str` allocated on the heap, whereas `String` is
+actually a `Vec<u8>`, also allocated on the heap, which allows for efficient
+removals and appends. `Box<str>` (16 bytes) uses less memory than `String` (24
+bytes).
 
 ------
 
-I will be using `rust-lldb` throughout this post to understand what is going on in the rust programs we write and run. The source code for this blog post is available on [mdibaiee/rust-memory-playground](https://git.mahdi.blog/mahdi/rust-memory-playground).
+I will be using `rust-lldb` throughout this post to understand what is going on
+in the rust programs we write and run. The source code for this blog post is
+available on
+[mdibaiee/rust-memory-playground](https://git.mahdi.blog/mahdi/rust-memory-playground).
 
 ```bash
 git clone https://git.mahdi.blog/mahdi/rust-memory-playground
@@ -27,7 +37,9 @@ cd rust-memory-playground
 
 # The Stack
 
-Most of the primitive data types used throughout a program, and the information about the program itself are usually allocated on the stack. Consider this simple program:
+Most of the primitive data types used throughout a program, and the information
+about the program itself are usually allocated on the stack. Consider this
+simple program:
 
 ```rust
 fn add_ten(a: u8) -> u8 {
@@ -41,7 +53,8 @@ fn main() {
 }
 ```
 
-Let's examine the stack when we are running `a + b` by setting a breakpoint on that line:
+Let's examine the stack when we are running `a + b` by setting a breakpoint on
+that line:
 
 ```
 $ cargo build && rust-lldb target/debug/stack-program
@@ -67,9 +80,24 @@ Process 65188 stopped
 0x000000016fdfed7f: (unsigned char) b = 0x0A
 ```
 
-Our program allocates two variables on the stack directly here. Notice that they are allocated right next to each other, their address only one bit apart. Most primitive types are allocated on the stack, and are copied when being passed around because they are small enough, so that copying them around is more reasonable than allocating them in the heap and passing around a pointer to them. In this case, `u8` can be allocated in a single byte, it would not make sense for us to allocate a pointer (which can vary in size, but are usually larger than 8 bytes). Every time you call a function, a copy of the values passed to it, along with the values defined in the function itself constitute the stack of that function.
+Our program allocates two variables on the stack directly here. Notice that they
+are allocated right next to each other, their address only one bit apart. Most
+primitive types are allocated on the stack, and are copied when being passed
+around because they are small enough, so that copying them around is more
+reasonable than allocating them in the heap and passing around a pointer to
+them. In this case, `u8` can be allocated in a single byte, it would not make
+sense for us to allocate a pointer (which can vary in size, but are usually
+larger than 8 bytes). Every time you call a function, a copy of the values
+passed to it, along with the values defined in the function itself constitute
+the stack of that function.
 
-The stack of a whole program includes more information though, such as the _backtrace_, which allows the program to know how to navigate: once I am done with this function, where should I return to? that information is available in the stack as well. Note the first couple of lines here, indicating that we are currently in `stack_program::add_then`, and we came here from `stack_program::main`, and so once we are finished with `add_then`, we will go back to `main`:
+The stack of a whole program includes more information though, such as the
+_backtrace_, which allows the program to know how to navigate: once I am done
+with this function, where should I return to? that information is available in
+the stack as well. Note the first couple of lines here, indicating that we are
+currently in `stack_program::add_then`, and we came here from
+`stack_program::main`, and so once we are finished with `add_then`, we will go
+back to `main`:
 
 ```
 (lldb) thread backtrace
@@ -95,11 +123,19 @@ The stack of a whole program includes more information though, such as the _back
 
 # Box, String and Vec: Pointers to Heap
 
-There are times when we are working with data types large enough that we would really like to avoid copying them when we are passing them around. Let's say you have just copied a file that is 1,000,000 bytes (1Mb) in size. In this case it is much more memory and compute efficient to have a pointer to this value (8 bytes) rather than copying all the 1,000,000 bytes.
+There are times when we are working with data types large enough that we would
+really like to avoid copying them when we are passing them around. Let's say you
+have just copied a file that is 1,000,000 bytes (1Mb) in size. In this case it
+is much more memory and compute efficient to have a pointer to this value (8
+bytes) rather than copying all the 1,000,000 bytes.
 
-This is where types such as `Box`, `String` and `Vec` come into play: these types allow you to allocate something on heap, which is a chunk of memory separate from the stack that you can allocate on, and later reference those values using a pointer available on the stack.
+This is where types such as `Box`, `String` and `Vec` come into play: these
+types allow you to allocate something on heap, which is a chunk of memory
+separate from the stack that you can allocate on, and later reference those
+values using a pointer available on the stack.
 
-Let's start with `Box`, the most generic one, which allows you to allocate some data on the heap, consider this example:
+Let's start with `Box`, the most generic one, which allows you to allocate some
+data on the heap, consider this example:
 
 ```rust
 fn main() {
@@ -136,11 +172,22 @@ Process 67451 stopped
 0x600000008010: 0x05
 ```
 
-Note that here, instead of `a` having the value `5`, has the value `0x0000600000008010`, which is a pointer to a location in memory! `lldb` is recognises that this is a pointer (note the `*` sign beside the variable type) and shows us what the memory location contains, but we can also directly read that memory location, and of course we find `5` there. The address of the heap-allocated `5` is far from the stack-allocated `10`, since stack and heap are separate parts of memory.
+Note that here, instead of `a` having the value `5`, has the value
+`0x0000600000008010`, which is a pointer to a location in memory! `lldb` is
+recognises that this is a pointer (note the `*` sign beside the variable type)
+and shows us what the memory location contains, but we can also directly read
+that memory location, and of course we find `5` there. The address of the
+heap-allocated `5` is far from the stack-allocated `10`, since stack and heap
+are separate parts of memory.
 
-Using `Box` for an unsigned 8-bit value does not really make sense, the value itself is smaller than the pointer created by `Box`, however allocating on heap is useful when we have data that we need be able to pass around the program without copying it.
+Using `Box` for an unsigned 8-bit value does not really make sense, the value
+itself is smaller than the pointer created by `Box`, however allocating on heap
+is useful when we have data that we need be able to pass around the program
+without copying it.
 
-Turns out, `String` and `Vec` cover two of the most common cases where we may want to allocate something on heap! Let's look at what goes on behind allocating a variable of type `String`:
+Turns out, `String` and `Vec` cover two of the most common cases where we may
+want to allocate something on heap! Let's look at what goes on behind allocating
+a variable of type `String`:
 
 ```rust
 fn main() {
@@ -176,7 +223,11 @@ Process 68317 stopped
 }
 ```
 
-This is a formatted output from `lldb`, and here you can see that the `String` type is basically a `Vec<unsigned char, alloc::Global>` (note that `unsigned char` is represented using `u8` in Rust, so in Rust terminology the type is `Vec<u8>`), let's now look at the same command but this time raw and unformatted (`-R`):
+This is a formatted output from `lldb`, and here you can see that the `String`
+type is basically a `Vec<unsigned char, alloc::Global>` (note that `unsigned
+char` is represented using `u8` in Rust, so in Rust terminology the type is
+`Vec<u8>`), let's now look at the same command but this time raw and unformatted
+(`-R`):
 
 ```
 (lldb) frame var -L -T -R
@@ -195,7 +246,21 @@ This is a formatted output from `lldb`, and here you can see that the `String` t
 }
 ```
 
-Ah! I see the `ptr` field of `RawVec` with a value of `0x0000600000004010`, that is the memory address of the beginning of our string (namely the `h` of our `hello`)! There is also `cap` and `len`, which respectively stand for capacity and length, with the value 6, indicating that our string is of capacity and length 6; the difference between the two being that [you can have a `Vec` with a capacity of 10 while it has zero items](https://doc.rust-lang.org/nightly/std/vec/struct.Vec.html#capacity-and-reallocation), this would allow you to append 10 items to the `Vec` without having a new allocation for each append, making the process more efficient, and also a [Vec is not automatically shrunk down](https://doc.rust-lang.org/nightly/std/vec/struct.Vec.html#guarantees) in size when items are removed from it to avoid unnecessary deallocations, hence the length might be smaller than the capacity. So in a nutshell, our String is basically something like this (inspired by [std::vec::Vec](https://doc.rust-lang.org/nightly/std/vec/struct.Vec.html#guarantees)):
+Ah! I see the `ptr` field of `RawVec` with a value of `0x0000600000004010`, that
+is the memory address of the beginning of our string (namely the `h` of our
+`hello`)! There is also `cap` and `len`, which respectively stand for capacity
+and length, with the value 6, indicating that our string is of capacity and
+length 6; the difference between the two being that [you can have a `Vec` with a
+capacity of 10 while it has zero
+items](https://doc.rust-lang.org/nightly/std/vec/struct.Vec.html#capacity-and-reallocation),
+this would allow you to append 10 items to the `Vec` without having a new
+allocation for each append, making the process more efficient, and also a [Vec
+is not automatically shrunk
+down](https://doc.rust-lang.org/nightly/std/vec/struct.Vec.html#guarantees) in
+size when items are removed from it to avoid unnecessary deallocations, hence
+the length might be smaller than the capacity. So in a nutshell, our String is
+basically something like this (inspired by
+[std::vec::Vec](https://doc.rust-lang.org/nightly/std/vec/struct.Vec.html#guarantees)):
 
 ```
 Stack:
@@ -211,9 +276,11 @@ Heap:            v
 -----------------------------
 ```
 
-Okay, so far so good. We have `String`, which uses a `Vec` under the hood, which is represented by a pointer, capacity and length triplet.
+Okay, so far so good. We have `String`, which uses a `Vec` under the hood, which
+is represented by a pointer, capacity and length triplet.
 
-If `String` is already heap-allocated, why would anyone want `Box<str>`!? Let's look at how `Box<str>` would be represented in memory:
+If `String` is already heap-allocated, why would anyone want `Box<str>`!? Let's
+look at how `Box<str>` would be represented in memory:
 
 ```rust
 fn main() {
@@ -232,7 +299,11 @@ And `lldb` tells us:
 }
 ```
 
-Okay, so a `Box<str>` is much simpler than a `String`: there is no `Vec`, and no `capacity`, and the underlying data is a primitive `str` that does not allow efficient appending or removing. It is a smaller representation as well, due to the missing `capacity` field, comparing their memory size on stack using [std::mem::size_of_val](https://doc.rust-lang.org/std/mem/fn.size_of_val.html):
+Okay, so a `Box<str>` is much simpler than a `String`: there is no `Vec`, and no
+`capacity`, and the underlying data is a primitive `str` that does not allow
+efficient appending or removing. It is a smaller representation as well, due to
+the missing `capacity` field, comparing their memory size on stack using
+[std::mem::size_of_val](https://doc.rust-lang.org/std/mem/fn.size_of_val.html):
 
 ```rust
 let boxed_str: Box<str> = "hello".into();
@@ -249,7 +320,10 @@ size of boxed_str on stack: 16
 size of string on stack: 24
 ```
 
-Note that their size on heap is the same, because they are both storing the bytes for `hello` on the heap (the measurements below show all of the heap allocations of the program, and not only the string. What matters here is that these two programs have exact same heap size in total):
+Note that their size on heap is the same, because they are both storing the
+bytes for `hello` on the heap (the measurements below show all of the heap
+allocations of the program, and not only the string. What matters here is that
+these two programs have exact same heap size in total):
 
 ```
 $ cargo run --bin string-dhat
@@ -275,8 +349,15 @@ There is also `Box<[T]>` which is the fixed size counterpart to `Vec<T>`.
 
 # Should I use `Box<str>` or `String`?
 
-The only use case for `Box<str>` over `String` that I can think of, is optimising for memory usage when the string is fixed and you do not intend to append or remove from it. I looked for examples of `Box<str>` being used, and I found a few examples:
+The only use case for `Box<str>` over `String` that I can think of, is
+optimising for memory usage when the string is fixed and you do not intend to
+append or remove from it. I looked for examples of `Box<str>` being used, and I
+found a few examples:
 
-- Hyper uses it in a part to reduce memory usage, since the string they have is read-only: [hyper#2727](https://github.com/hyperium/hyper/pull/2727)
-- Rust-analyzer uses it to store some strings in their snippets data structre: [rust-lang/rust-analyzer/crates/ide-completion/src/snippet.rs](https://github.com/rust-lang/rust-analyzer/blob/5c88d9344c5b32988bfbfc090f50aba5de1db062/crates/ide-completion/src/snippet.rs#L123)
-- It is also used in some parts in the compiler itself, probably with the same aim of optimising memory usage: [rust-lang/rust/src/libsyntax/symbol.rs](https://github.com/rust-lang/rust/blob/7846610470392abc3ab1470853bbe7b408fe4254/src/libsyntax/symbol.rs#L82-L85)
+- Hyper uses it in a part to reduce memory usage, since the string they have is
+  read-only: [hyper#2727](https://github.com/hyperium/hyper/pull/2727)
+- Rust-analyzer uses it to store some strings in their snippets data structre:
+  [rust-lang/rust-analyzer/crates/ide-completion/src/snippet.rs](https://github.com/rust-lang/rust-analyzer/blob/5c88d9344c5b32988bfbfc090f50aba5de1db062/crates/ide-completion/src/snippet.rs#L123)
+- It is also used in some parts in the compiler itself, probably with the same
+  aim of optimising memory usage:
+  [rust-lang/rust/src/libsyntax/symbol.rs](https://github.com/rust-lang/rust/blob/7846610470392abc3ab1470853bbe7b408fe4254/src/libsyntax/symbol.rs#L82-L85)

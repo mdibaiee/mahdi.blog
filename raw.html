@@ -1,0 +1,6 @@
+---
+---
+{% for post in site.posts %}
+{% if post.published == false %}{% continue %}{% endif %}
+{{post.title}}: https://mahdi.blog/raw{{ post.url }}
+{% endfor %}

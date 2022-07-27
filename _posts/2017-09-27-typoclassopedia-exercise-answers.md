@@ -11,9 +11,17 @@ toc: true
 author: Mahdi
 ---
 
-I wanted to get proficient in Haskell so I decided to follow [An [Essential] Haskell Reading List](http://www.stephendiehl.com/posts/essential_haskell.html). There I stumbled upon [Typoclassopedia](https://wiki.haskell.org/Typeclassopedia), while the material is great, I couldn't find solutions for the exercises to check against, so I decided I would write my own and hopefully the solutions would get fixed in case I have gone wrong by others. So if you think a solution is wrong, let me know in the comments!
+I wanted to get proficient in Haskell so I decided to follow [An [Essential]
+Haskell Reading List](http://www.stephendiehl.com/posts/essential_haskell.html).
+There I stumbled upon
+[Typoclassopedia](https://wiki.haskell.org/Typeclassopedia), while the material
+is great, I couldn't find solutions for the exercises to check against, so I
+decided I would write my own and hopefully the solutions would get fixed in case
+I have gone wrong by others. So if you think a solution is wrong, let me know in
+the comments!
 
-In each section below, I left some reference material for the exercises and then the solutions.
+In each section below, I left some reference material for the exercises and then
+the solutions.
 
 Note: The post will be updated as I progress in Typoclassopedia myself
 
@@ -34,9 +42,19 @@ instance Functor Maybe where
   fmap g (Just a) = Just (g a)
 ```
 
-> ((,) e) represents a container which holds an “annotation” of type e along with the actual value it holds. It might be clearer to write it as (e,), by analogy with an operator section like (1+), but that syntax is not allowed in types (although it is allowed in expressions with the TupleSections extension enabled). However, you can certainly think of it as (e,). 
+> ((,) e) represents a container which holds an “annotation” of type e along
+with the actual value it holds. It might be clearer to write it as (e,), by
+analogy with an operator section like (1+), but that syntax is not allowed in
+types (although it is allowed in expressions with the TupleSections extension
+enabled). However, you can certainly think of it as (e,). 
 
-> ((->) e) (which can be thought of as (e ->); see above), the type of functions which take a value of type e as a parameter, is a Functor. As a container, (e -> a) represents a (possibly infinite) set of values of a, indexed by values of e. Alternatively, and more usefully, ((->) e) can be thought of as a context in which a value of type e is available to be consulted in a read-only fashion. This is also why ((->) e) is sometimes referred to as the reader monad; more on this later. 
+> ((->) e) (which can be thought of as (e ->); see above), the type of functions
+which take a value of type e as a parameter, is a Functor. As a container, (e ->
+a) represents a (possibly infinite) set of values of a, indexed by values of e.
+Alternatively, and more usefully, ((->) e) can be thought of as a context in
+which a value of type e is available to be consulted in a read-only fashion.
+This is also why ((->) e) is sometimes referred to as the reader monad; more on
+this later. 
 
 ### Exercises
 
@@ -66,7 +84,9 @@ instance Functor Maybe where
     ```
 
     Their similarity is in the fact that they both represent types of two values.
-    Their difference is that `((,) e)` (tuples of two) can have values of different types (kind of `(,)` is `* -> *`) while both values of `Pair` have the same type `a`, so `Pair` has kind `*`.
+    Their difference is that `((,) e)` (tuples of two) can have values of
+    different types (kind of `(,)` is `* -> *`) while both values of `Pair` have
+    the same type `a`, so `Pair` has kind `*`.
 
 3. Implement a `Functor` instance for the type `ITree`, defined as
 
@@ -105,7 +125,8 @@ instance Functor Maybe where
     [16, 12, 12]
     ```
 
-4. Give an example of a type of kind `* -> *` which cannot be made an instance of `Functor` (without using `undefined`).
+4. Give an example of a type of kind `* -> *` which cannot be made an instance
+   of `Functor` (without using `undefined`).
 
     I don't know the answer to this one yet!
 
@@ -113,7 +134,8 @@ instance Functor Maybe where
  
     > The composition of two `Functor`s is also a `Functor`.
 
-    If false, give a counterexample; if true, prove it by exhibiting some appropriate Haskell code.
+    If false, give a counterexample; if true, prove it by exhibiting some
+    appropriate Haskell code.
 
     **Solution**:
 
@@ -141,7 +163,10 @@ fmap (g . h) = (fmap g) . (fmap h)
 
 ### Exercises
 
-1. Although it is not possible for a Functor instance to satisfy the first Functor law but not the second (excluding undefined), the reverse is possible. Give an example of a (bogus) Functor instance which satisfies the second law but not the first. 
+1. Although it is not possible for a Functor instance to satisfy the first
+   Functor law but not the second (excluding undefined), the reverse is
+   possible. Give an example of a (bogus) Functor instance which satisfies the
+   second law but not the first. 
 
     **Solution**:
 
@@ -161,7 +186,8 @@ fmap (g . h) = (fmap g) . (fmap h)
     λ: fmap (+1) . fmap (+2) $ [1,2] -- [4, 5]
     ```
 
-2. Which laws are violated by the evil Functor instance for list shown above: both laws, or the first law alone? Give specific counterexamples. 
+2. Which laws are violated by the evil Functor instance for list shown above:
+   both laws, or the first law alone? Give specific counterexamples. 
 
     ```haskell
     -- Evil Functor instance
@@ -178,7 +204,9 @@ fmap (g . h) = (fmap g) . (fmap h)
 Category Theory
 ===============
 
-The Functor section links to [Category Theory](https://en.wikibooks.org/wiki/Haskell/Category_theory), so here I'm going to cover the exercises of that page, too.
+The Functor section links to [Category
+Theory](https://en.wikibooks.org/wiki/Haskell/Category_theory), so here I'm
+going to cover the exercises of that page, too.
 
 ## Introduction to categories
 
@@ -188,17 +216,26 @@ The Functor section links to [Category Theory](https://en.wikibooks.org/wiki/Has
    
     $f \circ (g \circ h) = (f \circ g) \circ h$
   
-2. The category needs to be **closed** under the composition operator. So if $f : B \to C$ and $g: A \to B$, then there must be some $h: A \to C$ in the category such that $h = f \circ g$.
-3. Every object $A$ in a category must have an identity morphism, $id_A : A \to A$ that is an identity of composition with other morphisms. So for every morphism $g: A \to B$:
+2. The category needs to be **closed** under the composition operator. So if $f
+   : B \to C$ and $g: A \to B$, then there must be some $h: A \to C$ in the
+   category such that $h = f \circ g$.
+3. Every object $A$ in a category must have an identity morphism, $id_A : A \to
+   A$ that is an identity of composition with other morphisms. So for every
+   morphism $g: A \to B$:
     $g \circ id_A = id_B \circ g = g$.
     
 ### Exercises
 
-1. As was mentioned, any partial order $(P, \leq)$ is a category with objects as the elements of P and a morphism between elements a and b iff $a \leq b$. Which of the above laws guarantees the transitivity of $\leq$?
+1. As was mentioned, any partial order $(P, \leq)$ is a category with objects as
+   the elements of P and a morphism between elements a and b iff $a \leq b$.
+   Which of the above laws guarantees the transitivity of $\leq$?
 
     **Solution**:
     
-    The second law, which states that the category needs to be closed under the composition operator guarantess that because we have a morphism $a \leq b$, and another morphism $b \leq c$, there must also be some other morphism such that $a \leq c$.
+    The second law, which states that the category needs to be closed under the
+    composition operator guarantess that because we have a morphism $a \leq b$,
+    and another morphism $b \leq c$, there must also be some other morphism such
+    that $a \leq c$.
     
 2. If we add another morphism to the above example, as illustrated below, it fails to be a category. Why? Hint: think about associativity of the composition operation.
    
@@ -226,7 +263,8 @@ The Functor section links to [Category Theory](https://en.wikibooks.org/wiki/Has
 
 ### Functor laws:
 
-1. Given an identity morphism $id_A$ on an object $A$, $F(id_A)$ must be the identity morphism on $F(A)$, so:
+1. Given an identity morphism $id_A$ on an object $A$, $F(id_A)$ must be the
+   identity morphism on $F(A)$, so:
     $F(id_A) = id_{F(A)}$
     
 2. Functors must distribute over morphism composition:
@@ -240,9 +278,13 @@ The Functor section links to [Category Theory](https://en.wikibooks.org/wiki/Has
 
     **Solution**:
 
-    The first law is obvious as it's directly written, the pale blue dotted arrows from $id_C$ to $F(id_C) = id_{F(C)}$ and $id_A$ and $id_B$ to $F(id_A) = F(id_B) = id_{F(A)} = id_{F(B)}$ show this.
+    The first law is obvious as it's directly written, the pale blue dotted
+    arrows from $id_C$ to $F(id_C) = id_{F(C)}$ and $id_A$ and $id_B$ to
+    $F(id_A) = F(id_B) = id_{F(A)} = id_{F(B)}$ show this.
 
-    The second law also holds, the only compositions in category $C$ are between $f$ and identities, and $g$ and identities, there is no composition between $f$ and $g$.
+    The second law also holds, the only compositions in category $C$ are between
+    $f$ and identities, and $g$ and identities, there is no composition between
+    $f$ and $g$.
 
     (Note: The second law always hold as long as the first one does, as was seen in Typoclassopedia)
     
@@ -299,7 +341,9 @@ Applicative
     pure f <*> pure x = pure (f x)
     ```
 
-    Intuitively, applying a non-effectful function to a non-effectful argument in an effectful context is the same as just applying the function to the argument and then injecting the result into the context with pure.
+    Intuitively, applying a non-effectful function to a non-effectful argument
+    in an effectful context is the same as just applying the function to the
+    argument and then injecting the result into the context with pure.
     
 3. Interchange:
 
@@ -307,7 +351,9 @@ Applicative
     u <*> pure y = pure ($ y) <*> u
     ```
 
-    Intuitively, this says that when evaluating the application of an effectful function to a pure argument, the order in which we evaluate the function and its argument doesn't matter.
+    Intuitively, this says that when evaluating the application of an effectful
+    function to a pure argument, the order in which we evaluate the function and
+    its argument doesn't matter.
     
 4. Composition:
 
@@ -315,11 +361,15 @@ Applicative
     u <*> (v <*> w) = pure (.) <*> u <*> v <*> w
     ```
 
-    This one is the trickiest law to gain intuition for. In some sense it is expressing a sort of associativity property of (`<*>`). The reader may wish to simply convince themselves that this law is type-correct. 
+    This one is the trickiest law to gain intuition for. In some sense it is
+    expressing a sort of associativity property of (`<*>`). The reader may wish
+    to simply convince themselves that this law is type-correct. 
     
 ### Exercises
 
-(Tricky) One might imagine a variant of the interchange law that says something about applying a pure function to an effectful argument. Using the above laws, prove that
+(Tricky) One might imagine a variant of the interchange law that says something
+about applying a pure function to an effectful argument. Using the above laws,
+prove that
 
 ```haskell
 pure f <*> x = pure (flip ($)) <*> x <*> pure f
@@ -338,13 +388,25 @@ pure (flip ($)) <*> x <*> pure f
 ```
 Explanation of the last transformation:
 
-`flip ($)` has type `a -> (a -> c) -> c`, intuitively, it first takes an argument of type `a`, then a function that accepts that argument, and in the end it calls the function with the first argument. So `(flip ($) 5)` takes as argument a function which gets called with `5` as it's argument. If we pass `(+ 2)` to `(flip ($) 5)`, we get `(flip ($) 5) (+2)` which is equivalent to the expression `(+2) $ 5`, evaluating to `7`.
+`flip ($)` has type `a -> (a -> c) -> c`, intuitively, it first takes an
+argument of type `a`, then a function that accepts that argument, and in the end
+it calls the function with the first argument. So `(flip ($) 5)` takes as
+argument a function which gets called with `5` as it's argument. If we pass `(+
+2)` to `(flip ($) 5)`, we get `(flip ($) 5) (+2)` which is equivalent to the
+expression `(+2) $ 5`, evaluating to `7`.
 
-`flip ($) f` is equivalent to `\x -> x $ f`, that means, it takes as input a function and calls it with the function `f` as argument.
+`flip ($) f` is equivalent to `\x -> x $ f`, that means, it takes as input a
+function and calls it with the function `f` as argument.
 
-The composition of these functions works like this: First `flip ($)` takes `x` as it's first argument, and returns a function `(flip ($) x)`, this function is awaiting a function as it's last argument, which will be called with `x` as it's argument. Now this function `(flip ($) x)` is passed to `flip ($) f`, or to write it's equivalent `(\x -> x $ f) (flip ($) x)`, this results in the expression `(flip ($) x) f`, which is equivalent to `f $ x`. 
+The composition of these functions works like this: First `flip ($)` takes `x`
+as it's first argument, and returns a function `(flip ($) x)`, this function is
+awaiting a function as it's last argument, which will be called with `x` as it's
+argument. Now this function `(flip ($) x)` is passed to `flip ($) f`, or to
+write it's equivalent `(\x -> x $ f) (flip ($) x)`, this results in the
+expression `(flip ($) x) f`, which is equivalent to `f $ x`. 
 
-You can check the type of `(flip ($) f) . (flip ($))` is something like this (depending on your function `f`):
+You can check the type of `(flip ($) f) . (flip ($))` is something like this
+(depending on your function `f`):
 
 ```haskell
 λ: let f = sqrt
@@ -352,7 +414,9 @@ You can check the type of `(flip ($) f) . (flip ($))` is something like this (de
 (flip ($) f) . (flip ($)) :: Floating c => c -> c
 ```
 
-Also see [this question on Stack Overflow](https://stackoverflow.com/questions/46503793/applicative-prove-pure-f-x-pure-flip-x-pure-f/46505868#46505868) which includes alternative proofs.
+Also see [this question on Stack
+Overflow](https://stackoverflow.com/questions/46503793/applicative-prove-pure-f-x-pure-flip-x-pure-f/46505868#46505868)
+which includes alternative proofs.
 
 ## Instances
 
@@ -397,7 +461,9 @@ instance Applicative [] where
       (Just f) <*> (Just x) = Just (f x)
     ```
     
-2. Determine the correct definition of `pure` for the `ZipList` instance of `Applicative`—there is only one implementation that satisfies the law relating `pure` and `(<*>)`. 
+2. Determine the correct definition of `pure` for the `ZipList` instance of
+   `Applicative`—there is only one implementation that satisfies the law
+   relating `pure` and `(<*>)`. 
     
     **Solution**:
     
@@ -421,7 +487,9 @@ instance Applicative [] where
 
 1. Implement a function
     `sequenceAL :: Applicative f => [f a] -> f [a]`
-    There is a generalized version of this, `sequenceA`, which works for any `Traversable` (see the later section on `Traversable`), but implementing this version specialized to lists is a good exercise. 
+    There is a generalized version of this, `sequenceA`, which works for any
+    `Traversable` (see the later section on `Traversable`), but implementing
+    this version specialized to lists is a good exercise. 
     
     **Solution**:
     
@@ -434,11 +502,18 @@ instance Applicative [] where
     
     Explanation:
     
-    First, `createList` is a simple function for creating a list of a single element, e.g. `createList 2 == [2]`.
+    First, `createList` is a simple function for creating a list of a single
+    element, e.g. `createList 2 == [2]`.
     
-    Now let's take `sequenceAL` apart, first, it does a fold over the list `[f a]`, and `b` is initialized to `pure []`, which results in `f [a]` as required by the function's output.
+    Now let's take `sequenceAL` apart, first, it does a fold over the list `[f
+    a]`, and `b` is initialized to `pure []`, which results in `f [a]` as
+    required by the function's output.
     
-    Inside the function, `createList <$> x` applies `createList` to the value inside `f a`, resulting in `f [a]`, and then `(++)` is applied to the value again, so it becomes `f ((++) [a])`, now we can apply the function `(++) [a]` to `b` by `((++) . createList <$> x) <*> b`, which results in `f ([a] ++ b)`.
+    Inside the function, `createList <$> x` applies `createList` to the value
+    inside `f a`, resulting in `f [a]`, and then `(++)` is applied to the value
+    again, so it becomes `f ((++) [a])`, now we can apply the function `(++)
+    [a]` to `b` by `((++) . createList <$> x) <*> b`, which results in `f ([a]
+    ++ b)`.
 
 ## Alternative formulation
 
@@ -504,7 +579,8 @@ In the laws above, `≅` refers to isomorphism rather than equality. In particul
     f <*> a = fmap (uncurry ($)) (f ** a) = fmap (\(f, a) -> f a) (f ** a)
     ```
 
-2. Are there any `Applicative` instances for which there are also functions `f () -> ()` and `f (a,b) -> (f a, f b)`, satisfying some "reasonable" laws? 
+2. Are there any `Applicative` instances for which there are also functions `f
+   () -> ()` and `f (a,b) -> (f a, f b)`, satisfying some "reasonable" laws? 
 
     The [`Arrow`](https://wiki.haskell.org/Typeclassopedia#Arrow) type class seems to satisfy these criteria.
     
@@ -514,7 +590,8 @@ In the laws above, `≅` refers to isomorphism rather than equality. In particul
       (id *** f) (a, b) = (f a, f b)
     ```
     
-3. (Tricky) Prove that given your implementations from the first exercise, the usual Applicative laws and the Monoidal laws stated above are equivalent. 
+3. (Tricky) Prove that given your implementations from the first exercise, the
+   usual Applicative laws and the Monoidal laws stated above are equivalent. 
 
     1. Identity Law
      
@@ -618,7 +695,8 @@ instance Monad Maybe where
                   | Node (f (Free f a))
     ```
     
-    You may assume that `f` has a `Functor` instance. This is known as the _free monad_ built from the functor f. 
+    You may assume that `f` has a `Functor` instance. This is known as the _free
+    monad_ built from the functor f. 
     
     **Solution**:
     
@@ -675,7 +753,8 @@ g >=> return  =  g
 
 ### Exercises
 
-1. Given the definition `g >=> h = \x -> g x >>= h`, prove the equivalence of the above laws and the standard monad laws.
+1. Given the definition `g >=> h = \x -> g x >>= h`, prove the equivalence of
+   the above laws and the standard monad laws.
 
     **Solution**:
     
@@ -714,14 +793,16 @@ class MonadTrans t where
 
     **Solution**: 
     
-    `t` is of the kind `(* -> *) -> * -> *`, as we see in `(t m) a`, `t` accepts a `Monad` first, which is of type `* -> *`, and then
-    another argument of kind `*`.
+    `t` is of the kind `(* -> *) -> * -> *`, as we see in `(t m) a`, `t` accepts
+    a `Monad` first, which is of type `* -> *`, and then another argument of
+    kind `*`.
     
 ## Composing Monads
 
 ### Exercises
 
-1. Implement `join :: M (N (M (N a))) -> M (N a)` given `distrib :: N (M a) -> M (N a)` and assuming `M` and `N` are instances of `Monad`.
+1. Implement `join :: M (N (M (N a))) -> M (N a)` given `distrib :: N (M a) -> M
+   (N a)` and assuming `M` and `N` are instances of `Monad`.
 
     ```haskell
     join :: M (N (M (N a))) -> M (N a)
@@ -848,7 +929,9 @@ class Foldable t where
     toList = foldMap (replicate 1)
     ```
     
-2. Show how one could implement the generic version of `foldr` in terms of `toList`, assuming we had only the list-specific `foldr :: (a -> b -> b) -> b -> [a] -> b`.
+2. Show how one could implement the generic version of `foldr` in terms of
+   `toList`, assuming we had only the list-specific `foldr :: (a -> b -> b) -> b
+   -> [a] -> b`.
 
     **Solution**:
     
@@ -856,7 +939,11 @@ class Foldable t where
     foldr f b c = foldr f b (toList c)
     ```
     
-3. Pick some of the following functions to implement: `concat`, `concatMap`, `and`, `or`, `any`, `all`, `sum`, `product`, `maximum(By)`, `minimum(By)`, `elem`, `notElem`, and `find`. Figure out how they generalize to `Foldable` and come up with elegant implementations using `fold` or `foldMap` along with appropriate `Monoid` instances.
+3. Pick some of the following functions to implement: `concat`, `concatMap`,
+   `and`, `or`, `any`, `all`, `sum`, `product`, `maximum(By)`, `minimum(By)`,
+   `elem`, `notElem`, and `find`. Figure out how they generalize to `Foldable`
+   and come up with elegant implementations using `fold` or `foldMap` along with
+   appropriate `Monoid` instances.
 
     **Solution**:
     
@@ -902,13 +989,22 @@ class Foldable t where
 
 ## Utility functions
 
-- `sequenceA_ :: (Applicative f, Foldable t) => t (f a) -> f ()` takes a container full of computations and runs them in sequence, discarding the results (that is, they are used only for their effects). Since the results are discarded, the container only needs to be Foldable. (Compare with `sequenceA :: (Applicative f, Traversable t) => t (f a) -> f (t a)`, which requires a stronger Traversable constraint in order to be able to reconstruct a container of results having the same shape as the original container.) 
+- `sequenceA_ :: (Applicative f, Foldable t) => t (f a) -> f ()` takes a
+  container full of computations and runs them in sequence, discarding the
+  results (that is, they are used only for their effects). Since the results are
+  discarded, the container only needs to be Foldable. (Compare with `sequenceA
+  :: (Applicative f, Traversable t) => t (f a) -> f (t a)`, which requires a
+  stronger Traversable constraint in order to be able to reconstruct a container
+  of results having the same shape as the original container.) 
 
-- `traverse_ :: (Applicative f, Foldable t) => (a -> f b) -> t a -> f ()` applies the given function to each element in a foldable container and sequences the effects (but discards the results).
+- `traverse_ :: (Applicative f, Foldable t) => (a -> f b) -> t a -> f ()`
+  applies the given function to each element in a foldable container and
+  sequences the effects (but discards the results).
  
 ### Exercises
 
-1. Implement `traverse_` in terms of `sequenceA_` and vice versa. One of these will need an extra constraint. What is it? 
+1. Implement `traverse_` in terms of `sequenceA_` and vice versa. One of these
+   will need an extra constraint. What is it? 
 
     **Solution**:
     
@@ -920,7 +1016,9 @@ class Foldable t where
     traverse_ f c = sequenceA_ (fmap f c)
     ```
     
-    The additional constraint for implementing `traverse_` in terms of `sequenceA_` is the requirement of the `Foldable` instance `t` to be a `Functor` as well.
+    The additional constraint for implementing `traverse_` in terms of
+    `sequenceA_` is the requirement of the `Foldable` instance `t` to be a
+    `Functor` as well.
     
 Traversable
 ===========
@@ -936,11 +1034,17 @@ sequenceA :: Applicative f => t (f a) -> f (t a)
 
 1. There are at least two natural ways to turn a tree of lists into a list of trees. What are they, and why? 
    
-   Note: I'm not really sure whether my solution is _natural_, I think the question is rather ambiguous in the sense that it's not clear whether the trees in the final list of trees can have lists as their values, i.e. `Tree [Int] -> [Tree [Int]]` is valid or only `Tree [Int] -> [Tree Int]` is, but let me know if you think otherwise.
+   Note: I'm not really sure whether my solution is _natural_, I think the
+   question is rather ambiguous in the sense that it's not clear whether the
+   trees in the final list of trees can have lists as their values, i.e. `Tree
+   [Int] -> [Tree [Int]]` is valid or only `Tree [Int] -> [Tree Int]` is, but
+   let me know if you think otherwise.
     
     **Solution**:
     
-    One way is to put each `Node`, `Leaf` or `Empty` in a list in-order, this way the structure of the tree can be recovered from the list, here is a quick sketch (`[]` is an arbitrary list):
+    One way is to put each `Node`, `Leaf` or `Empty` in a list in-order, this
+    way the structure of the tree can be recovered from the list, here is a
+    quick sketch (`[]` is an arbitrary list):
     
     ![tree to list](/img/typoclassopedia/tree.jpg)
     
@@ -953,7 +1057,9 @@ sequenceA :: Applicative f => t (f a) -> f (t a)
 
     **Solution**:
     
-    To recover the original tree from the list of trees, whenever we encounter a `Node` in the list, we catch the next three values as left, value, and right nodes of the original node.
+    To recover the original tree from the list of trees, whenever we encounter a
+    `Node` in the list, we catch the next three values as left, value, and right
+    nodes of the original node.
 
 3. What is the type of `traverse . traverse`? What does it do? 
 
@@ -979,7 +1085,9 @@ sequenceA :: Applicative f => t (f a) -> f (t a)
 
 ### Exercises
 
-1. Implement `fmap` and `foldMap` using only the `Traversable` methods. (Note that the `Traversable` module provides these implementations as `fmapDefault` and `foldMapDefault`.)
+1. Implement `fmap` and `foldMap` using only the `Traversable` methods. (Note
+   that the `Traversable` module provides these implementations as `fmapDefault`
+   and `foldMapDefault`.)
 
     **Solution**:
     
@@ -1034,14 +1142,22 @@ sequenceA :: Applicative f => t (f a) -> f (t a)
 
     **Solution**:
     
-    First, in terms of laws, `Set` is not a `Functor`, thus it cannot be made into a `Traversable` instance, since `Traversable` instances require `Functor` superclasses.
+    First, in terms of laws, `Set` is not a `Functor`, thus it cannot be made
+    into a `Traversable` instance, since `Traversable` instances require
+    `Functor` superclasses.
     
-    Second, on an intuitive level: In `Foldable`, the goal is not to keep the shape/structure of the original container, we are trying to reduce the container into some value, and the shape of the final result doesn't matter, but in `Traversable`, we ought to keep the structure of the final result, but we can't guarantee this while using `Set`s, because we can define some transformation `f :: Set a -> Set a` which reduces the length of the `Set`.
+    Second, on an intuitive level: In `Foldable`, the goal is not to keep the
+    shape/structure of the original container, we are trying to reduce the
+    container into some value, and the shape of the final result doesn't matter,
+    but in `Traversable`, we ought to keep the structure of the final result,
+    but we can't guarantee this while using `Set`s, because we can define some
+    transformation `f :: Set a -> Set a` which reduces the length of the `Set`.
     
     
     See [Foldable vs. Traversable](https://stackoverflow.com/questions/35857733/foldable-vs-traversable) and [Sets, Functors and Eq confusion](https://stackoverflow.com/questions/19177125/sets-functors-and-eq-confusion). and [Foldable and Traversable](https://wiki.haskell.org/Foldable_and_Traversable) for more details.
     
-4. Show that `Traversable` functors compose: that is, implement an instance for `Traversable (Compose f g)` given `Traversable` instances for `f` and `g`.
+4. Show that `Traversable` functors compose: that is, implement an instance for
+   `Traversable (Compose f g)` given `Traversable` instances for `f` and `g`.
 
     **Solution**:
     

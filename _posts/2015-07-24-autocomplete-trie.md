@@ -7,7 +7,8 @@ categories: programming
 author: Mahdi
 ---
 
-In this article, I'm going over creating an autocompletion/prediction system using a data-structure called Trie, it's fast and easy to customize.
+In this article, I'm going over creating an autocompletion/prediction system
+using a data-structure called Trie, it's fast and easy to customize.
 
 Trie
 ====
@@ -76,20 +77,27 @@ class Trie {
   }
 }
 {% endhighlight %}
-Every Trie must have a root node with empty value, that's how our single-character nodes follow the rule of Tries.
+Every Trie must have a root node with empty value, that's how our
+single-character nodes follow the rule of Tries.
 
-Ok, our first method, `add` handles adding a value to the trie, creating necessary parent nodes for our value.
-At each iteration, we compare the `i`th character of our value, with `i`th character of current node's children's value,
-if we find one, we continue to search the next branch, else, we create a node with `value.slice(0, i + 1)` and move onto the created node.
+Ok, our first method, `add` handles adding a value to the trie, creating
+necessary parent nodes for our value. At each iteration, we compare the `i`th
+character of our value, with `i`th character of current node's children's value,
+if we find one, we continue to search the next branch, else, we create a node
+with `value.slice(0, i + 1)` and move onto the created node.
 
-It might be a little hard to grasp at first, so I created a visualization of this method to help you understand it easier, take a look:
+It might be a little hard to grasp at first, so I created a visualization of
+this method to help you understand it easier, take a look:
 [Trie Visualization](https://mdibaiee.github.io/autocomplete-trie/demo/add.html)
 
-Then we have our find method, which searches for the given value in the trie. The algorithm for searching is the same, comparing by index and moving to the next branch.
+Then we have our find method, which searches for the given value in the trie.
+The algorithm for searching is the same, comparing by index and moving to the
+next branch.
 
-Example
-========
-That's it for our simple Trie class, now let's create an actual input with autocomplete functionality using our Trie.
+# Example
+
+That's it for our simple Trie class, now let's create an actual input with
+autocomplete functionality using our Trie.
 
 {% highlight html %}
 <input>
@@ -137,12 +145,15 @@ input.addEventListener('keyup', () => {
 {% endhighlight %}
 [Autocomplete 1](https://mdibaiee.github.io/autocomplete-trie/1.html)
 ![Autocomplete 1](/img/autocomplete-1.png)
-This will only show the instant-childs of the word entered, but that's not what we want, we want to show *complete* words, how do we do that?
+This will only show the instant-childs of the word entered, but that's not what
+we want, we want to show *complete* words, how do we do that?
 
-First, we need a way to detect complete words, we can have a flag to recognize complete words, we can modify our `add` method to
-automatically flag whole words or we can manually add the flag after adding the node, as we did by setting a category for our words,
-so we already have a flag to recognize whole words, that's our `category` property, now let's add a new method to our Trie class to find
-whole words.
+First, we need a way to detect complete words, we can have a flag to recognize
+complete words, we can modify our `add` method to automatically flag whole words
+or we can manually add the flag after adding the node, as we did by setting a
+category for our words, so we already have a flag to recognize whole words,
+that's our `category` property, now let's add a new method to our Trie class to
+find whole words.
 
 {% highlight javascript %}
 ...
@@ -205,4 +216,6 @@ That's it! We have an input with autocomplete and tab-to-next-char. Isn't it awe
 
 [Final Result](https://mdibaiee.github.io/autocomplete-trie/2.html)
 
-*Pst! I have a repository of algorithm implementations in ES6, you might want to take a look! [mdibaiee/harmony-algorithms](https://github.com/mdibaiee/harmony-algorithms)*
+*Pst! I have a repository of algorithm implementations in ES6, you might want to
+take a look!
+[mdibaiee/harmony-algorithms](https://github.com/mdibaiee/harmony-algorithms)*

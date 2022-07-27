@@ -12,9 +12,12 @@ is a new API used to communicate between same-origin tabs opened by the same use
 
 Why
 ===
-Let's say you open two GitHub tabs, the [rust repository](https://github.com/rust-lang/rust) and [your stars](https://github.com/stars) page. You decide to star the awesome rust repository, but then you have to
-refresh your stars page to see your new star. That's sad. There must be a way for GitHub to refresh
-your stars page in case you star something in another tab, right?
+Let's say you open two GitHub tabs, the [rust
+repository](https://github.com/rust-lang/rust) and [your
+stars](https://github.com/stars) page. You decide to star the awesome rust
+repository, but then you have to refresh your stars page to see your new star.
+That's sad. There must be a way for GitHub to refresh your stars page in case
+you star something in another tab, right?
 
 ![Broadcast Channels, SATISFIED](/img/broadcast-channels.jpg)
 
@@ -48,11 +51,14 @@ BroadcastChannels are pretty easy, here I'm going over the small details.
 
 Creating channels
 -----------------
-BroadcastChannels are constructed with a single argument, their name. Browsing contexts should use
-this name to communicate over a specified channel. There's no limit to how many channels you can create.
+BroadcastChannels are constructed with a single argument, their name. Browsing
+contexts should use this name to communicate over a specified channel. There's
+no limit to how many channels you can create.
 
-In the first sentence of article I said it's used to communicate between tabs, but it's actually "browsing contexts".
-[Browsing contexts](http://www.w3.org/TR/html5/browsers.html#browsing-context) are any environments owning a `Document`, e.g. tabs, windows, iframes, etc.
+In the first sentence of article I said it's used to communicate between tabs,
+but it's actually "browsing contexts". [Browsing
+contexts](http://www.w3.org/TR/html5/browsers.html#browsing-context) are any
+environments owning a `Document`, e.g. tabs, windows, iframes, etc.
 
 {% highlight javascript %}
 var channel = new BroadcastChannel('star');
@@ -79,7 +85,9 @@ Channels inherit from [`EventTarget`](https://developer.mozilla.org/en-US/docs/W
 Channels have only one event:
 
 ### message
-The event object passed to this event is a [`MessageEvent`](https://developer.mozilla.org/en-US/docs/Web/API/MessageEvent) with the `data` property set to the actual message sent using `postMessage`.
+The event object passed to this event is a
+[`MessageEvent`](https://developer.mozilla.org/en-US/docs/Web/API/MessageEvent)
+with the `data` property set to the actual message sent using `postMessage`.
 
 ---
 
@@ -88,7 +96,9 @@ Another example
 Let's Fix GitHub
 ----------------
 
-Okay, let's try something cool, I promise you will love it. Open a browser with [BroadcastChannel support](http://caniuse.com/#feat=broadcastchannel) and Install [GreaseMonkey](http://www.greasespot.net/).
+Okay, let's try something cool, I promise you will love it. Open a browser with
+[BroadcastChannel support](http://caniuse.com/#feat=broadcastchannel) and
+Install [GreaseMonkey](http://www.greasespot.net/).
 
 You have to add two scripts, one for repository pages, and one for the stars page.
 
@@ -134,4 +144,5 @@ is open, and your stars page will refresh immediately.
 
 That's it, I really like this API as it's best of both worlds, simple and useful.
 
-There are a lot of things which can be done with help of BroadcastChannels, I would love to hear your feedback on this API.
+There are a lot of things which can be done with help of BroadcastChannels, I
+would love to hear your feedback on this API.

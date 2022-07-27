@@ -12,6 +12,7 @@ layout: default
       <span>{{ page.date | date: "%b %-d, %Y" }}</span>
       {% if page.meta %} • <span>{{ page.meta }}</span>{% endif %}
       • <span>Reading time: {{ content | reading_time }}</span>
+      • <span><a href="/raw{{ page.url }}">raw</a></span>
     </p>
   </div>
 
@@ -19,8 +20,6 @@ layout: default
     {{ content }}
   </article>
 
-  {% include share.html %}
-  
   <div id="commento"></div>
   <script defer
     src="//commento.mahdi.blog/js/commento.js">
