@@ -2,7 +2,7 @@
 layout: post
 title:  "Iran Sanctions: A Story of Discrimination and Isolation"
 date:   2019-07-27 17:13:46
-permalink: sanctions-discrimination-isolation-iran
+permalink: sanctions-discrimination-isolation-iran/
 categories: life, iran
 author: Mahdi
 ---
