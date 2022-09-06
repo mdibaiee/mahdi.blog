@@ -281,4 +281,4 @@ Akana kenjagi kaboneire munonga munonga: baby gorilla is very very beautiful
 
 # Additional resources
 
-The local people told me there is no dictionary of Rukiga yet, but it is being worked on and will be piblished soon. however, one potentially usedful resource for learning Rukiga is using a binle in Rukiga and comparing it to an English bible. A bible in Rukiga is [available online](https://www.bible.com/bible/1434/GEN.1.RR64).
+The local people told me there is no dictionary of Rukiga yet, but it is being worked on and will be piblished soon. however, one potentially usedful resource for learning Rukiga is using a bible in Rukiga and comparing it to an English bible. A bible in Rukiga is [available online](https://www.bible.com/bible/1434/GEN.1.RR64).
