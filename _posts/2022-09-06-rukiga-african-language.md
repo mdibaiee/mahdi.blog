@@ -113,7 +113,7 @@ Pronunciations may vary depending on the region. As an example, in one area we w
 
 # Numbers
 
-|*Rukiga*|*English*|
+|Rukiga|English|
 |--------|---------|
 |Omwe|One person|
 |Emwe|One|
