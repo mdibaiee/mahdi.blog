@@ -16,97 +16,98 @@ The “k” letter is sometimes read with a ch sound (need phonetic)
 Pronunciations may vary depending on the region. As an example, in one area we were told Musana means sun, but in another region we were told it’s pronounced as Mushana.
 
 # A tiny dictionary of words
-Rukiga	English
-Webare	Thank you (single person)
-Webare kusiuma	Response to webare
-Mwebare	Thank you (multiple people)
-Engaji	Gorilla 🦍 
-Kengaji	Junior gorilla (used after Akana)
-Akana	Baby
-Agandi	How are you (used as greeting)
-Nigye	Good (response to Agandi)
-Kache	Small
-Munonga	A lot
-Kihango	Big
-Byinji	Many of something
-Ruhanga wangye	My Lord
-Eshaha	Time
-Olaleje	Good night (single person)
-Mulaleje	Good night (many people)
-Olileje	Good morning (single person)
-Mulileje 	Good morning (multiple person)
-Kunaaba	Take shower
-Twena	All of us
-Embwa	Dog
-Ahamuheru	End
-Hamwe	And
-Enyonyi 	Bird, airplane
-Ekinyonyi	Bird
-Omunywani	Friend
-Omwojo omunywani	Boyfriend
-Omuhara	Girl
-Omwojo	Boy
-Omusheija	Man
-Ego	Yes
-Wapi	No
-Omujinya 	Jealous person
-Omukundwa	Sweetheart 
-Embuzi	Goat
-Echiroto	Dream
-Nyine enjara	I’m hungry
-Ndu hire	I’m tired
-Nikibi	Ugly, a bad deed
-Echiroto nkirungi	Good dream
-Wanji	Response to someone calling you. Can be used when you don’t understand what they said, but also in general
-Embuzi	Goat
-Akana Kembuzi	Baby goat
-Entama	Sheep
-Musana, Mushana (different pronunciation)	Sun
-Omwanya gobsinge	Peaceful Place
-Echirwa	Island
-Chine	Have
-Nyingyi	A lot
-Ruhanga eizina rye rehimbisibwe	Hossana
-Akasero	Basket with handles
-Akatebo 	Basket
-Akibo	Small basket
-Musingirio	A kind of bean that grow while twining (while connected to something, grows around it
-Enyawawa	The crying bird
-Sawa	I’m ok (be careful: this word means “something bitter” in Swahili)
-Nimarungy	I’m ok (response to Agandi)
-Mwakora	You have done great (multiple people)
-Wakora	You have done great (single person)
-Etanuru	Bricks arranged in a dome shape with fire under and inside them, to dry the bricks
-Tutamuzongoza	A person’s name, means someone who is not to be disturbed (or disturb others)
-Akana Kente 	Calf
-Omwana	Human baby
-Omuzeire	Parent
-Mama	Mother
-Taata	Father
-Buhunga	A food made with maize flour mixed with hot water and sugar (called porridge in some areas)
-Entuhe	Crusted Crane
-Ruhanga	God
-Amina	Amen
-Matooke	Mashed green banana
-Chinnurile	Delicious
-Bun	Bread bun
-Omugisha	Blessing
-Abatabani	Sons
-Yaabagirati	Said
-Ekibi	Sins
-Byona	Everything
-Ezitarikuzira	Those which you can’t refuse
-Nyamaishwa	Animals
-Aha	This
-Buri	That
-Muhango	Great
-Enshaija	Male (animal)
-Enkazi	Female (animal)
-Enshaija n’enkazi	Male and female (animals)
-Omusheija omukazi	Male and female (humans)
-Otwareho	You will take (a part of something, not all)
-Kare kare	Goodbye
-Ebinyugunyugu	Butterfly
+
+|Rukiga|English|
+|-------|-----|
+|Webare|Thank you (single person)|
+|Webare kusiuma|Response to webare|
+|Mwebare|Thank you (multiple people)|
+|Engaji|Gorilla 🦍 |
+|Kengaji|Junior gorilla (used after Akana)|
+|Akana|Baby|
+|Agandi|How are you (used as greeting)|
+|Nigye|Good (response to Agandi)|
+|Kache|Small|
+|Munonga|A lot|
+|Kihango|Big|
+|Byinji|Many of something|
+|Ruhanga wangye|My Lord|
+|Eshaha|Time|
+|Olaleje|Good night (single person)|
+|Mulaleje|Good night (many people)|
+|Olileje|Good morning (single person)|
+|Mulileje |Good morning (multiple person)|
+|Kunaaba|Take shower|
+|Twena|All of us|
+|Embwa|Dog|
+|Ahamuheru|End|
+|Hamwe|And|
+|Enyonyi |Bird, airplane|
+|Ekinyonyi|Bird|
+|Omunywani|Friend|
+|Omwojo omunywani|Boyfriend|
+|Omuhara|Girl|
+|Omwojo|Boy|
+|Omusheija|Man|
+|Ego|Yes|
+|Wapi|No|
+|Omujinya |Jealous person|
+|Omukundwa|Sweetheart |
+|Embuzi|Goat|
+|Echiroto|Dream|
+|Nyine enjara|I’m hungry|
+|Ndu hire|I’m tired|
+|Nikibi|Ugly, a bad deed|
+|Echiroto nkirungi|Good dream|
+|Wanji|Response to someone calling you. Can be used when you don’t understand what they said, but also in general|
+||Give me water|
+|Embuzi|Goat|
+|Akana Kembuzi|Baby goat|
+|Entama|Sheep|
+|Musana, Mushana (different pronunciation)|Sun|
+|Omwanya gobsinge|Peaceful Place|
+|Echirwa|Island|
+|Chine|Have|
+|Nyingyi|A lot|
+|Ruhanga eizina rye rehimbisibwe|Hossana|
+|Akasero|Basket with handles|
+|Akatebo |Basket|
+|Akibo|Small basket|
+|Musingirio|A kind of bean that grow while twining (while connected to something, grows around it|
+|Enyawawa|The crying bird|
+|Sawa|I’m ok (be careful: this word means “something bitter” in Swahili)|
+|Nimarungy|I’m ok (response to Agandi)|
+|Mwakora|You have done great (multiple people)|
+|Wakora|You have done great (single person)|
+|Etanuru|Bricks arranged in a dome shape with fire under and inside them, to dry the bricks|
+|Tutamuzongoza|A person’s name, means someone who is not to be disturbed (or disturb others)|
+|Akana Kente |Calf|
+|Omwana|Human baby|
+|Omuzeire|Parent|
+|Mama|Mother|
+|Taata|Father|
+|Buhunga|A food made with maize flour mixed with hot water and sugar (called porridge in some areas)|
+|Entuhe|Crusted Crane|
+|Ruhanga|God|
+|Amina|Amen|
+|Matooke|Mashed green banana|
+|Chinnurile|Delicious|
+|Bun|Bread bun|
+|Omugisha|Blessing|
+|Abatabani|Sons|
+|Yaabagirati|Said|
+|Ekibi|Sins|
+|Byona|Everything|
+|Ezitarikuzira|Those which you can’t refuse|
+|Nyamaishwa|Animals|
+|Aha|This|
+|Buri|That|
+|Muhango|Great|
+|Enshaija|Male (animal)|
+|Enkazi|Female (animal)|
+|Enshaija n’enkazi|Male and female (animals)|
+|Omusheija omukazi|Male and female (humans)|
+|Otwareho|You will take (a part of something, not all)|
 	
 
 # Numbers
