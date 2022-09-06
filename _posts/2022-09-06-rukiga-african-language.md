@@ -8,7 +8,7 @@ categories: travel, language
 author: Mahdi
 ---
 
-During my trip to Southern Uganda I interacted with people who mainly spoke a local language called Rukiga. They said there is no dictionary for their language as of yet (although it is apparently being worked on), so I just kept asking them to teach me words and phrases and their grammar bit by bit. So here I’m sharing what I learned from my friends here in Uganda with you. Thanks to Tabitha and Tutamuzongoza and Jovan Tumwijukye specially who taught me and my friend a lot of these words and they spent time correcting the writing and pronunciation.
+During my trip to south of Uganda I interacted with people who mainly spoke a local language called Rukiga. They said there is no dictionary for their language as of yet (although it is apparently being worked on), so I just kept asking them to teach me words and phrases and their grammar bit by bit. So here I’m sharing what I learned from my friends here in Uganda with you. Thanks to Tabitha and Tutamuzongoza and Jovan Tumwijukye specially who taught me and my friend a lot of these words and they spent time correcting the writing and pronunciation.
 
 # Pronunciation
 The “r” letter is sometimes read with a sound that is in-between L and R (get phonetic annotation for these)
