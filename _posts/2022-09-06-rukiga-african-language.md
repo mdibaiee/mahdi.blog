@@ -211,39 +211,68 @@ Aha obuhunga bunnurile: This buhunga is delicious
 
 # How to say beautiful
 
-How the adjective changes based on what we are talking about:
+The adjective changes based on what we are talking about, and based on letters of previous words or context, in a way they try to rhyme words when possible.
 
-Animals:
-Eboneire (beautiful for singular non-human?)
-Ziboneire (beautiful for plural non-human?)
-Kaboneire (beautiful when used after Akana)
-
-Other things (based on first letter of word and context):
-Pair 1 (kind of things that have life):
-Goboneire (beautiful for singular non-human)
-Eboneire (beautiful for multiple non-human)
-
-Pair 2 (kind of things that have no life):
-Leboneire (beautiful for singular non-human)
-Gabonaire (beautiful for plural non-human)
+### Humans
 
 Oboneire (beautiful for singular human telling them directly)
-Baboneire (beautiful for plural human, when telling a third person)
+
 Muboneire (beautiful for plural human, when telling themselves directly)
+
 Aboneire (beautiful for singular human, when telling a third person)
+
+Baboneire (beautiful for plural human, when telling a third person)
+
+### Animals
+
+Eboneire (beautiful for singular animal)
+
+Ziboneire (beautiful for plural animals)
+
+Kaboneire (beautiful when used after Akana)
+
+
+### Other things
+
+There are many different variations of the adjective, here are two pairs used in different situations:
+
+Pair 1 (kind of things that have life):
+
+Goboneire (beautiful for singular non-human)
+
+Eboneire (beautiful for multiple non-human)
+
+
+Pair 2 (kind of things that have no life):
+
+Leboneire (beautiful for singular non-human)
+
+Gabonaire (beautiful for plural non-human)
+
+### Examples
+
 Eizina riboneire: beautiful name
+
 Eizina rya we liboneire: your name is beautiful
 
 Omushozi (singular mountain) goboneire
+
 Emishozi (multiple mountain) eboneire
+
 Omuti (tree) goboneire
+
 Emiti (multiple trees) eboneire
+
 Eibare (stone) leboneire
+
 Amabare (stones) gaboneire
 
 Ente (cow) eboneire
+
 Ente (cows) zeboneire
+
 Engaji eboneire
+
 Engaji zeboneire
 
 Akana kenjagi kaboneire munonga munonga: baby gorilla is very very beautiful
