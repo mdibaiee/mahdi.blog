@@ -108,7 +108,8 @@ Pronunciations may vary depending on the region. As an example, in one area we w
 |Enshaija n’enkazi|Male and female (animals)|
 |Omusheija omukazi|Male and female (humans)|
 |Otwareho|You will take (a part of something, not all)|
-	
+|Kare kare|Goodbye|
+|Ebinyugunyugu|Butterfly|	
 
 # Numbers
 
