@@ -153,34 +153,61 @@ Omutwaro	Ten thousand
 Emitwaro ebiri	Twenty thousand
 
 # Phrases
-Eizina ryangye Mahdi: my name is Mahdi
+
+Eizina ryangye Mahdi: My name is Mahdi
+
 Ndaruga Iran: I’m from Iran
+
 Nashemererwa kubanimwe: I’m happy to be here
-Webare munonga: thank you very much
-Aha nyamaishwa eztarikuzira: those animals you can’t refuse (ritually clean)
-Yesu asimwe: praise God
-Asimwe munonga, amen: response to Yesu asimwe
+
+Webare munonga: Thank you very much
+
+Aha nyamaishwa eztarikuzira: Those animals you can’t refuse (ritually clean)
+
+Yesu asimwe: Praise God
+
+Asimwe munonga, amen: Response to Yesu asimwe
+
 Ruhanga ni muhango: God is great
+
 Ruhanga ny mulingi: God is good
-Ekibi kya Noa: sins of noah
+
+Ekibi kya Noa: Sins of noah
+
 Mwije murye: Come and eat
+
 Ndakukunda munonga: I love you a lot
+
 Neshaha zokurya: Time to eat
-Neshaha zokuzakubyama: time to sleep
-Orakundachi: what do you prefer?
-Embwa hamwe na pusi: dog or cat
-Nishahazingahe: what Time is it
-Eizina ryawe niriha: what is your name?
-Eizina rye niriha: what is his/her name?
-Kunaaba twena: all of us take a shower
-Kafumbo: village with people with good ideas
-You are jealous of my bf: Oyinihre
-omujinya omunwani wange omwojo.
-Echirwa chine emitti nyingyi: island with a lot of trees
-Murikuza bunyonyi erizooba: we are going to bunyonyi today
-Mpa ameizi: give me water
-Ekibo kyebichiga chiga: basket of chiga beans
-Aha obuhunga bunnurile: this buhunga is delicious
+
+Neshaha zokuzakubyama: Time to sleep
+
+Orakundachi: What do you prefer?
+
+Embwa hamwe na pusi: Dog or cat
+
+Nishahazingahe: What time is it?
+
+Eizina ryawe niriha: What is your name?
+
+Eizina rye niriha: What is his/her name?
+
+Kunaaba twena: All of us take a shower
+
+Kafumbo: Village with people with good ideas
+
+Oyinihre
+omujinya omunwani wange omwojo: You are jealous of my boyfriend
+
+Echirwa chine emitti nyingyi: Island with a lot of trees
+
+Murikuza bunyonyi erizooba: We are going to bunyonyi today
+
+Mpa ameizi: Give me water
+
+Ekibo kyebichiga chiga: Basket of chiga beans
+
+Aha obuhunga bunnurile: This buhunga is delicious
 
 # How to say beautiful
 
