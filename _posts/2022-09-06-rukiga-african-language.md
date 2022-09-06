@@ -111,6 +111,7 @@ Pronunciations may vary depending on the region. As an example, in one area we w
 |Kare kare|Goodbye|
 |Ebinyugunyugu|Butterfly|	
 |Ekirabo|Gift|
+|Esati|Shirt|
 
 # Numbers
 
