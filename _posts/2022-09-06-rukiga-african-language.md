@@ -113,44 +113,46 @@ Pronunciations may vary depending on the region. As an example, in one area we w
 
 # Numbers
 
-Rukiga	English
-Omwe	One person
-Emwe	One
-Ibiri	Two
-Ishatu	Three
-Ina	Four
-Itahano	Five
-Mukaga	Six
-Mushanju	Seven
-Mundane	Eight
-Mwenda	Nine
-Ekumi	Ten
-Ekumi ne emwe	Eleven
-Ekumi ne ibiri	Twelve
-Ekumi ne ishatu	Thirteen
-Makumi abiri	Twenty
-Makumi abiri ne emwe	Twenty one
-Makumi ashatu	Thirty
-Makumi ana	Forty
-Makumi atahano	Fifty
-Makumi mukaga	Sixty 
-Makumi mushanju 	Seventy
-Makumi munana	Eighty
-Makumi mwenda	Ninety
-Igana	Hundred
-Igana makumi ana	One hundred forty
-Igana emwe	One hundred one
-Igana makumi abiri ne munana	One hundred twenty eight 
-Bibiri	Two hundred
-Bishatu	Three hundred
-Bina	Four hundred
-Bitahano	Five hundred
-Rukaga	Six hundred
-Magana mukaga	Six hundred (another way of writing it)
-Rukumi	One thousand
-Eukumi igana makumi ana	One thousand one hundred forty 
-Omutwaro	Ten thousand
-Emitwaro ebiri	Twenty thousand
+|*Rukiga*|*English*|
+|--------|---------|
+|Omwe|One person|
+|Emwe|One|
+|Ibiri|Two|
+|Ishatu|Three|
+|Ina|Four|
+|Itahano|Five|
+|Mukaga|Six|
+|Mushanju|Seven|
+|Mundane|Eight|
+|Mwenda|Nine|
+|Ekumi|Ten|
+|Ekumi ne emwe|Eleven|
+|Ekumi ne ibiri|Twelve|
+|Ekumi ne ishatu|Thirteen|
+|Makumi abiri|Twenty|
+|Makumi abiri ne emwe|Twenty one|
+|Makumi ashatu|Thirty|
+|Makumi ana|Forty|
+|Makumi atahano|Fifty|
+|Makumi mukaga|Sixty |
+|Makumi mushanju |Seventy|
+|Makumi munana|Eighty|
+|Makumi mwenda|Ninety|
+|Igana|Hundred|
+|Igana makumi ana|One hundred forty|
+|Igana emwe|One hundred one|
+|Igana makumi abiri ne munana|One hundred twenty eight |
+|Bibiri|Two hundred|
+|Bishatu|Three hundred|
+|Bina|Four hundred|
+|Bitahano|Five hundred|
+|Rukaga|Six hundred|
+|Magana mukaga|Six hundred (another way of writing it)|
+|Rukumi|One thousand|
+|Eukumi igana makumi ana|One thousand one hundred forty |
+|Omutwaro|Ten thousand|
+|Emitwaro ebiri|Twenty thousand|
+
 
 # Phrases
 
