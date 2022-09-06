@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Rukiga: An African Language"
-subtitle: "A tiny dictionary and introduction to Rukiga"
+subtitle: "A tiny introduction to Rukiga"
 date: 2022-09-06 00:00:00
 permalink: rukiga-african-language/
 categories: travel, language
