@@ -214,6 +214,8 @@ Ekibo kyebichiga chiga: Basket of chiga beans
 
 Aha obuhunga bunnurile: This buhunga is delicious
 
+Mwebare ahabwakujira omitima murungi: thank you for your kindness
+
 # How to say beautiful
 
 The adjective changes based on what we are talking about, and based on letters of previous words or context, in a way they try to rhyme words when possible.
