@@ -113,6 +113,9 @@ Pronunciations may vary depending on the region. As an example, in one area we w
 |Ebinyugunyugu|Butterfly|	
 |Ekirabo|Gift|
 |Esati|Shirt|
+|Eshero|Hippo|
+|Emporogoma|Lion|
+
 
 # Numbers
 
