@@ -6,7 +6,6 @@ date: 2022-09-10 00:00:00
 permalink: uganda-trip/
 categories: travel
 author: Mahdi
-published: false
 ---
 
 I and a friend of mine from Iran decided to go to Uganda to explore the country, culturally and ecologically. This is our first trip to Africa so we learned a lot and had a lot of new experiences! Our idea was to volunteer to have free accommodation and food as much as possible and also to be able to experience the local culture of people more closely. We wanted to talk their language, dance their dance, follow their customs and also see the beautiful land and animals.
@@ -105,7 +104,7 @@ On our first day, Tutamuzongoza and his brother Tumwijukye briefed us on their p
 
 That same night we had some children coming to our house and doing a dance to Christian songs and no doubt we joined them and had a great time.
 
-<video src="/img/arts/uganda/dance-bunyonyi.mp4" controls>
+<video src="/img/arts/uganda/dance-bunyonyi.mp4" controls />
 
 Since we had arrived on Saturday, and on Sunday there was church service, we didn’t work on Sunday but instead I joined Tutamuzongoza to go to church to experience their religious experience. This Protestant church was much more interesting than I had anticipated, there was a lot of dancing and singing and laughter! The preacher would crack jokes in between his preach and people would chuckle, which I found to be nice. Tutamuzongoza taught me how to introduce myself with these phrases:
 
@@ -147,13 +146,16 @@ After Bunyonyi and Kabale we went to Queen Elizabeth National park to do a safar
 We started driving through the park and saw a lot of buffalos and antelopes and birds at first, and at some point we saw some hippos in the river. We stopped at Kasenyi village, a community inside the park beside the lake and there we got to see a lot of hippos basking in the beach, and we got to get as close as 5-7m from there, they are pretty cool animals.
 
 ![Hippos chilling on the beach](/img/arts/uganda/hippos-chilling.jpg)
+![Buffalos](/img/arts/uganda/buffalos.jpg)
 
 We then drove to the Kazinga channel to do a boat cruise and some some animals in the water, predominantly hippos, and a lot of them! We also got to see some elephants and a crocodile and some birds and lizards including a fish eagle.
 ![Nile Crocodile](/img/arts/uganda/nile-crocodile.jpg)
 ![Elephant](/img/arts/uganda/savannah-elephant.jpg)
+![Warthogs](/img/arts/uganda/warthog.jpg)
+![Monkeys](/img/arts/uganda/monkey.jpg)
 
 After the boat cruise we went back to the park in search for lionesses, but instead we found a leopard resting on a tree, it was hard to see the leopard without a camera or binoculars but it was amazing nevertheless. We unfortunately didn’t get to find a lioness, apparently they were hard to spot during some periods.
-![Elephant](/img/arts/uganda/leopard.jpg)
+![Leopard](/img/arts/uganda/leopard.jpg)
 
 The most fun part of this safari was being able to sit on top of the car, on a very uncomfortable top rack. Me and my friend usually find satisfaction and fun when things are a bit harder than the usual!
 
