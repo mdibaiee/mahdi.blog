@@ -160,6 +160,8 @@ After the boat cruise we went back to the park in search for lionesses, but inst
 
 The most fun part of this safari was being able to sit on top of the car, on a very uncomfortable top rack. Me and my friend usually find satisfaction and fun when things are a bit harder than the usual!
 
+![On top of the car](/img/arts/uganda/on-car.jpg)
+
 At night we went to another small resort to have our dinner, and as we were sitting beside the campfire, a hippo casually started walking towards us, hippos were like stray dogs in that park, they were everywhere!
 
 On another note, Queen Elizabeth passed away on the day we were in Queen Elizabeth National park. Oops.
