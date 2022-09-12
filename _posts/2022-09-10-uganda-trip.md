@@ -50,6 +50,7 @@ I expressed a lot of interest in learning the local dances and dancing with the 
 
 ![person dancing](/img/arts/uganda/batwa-dance-1.jpg)
 ![person dancing](/img/arts/uganda/batwa-dance-2.jpg)
+<video src="/img/arts/uganda/dance-batwa.mp4" controls />
 
 We would go for walks on the next days and people had different reactions, some kids would just greet us with a “Hellooooo” and a hand wave 👋🏼 which was nice, but sometimes they would outright come and ask for money or “sweetie”s. We were advised by our host not to give them money or anything to avoid encouraging this behaviour.
 
@@ -104,7 +105,7 @@ On our first day, Tutamuzongoza and his brother Tumwijukye briefed us on their p
 
 That same night we had some children coming to our house and doing a dance to Christian songs and no doubt we joined them and had a great time.
 
-<video src="/img/arts/uganda/dance-bunyonyi.mp4" controls />
+<video src="/img/arts/uganda/dance-bunyonyi.mp4" controls></video>
 
 Since we had arrived on Saturday, and on Sunday there was church service, we didn’t work on Sunday but instead I joined Tutamuzongoza to go to church to experience their religious experience. This Protestant church was much more interesting than I had anticipated, there was a lot of dancing and singing and laughter! The preacher would crack jokes in between his preach and people would chuckle, which I found to be nice. Tutamuzongoza taught me how to introduce myself with these phrases:
 
@@ -131,7 +132,7 @@ We also hired a motor boat and went on exploring the lake, first together with o
 
 On Tuesday evening, the children of the village invited me to play football with them so we joined and had an amazing time, playing football with the kids is always great. Once we were done I saw some of the kids doing some handstand practice and one of them suddenly did a back handspring!! At this, I knew I had to give them something from my parkour practice, so we ended up improvising and finding a bump and doing some parkour vaults and some basic flip practice, and it was great fun. The children were really talented all of them!
 
-<video src="/img/arts/uganda/parkour.mp4" controls />
+<video src="/img/arts/uganda/parkour.mp4" controls></video>
 
 On the last day I asked our hosts if they knew of any books in their language about their culture, and they introduced us to one of their legendary writes, Festo Karwemera, so we set on a search to find his books when we were back in Kabale and we ended up in the writer’s house, and his wife came to us and allowed us to see the library and buy the books even though the librarian wasn’t there, it took some persistence! She was lovely and ended up giving us her signature on the books! I hope to expand my Rukiga understanding through the books and share them on my blog.
 
