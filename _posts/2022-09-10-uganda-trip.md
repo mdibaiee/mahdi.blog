@@ -18,7 +18,7 @@ We arrive and into the airport and from there we take a Matatu (public taxi) tow
 
 ![inside a matatu](/img/arts/uganda/matatu.jpg)
 
-Once we get to Kampala then the main mode of transport in the city is Boda Boda which is basically motorcycles, and there is absolutely no rules of the road and they seem more like suggestions so you may see your Boda boda going on the opposite lane even when there is a dividing line or concrete between the two lines they just go to the other side if their own side is blocked by traffic. In a way boda boda is very efficient timewise and also cost wise, but it is not for the faint-hearted. It’s very easy to find boda boda as they are everywhere and as soon as you just walk to the side of the road if you motorcyclist will stop asking if you need a boda somewhere.
+Once we get to Kampala then the main mode of transport in the city is Boda Boda which is basically motorcycles, and there is absolutely no rules of the road and they seem more like suggestions so you may see your Boda boda going on the opposite lane even when there is a dividing line or concrete between the two lines they just go to the other side if their own side is blocked by traffic. In a way boda boda is very efficient timewise and also cost wise, but it is not for the faint-hearted. It’s very easy to find boda boda as they are everywhere and as soon as you just walk to the side of the road, motorcyclist will start asking if you need a boda somewhere.
 
 <p>
 <video controls>
