@@ -50,7 +50,8 @@ I expressed a lot of interest in learning the local dances and dancing with the 
 
 ![person dancing](/img/arts/uganda/batwa-dance-1.jpg)
 ![person dancing](/img/arts/uganda/batwa-dance-2.jpg)
-<video src="/img/arts/uganda/dance-batwa.mp4" controls />
+
+<video src="/img/arts/uganda/dance-batwa.mp4" controls></video>
 
 We would go for walks on the next days and people had different reactions, some kids would just greet us with a “Hellooooo” and a hand wave 👋🏼 which was nice, but sometimes they would outright come and ask for money or “sweetie”s. We were advised by our host not to give them money or anything to avoid encouraging this behaviour.
 
