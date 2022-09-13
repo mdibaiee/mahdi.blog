@@ -18,103 +18,153 @@ Pronunciations may vary depending on the region. As an example, in one area we w
 
 # A tiny dictionary of words
 
-|Rukiga|English|
-|-------|-----|
-|Webare|Thank you (single person)|
-|Webare kusiuma|Response to webare|
-|Mwebare|Thank you (multiple people)|
-|Engaji|Gorilla 🦍 |
-|Kengaji|Junior gorilla (used after Akana)|
-|Akana|Baby|
-|Agandi|How are you (used as greeting)|
-|Nigye|Good (response to Agandi)|
-|Kache|Small|
-|Munonga|A lot|
-|Kihango|Big|
-|Byinji|Many of something|
-|Ruhanga wangye|My Lord|
-|Eshaha|Time|
-|Olaleje|Good night (single person)|
-|Mulaleje|Good night (many people)|
-|Olileje|Good morning (single person)|
-|Mulileje |Good morning (multiple person)|
-|Kunaaba|Take shower|
-|Twena|All of us|
-|Embwa|Dog|
-|Ahamuheru|End|
-|Hamwe|And|
-|Enyonyi |Bird, airplane|
-|Ekinyonyi|Bird|
-|Omunywani|Friend|
-|Omwojo omunywani|Boyfriend|
-|Omuhara|Girl|
-|Omwojo|Boy|
-|Omusheija|Man|
-|Ego|Yes|
-|Wapi|No|
-|Omujinya |Jealous person|
-|Omukundwa|Sweetheart |
-|Embuzi|Goat|
-|Echiroto|Dream|
-|Nyine enjara|I’m hungry|
-|Ndu hire|I’m tired|
-|Nikibi|Ugly, a bad deed|
-|Echiroto nkirungi|Good dream|
-|Wanji|Response to someone calling you. Can be used when you don’t understand what they said, but also in general|
-||Give me water|
-|Embuzi|Goat|
-|Akana Kembuzi|Baby goat|
-|Entama|Sheep|
-|Musana, Mushana (different pronunciation)|Sun|
-|Omwanya gobsinge|Peaceful Place|
-|Echirwa|Island|
-|Chine|Have|
-|Nyingyi|A lot|
-|Ruhanga eizina rye rehimbisibwe|Hossana|
-|Akasero|Basket with handles|
-|Akatebo |Basket|
-|Akibo|Small basket|
-|Musingirio|A kind of bean that grow while twining (while connected to something, grows around it|
-|Enyawawa|The crying bird|
-|Sawa|I’m ok (be careful: this word means “something bitter” in Swahili)|
-|Nimarungy|I’m ok (response to Agandi)|
-|Mwakora|You have done great (multiple people)|
-|Wakora|You have done great (single person)|
-|Etanuru|Bricks arranged in a dome shape with fire under and inside them, to dry the bricks|
-|Tutamuzongoza|A person’s name, means someone who is not to be disturbed (or disturb others)|
-|Akana Kente |Calf|
-|Omwana|Human baby|
-|Omuzeire|Parent|
-|Mama|Mother|
-|Taata|Father|
-|Buhunga|A food made with maize flour mixed with hot water and sugar (called porridge in some areas)|
-|Entuhe|Crusted Crane|
-|Ruhanga|God|
-|Amina|Amen|
-|Matooke|Mashed green banana|
-|Chinnurile|Delicious|
-|Bun|Bread bun|
-|Omugisha|Blessing|
-|Abatabani|Sons|
-|Yaabagirati|Said|
-|Ekibi|Sins|
-|Byona|Everything|
-|Ezitarikuzira|Those which you can’t refuse|
-|Nyamaishwa|Animals|
-|Aha|This|
-|Buri|That|
-|Muhango|Great|
-|Enshaija|Male (animal)|
-|Enkazi|Female (animal)|
-|Enshaija n’enkazi|Male and female (animals)|
-|Omusheija omukazi|Male and female (humans)|
-|Otwareho|You will take (a part of something, not all)|
-|Kare kare|Goodbye|
-|Ebinyugunyugu|Butterfly|	
-|Ekirabo|Gift|
-|Esati|Shirt|
-|Eshero|Hippo|
-|Emporogoma|Lion|
+| Rukiga                                            | English                                                                                                    |
+|---------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| Webare                                            | Thank you (single person)                                                                                  |
+| Webare kusiuma                                    | Response to webare                                                                                         |
+| Mwebare                                           | Thank you (multiple people)                                                                                |
+| Engaji                                            | Gorilla 🦍                                                                                                 |
+| Kengaji                                           | Junior gorilla (used after Akana)                                                                          |
+| Akana                                             | Baby                                                                                                       |
+| Agandi / Ni gaahe                                 | How are you (used as greeting)                                                                             |
+| Nooruga he / hi?                                  | Where are you coming from?                                                                                 |
+| Ninduga Rusoorooza                                | I am coming from Rusoorooza                                                                                |
+| Nooza he / hi?                                    | Where are you going?                                                                                       |
+| Ninza Muhahinga                                   | I am going to Muhahinga                                                                                    |
+| Nokoora ki aha?                                   | What are you doing here?                                                                                   |
+| Nimpandiika ebi ncondoize ahari Nyabingi          | I am writing what I have researched about Nyabingi                                                         |
+| Ka tugyendane omu tawuni                          | Let us go together to the town                                                                             |
+| Ke mbanze njware gye                              | Let me first dess up properly                                                                              |
+| Reka tubanze twarya                               | Let us first eat                                                                                           |
+| Ekyo kihikire                                     | That's right                                                                                               |
+| Waariire?                                         | Have you eaten?                                                                                            |
+| Tinkariire                                        | I haven't eaten                                                                                            |
+| Waahaaga?                                         | Have you had enough food                                                                                   |
+| Ingaaha, nyongyera                                | No, give me more                                                                                           |
+| Ezi noobaasa kumpingaaniramu shiringi za Yuganda? | Can you change this into Uganda shillings please?                                                          |
+| Pawunda / doora emwe neechingaana zingahe?        | What is the exchange rate for a pound / dollar?                                                            |
+| Nigye                                             | Good (response to Agandi)                                                                                  |
+| I am very well, thank you                         | Ni marungi / N'amahooro                                                                                    |
+| Kare kare / Ogumeho                               | Goodbye                                                                                                    |
+| Naiwe ogumeho                                     | Goodbye to you too (response to Goodbye)                                                                   |
+| Kache                                             | Small                                                                                                      |
+| Munonga                                           | A lot                                                                                                      |
+| Kihango                                           | Big                                                                                                        |
+| Byinji                                            | Many of something                                                                                          |
+| Ruhanga wangye                                    | My Lord                                                                                                    |
+| Eshaha                                            | Time                                                                                                       |
+| Osiibe gye                                        | Good day                                                                                                   |
+| Yee/ee/yeego/naiwe osiibe gye                     | The same to you (Good day response)                                                                        |
+| Olaleje / Oraare gye                              | Good night (single person)                                                                                 |
+| Yee/ee/yeego/naiwe oraare gye                     | The same to you (Good night response)                                                                      |
+| Mulaleje                                          | Good night (many people)                                                                                   |
+| Osiibire gye / Osiibire ota                       | Good afternoon                                                                                             |
+| Olileje / oraire gye / oraire ota                 | Good morning (single person)                                                                               |
+| Eego / yeego / ee / mm Ndaire gye                 | Good morning to you (response to good morning)                                                             |
+| Mulileje                                          | Good morning (multiple person)                                                                             |
+| Kunaaba                                           | Take shower                                                                                                |
+| Twena                                             | All of us                                                                                                  |
+| Embwa                                             | Dog                                                                                                        |
+| Ahamuheru                                         | End                                                                                                        |
+| Hamwe                                             | And                                                                                                        |
+| Enyonyi                                           | Bird, airplane                                                                                             |
+| Ekinyonyi                                         | Bird                                                                                                       |
+| Omunywani                                         | Friend                                                                                                     |
+| Omwojo omunywani                                  | Boyfriend                                                                                                  |
+| Omuhara                                           | Girl                                                                                                       |
+| Omwojo                                            | Boy                                                                                                        |
+| Omusheija                                         | Man                                                                                                        |
+| Ego                                               | Yes                                                                                                        |
+| Wapi                                              | No                                                                                                         |
+| Omujinya                                          | Jealous person                                                                                             |
+| Omukundwa                                         | Sweetheart                                                                                                 |
+| Embuzi                                            | Goat                                                                                                       |
+| Echiroto                                          | Dream                                                                                                      |
+| Nyine enjara                                      | I’m hungry                                                                                                 |
+| Ndu hire                                          | I’m tired                                                                                                  |
+| Nikibi                                            | Ugly, a bad deed                                                                                           |
+| Echiroto nkirungi                                 | Good dream                                                                                                 |
+| Wanji                                             | Response to someone calling you. Can be used when you don’t understand what they said, but also in general |
+| Mpa ameizi                                        | Give me water                                                                                              |
+| Embuzi                                            | Goat                                                                                                       |
+| Akana Kembuzi                             | Baby goat                                                                                   |
+| Entama                                    | Sheep                                                                                       |
+| Musana, Mushana (different pronunciation) | Sun                                                                                         |
+| Omwanya gobsinge                          | Peaceful Place                                                                              |
+| Echirwa                                   | Island                                                                                      |
+| Chine                                     | Have                                                                                        |
+| Nyingyi                                   | A lot                                                                                       |
+| Ruhanga eizina rye rehimbisibwe           | Hossana                                                                                     |
+| Akasero                                   | Basket with handles                                                                         |
+| Akatebo                                   | Basket                                                                                      |
+| Akibo                                     | Small basket                                                                                |
+| Musingirio                                | A kind of bean that grow while twining (while connected to something, grows around it       |
+| Enyawawa                                  | The crying bird                                                                             |
+| Sawa                                      | I’m ok (be careful: this word means “something bitter” in Swahili)                          |
+| Nimarungy                                 | I’m ok (response to Agandi)                                                                 |
+| Mwakora                                   | You have done great (multiple people)                                                       |
+| Wakora                                    | You have done great (single person)                                                         |
+| Etanuru                                   | Bricks arranged in a dome shape with fire under and inside them, to dry the bricks          |
+| Tutamuzongoza                             | A person’s name, means someone who is not to be disturbed (or disturb others)               |
+| Akana Kente                               | Calf                                                                                        |
+| Omwana                                    | Human baby                                                                                  |
+| Omuzeire                                  | Parent                                                                                      |
+| Mama                                      | Mother                                                                                      |
+| Taata                                     | Father                                                                                      |
+| Buhunga                                   | A food made with maize flour mixed with hot water and sugar (called porridge in some areas) |
+| Entuhe                                    | Crusted Crane                                                                               |
+| Ruhanga                                   | God                                                                                         |
+| Amina                                     | Amen                                                                                        |
+| Matooke                                   | Mashed green banana                                                                         |
+| Chinnurile                                | Delicious                                                                                   |
+| Bun                                       | Bread bun                                                                                   |
+| Omugisha                                  | Blessing                                                                                    |
+| Abatabani                                 | Sons                                                                                        |
+| Yaabagirati                               | Said                                                                                        |
+| Ekibi                                     | Sins                                                                                        |
+| Byona                                     | Everything                                                                                  |
+| Ezitarikuzira                             | Those which you can’t refuse                                                                |
+| Nyamaishwa                                | Animals                                                                                     |
+| Aha                                       | This                                                                                        |
+| Buri                                      | That                                                                                        |
+| Muhango                                   | Great                                                                                       |
+| Enshaija                                  | Male (animal)                                                                               |
+| Enkazi                                    | Female (animal)                                                                             |
+| Enshaija n’enkazi                         | Male and female (animals)                                                                   |
+| Omusheija omukazi                         | Male and female (humans)                                                                    |
+| Otwareho                                  | You will take (a part of something, not all)                                                |
+| Ebinyugunyugu                             | Butterfly                                                                                   |
+| Ekirabo                                   | Gift                                                                                        |
+| Esati                                     | Shirt                                                                                       |
+| Eshero                                    | Hippo                                                                                       |
+| Emporogoma                                | Lion                                                                                        |
+| Eizina ryangye Mahdi                      | My name is Mahdi                                                                            |
+|Ndaruga Iran| I’m from Iran|
+|Nashemererwa kubanimwe| I’m happy to be here|
+|Webare munonga| Thank you very much|
+|Aha nyamaishwa eztarikuzira| Those animals you can’t refuse (ritually clean)|
+|Yesu asimwe| Praise God|
+|Asimwe munonga, amen| Response to Yesu asimwe|
+|Ruhanga ni muhango| God is great|
+|Ruhanga ny mulingi| God is good|
+|Ekibi kya Noa| Sins of noah|
+|Mwije murye| Come and eat|
+|Ndakukunda munonga| I love you a lot|
+|Neshaha zokurya| Time to eat|
+|Neshaha zokuzakubyama| Time to sleep|
+|Orakundachi| What do you prefer?|
+|Embwa hamwe na pusi| Dog or cat|
+|Nishahazingahe| What time is it?|
+|Eizina ryawe niriha| What is your name?|
+|Eizina rye niriha| What is his/her name?|
+|Kunaaba twena| All of us take a shower|
+|Kafumbo| Village with people with good ideas|
+|Oyinihre omujinya omunwani wange omwojo| You are jealous of my boyfriend|
+|Echirwa chine emitti nyingyi| Island with a lot of trees|
+|Murikuza bunyonyi erizooba| We are going to bunyonyi today|
+|Ekibo kyebichiga chiga| Basket of chiga beans|
+|Aha obuhunga bunnurile| This buhunga is delicious|
+|Mwebare ahabwakujira omitima murungi| thank you for your kindness|
 
 
 # Numbers
@@ -159,65 +209,6 @@ Pronunciations may vary depending on the region. As an example, in one area we w
 |Omutwaro|Ten thousand|
 |Emitwaro ebiri|Twenty thousand|
 
-
-# Phrases
-
-Eizina ryangye Mahdi: My name is Mahdi
-
-Ndaruga Iran: I’m from Iran
-
-Nashemererwa kubanimwe: I’m happy to be here
-
-Webare munonga: Thank you very much
-
-Aha nyamaishwa eztarikuzira: Those animals you can’t refuse (ritually clean)
-
-Yesu asimwe: Praise God
-
-Asimwe munonga, amen: Response to Yesu asimwe
-
-Ruhanga ni muhango: God is great
-
-Ruhanga ny mulingi: God is good
-
-Ekibi kya Noa: Sins of noah
-
-Mwije murye: Come and eat
-
-Ndakukunda munonga: I love you a lot
-
-Neshaha zokurya: Time to eat
-
-Neshaha zokuzakubyama: Time to sleep
-
-Orakundachi: What do you prefer?
-
-Embwa hamwe na pusi: Dog or cat
-
-Nishahazingahe: What time is it?
-
-Eizina ryawe niriha: What is your name?
-
-Eizina rye niriha: What is his/her name?
-
-Kunaaba twena: All of us take a shower
-
-Kafumbo: Village with people with good ideas
-
-Oyinihre
-omujinya omunwani wange omwojo: You are jealous of my boyfriend
-
-Echirwa chine emitti nyingyi: Island with a lot of trees
-
-Murikuza bunyonyi erizooba: We are going to bunyonyi today
-
-Mpa ameizi: Give me water
-
-Ekibo kyebichiga chiga: Basket of chiga beans
-
-Aha obuhunga bunnurile: This buhunga is delicious
-
-Mwebare ahabwakujira omitima murungi: thank you for your kindness
 
 # How to say beautiful
 
