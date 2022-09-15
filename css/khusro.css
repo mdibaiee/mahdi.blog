@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Khusro';
+    src: url('/css/fonts/Khusro.woff2') format('woff2'),
+        url('/css/fonts/Khusro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.pahlavi {
+  font-family: Khusro;
+  direction: rtl;
+}
