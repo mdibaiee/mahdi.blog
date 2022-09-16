@@ -36,30 +36,23 @@ Examples:
 4. <span class='pahlavi'>nDXn</span> (nihān): secret, concealed; نهان.
 5. <span class='pahlavi'>rpn</span> (vafra): ice, snow, hail, sleet; برف.
 
-# <span class='pahlavi'>f</span>
+# <span class='pahlavi'>f / i</span>
 
-Sound: i, y, d, j, g
+Sound: i, y, e, d, j, g
 
 Modern Persian equivalents: ی، د، ج، گ
 
-Notes: In the body of a word it retains its form <span class='pahlavi'>f</span> before <span class='pahlavi'>n, i, b, k</span> as <span class='pahlavi'>y, I!, __B!, q</span> and <span class='pahlavi'>H!</span>; in all other cases it lapses into <span class='pahlavi'>i</span>.
+Notes:
+1. In the body of a word it retains its form <span class='pahlavi'>f</span> before <span class='pahlavi'>n, i, b, k</span> as <span class='pahlavi'>y, I!, __B!, q</span> and <span class='pahlavi'>H!</span>; in all other cases it lapses into <span class='pahlavi'>i</span>.
+2. <span class='pahlavi'>f</span> (ê or î): used as an izâfat اضافت to show relation between two words, as possessor and the person or a thing possessed, in which case <span class='pahlavi'>f</span> shows the genitive case.
+3. Combines with all preceding letters except <span class='pahlavi'>n,_ b,_k,_t,_c</span> and with all succeeding letters except <span class='pahlavi'>n,_ b,_Ë</span> where it takes the forms <span class='pahlavi'>y, __B!,_M!</span>.
+5. <span class='pahlavi'>f</span> used as the numeral "one" when it follows a substantive, e.g. <span class='pahlavi'>f_aB!</span> (gabrâ-ê) a man; <span class='pahlavi'>f_TlË</span> (mart-ê) a man; مردی.
+6. <span class='pahlavi'>i</span> used to represent numeral "one", e.g. <span class='pahlavi'>ZLi</span> (ê-raz): one hundred; یک صد, <span class='pahlavi'>KLi</span> (ê-rag): one thousand; یک هزار.
 
 Examples:
-1. <span class='pahlavi'>f</span> (ê or î): used as an izâfat اضافت to show relation between two words, as possessor and the person or a thing possessed, in which case <span class='pahlavi'>f</span> shows the genitive case.
 2. <span class='pahlavi'>rFnp_f_rTXË</span> (mâtar-î-pûsar): mother of the boy; مادرِ پسر.
-3. Using izâfat is optional, and when it is dropped, it is necessary that the qualifying adjective or the thing possessed must precede the thing possessed or qualified; e.g. <span class='pahlavi'>rTXË_rFnp</span> (pûsar mâtar), and it is the rule that a <span class='pahlavi'>Q</span> (zak) or <span class='pahlavi'>fQ</span> (zak-î) is added before the two words, so: <span class='pahlavi'>rTXË_rFnp_fQ</span> (pûsar mâtar)
+3. Using izâfat is optional, and when it is dropped, it is necessary that the qualifying adjective or the thing possessed must precede the thing possessed or qualified; e.g. <span class='pahlavi'>rTXË_rFnp</span> (pûsar mâtar), and it is the rule that a <span class='pahlavi'>Q</span> (zak) or <span class='pahlavi'>fQ</span> (zak-î) is added before the two words, so: <span class='pahlavi'>rTXË_rFnp_fQ</span> (zak-î pûsar mâtar)
 4. It is also used as a rendering of Avesta relative pronouns <span class='pahlavi'>OvjE</span>, <span class='pahlavi'>WvjE</span>, <span class='pahlavi'>TavjE</span>, who, which and what.
-5. Used as the numeral "one" when it follows a substantive, e.g. <span class='pahlavi'>f_aB!</span> (gabrâ-ê) a man; <span class='pahlavi'>f_TlË</span> (mart-ê) a man; مردی.
-
-# <span class='pahlavi'>i</span>
-
-Sound: d, g, i, j, y , e
-
-Modern Persian equivalents: د، گ، ی، ج
-
-Notes:
-1. Combines with all preceding letters except <span class='pahlavi'>n,_ b,_k,_t,_c</span> and with all succeeding letters except <span class='pahlavi'>n,_ b,_Ë</span> where it takes the forms <span class='pahlavi'>y, __B!,_M!</span>.
-2. Used to represent numeral "one", e.g. <span class='pahlavi'>ZLi</span> (ê-raz): one hundred; یک صد, <span class='pahlavi'>KLi</span> (ê-rag): one thousand; یک هزار.
 
 # <span class='pahlavi'>gE / F</span>
 
