@@ -19,7 +19,7 @@ This blog post requires a browser that supports custom fonts, since I am using t
 
 # Alphabet
 
-There are 14 primary letters in Pahlavi Vendidad, some of which are used for multiple sounds. First, let's look at each letter of the alphabet individually.
+There are 14 primary letters in Pahlavi Vendidad, some of which are used for multiple sounds. First, let's look at each letter of the alphabet individually. The content of this section is derived mostly from {% cite kapadia1953glossary %}.
 
 # <span class='pahlavi'>n</span>
 
@@ -100,7 +100,12 @@ Examples:
 4. <span class='pahlavi'>DEnTEa</span> (aêtîh): existence, being; هستی.
 
 
+# Letter Mixes
+
+The table below shows how different letters mix together {% cite kapadia1953glossary %}:
+
+![Letter mix table](/img/pahlavi/letter-mix.jpg)
+
 --------
 
-The table below is taken from _Glossary of Pahlavi Vendidad (1953)_ by Dinsham D. Kapadia, which illustrates how the letters of the alphabet mix when they appear together.
 
