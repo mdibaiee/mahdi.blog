@@ -4,7 +4,6 @@ title: "Introduction to Middle Persian & Pahlavi script"
 subtitle: "Reading Avesta using Pahlavi script"
 date: 2022-09-15 00:00:00
 permalink: pahlavi-vendidad-avesta-intro/
-published: false
 categories: language
 author: Mahdi
 custom_head: <link rel="stylesheet" href="/css/khusro.css"">
