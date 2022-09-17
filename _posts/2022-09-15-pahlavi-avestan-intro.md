@@ -45,13 +45,13 @@ Modern Persian equivalents: ی، د، ج، گ
 Notes:
 1. In the body of a word it retains its form <span class='pahlavi'>f</span> before <span class='pahlavi'>n, i, b, k</span> as <span class='pahlavi'>y, I!, __B!, q</span> and <span class='pahlavi'>H!</span>; in all other cases it lapses into <span class='pahlavi'>i</span>.
 2. <span class='pahlavi'>f</span> (ê or î): used as an izâfat اضافت to show relation between two words, as possessor and the person or a thing possessed, in which case <span class='pahlavi'>f</span> shows the genitive case.
-3. Combines with all preceding letters except <span class='pahlavi'>n,_ b,_k,_t,_c</span> and with all succeeding letters except <span class='pahlavi'>n,_ b,_Ë</span> where it takes the forms <span class='pahlavi'>y, __B!,_M!</span>.
+3. Combines with all preceding letters except <span class='pahlavi'>n,\_ b,\_k,\_t,\_c</span> and with all succeeding letters except <span class='pahlavi'>n,\_ b,\_Ë</span> where it takes the forms <span class='pahlavi'>y, \_\_B!,\_M!</span>.
 5. <span class='pahlavi'>f</span> used as the numeral "one" when it follows a substantive, e.g. <span class='pahlavi'>f_aB!</span> (gabrâ-ê) a man; <span class='pahlavi'>f_TlË</span> (mart-ê) a man; مردی.
 6. <span class='pahlavi'>i</span> used to represent numeral "one", e.g. <span class='pahlavi'>ZLi</span> (ê-raz): one hundred; یک صد, <span class='pahlavi'>KLi</span> (ê-rag): one thousand; یک هزار.
 
 Examples:
-2. <span class='pahlavi'>rFnp_f_rTXË</span> (mâtar-î-pûsar): mother of the boy; مادرِ پسر.
-3. Using izâfat is optional, and when it is dropped, it is necessary that the qualifying adjective or the thing possessed must precede the thing possessed or qualified; e.g. <span class='pahlavi'>rTXË_rFnp</span> (pûsar mâtar), and it is the rule that a <span class='pahlavi'>Q</span> (zak) or <span class='pahlavi'>fQ</span> (zak-î) is added before the two words, so: <span class='pahlavi'>rTXË_rFnp_fQ</span> (zak-î pûsar mâtar)
+2. <span class='pahlavi'>rFnp\_f\_rTXË</span> (mâtar-î-pûsar): mother of the boy; مادرِ پسر.
+3. Using izâfat is optional, and when it is dropped, it is necessary that the qualifying adjective or the thing possessed must precede the thing possessed or qualified; e.g. <span class='pahlavi'>rTXË\_rFnp</span> (pûsar mâtar), and it is the rule that a <span class='pahlavi'>Q</span> (zak) or <span class='pahlavi'>fQ</span> (zak-î) is added before the two words, so: <span class='pahlavi'>rTXË\_rFnp\_fQ</span> (zak-î pûsar mâtar)
 4. It is also used as a rendering of Avesta relative pronouns <span class='pahlavi'>OvjE</span>, <span class='pahlavi'>WvjE</span>, <span class='pahlavi'>TavjE</span>, who, which and what.
 
 # <span class='pahlavi'>gE / F</span>
@@ -62,12 +62,12 @@ Modern Persian equivalent: س
 
 Notes:
 1. The <span class='pahlavi'>gE</span> form of this letter is used when it is the final word of a simple word, or when that simple word is part of a compound word, e.g. <span class='pahlavi'>gEAr</span> (râs), <span class='pahlavi'>gEann</span> (vînâs), <span class='pahlavi'>Rak_gEann</span> (vînâs-kâr)
-2. The <span class='pahlavi'>gE</span> form of this letter is also used when before <span class='pahlavi'> B,_Ë,_n</span>, e.g. <span class='pahlavi'>t_gE</span> (sût), <span class='pahlavi'>vH_gEA</span> (asmân)
-3. The <span class='pahlavi'>gE</span> form of this letter is also used to represent the numerical cipher 40, forty <span class='pahlavi'>J___A_jEc</span> (chêhal); چهل
+2. The <span class='pahlavi'>gE</span> form of this letter is also used when before <span class='pahlavi'> B,\_Ë,\_n</span>, e.g. <span class='pahlavi'>t_gE</span> (sût), <span class='pahlavi'>vH_gEA</span> (asmân)
+3. The <span class='pahlavi'>gE</span> form of this letter is also used to represent the numerical cipher 40, forty <span class='pahlavi'>J\_\_\_A\_jEc</span> (chêhal); چهل
 
 Examples:
-1. <span class='pahlavi'>N_gE</span> (dîv): satan, Dev, a demon, an evil spirit; دیو.
-2. <span class='pahlavi'>s|rF</span> (srôsh): one who obeys or hears; the name of the angel who protects mankind by night and day against the attacks of the Daevas, and guards the souls of the dead for the first three nights. He may be compared with Gabriel of Semitic mythology, as a principle messenger of God. He is always styled as <span class='pahlavi'>n b|rsA_=_s|rF</span> (srôsh-î-ahlôb): holy srosh; metaphorically means "obedience", "humility".; سروش.
+1. <span class='pahlavi'>N\_gE</span> (dîv): satan, Dev, a demon, an evil spirit; دیو.
+2. <span class='pahlavi'>s|rF</span> (srôsh): one who obeys or hears; the name of the angel who protects mankind by night and day against the attacks of the Daevas, and guards the souls of the dead for the first three nights. He may be compared with Gabriel of Semitic mythology, as a principle messenger of God. He is always styled as <span class='pahlavi'>n b|rsA\_=\_s|rF</span> (srôsh-î-ahlôb): holy srosh; metaphorically means "obedience", "humility".; سروش.
 3. <span class='pahlavi'>nvjXpF</span> (spâhân): The city of Ispahan, former capital city of Iran; اصفهان.
 
 # <span class='pahlavi'>s</span>
@@ -99,6 +99,114 @@ Examples:
 3. <span class='pahlavi'>nvL_Ia</span> (aîrân): the home of the Aryans, the Iran proper; ایران.
 4. <span class='pahlavi'>DEnTEa</span> (aêtîh): existence, being; هستی.
 
+# <span class='pahlavi'> B</span>
+
+Sound: b, ê
+
+Modern Persian equivalents: ب، ی
+
+Notes:
+1. Can be added to words to mean "one", e.g. <span class='pahlavi'>f_TlË</span> (mart-ê) a man; مردی.
+2. Does not combine with any succeeding letter, and only combines with preceding <span class='pahlavi'>i,\_s,\_a,\_r,\_Z</span>.
+
+Examples:
+1. <span class='pahlavi'>nn B</span> (bûn): basis, root, beginning, bottom, foundation, extremity, end, origin; بن.
+2. <span class='pahlavi'>En B</span> (bôî): to smell, fragrance , smell, perfume, scent; بو، بوی.
+3. <span class='pahlavi'>nTFbM!</span> (ham-bast): bound together, connected together; هم‌بست.
+4. <span class='pahlavi'>rTXrb / TXrb</span> (brâtar / brât): brother; برادر.
+
+# <span class='pahlavi'>r</span>
+
+Sound: r, l
+
+Modern Persian equivalents: ر، ل
+
+Notes:
+1. Sometimes l is written as <span class='pahlavi'>J</span> to distinguish it from r, specially in Pazend.
+2. At the end of some Semitic words it is written as <span class='pahlavi'>O</span>, e.g. <span class='pahlavi'>ODX</span> (akhar).
+3. Used as the numerical cypher for number 20 (li = bist); بیست.
+4. Used as the first person singular pronoun (li=men): I, me, my, mine; من.
+
+Examples:
+1. <span class='pahlavi'>f|r</span> (rûi): face, feature, countenance; رو، روی.
+2. <span class='pahlavi'>ODX_ny|r</span> (levîn-û-âkhar = pêš-pas): more or less, before and after, first to the last; کم و بیش، پیش و پس، اول تا آخر.
+3. <span class='pahlavi'>Tl</span> (rat): lord, master, spiritual chief, principal, a Dastur or high priest;
+4. <span class='pahlavi'>KR</span> (lagh / ragh): the numerical cypher for 1000; one thousand; هزار.
+
+# <span class='pahlavi'>Z</span>
+
+Sound: z
+
+Modern Persian equivalents: ز
+
+Notes:
+1. Does not combine with any preceding letter but combines with all succeeding letters.
+
+Examples:
+1. <span class='pahlavi'>|Z</span> (zan): a woman, a female, a wife; زن. The word is probably from the corresponding زادن or زائيدن (to give birth) from Avesta.
+2. <span class='pahlavi'>i^|Z</span> (zand): great, vehement, powerful; زند.
+3. <span class='pahlavi'>ajEqnyjz</span> (zîvandakîh): Abstract; life, existence; زندگی.
+4. <span class='pahlavi'>RZ</span> (zar): gold; زر.
+5. <span class='pahlavi'>kz</span> (zak): A semitic particle, extensively used in Pahlavi and signifying a Demon. Adjective and pronoun singular & plural: that, that one, also used in third personal pronouns: he, she or it, sometimes as a relative pronoun: that, which, who. The word is of frequent occurence and invariably replaces Iranian word <span class='pahlavi'>nv</span> (ân) آن. Also, as explained before, <span class='pahlavi'>kz</span> and <span class='pahlavi'>f_kz</span> are used in the beginning of a genitive construction where the izafat اضافت "<span class='pahlavi'>f</span>" is dropped and the thing possessed or qualified is placed after the possessor or the qualifying adjective, e.g. <span class='pahlavi'>n|rh\_r\_f\_kz</span> (zak-î-li-môrv): my bird.
+
+# <span class='pahlavi'>k</span>
+
+Sound: k, rarely g and y
+
+Modern Persian equivalents: ک، گاهی گ، ی
+
+Notes:
+1. Generally used as a sign of past participle at the end of a verb in preterite form, e.g. <span class='pahlavi'>ktnk</span> کرده or <span class='pahlavi'>kTlB</span> برده.
+2. It is also used as a diminutive suffix, e.g. <span class='pahlavi'>kR_Fnp</span> (pûsarak) پسرک.
+
+Examples:
+1. <span class='pahlavi'>nnk</span> (kanû): now, at present, yet, still; کنون.
+2. <span class='pahlavi'>Tlaktnk</span> (kûtak-khrat): short-witted, foolish, silly; کوته خرد.
+3. <span class='pahlavi'>nnTEyk</span> (kînîtan): Denominative verb from <span class='pahlavi'>nyk</span> (kîn) malice; to bear malice to, to take revenge on; کین گرفتن.
+4. <span class='pahlavi'>akk</span> (kakâ): a tooth, teeth; Semitic equivalent of <span class='pahlavi'>nvjEy</span> (dandân) دندان.
+5. <span class='pahlavi'>Gk</span> (kam): less, little, small, a few, scarce, deficient; کم.
+6. <span class='pahlavi'>knvb_ktk</span> (katak-banûk): the mistress of the house, mater-familias. کد بانو.
+7. <span class='pahlavi'>wtv_ktk</span> (katak-khûtâi): the master of the house, pater-familias, a chief. کد خدا.
+
+# <span class='pahlavi'>G</span>
+
+Sound: m
+
+Modern Persian equivalents: م
+
+Notes:
+1. Does not combine with preceding <span class='pahlavi'>n,\_ B,\_k,\_t\_,\_p,\_c,\_K</span>
+2. Even in its combined form, it keeps its full form, and it combines with all succeeding letters except <span class='pahlavi'>K</span>
+
+Examples:
+1. <span class='pahlavi'>f|_G</span> (mûy): hair; مو، موی.
+2. <span class='pahlavi'>E*|_G</span> (mang): a narcotic drug made from hemp-seed, hen-bane, a drug used for abortion, Cannabis Sativa; منگ، بنگ، بنج.
+3. <span class='pahlavi'>EnyG</span> (mînôy / mînúg): spiritual, heavenly, invisible, a spirit, a spiritual being; مینو، مینوی.
+4. <span class='pahlavi'>nvMajX_G</span> (mâhmân): a guest, a visitor, one who is entertained; as adjective satisfied, pleased, gratified, agreeable, welcome; مهمان.
+5. <span class='pahlavi'>nntG</span> (Mitra): the name of an Yazat: Meher Yazad; presiding over light, also over faith, friendship and contracts; مهر.
+
+# <span class='pahlavi'>t</span>
+
+Sound: t, d
+
+Modern Persian equivalents: ت، د
+
+Notes:
+1. Does not join any succeeding letter, and does not join with preceding <span class='pahlavi'>n,\_f,\_k,\_t,\_p,\_c,\_K</span>.
+2. Always appears whole in any formation.
+
+Examples:
+1. <span class='pahlavi'>nnt</span> (tan): body, person, the corporal body as distinguished from <span class='pahlavi'>prk</span> the spiritual body; تن.
+2. <span class='pahlavi'>E^nnt</span> (tanand): a spider, a cobweb; تتنده، تنندو.
+3. <span class='pahlavi'>nnTEcnt</span> (tôjîtan): to atone for a sin, to expiate, to undergo punishment, to plunder, to assault; توزیدن.
+4. <span class='pahlavi'>rkvbnt</span> (tûbânkar): rich, powerful, able, opulent, competent; توانگر.
+5. <span class='pahlavi'>ajEvjfct_nv</span> (khûn-tachišnîh): flowing out of blood.
+
+# <span class='pahlavi'>p</span>
+
+# <span class='pahlavi'>c</span>
+
+# <span class='pahlavi'>K</span>
 
 # Letter Mixes
 
