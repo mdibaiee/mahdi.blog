@@ -10,8 +10,7 @@ author: Mahdi
 custom_head: <link rel="stylesheet" href="/css/khusro.css"">
 ---
 
-
-Pahlavi is the name associated with a group of scripts used to write Middle Persian and Avesta, ... (better research and introduction)
+[Middle Persian](https://en.wikipedia.org/wiki/Middle_Persian), the successor of [Old Persian](https://en.wikipedia.org/wiki/Old_Persian) from [Achaemenid Empire](https://en.wikipedia.org/wiki/Achaemenid_Empire), was used by the [Sassanian Empire](https://en.wikipedia.org/wiki/Sasanian_Empire) of Iran, and is the ancestor of Modern Persian, which is currently the official language of Iran, Afghanistan and Tajikistan. This language has been written using multiple scripts, including [Pahlavi script](https://en.wikipedia.org/wiki/Pahlavi_script), [Manichaean script](https://en.wikipedia.org/wiki/Manichaean_script) and [Pazend](https://en.wikipedia.org/wiki/Pazend). Here I aim to give a short introduction to Middle Persian using Pahlavi script, a script derived from [imperial Aramaic](https://en.wikipedia.org/wiki/Imperial_Aramaic).
 
 This language is written and read right-to-left, however in this blog post because the main body of text is English, the text is aligned on the left-side.
 
