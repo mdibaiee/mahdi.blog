@@ -246,7 +246,7 @@ Examples:
 4. <span class='pahlavi'> bDlKa</span> (aghriya / aghrâya): this word is derived from <span class='pahlavi'> B!rKa</span> meaning: top, head, summit, pertaining to top, pertaining to summit, topmost, of the first quality, the principal one.
 5. <span class='pahlavi'>nvtKn</span> (vaghtân): a head (of a good being), as opposed to <span class='pahlavi'>rA__Gk</span> (kamâr) head of an evil being.
 
-## Letter Mixes
+## Letters mixed
 
 The table below shows how different letters mix together {% cite kapadia1953glossary %}:
 
