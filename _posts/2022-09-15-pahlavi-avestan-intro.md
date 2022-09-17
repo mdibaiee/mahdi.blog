@@ -253,6 +253,45 @@ The table below shows how different letters mix together {% cite kapadia1953glos
 
 ![Letter mix table](/img/pahlavi/letter-mix.jpg)
 
---------
+# Phrases & Words
 
+## Ahura Mazda / Ohrmazd
 
+<span class='pahlavi'>nvjX</span> (ahû): always existing, i.e. God, a master, a lord, lord spiritual, life, existence, world.
+
+<span class='pahlavi'>EEZa_G</span> (Mazda)
+
+## Aharman / Ahriman
+
+<span class='pahlavi'>@</span> (Aharman) اهرمن، اهریمن, is the destructive / evil spirit in Zoroastrianism. The name is traditionally written upside down.
+
+## Ethical Pillars of Zoroastrianism
+
+The three ethical pillars of Zoroastrianism, mentioned in Yasna Haptaŋhāiti یسنا هفت هات (Y. 35.4) are rendered in Pahlavi as such:
+
+<span class='pahlavi'>nvjfyGv</span> (humînišn): good thought (منش نیک)
+
+<span class='pahlavi'>nvjfnnkv</span> (hukûnišn): good deeds (کنش نیک)
+
+<span class='pahlavi'>nvjfiyv</span> (hugôîšn): good speech (گویش نیک)
+
+<span class='pahlavi'>ajEIaRDX</span> (ahlâyîh = aša):  abstract noun for (ahlôb) righteous, i.e. truth, righteousness, holiness, sanctity.
+
+# Common Persian Names
+
+<span class='pahlavi'>M_AR_DXn</span>: name of the angel of victory, popularly known as Behram Yazat; also the name of the 20th day of the Zoroastrian month, over which Behram Yazat presides; the planet Mars is also known by the same name; بهرام.
+
+<span class='pahlavi'>s|rF</span> (srôsh): one who obeys or hears; the name of the angel who protects mankind by night and day against the attacks of the Daevas, and guards the souls of the dead for the first three nights. He may be compared with Gabriel of Semitic mythology, as a principle messenger of God. He is always styled as <span class='pahlavi'>n b|rsA\_=\_s|rF</span> (srôsh-î-ahlôb): holy srosh; metaphorically means "obedience", "humility"; سروش.
+
+<span class='pahlavi'>n|r_G</span> (Marva): name of the third of the goodly created places by Ahura Mazd according to Vendidad I: the modern "Marv", "Margvan" of the clasics; مرو، مهرو.
+
+<span class='pahlavi'>PFIa_G</span> (mahest): the greatest, the grandest, the highest, the longest; میهن.
+
+<span class='pahlavi'>EnyG</span> (mînôy / mînúg): spiritual, heavenly, invisible, a spirit, a spiritual being; مینو، مینوی.
+
+<span class='pahlavi'>nvLp</span> (frakh / frakho): prosperous, auspicious; فرخ.
+
+# Additional resources
+
+- [Avestan Digital Archive](https://ada.geschkult.fu-berlin.de/): a search engine for manuscripts
+- [Avesta - Zoroastrian Archives](avesta.org/) - has some of the texts and other resources related to Avesta and Zoroastrianism
