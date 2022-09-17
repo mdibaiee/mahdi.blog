@@ -257,9 +257,7 @@ The table below shows how different letters mix together {% cite kapadia1953glos
 
 ## Ahura Mazda / Ohrmazd
 
-<span class='pahlavi'>nvjX</span> (ahû): always existing, i.e. God, a master, a lord, lord spiritual, life, existence, world.
-
-<span class='pahlavi'>EEZa_G</span> (Mazda)
+<span class='pahlavi'>a_Gvv</span> (Aûhr-mazd): The Supreme Creator, Lord Ormazd, of Zoroastrian philosophy. Formerly read as Anhômâ.
 
 ## Aharman / Ahriman
 
@@ -295,3 +293,4 @@ The three ethical pillars of Zoroastrianism, mentioned in Yasna Haptaŋhāiti ی
 
 - [Avestan Digital Archive](https://ada.geschkult.fu-berlin.de/): a search engine for manuscripts
 - [Avesta - Zoroastrian Archives](avesta.org/) - has some of the texts and other resources related to Avesta and Zoroastrianism
+- [Introduction to Pahlavi by Prods Oktor SkjÆRVØ](https://bayanbox.ir/view/8882150498859088732/Pahlavi-Primer-Prods-Oktor-Skjaerv.pdf)
