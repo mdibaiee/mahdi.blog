@@ -13,7 +13,7 @@ custom_head: <link rel="stylesheet" href="/css/khusro.css"">
 
 This language is written and read right-to-left, however in this blog post because the main body of text is English, the text is aligned on the left-side.
 
-This blog post requires a browser that supports custom fonts, since I am using the [Khusro Pahlavi font](http://avesta.org/iranian-font/pahlavi.html). If you cannot see this blog post properly, a PDF version of this blog post is available [here]().
+This blog post requires a browser that supports custom fonts, since I am using the [Khusro Pahlavi font](http://avesta.org/iranian-font/pahlavi.html). If you cannot see this blog post properly, a PDF version of this blog post is available [here](/files/Middle Persian & Pahlavi script.pdf).
 
 # Alphabet
 
