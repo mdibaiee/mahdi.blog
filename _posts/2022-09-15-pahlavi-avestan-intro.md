@@ -203,11 +203,51 @@ Examples:
 
 # <span class='pahlavi'>p</span>
 
+Sound: pa, pha (if initial, also: cha, ja, za)
+
+Modern Persian equivalents: پ، ف (اگر در ابتدا، همچنین: و، چ، ت، ز)
+
+Notes:
+1. Appears either as a whole, or as <span class='pahlavi'>P</span> when joining the previous letter.
+
+Examples:
+1. <span class='pahlavi'>nnp</span> (pavan = pa, pat): a semitic particle, used extensive as a preposition with meanings: to, by, from, through, according to, in, into, on, upon, with, among, about, at, for, as, as to, as if. It corresponds to Modern Persian پ، بر. It is the prefix for instrumental &  genetive cases. e.g. <span class='pahlavi'>ODX_nnp</span> (pavan-âkhar = pa-pas): in the end, at last; پا پس.
+2. <span class='pahlavi'>TFnp</span> (pûst): the skin, a hide, a covering, a coating; پوست.
+3. <span class='pahlavi'>PXnp</span> (frâz): A preposition with the meaning of: forth, further, forthwith, on, upon, above, upwards, aloft, back, down, after, again, opposite, contrary, before, near, forward, together; فراز، فرا.
+4. <span class='pahlavi'>E^|Znp</span> (frazand): an offspring, child, son, progeny; فرزند.
+5. <span class='pahlavi'>nvGtp</span> (patmân): measure, standard, regulation, moderation, plan, design, rule, proportion, estimate, compact, agreement, (golden) mean, metrical measure; پیمان.
+
+
 # <span class='pahlavi'>c</span>
+
+Sound: ch, if initial: j, if medial or final: ch, j, z, zh, p, f, v
+
+Modern Persian equivalent: چ، اگر ابتدا: ج، اگر میان یا انتها: چ، ج، ز، ژ، پ، ف، و
+
+Notes:
+1. Does not combine with any of the succeeding letters
+2. Combines with preceding <span class='pahlavi'>E,\_a,\_r,\_G</span> as <span class='pahlavi'>PE,\_Pl,\_PX,\_PG</span>
+
+Examples:
+1. <span class='pahlavi'>c</span> (cha): an enclitic particle, meaning: and, also, likewise, even, too, yet, else, always, added to the word it connects; when it follows a word ending in a consonant, the vowel (i) is conveniently added to the consonant, e.g. (nari-cha), (kasi-cha); sometimes the vowel (a) is added to the consonant (hasta-cha).
+2. <span class='pahlavi'>E^nc</span> (chand): how much, how many, how long, of what length or duration, some, any indefinite quantity; چند.
+3. <span class='pahlavi'>rA_yc</span> (chînâr): the poplar tree, plane tree, the sycamore; چنار.
+4. <span class='pahlavi'>DEn_gEc</span> (chûnîh / chêgûnîh): abstract noun from <span class='pahlavi'>n_gEc</span> (chûn): quality, qualification, description, whereabouts, peculiarity; چگونگی = کیفیت.
 
 # <span class='pahlavi'>K</span>
 
-# Letter Mixes
+Sound: gh
+
+Modern Persian equivalent: ق
+
+Examples:
+1. <span class='pahlavi'>KR</span> (lagh / ragh): the numerical cypher for 1000; one thousand; هزار.
+2. <span class='pahlavi'>KG</span> (magh): a pit, a hole, a row or line of stones on which a "riman" or "contaminated" person sits successively during the ceremony of purification; مغاک، مغ.
+3. <span class='pahlavi'>KG</span> (mogh / magh): a magi, a mobed, one who pratises magism; مغ.
+4. <span class='pahlavi'> bDlKa</span> (aghriya / aghrâya): this word is derived from <span class='pahlavi'> B!rKa</span> meaning: top, head, summit, pertaining to top, pertaining to summit, topmost, of the first quality, the principal one.
+5. <span class='pahlavi'>nvtKn</span> (vaghtân): a head (of a good being), as opposed to <span class='pahlavi'>rA__Gk</span> (kamâr) head of an evil being.
+
+## Letter Mixes
 
 The table below shows how different letters mix together {% cite kapadia1953glossary %}:
 
