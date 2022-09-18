@@ -17,7 +17,7 @@ This blog post requires a browser that supports custom fonts, since I am using t
 
 # Alphabet
 
-There are 14 primary letters in Pahlavi Vendidad, some of which are used for multiple sounds. First, let's look at each letter of the alphabet individually. The content of this section is derived mostly from {% cite kapadia1953glossary %}.
+There are 14 primary letters in Pahlavi, some of which are used for multiple sounds. First, let's look at each letter of the alphabet individually. The content of this section is derived mostly from {% cite kapadia1953glossary %}.
 
 # <span class='pahlavi'>n</span>
 
