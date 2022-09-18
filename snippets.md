@@ -629,10 +629,391 @@ This is why you don't read reliable science from newspapers and magazines, let a
 
 Regarding emotions and hype of a relationship / love:
 
-The pour water on the fire, now the fire that was easy to create is now muddled with water.
+They pour water on the fire, now the fire that was easy to create is now muddled with water.
 
 
 Paraffin puts a fire out if poured too fast, but otherwise burns with the fire if done slowly 
+
+----
+
+"I find my own fun," said Justin, "I'm torn, here, by every single pang of annihilation. But that's what I look for, that's
+what I want completed; that's the whole of what I want to embrace. On the far side of the nothing--my new form. Scrap
+'me'; scrap my wretched identity and you'll bring to the open some bud of life. I not 'I'-I'd be the world ...
+You're right: what you would call thinking does get me rattled. I only what you call think to excite myself. Take myself away, and I'd think.
+I might see; I might feel purely; I might even love-"
+
+The blood of the world is poisoned, feels Aunt Fran, with
+her forehead over the eiderdown. Not a pure drop comes out at
+any prick-yes, even the heroes shed black blood. The solitary
+watcher retreats step by step from his post--who shall stem the
+black tide coming in? There are no more children: the children
+are born knowing. The shadow rises up the cathedral tower, up
+the side of the pure hill. There is not even the past: our memo-
+ries share with us the infected zone; not a memory does not
+lead up to this. Each moment is everywhere, it holds the war in
+its crystal; there is no elsewhere, no other place. Not a benedic-
+tion falls on this apart house of the Major; the enemy is within
+it, creeping about. Each heart here falls to the enemy.
+
+----
+
+Excerpts from _Existential Psychotherapy_ by Irvin D. Yalom:
+
+Imagine a happy group of morons who are engaged in work. They are
+carrying bricks in an open field. As soon as they have stacked all the
+bricks at one end of the field, they proceed to transport them to the opposite end.
+This continues without stop and everyday of every year they
+are busy doing the same thing. One day one of the morons stops long
+enough to ask himself what he is doing. He wonders what purpose there
+is in carrying the bricks. And from that instant on he is not quite as content with his occupation as he had been before.
+I am the moron who wonders why he is carrying the bricks.
+
+Try to understand I want to be a man who belongs to someplace, a man
+among comrades. Only consider. Even the slave bent beneath his load
+dropping with fatigue and staring dully at the ground and foot in front
+of him-why even that poor slave can say that he's in his town as a tree
+is in a forest or a leaf upon a tree. Argos is all around him, warm, compact,
+and comforting. Yes, Electra, I'd gladly be that slave and enjoy that
+feeling of drawing the city round me like a blanket and curling myself
+up in it.
+
+What a change has come on everything ... until now I felt something
+warm and living round me, like a friendly presence. That something has
+just died. What emptiness. What endless emptiness.
+
+I say there is another path--my path. Can't you see it. It starts here and
+leads down to the city. I must go down into the depths among you. For
+you are living all of you at the bottom of a pit ... Wait. Give me time to
+say farewell to all the lightness, the aery lightness that was mine...
+Come, Electra look at our city... It fends me off with its high walls, ted
+roofs, locked doors. And yet it's mine for the taking. I'll turn into an ax
+and hew those walls asunder..
+
+Suddenly, out of the blue, freedom crashed down on me and swept me
+off my feet. My youth went with the wind, and I know myself alone
+and there was nothing left in heaven, no right or wrong, nor anyone to
+give me orders... I am doomed to have no law but mine ... Every man
+must find his own way.
+
+Toward ourselves. Beyond the river and mountains are an Orestes and
+an Electra waiting for us, and we must make our patient way towards
+them.
+
+Whether that be so or not, it would be well for man to behave as if it were so - Thomas Mann
+
+Join a whole, work for it with all your body and mind. The meaning of
+life lies in the chance it gives us to produce, or to contribute to something greater than ourselves.
+It need not be a family (although that is the
+direct and broadest road which nature in her blind wisdom has provided
+for even the simplest soul); it can be any group that can call out all the
+latent nobility of the individual, and give him a cause to work for that
+shall not be shattered by his death.
+
+
+The dangers of a nontranscendent posture are particularly evident in
+interpersonal relationships. The more one focuses on oneself, for example, in sexual relationships, the less is one's ultimate satisfaction. If one
+watches oneself, is concerned primarily with one's own arousal and release, one is likely to suffer sexual dysfunction. Frankl-quite correctly, I believe--feels that the contemporary idealization of
+"self-expression" often, if made an end in itself, makes meaningful relationships
+impossible. The basic stuff of a loving relationship is not free self-expression (although that may be an important ingredient) but reaching
+outside of oneself and caring for the being of the other.
+
+Three Categories of Life Meaning.
+Though Frankl stresses that each in-
+dividual has a meaning that no one else can fulfill, these unique mean-
+ings fall into three general categories: (1) what one accomplishes or
+gives to the world in terms of one's creations; (2) what one takes from
+the world in terms of encounters and experiences; (3) one's stand
+toward suffering, toward a fate that one cannot change.32
+
+----
+
+ugly beautiful: belle laide
+
+If you mean the menopause, Madame Keel is much too
+young for that. She means emotional cycles. Elation-depression.
+Vitality-debility. Exultation-despair. The usual manic-
+depressive syndrome. She says that ever since she came to
+Ireland she has been melancholy.
+
+Jaysus! Sure, aren't we all melancholy in Ireland? What r'd
+say that one needs is a few good balls of malt every day or a
+dose or two of cod liver oil. If I were you, Frank, I'd pack her
+off about her business.
+
+Buckley--there is no denying it- had a point when he insisted
+that man's most ingenious invention is man, that to create
+others we must first imagine ourselves, and that to keep us
+from wandering, or wondering, in some other direction where
+a greater truth may lie, we set up all sorts of roadblocks and
+traffic signals.
+
+"Don't kill it!" Mother would cry
+if we raised a hand to an angry wasp. "Just catch it, dear, and
+put it outside. Open the window and let it fy away! But even
+this treatment could at times be deemed too harsh. "Wait a
+minute. Close the window!" she'd cry. "It's too cold outside. It
+will die. That's why it came in, I suppose! Oh dear, what will
+we do? Life would be going full blast again.
+
+----
+
+since there is no harm: puisqu’il n’y a pas de mal. 
+
+der mensch muss hinaus in’s feindliche leben. muss wirken und streben: the human has to live in a hostile environment.  must work and strive
+
+They called me mad, and I called them mad, and damn them, they outvoted me // Nathaniel Lee
+
+Timor mortis conturbat me is a Latin phrase commonly found in late medieval Scottish and English poetry, translating to "fear of death disturbs me"
+
+Quare caper: So it means life is a rum business, a sequence of strange events, a quare caper.
+
+Coincidentia oppositorum: coincidence of opposites
+
+Et les extremes se touchent: the extremes meet
+
+modus vivendi: way of life
+
+----
+
+Excerpts from Total Fears: Letters to Dubenka:
+
+It's like what happened to my mother, who,
+according to her death certificate, died of softening of the brain
+but I've attained such an absolute peak of emptiness and I'm so,
+so alone, effectively in solitary confinement, tied up in a straitjacket, no longer living in time, but only and exclusively in space,
+which shocks and horrifies me...
+
+So anyway, Dubenka, I reckon, when a good person dies, to be
+rewarded in heaven, the soul is transformed into a dove, like the
+Holy Spirit descending as a dove upon the Virgin Mary or the
+Apostles at the time of Pentecost. And when I saw those thousands
+and thousands of dead pigeons and doves in the Budeé rotunda,
+for me one of those doves was my wife Pipsi, who was so long dying
+that in the end she became a saint... I remember how back in
+Kersko, three days before she asked me to take her to the Bulovka
+Hospital, she suddenly asked me to go up to our "signal box", to the veranda, and fetch a particular number of World Literature ..
+I felt anxious ... Where was I to look? But she said to me softly
+.. It's lying up there, I was reading it only yesterday, there are
+planks and boards on the cover, as if they were making a scaffold
+for the front page ... but ah . .. Three days before Gary Cooper
+died of cancer, he asked for a silver cross and then just to be left in
+peace... My Pipsi died on the third day too ... those last days of
+her life, when she looked at me only twice, never before had I seen
+her so beautiful, so youthful, so full of Heaven and sky ... And
+twice in that time, maybe only twice during our whole life together
+she said to me quietly, beautifully ... Thank you, Bohousku...
+Thank you, Bohousku... My little dove flew up from the rock...
+
+So we'll visit this Dievikov monastery, Dubenka, and we'll bow to Vysotsky
+who, when his wife took him to Hollywood, was introduced with
+her in the film club as "Mrs Vlady accompanied by her husband»
+whereas by the time they left the Hollywood restaurant, and
+Vysotsky had borrowed a guitar and played and sung for two hours,
+it was "Vladimir Vysotsky accompanied by his wife".. We'll bow
+to Yesenin, who shot himself, and hung himself too, to make quite
+sure, in the Hotel Angleterre.
+
+I'll leave my native soil behind, unable to overcome my sad
+sorrow, become instead a wandering vagabond. Through the
+countryside I'll roam, looking for the simple life, till one day a
+friend pulls from his boot a knife ... Through the countryside I'll
+walk alone, seeking for a gently warming sun -- the one whose name I say o'er and o'er, she will drive me from the door ..
+
+### The Magic Flute
+
+Sometimes when I get up and emerge from the mists of slumber,
+my whole room hurts, my whole bedroom, the view from the window hurts,
+kids go to school, people go shopping, everybody knows
+where to go, only I don't know where I want to go, I get dressed,
+blearily, stumbling, hopping about to pull on my trousers, I go and
+shave with my electric razor -- for years now, whenever I shave,
+I've avoided looking at myself in the mirror, I shave in the dark or
+round the corner, sitting on a chair in the passage, with the socket
+in the bathroom, I don't like looking at myself any more, I'm scared
+by my own face in the bathroom, I'm hurt even by my own appearance,
+I see yesterday's drunkenness in my eyes, I don't even have
+breakfast any more, or if I do, only coffee and a cigarette, I sit at
+the table, sometimes my hands give way under me and several times
+I repeat to myself, Hrabal, Hrabal, Bohumil Hrabal, you've victoried yourself away,
+you've reached the peak of emptiness, as my
+Lao Tzu taught me, I've reached the peak of emptiness and everything hurts,
+even the walk to the bus-stop hurts, and the whole bus
+hurts as well, I lower my guilty-looking eyes, I'm afraid of looking
+people in the eye, sometimes I cross my palms and extend my
+wrists, I hold out my hands so that people can arrest me and hand
+me over to the cops, because I feel guilty even about this once too
+loud a solitude which isn't loud any longer, because I'm hurt not
+only by the escalator which takes me down to the infernal regions
+below, I'm hurt even by the looks of the people travelling up, each
+o them has somewhere to go, while I've reached the peak of emptiness and don't know where I want to go.
+
+I know, but in the end
+I'm saved by those children of mine, the little cats in the woods,
+who are waiting for me, they're my children, so I take the metro,
+but now even the metro hurts, people go up, while others, and I
+with them, go down, we stand in our places, going down the escalator,
+then up the stairs I go again, and there in the little buffet I
+guiltily buy four grilled chicken breasts, and guiltily I pay, watching my hands tremble,
+because I'm buying chicken for the cats,
+while out there somewhere in Africa children starve. Even that little buffet hurts,
+and the busy street, with its trucks and private cars
+criss-crossing in opposite directions, every driver knows where to
+go, I'm the only one who doesn't, even if out there somewhere in
+the woods my last hopes are there waiting for me, the last reason
+to live, my little cats, petrified, in case I never come, what would
+become of them, who would feed them, who would stroke them,
+because they love me, those kitties, whereas I'm hurt now, not just
+by my own little bedroom, I'm hurt by this whole town in which
+I live, I'm hurt by this whole world, because towards morning
+certain beings come to me - beings not unfamiliar to me, on the
+contrary, they come slowly but surely up the escalator of my soul,
+and not only their faces come into focus, but also certain horrible
+events, just like a portrait, or a film, a documentary not only about
+how I was ever madly in love, but also how I failed people.
+So that interior monologue continues, no, I'm no longer talking alone with
+myself; but it's as if I'm up before an interrogating judge, everything I ever said, everything I ever did, everything is always against me,
+from this time on whatever I've been made to think about has
+been against me. How many times I've crossed the road at the red,
+how many times I've walked through the stream of traffic, but in
+spite of being lost in thought, I am accompanied always by my
+guardian angel, my little guardian angel, because this guardian
+angel of mine wants me to remain in this world as yet, in order to
+reach the final bottom, to go down yet one more flight, to the place
+of the ultimate pit of remorse, because the whole world hurts, and
+even that guardian angel of mine hurts, how many times I've felt
+like jumping from the fifth floor, from my apartment where every
+room hurts, but always at the last moment my guardian angel saves
+me, he pulls me back, just like my Herr Doktor Franz Kafka, who
+wanted to jump from the fifth floor, from the Maison Oppelt,
+which you enter from the Old Town Square, but the Herr Doctor
+would have fallen into Parízská, into Paris Avenue, he too was hurt
+by the world, I suppose, and hurt by his life, just like Malte Laurids
+Brigge, who also wanted to jump from the fifth floor, he was hurt
+too by the world in Paris. Brigge was hurt by the whole world as
+well, just like Rainer Maria Rilke.
+I've victoried myself away, I've reached the peak of emptiness.
+
+----
+
+'All that's nonsense,' he said hopefully, 'and there is nothing in it
+all to worry about! It's simply physical derangement. Just a glass of
+beer, a piece of dry bread - and in one moment the brain is
+stronger, the mind is clearer and the will is firm! Phew, how utterly
+petty it all is!'
+
+Do you know, sir, do you know, I have sold her very stockings for
+drink? Not her shoes - that would be more or less in the order of
+things, but her stockings, her stockings I have sold for drink! Her
+mohair shawl I sold for drink, a present to her long ago, her own
+property, not mine; and we live in a cold room and she caught cold
+this winter and has begun coughing and spitting blood too. We have
+three little children and Katerina Ivanovna is at work from morning
+till night; she is scrubbing and cleaning and washing the children, for
+she's been used to cleanliness from a child. But her chest is weak and
+she has a tendency to consumption and I feel it! Do you suppose I
+don't feel it? And the more I drink the more I feel it. That's why I
+drink too. I try to find sympathy and feeling in drink ... I drink so
+that I may suffer twice as much!' And as though in despair he laid his
+head down on the table.
+
+----
+
+On marriage:
+
+We excerpted "The Irrational Season" for ours:
+
+But ultimately there comes a moment when a decision must be made. Ultimately two people who love each other must ask themselves how much they hope for as their love grows and deepens, and how much risk they are willing to take…
+
+It is indeed a fearful gamble…Because it is the nature of love to create, a marriage itself is something which has to be created, so that, together we become a new creature. 
+
+To marry is the biggest risk in human relations that a person can take
+
+If we commit ourselves to one person for life this is not, as many people think, a rejection of freedom; rather it demands the courage to move into all the risks of freedom, and the risk of love which is permanent; into that love which is not possession, but participation…
+
+It takes a lifetime to learn another person…When love is not possession, but participation, then it is part of that co-creation which is our human calling, and which implies such risk that it is often rejected.
+
+
+<br/><br/>
+
+"When my husband died, because he was so famous and known
+for not being a believer, many people would come up to me-it
+still sometimes happens-and ask me if Carl changed at the end
+and converted to a belief in an afterlife. They also frequently ask
+me if I think I will see him again. Carl faced his death with
+unflagging courage and never sought refuge in illusions. The
+tragedy was that we knew we would never see each other again. I don't ever expect to
+be reunited with Carl. But, the great thing is that when we were together, for nearly
+twenty years, we lived with a vivid appreciation of how brief and precious life is. We
+never trivialized the meaning of death by pretending it was anything other than a final
+parting. Every single moment that we were alive and we were together was miraculous-
+not miraculous in the sense of inexplicable or supernatural. We knew we were
+beneficiaries of chance... That pure chance could be so generous and so kind... That
+we could find each other, as Carl wrote so beautifully in Cosmos, you know, in the
+vastness of space and the immensity of time... That we could be together for twenty
+years. That is something which sustains me and it's much more meaningful.
+... The way he treated me and the way I treated him, the way we took care of each other and
+our family, while he lived. That is so much more important than the idea I will see him
+someday. I don't think I'll ever see Carl again. But I saw him. We saw each other. We
+found each other in the cosmos, and that was wonderful."
+
+----
+
+Death Speaks:
+
+There was a merchant in Baghdad who sent his servant to market to buy
+provisions and in a little while the servant came back, white and trem-
+bling, and said, Master, just now when I was in the market-place I was
+jostled by a woman in the crowd and when I turned I saw it was Death
+that jostled me. She looked at me and made a threatening gesture; now,
+lend me your horse, and I will ride away from this city and avoid my fate.
+I will go to Samarra and there Death will not find me. The merchant lent
+him his horse, and the servant mounted it, and he dug his spurs in its
+flanks and as fast as the horse could gallop he went. Then the merchant
+went down to the market-place and he saw me standing in the crowd, and
+he came to me and said, why did you make a threatening gesture to my
+servant when you saw him this morning? That was not a threatening ges-
+ture, I said, it was only a start of surprise. I was astonished to see him in
+Baghdad, for I had an appointment with him tonight in Samarra.
+
+W. Somerset Maugham
+
+----
+
+![book order](/img/snippets/book-order.jpeg)
+
+----
+
+"Men did not make the earth. It is the value of the improvements only, and not the earth itself, that is individual property. Every proprietor owes to the community a ground rent for the land which he holds"
+— Thomas Paine, Agrarian Justice, 1797
+
+[Georgism](https://en.wikipedia.org/wiki/Georgism)
+
+----
+
+Theocles, proposes that the best candidate for the constant good that they are seeking is genuine
+friendship, which he understands as love of humanity.
+HEAR then! said THEOCLES. For tho I pretend not to tell you at once the Nature of this
+which I call GOOD; yet I am content to shew you something of it, in your-self, which you will
+acknowledg to be naturally more fix'd and constant, than any thing you have hitherto thought
+on. Tell me, my Friend! if ever you were weary of doing good to those you lov'd? Say when
+you ever found it unpleasing to serve a Friend Or whether when you first prov'd this generous
+Pleasure, you did not feel it less than at this present; after so long Experience? Believe me,
+PHILOCLES, this Pleasure is more debauching than any other. Never did any Soul do good,
+but it came readier to do the same again, with more Enjoyment. Never was Love, or Gratitude,
+orA Bounty practis'd but with increasing Joy, which made the Practiser still more in love with
+the fair Act. Answer me, PHILOCLES, you who are such a Judg of Beauty, and have so good
+a Taste of Pleasure; is there any thing you admire, so fair as Friendship? or any thing so charming
+as a generous Action? What wou'd it be therefore, if all Life were in reality but one continu'd
+Friendship, and cou'd be made one such intire Act? Here surely wou'd be that fix'd and constant
+GOOD you sought. Or wou'd you look for any thing beyond? (The Moralists, II.1, 2:135)
+Philocles has self-doubts whether he is capable of love of humanity in the abstract sense proposed
+by Theocles.
+I told THEOCLES, going along, that I fear'd I shou'd never make a good Friend or Lover after
+his way. As for a plain natural Love of one single Person in either Sex, I cou'd compass it, I
+thought, well enough; but this complex universal sort was beyond my reach. I cou'd love the
+Individual, but not the Species. This was too mysterious; too metaphysical an Object for me.
+In short, I cou'd love nothing of which I had not some sensible material Image. (The Moralists,
+II.1,2:137)
 
 ----
 
@@ -1300,6 +1681,74 @@ Pieces from Sohrab Sepehri's poems:
 دانه این نیلوفر را به سرزمین خواب من آورد؟
 <br />
 
+<br />
+..
+<br />
+
+میان ما سرگردانی بیابان‌هاست.
+<br />
+بی چراغی شب‌ها، بستر خاکی غربت‌ها، فراموشی آتش‌هاست.
+<br />
+میان ما «هزار و یک شب» جست و جوهاست.
+<br />
+
+<br />
+..
+<br />
+
+سرگذشت من به لب‌ها ره نیافت:
+<br />
+ریگ باد آورده‌ای را باد برد.
+<br />
+
+</div>
+
+-----
+
+<div class='lang-fa'>
+دارم سخنی با تو و گفتن نتوانم
+<br/>
+وین درد نهان سوز نهفتن نتوانم
+<br/>
+<br/>
+
+تو گرم سخن گفتن و از جام نگاهت
+<br/>
+من مست چنانم که شنفتن نتوانم
+<br/>
+<br/>
+
+شادم به خیال تو چو مهتاب شبانگاه
+<br/>
+گر دامن وصل تو گرفتن نتوانم
+<br/>
+<br/>
+
+با پرتو ماه آیم و چون سایه ی دیوار
+<br/>
+گامی ز سر کوی تو رفتن نتوانم
+<br/>
+<br/>
+
+دور از تو، منِ سوخته در دامن شب ها
+<br/>
+چون شمع سحر یک مژه خفتن نتوانم
+<br/>
+<br/>
+
+فریاد ز بی مهری ات ای گل که درین باغ
+<br/>
+چون غنچه ی پاییز شکفتن نتوانم
+<br/>
+<br/>
+
+ای چشم سخن گوی تو بشنو ز نگاهم
+<br/>
+دارم سخنی با تو و گفتن نتوانم
+<br/>
+<br/>
+
+محمدرضا شفیعی کدکنی
 </div>
 
 -----
