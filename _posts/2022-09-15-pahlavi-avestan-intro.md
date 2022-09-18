@@ -48,6 +48,7 @@ Notes:
 6. <span class='pahlavi'>i</span> used to represent numeral "one", e.g. <span class='pahlavi'>ZLi</span> (ê-raz): one hundred; یک صد, <span class='pahlavi'>KLi</span> (ê-rag): one thousand; یک هزار.
 
 Examples:
+1. <span class='pahlavi'>N\_gE</span> (dîv): satan, Dev, a demon, an evil spirit; دیو.
 2. <span class='pahlavi'>rFnp\_f\_rTXË</span> (mâtar-î-pûsar): mother of the boy; مادرِ پسر.
 3. Using izâfat is optional, and when it is dropped, it is necessary that the qualifying adjective or the thing possessed must precede the thing possessed or qualified; e.g. <span class='pahlavi'>rTXË\_rFnp</span> (pûsar mâtar), and it is the rule that a <span class='pahlavi'>Q</span> (zak) or <span class='pahlavi'>fQ</span> (zak-î) is added before the two words, so: <span class='pahlavi'>rTXË\_rFnp\_fQ</span> (zak-î pûsar mâtar)
 4. It is also used as a rendering of Avesta relative pronouns <span class='pahlavi'>OvjE</span>, <span class='pahlavi'>WvjE</span>, <span class='pahlavi'>TavjE</span>, who, which and what.
@@ -64,9 +65,8 @@ Notes:
 3. The <span class='pahlavi'>gE</span> form of this letter is also used to represent the numerical cipher 40, forty <span class='pahlavi'>J\_\_\_A\_jEc</span> (chêhal); چهل
 
 Examples:
-1. <span class='pahlavi'>N\_gE</span> (dîv): satan, Dev, a demon, an evil spirit; دیو.
-2. <span class='pahlavi'>s|rF</span> (srôsh): one who obeys or hears; the name of the angel who protects mankind by night and day against the attacks of the Daevas, and guards the souls of the dead for the first three nights. He may be compared with Gabriel of Semitic mythology, as a principle messenger of God. He is always styled as <span class='pahlavi'>n b|rsA\_=\_s|rF</span> (srôsh-î-ahlôb): holy srosh; metaphorically means "obedience", "humility".; سروش.
-3. <span class='pahlavi'>nvjXpF</span> (spâhân): The city of Ispahan, former capital city of Iran; اصفهان.
+1. <span class='pahlavi'>s|rF</span> (srôsh): one who obeys or hears; the name of the angel who protects mankind by night and day against the attacks of the Daevas, and guards the souls of the dead for the first three nights. He may be compared with Gabriel of Semitic mythology, as a principle messenger of God. He is always styled as <span class='pahlavi'>n b|rsA\_=\_s|rF</span> (srôsh-î-ahlôb): holy srosh; metaphorically means "obedience", "humility".; سروش.
+2. <span class='pahlavi'>nvjXpF</span> (spâhân): The city of Ispahan, former capital city of Iran; اصفهان.
 
 # <span class='pahlavi'>s</span>
 
@@ -254,15 +254,14 @@ The table below shows how different letters mix together {% cite kapadia1953glos
 
 # Phrases & Words
 
-## Ahura Mazda / Ohrmazd
+1. <span class='pahlavi'>a_Gvv</span> (Aûhr-mazd): The Supreme Creator, Lord Ormazd, of Zoroastrian philosophy. Formerly read as Anhômâ.
+2. <span class='pahlavi'>@</span> (Aharman) اهرمن، اهریمن, is the destructive / evil spirit in Zoroastrianism. The name is traditionally written upside down.
+3. <span class='pahlavi'>rDX|rp</span> (frôhâr): the guardian angel or spirit, a spiritual prototype, traditionally <span class='pahlavi'>nvb|r</span> (rûbân) soul, and <span class='pahlavi'>rDX|rp</span> (frôhâr) are quite distinct. Ravan passes the Chinvat Bridge according to his or her deeds in this world, whilst fravashi is the sublime spirit which protects its counterpart in this world as a guardian angle. It is the highest of the five spiritual entities of which the human being is made up (ahu, daena, baodhang, urvan and fravashi). Also written <span class='pahlavi'>sa|rp</span>, <span class='pahlavi'>Ra|rp</span>; فروهر.
+4. <span class='pahlavi'>N\_gE</span> (dîv): satan, Dev, a demon, an evil spirit; دیو.
+5. <span class='pahlavi'>nvjfPE</span> (yazišn): to worship, part of Zoroastrian sacred texts known as Yasna: a sacrifical prayer with offerings of Hom; یسنا.
+6. <span class='pahlavi'>ajEIaRDX</span> (ahlâyîh = aša): abstract noun for (ahlôb) righteous, i.e. truth, righteousness, holiness, sanctity, Asha; آشا.
 
-<span class='pahlavi'>a_Gvv</span> (Aûhr-mazd): The Supreme Creator, Lord Ormazd, of Zoroastrian philosophy. Formerly read as Anhômâ.
-
-## Aharman / Ahriman
-
-<span class='pahlavi'>@</span> (Aharman) اهرمن، اهریمن, is the destructive / evil spirit in Zoroastrianism. The name is traditionally written upside down.
-
-## Ethical Pillars of Zoroastrianism
+### The Threefold Path of Asha
 
 The three ethical pillars of Zoroastrianism, mentioned in Yasna Haptaŋhāiti یسنا هفت هات (Y. 35.4) are rendered in Pahlavi as such:
 
@@ -272,7 +271,7 @@ The three ethical pillars of Zoroastrianism, mentioned in Yasna Haptaŋhāiti ی
 
 <span class='pahlavi'>nvjfiyv</span> (hugôîšn): good speech (گویش نیک)
 
-<span class='pahlavi'>ajEIaRDX</span> (ahlâyîh = aša):  abstract noun for (ahlôb) righteous, i.e. truth, righteousness, holiness, sanctity.
+Also see [HUMATA HŪXTA HUVARŠTA](https://iranicaonline.org/articles/humata-huxta-huvarsta) for more information.
 
 # Common Persian Names
 
@@ -288,8 +287,10 @@ The three ethical pillars of Zoroastrianism, mentioned in Yasna Haptaŋhāiti ی
 
 <span class='pahlavi'>nvLp</span> (frakh / frakho): prosperous, auspicious; فرخ.
 
+<span class='pahlavi'>G_YEajE</span> (yâsmen): a jasmine or jassemine, a kind of flower; یاسمن.
+
 # Additional resources
 
+- [Introduction to Pahlavi by Prods OKTOR SKJÆRVØ](/files/Pahlavi Primer - Prods Oktor Skjaerv.pdf): a great resource with introduction to grammar, a lot of words and full text translations.
 - [Avestan Digital Archive](https://ada.geschkult.fu-berlin.de/): a search engine for manuscripts
-- [Avesta - Zoroastrian Archives](avesta.org/) - has some of the texts and other resources related to Avesta and Zoroastrianism
-- [Introduction to Pahlavi by Prods Oktor SkjÆRVØ](https://bayanbox.ir/view/8882150498859088732/Pahlavi-Primer-Prods-Oktor-Skjaerv.pdf)
+- [Avesta - Zoroastrian Archives](avesta.org/): has some of the texts and other resources related to Avesta and Zoroastrianism
