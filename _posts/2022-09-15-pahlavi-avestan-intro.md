@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Introduction to Middle Persian & Pahlavi script"
-subtitle: "Reading Avesta using Pahlavi script"
+title: "Middle Persian & Pahlavi script"
+subtitle: "A Tiny Introduction"
 date: 2022-09-15 00:00:00
 permalink: pahlavi-vendidad-avesta-intro/
 categories: language
@@ -9,11 +9,11 @@ author: Mahdi
 custom_head: <link rel="stylesheet" href="/css/khusro.css"">
 ---
 
-[Middle Persian](https://en.wikipedia.org/wiki/Middle_Persian), the successor of [Old Persian](https://en.wikipedia.org/wiki/Old_Persian) from [Achaemenid Empire](https://en.wikipedia.org/wiki/Achaemenid_Empire), was used by the [Sassanian Empire](https://en.wikipedia.org/wiki/Sasanian_Empire) of Iran, and is the ancestor of Modern Persian, which is currently the official language of Iran, Afghanistan and Tajikistan. This language has been written using multiple scripts, including [Pahlavi script](https://en.wikipedia.org/wiki/Pahlavi_script), [Manichaean script](https://en.wikipedia.org/wiki/Manichaean_script) and [Pazend](https://en.wikipedia.org/wiki/Pazend). Here I aim to give a short introduction to Middle Persian using Pahlavi script, a script derived from [imperial Aramaic](https://en.wikipedia.org/wiki/Imperial_Aramaic).
+[Middle Persian](https://en.wikipedia.org/wiki/Middle_Persian), the successor of [Old Persian](https://en.wikipedia.org/wiki/Old_Persian) from [Achaemenid Empire](https://en.wikipedia.org/wiki/Achaemenid_Empire), was used by the [Sassanian Empire](https://en.wikipedia.org/wiki/Sasanian_Empire) of Iran, and is the ancestor of Modern Persian, which is currently the official language of Iran, Afghanistan and Tajikistan. This language has been written using multiple scripts, including [Pahlavi script](https://en.wikipedia.org/wiki/Pahlavi_script), [Manichaean script](https://en.wikipedia.org/wiki/Manichaean_script) and [Pazend](https://en.wikipedia.org/wiki/Pazend). This blog post is the most brief introduction to Middle Persian using Pahlavi script, a script derived from [imperial Aramaic](https://en.wikipedia.org/wiki/Imperial_Aramaic).
 
 This language is written and read right-to-left, however in this blog post because the main body of text is English, the text is aligned on the left-side.
 
-This blog post requires a browser that supports custom fonts, since I am using the [Khusro Pahlavi font](http://avesta.org/iranian-font/pahlavi.html). If you cannot see this blog post properly, a PDF version of this blog post is available [here]().
+This blog post requires a browser that supports custom fonts, since I am using the [Khusro Pahlavi font](http://avesta.org/iranian-font/pahlavi.html). If you cannot see this blog post properly, a PDF version of this blog post is available [here](/files/Middle Persian & Pahlavi script.pdf).
 
 # Alphabet
 
@@ -252,6 +252,44 @@ The table below shows how different letters mix together {% cite kapadia1953glos
 
 ![Letter mix table](/img/pahlavi/letter-mix.jpg)
 
---------
+# Phrases & Words
 
+## Ahura Mazda / Ohrmazd
 
+<span class='pahlavi'>a_Gvv</span> (Aûhr-mazd): The Supreme Creator, Lord Ormazd, of Zoroastrian philosophy. Formerly read as Anhômâ.
+
+## Aharman / Ahriman
+
+<span class='pahlavi'>@</span> (Aharman) اهرمن، اهریمن, is the destructive / evil spirit in Zoroastrianism. The name is traditionally written upside down.
+
+## Ethical Pillars of Zoroastrianism
+
+The three ethical pillars of Zoroastrianism, mentioned in Yasna Haptaŋhāiti یسنا هفت هات (Y. 35.4) are rendered in Pahlavi as such:
+
+<span class='pahlavi'>nvjfyGv</span> (humînišn): good thought (منش نیک)
+
+<span class='pahlavi'>nvjfnnkv</span> (hukûnišn): good deeds (کنش نیک)
+
+<span class='pahlavi'>nvjfiyv</span> (hugôîšn): good speech (گویش نیک)
+
+<span class='pahlavi'>ajEIaRDX</span> (ahlâyîh = aša):  abstract noun for (ahlôb) righteous, i.e. truth, righteousness, holiness, sanctity.
+
+# Common Persian Names
+
+<span class='pahlavi'>M_AR_DXn</span>: name of the angel of victory, popularly known as Behram Yazat; also the name of the 20th day of the Zoroastrian month, over which Behram Yazat presides; the planet Mars is also known by the same name; بهرام.
+
+<span class='pahlavi'>s|rF</span> (srôsh): one who obeys or hears; the name of the angel who protects mankind by night and day against the attacks of the Daevas, and guards the souls of the dead for the first three nights. He may be compared with Gabriel of Semitic mythology, as a principle messenger of God. He is always styled as <span class='pahlavi'>n b|rsA\_=\_s|rF</span> (srôsh-î-ahlôb): holy srosh; metaphorically means "obedience", "humility"; سروش.
+
+<span class='pahlavi'>n|r_G</span> (Marva): name of the third of the goodly created places by Ahura Mazd according to Vendidad I: the modern "Marv", "Margvan" of the clasics; مرو، مهرو.
+
+<span class='pahlavi'>PFIa_G</span> (mahest): the greatest, the grandest, the highest, the longest; میهن.
+
+<span class='pahlavi'>EnyG</span> (mînôy / mînúg): spiritual, heavenly, invisible, a spirit, a spiritual being; مینو، مینوی.
+
+<span class='pahlavi'>nvLp</span> (frakh / frakho): prosperous, auspicious; فرخ.
+
+# Additional resources
+
+- [Avestan Digital Archive](https://ada.geschkult.fu-berlin.de/): a search engine for manuscripts
+- [Avesta - Zoroastrian Archives](avesta.org/) - has some of the texts and other resources related to Avesta and Zoroastrianism
+- [Introduction to Pahlavi by Prods Oktor SkjÆRVØ](https://bayanbox.ir/view/8882150498859088732/Pahlavi-Primer-Prods-Oktor-Skjaerv.pdf)
