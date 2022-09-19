@@ -3,7 +3,7 @@ layout: post
 title: "Middle Persian & Pahlavi script"
 subtitle: "A Tiny Introduction"
 date: 2022-09-15 00:00:00
-permalink: pahlavi-vendidad-avesta-intro/
+permalink: middle-persian-pahlavi-script/
 categories: language
 author: Mahdi
 custom_head: <link rel="stylesheet" href="/css/khusro.css"">
