@@ -294,3 +294,5 @@ Also see [HUMATA HŪXTA HUVARŠTA](https://iranicaonline.org/articles/humata-hux
 - [Introduction to Pahlavi by Prods OKTOR SKJÆRVØ](/files/Pahlavi Primer - Prods Oktor Skjaerv.pdf): a great resource with introduction to grammar, a lot of words and full text translations.
 - [Avestan Digital Archive](https://ada.geschkult.fu-berlin.de/): a search engine for manuscripts
 - [Avesta - Zoroastrian Archives](avesta.org/): has some of the texts and other resources related to Avesta and Zoroastrianism
+
+{% bibliography —cited %}
