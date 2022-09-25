@@ -295,4 +295,7 @@ Also see [HUMATA HŪXTA HUVARŠTA](https://iranicaonline.org/articles/humata-hux
 - [Avestan Digital Archive](https://ada.geschkult.fu-berlin.de/): a search engine for manuscripts
 - [Avesta - Zoroastrian Archives](avesta.org/): has some of the texts and other resources related to Avesta and Zoroastrianism
 
+
+# References 
+
 {% bibliography —cited %}
