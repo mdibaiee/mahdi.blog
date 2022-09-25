@@ -21,9 +21,7 @@ We arrive and into the airport and from there we take a Matatu (public taxi) tow
 Once we get to Kampala then the main mode of transport in the city is Boda Boda which is basically motorcycles, and there is absolutely no rules of the road and they seem more like suggestions so you may see your Boda boda going on the opposite lane even when there is a dividing line or concrete between the two lines they just go to the other side if their own side is blocked by traffic. In a way boda boda is very efficient timewise and also cost wise, but it is not for the faint-hearted. It’s very easy to find boda boda as they are everywhere and as soon as you just walk to the side of the road, motorcyclist will start asking if you need a boda somewhere.
 
 <p>
-<video controls>
-<source src="/img/arts/uganda/traffic.mp4" type="video/mp4">
-</video>
+<video src="/img/arts/uganda/traffic.mp4" controls></video>
 </p>
 
 We find our way to a hostel in Kampala called Bushpig (a good backpacker’s hostel) and from there we take a walk to exchange some money for Ugandan shillings but on the way we get stopped by police who is sitting beside a kiosk and they start shouting at us why are you smoking in the public since my friend was smoking turns out smoking in public is illegal in Uganda and you can be charged for now in this case as I had anticipated they actually wanted a bribe and didn’t really want to take us to be charged legally. In this case we end up paying $100 which is a lot of money specially in Uganda to get away from the situation boards afterwards after talking to an expat from Canada who was living in Uganda for nine years he said that you could have got away with 40,000 shillings which is about $10-$15 in this case we were afraid that they might actually take us to be charged and we didn’t want that to happen. The advice from the expat was that once you give them a little bit of money then you can just leave because if they try to stop you and actually take you to court or something then you can counter them by saying that they took a bribe and in reality they really just want to a bribe, they do not really want to act on the law.
@@ -58,9 +56,7 @@ I expressed a lot of interest in learning the local dances and dancing with the 
 ![person dancing](/img/arts/uganda/batwa-dance-2.jpg)
 
 <p>
-<video controls>
-  <source src="/img/arts/uganda/dance-batwa.mp4"  type="video/mp4">
-</video>
+<video src="/img/arts/uganda/dance-batwa.mp4" controls></video>
 </p>
 
 We would go for walks on the next days and people had different reactions, some kids would just greet us with a “Hellooooo” and a hand wave 👋🏼 which was nice, but sometimes they would outright come and ask for money or “sweetie”s. We were advised by our host not to give them money or anything to avoid encouraging this behaviour.
@@ -117,9 +113,7 @@ On our first day, Tutamuzongoza and his brother Tumwijukye briefed us on their p
 That same night we had some children coming to our house and doing a dance to Christian songs and no doubt we joined them and had a great time.
 
 <p>
-<video controls>
-  <source src="/img/arts/uganda/dance-bunyonyi.mp4" type="video/mp4">
-</video>
+<video src="/img/arts/uganda/dance-bunyonyi.mp4" controls></video>
 </p>
 
 Since we had arrived on Saturday, and on Sunday there was church service, we didn’t work on Sunday but instead I joined Tutamuzongoza to go to church to experience their religious experience. This Protestant church was much more interesting than I had anticipated, there was a lot of dancing and singing and laughter! The preacher would crack jokes in between his preach and people would chuckle, which I found to be nice. Tutamuzongoza taught me how to introduce myself with these phrases:
@@ -148,9 +142,7 @@ We also hired a motor boat and went on exploring the lake, first together with o
 On Tuesday evening, the children of the village invited me to play football with them so we joined and had an amazing time, playing football with the kids is always great. Once we were done I saw some of the kids doing some handstand practice and one of them suddenly did a back handspring!! At this, I knew I had to give them something from my parkour practice, so we ended up improvising and finding a bump and doing some parkour vaults and some basic flip practice, and it was great fun. The children were really talented all of them!
 
 <p>
-<video controls>
-  <source src="/img/arts/uganda/parkour.mp4" type="video/mp4">
-</video>
+<video src="/img/arts/uganda/parkour.mp4" controls></video>
 </p>
 
 On the last day I asked our hosts if they knew of any books in their language about their culture, and they introduced us to one of their legendary writes, Festo Karwemera, so we set on a search to find his books when we were back in Kabale and we ended up in the writer’s house, and his wife came to us and allowed us to see the library and buy the books even though the librarian wasn’t there, it took some persistence! She was lovely and ended up giving us her signature on the books! I hope to expand my Rukiga understanding through the books and share them on my blog.
