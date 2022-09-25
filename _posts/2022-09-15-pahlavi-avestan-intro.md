@@ -298,4 +298,4 @@ Also see [HUMATA HŪXTA HUVARŠTA](https://iranicaonline.org/articles/humata-hux
 
 # References 
 
-{% bibliography —cited %}
+{% bibliography --cited %}
