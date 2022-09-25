@@ -1,0 +1,2 @@
+video convert command:
+- ffmpeg -i INPUT.mov -c:v libx264 -crf 23 -pix_fmt yuv420p -color_primaries 1 -color_trc 1 -colorspace 1 -movflags +faststart -acodec aac OUTPUT.mp4
