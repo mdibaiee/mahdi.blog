@@ -1753,6 +1753,22 @@ Pieces from Sohrab Sepehri's poems:
 
 -----
 
+پیش از شما
+<br/>
+بسانِ شما بی‌شمارها
+<br/>
+با تارِ عنکبوت نوشتند روی باد
+<br/>
+کاین دولت 
+<br/>
+خجستۀ جاوید، زنده باد!
+<br/>
+<br/>
+
+شفیعی کدکنی
+
+-----
+
 Bill Murray: "I think if you can take care of yourself, and then maybe try to take care of someone else, that's sort of how you're supposed to live."
 
 ----
