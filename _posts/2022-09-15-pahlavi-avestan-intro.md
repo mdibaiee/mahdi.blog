@@ -289,6 +289,28 @@ Also see [HUMATA HŪXTA HUVARŠTA](https://iranicaonline.org/articles/humata-hux
 
 <span class='pahlavi'>G_YEajE</span> (yâsmen): a jasmine or jassemine, a kind of flower; یاسمن.
 
+<span class='pahlavi'>nnTefn</span> (vištâsp): one whose wealth consists of horses; name of the king of the Kananian dynasty, during whose reign Zoroaster propagated the Mazdayasnan religion; گشتاسپ.
+
+<span class='pahlavi'>|_Gvn</span> (vohûman): of good mind, the supreme intelligence, the Angel or personification of the good mind, Behman Ameshaspend; بهمن.
+
+<span class='pahlavi'>nvjfiDXn</span> (nîyânišn): praise, thanksgiving, adoration, benediction, bowing to salutation, obligation; نیایش.
+
+<span class='pahlavi'>nvLan</span> (vârân): rain; باران.
+
+<span class='pahlavi'>nvjeEi</span> (gêhân): the world, the earth, the material world, property, estate, also sometimes used in the sense of man-folds or settlements; جهان، گیتی، گیهان.
+
+<span class='pahlavi'>kajeEi</span> (sâyak): shade, shadow; سایه.
+
+<span class='pahlavi'>nvjfiaTF</span> (stâyišn): to praise, to glorify; ستایش.
+
+<span class='pahlavi'>rTF</span> (star): a star, a constellation; ستاره.
+
+<span class='pahlavi'>ajeE</span> (yazdân): an epithet of God, one worthy of worship, praise, or sacrifice; یزدان.
+
+<span class='pahlavi'>ajfyLi^</span> (daryûš): poor, indigent, a darvish, a monk, a mendicant; درویش.
+
+<span class='pahlavi'>rkkanv</span> (khunâkgar): singer, a minstrel; خنیاگر.
+
 # Additional resources
 
 - [Introduction to Pahlavi by Prods OKTOR SKJÆRVØ](/files/Pahlavi Primer - Prods Oktor Skjaerv.pdf): a great resource with introduction to grammar, a lot of words and full text translations.
