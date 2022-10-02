@@ -311,6 +311,14 @@ Also see [HUMATA HŪXTA HUVARŠTA](https://iranicaonline.org/articles/humata-hux
 
 <span class='pahlavi'>rkkanv</span> (khunâkgar): singer, a minstrel; خنیاگر.
 
+<span class='pahlavi'>nvH_gEa</span> (âsmân): the sky, the heavens, the firmament; آسمان.
+
+<span class='pahlavi'>nyjEaH_gEIa</span> (âsîm-âyîn): pertaining to silver; سیمین.
+
+<span class='pahlavi'>PlnB__Ra</span> (Albôrz): name of the celebrated lefty mountain-range of Persia, whose highest peak is Mt. Damavand, south of Caspian Sea; may be read as (harburz); البرز.
+
+<span class='pahlavi'>nvTeE~ab</span> (bâmdâtân): of the family of Bam-dat; Bamdat was the ancestor of the family to which Mazdak, the notorious minister of Kobad belonged, from (bâmdât) meaning day-break, dawn; بامداد.
+
 # Additional resources
 
 - [Introduction to Pahlavi by Prods OKTOR SKJÆRVØ](/files/Pahlavi Primer - Prods Oktor Skjaerv.pdf): a great resource with introduction to grammar, a lot of words and full text translations.
