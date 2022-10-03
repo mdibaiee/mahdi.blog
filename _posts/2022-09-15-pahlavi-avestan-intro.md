@@ -319,6 +319,20 @@ Also see [HUMATA HŪXTA HUVARŠTA](https://iranicaonline.org/articles/humata-hux
 
 <span class='pahlavi'>nvTeE~ab</span> (bâmdâtân): of the family of Bam-dat; Bamdat was the ancestor of the family to which Mazdak, the notorious minister of Kobad belonged, from (bâmdât) meaning day-break, dawn; بامداد.
 
+<span class='pahlavi'>nvjfr</span> (Rašna): The angel Rašna presiding over truth & justice and dealing cut reward and punishment at the chinvat Bridge; رشن، رشنا.
+
+<span class='pahlavi'>nnTFM_Ar</span> (ramišn): verb, to give joy, delight, pleasure, cheer, joy, merriment; رامشن، رامش.
+
+<span class='pahlavi'>i^|Z</span> (zand): great, vehement, powerful; a village, a town, or a city, a borough, a district; a heretic, a non-believer in Zoroastrian religion, a revolter against true religion; meaning or interpretation of a text, commentary of Avesta text in Pahlavi, explanation, interpretation; زند.
+
+<span class='pahlavi'>TefnTlZ</span> (zartûšt): name of the prophet of ancient Iran, whose creed is followed upto this day by Zoroastrians in India (Parsees) and Iran, the prophet flourished during the reign of the old Kyanian monarch Gushtaspa, who with his family was the first to accept Zoroastrianism; زرتشت، زردشت.
+
+<span class='pahlavi'>gEkvk</span> (kâûs): King Kaus, the second King of Kayanian Dynasti; کاوس، کی کاوس.
+
+<span class='pahlavi'>inyG</span> (mînôy): spiritual, heavenly, invisible, a spirit, a spiritual being; مینو، مینوی.
+
+<span class='pahlavi'>TERa|rG</span> (morvârît): a pearl; مروارید.
+
 # Additional resources
 
 - [Introduction to Pahlavi by Prods OKTOR SKJÆRVØ](/files/Pahlavi Primer - Prods Oktor Skjaerv.pdf): a great resource with introduction to grammar, a lot of words and full text translations.
