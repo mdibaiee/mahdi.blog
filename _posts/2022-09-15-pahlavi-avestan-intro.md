@@ -333,6 +333,32 @@ Also see [HUMATA HŪXTA HUVARŠTA](https://iranicaonline.org/articles/humata-hux
 
 <span class='pahlavi'>TERa|rG</span> (morvârît): a pearl; مروارید.
 
+<span class='pahlavi'>pFs|rnp</span> (Pôrûšasp): a proper name, the name of the father of Zarathustra, composite word of <span class='pahlavi'>s|rnp</span> full, leaden with + <span class='pahlavi'>pFa</span> (asp) horse, that is to mean, having a large flock of horses; پوروشسپ.
+
+<span class='pahlavi'>kgX|rnp_/_w|rnp</span> (pûrnây / pûrnâîk): a full grown young man, a young man of full age; بُرنا.
+
+<span class='pahlavi'>TeEsip</span> (Pêšdât): the title of Hoshang, the King next to Gayomard, whence his successors were called Pesdatyans until the accession of Kari-Kavat, the founder of Kai or Kayanian dynasty. The word may mean from <span class='pahlavi'>sip</span> before + <span class='pahlavi'>TeE</span> created, or justice or creed-- those believing in the creed, in vogue previous to that of Zoroaster, or previous rulers or administrators, or first established (rulers); پیشداد.
+
+<span class='pahlavi'>C|rip</span> (pîrûz): Successful, victorious; فیروز، پیروز.
+
+<span class='pahlavi'>gERap</span> (Pârs): The provice of Fars in Persia (Iran); پارس.
+
+<span class='pahlavi'>rsa|rp</span> (frôhâr): the guardian angel or spirit, a spiritual prototype; فروهر.
+
+<span class='pahlavi'>Efrp</span> (parîk): a winged figure, a fairy, a witch, a sorceress; in Avesta it means a demoness, a creature of Angra-Mainyu, whilst div is Masculine; پری.
+
+<span class='pahlavi'>nnTErp</span> (Frêtûn): Feredun (proper name), the name of an illustious monarch of the Pisdatyan family; فریدون.
+
+<span class='pahlavi'>nvrp</span> (frakh): prosperous, auspicious; فرخ.
+
+<span class='pahlavi'>PeEFDlp</span> (Frâsîâp): name of an unjust and tyrannical Turanian King, who incessantly troubled Iran, and had an hereditory enmity with the Kings of Iran; افراسیاب.
+
+<span class='pahlavi'>DEvjelp</span> (frâhang): wisdom, learning, science, knowledge, intellect; فرهنگ.
+
+<span class='pahlavi'>kvPlp</span> (farjânak): wise, learned, noble, a wise man, an honourable man; فرزانه.
+
+<span class='pahlavi'>nvGtp</span> (patmân): measure, standard, regulation, moderation, plan, design, rule, proportion, estimate, compact, agreement, golden mean, metrical measure; پیمان.
+
 # Additional resources
 
 - [Introduction to Pahlavi by Prods OKTOR SKJÆRVØ](/files/Pahlavi Primer - Prods Oktor Skjaerv.pdf): a great resource with introduction to grammar, a lot of words and full text translations.
