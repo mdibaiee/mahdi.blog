@@ -275,7 +275,7 @@ Also see [HUMATA HŪXTA HUVARŠTA](https://iranicaonline.org/articles/humata-hux
 
 # Common Persian Names
 
-<span class='pahlavi'>M_AR_DXn</span>: name of the angel of victory, popularly known as Behram Yazat; also the name of the 20th day of the Zoroastrian month, over which Behram Yazat presides; the planet Mars is also known by the same name; بهرام.
+<span class='pahlavi'>M_AR_DXn</span> (vahârâm): name of the angel of victory, popularly known as Behram Yazat; also the name of the 20th day of the Zoroastrian month, over which Behram Yazat presides; the planet Mars is also known by the same name; بهرام.
 
 <span class='pahlavi'>s|rF</span> (srôsh): one who obeys or hears; the name of the angel who protects mankind by night and day against the attacks of the Daevas, and guards the souls of the dead for the first three nights. He may be compared with Gabriel of Semitic mythology, as a principle messenger of God. He is always styled as <span class='pahlavi'>n b|rsA\_=\_s|rF</span> (srôsh-î-ahlôb): holy srosh; metaphorically means "obedience", "humility"; سروش.
 
@@ -302,6 +302,8 @@ Also see [HUMATA HŪXTA HUVARŠTA](https://iranicaonline.org/articles/humata-hux
 <span class='pahlavi'>kajeEi</span> (sâyak): shade, shadow; سایه.
 
 <span class='pahlavi'>nvjfiaTF</span> (stâyišn): to praise, to glorify; ستایش.
+
+<span class='pahlavi'>TeEnpF</span> (spêndât): name of the son of King Vištâp (Gustâsp), the Kiyanian king during whose reign Prophet Zoroaster flourished and proclaimed the religion; اسفندیار.
 
 <span class='pahlavi'>rTF</span> (star): a star, a constellation; ستاره.
 
@@ -358,6 +360,12 @@ Also see [HUMATA HŪXTA HUVARŠTA](https://iranicaonline.org/articles/humata-hux
 <span class='pahlavi'>kvPlp</span> (farjânak): wise, learned, noble, a wise man, an honourable man; فرزانه.
 
 <span class='pahlavi'>nvGtp</span> (patmân): measure, standard, regulation, moderation, plan, design, rule, proportion, estimate, compact, agreement, golden mean, metrical measure; پیمان.
+
+# Persian Calendar Month Names
+
+<span class='pahlavi'>tGynpF</span> (spend-armat): name of an Amesha-spenta who has special charge of the Earth and women: sometimes it is the mother Eart, it is also the name of the 12th month of the year and also the fifth day of the month of Zoroastrian Calendar; اسفند، اسپندارمد.
+
+<span class='pahlavi'>|_Gvn</span> (vohûman): of good mind, the supreme intelligence, the Angel or personification of the good mind, Behman Ameshaspend; بهمن.
 
 # Additional resources
 
