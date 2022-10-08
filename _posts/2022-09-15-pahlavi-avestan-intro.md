@@ -363,9 +363,11 @@ Also see [HUMATA HŪXTA HUVARŠTA](https://iranicaonline.org/articles/humata-hux
 
 # Persian Calendar Month Names
 
-<span class='pahlavi'>tGynpF</span> (spend-armat): name of an Amesha-spenta who has special charge of the Earth and women: sometimes it is the mother Eart, it is also the name of the 12th month of the year and also the fifth day of the month of Zoroastrian Calendar; اسفند، اسپندارمد.
+<span class='pahlavi'>nyjEl|rp</span> (Farvardîn): same as <span class='pahlavi'>nyTl|rp</span> (farvartîn), belonging to Farvar or Fravashi, the name of the 1st month & 19th day of every month of Zoroastrian Year; فروردین.
 
 <span class='pahlavi'>|_Gvn</span> (vohûman): of good mind, the supreme intelligence, the Angel or personification of the good mind, Behman Ameshaspend; بهمن.
+
+<span class='pahlavi'>tGynpF</span> (spend-armat): name of an Amesha-spenta who has special charge of the Earth and women: sometimes it is the mother Eart, it is also the name of the 12th month of the year and also the fifth day of the month of Zoroastrian Calendar; اسفند، اسپندارمد.
 
 # Additional resources
 
