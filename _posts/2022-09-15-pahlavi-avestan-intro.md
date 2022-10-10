@@ -13,7 +13,7 @@ custom_head: <link rel="stylesheet" href="/css/khusro.css"">
 
 This language is written and read right-to-left, however in this blog post because the main body of text is English, the text is aligned on the left-side.
 
-This blog post requires a browser that supports custom fonts, since I am using the [Khusro Pahlavi font](http://avesta.org/iranian-font/pahlavi.html). If you cannot see this blog post properly, a PDF version of this blog post is available [here](/files/Middle Persian & Pahlavi script.pdf).
+This blog post requires a browser that supports custom fonts, since I am using the [Khusro Pahlavi font](http://avesta.org/iranian-font/pahlavi.html). If you cannot see this blog post properly, a PDF version of this blog post is available [here](/files/pahlavi/Middle Persian & Pahlavi script.pdf).
 
 # Alphabet
 
@@ -365,16 +365,29 @@ Also see [HUMATA HŪXTA HUVARŠTA](https://iranicaonline.org/articles/humata-hux
 
 <span class='pahlavi'>nyjEl|rp</span> (Farvardîn): same as <span class='pahlavi'>nyTl|rp</span> (farvartîn), belonging to Farvar or Fravashi, the name of the 1st month & 19th day of every month of Zoroastrian Year; فروردین.
 
+<span class='pahlavi'>tsfPXanatra</span> (arta vahišt): name of the second Amahraspand (divine deity) in Zoroastrianism, "right"; اردیبهشت.
+
+<span class='pahlavi'>ta#r|_Ga</span> (amôrtat): immortal, name of the sixth Amahraspand (divine deity) in Zoroastrianism; مرداد.
+
+<span class='pahlavi'>naba</span> (âbân): eighth month of the Zoroastrian calendar; آبان.
+
 <span class='pahlavi'>|_Gvn</span> (vohûman): of good mind, the supreme intelligence, the Angel or personification of the good mind, Behman Ameshaspend; بهمن.
 
 <span class='pahlavi'>tGynpF</span> (spend-armat): name of an Amesha-spenta who has special charge of the Earth and women: sometimes it is the mother Eart, it is also the name of the 12th month of the year and also the fifth day of the month of Zoroastrian Calendar; اسفند، اسپندارمد.
 
 # Additional resources
 
-- [Introduction to Pahlavi by Prods OKTOR SKJÆRVØ](/files/Pahlavi Primer - Prods Oktor Skjaerv.pdf): a great resource with introduction to grammar, a lot of words and full text translations.
+- [Introduction to Pahlavi by Prods OKTOR SKJÆRVØ](/files/pahlavi/Pahlavi Primer - Prods Oktor Skjaerv.pdf): a great resource with introduction to grammar, a lot of words and full text translations.
 - [Avestan Digital Archive](https://ada.geschkult.fu-berlin.de/): a search engine for manuscripts
 - [Avesta - Zoroastrian Archives](avesta.org/): has some of the texts and other resources related to Avesta and Zoroastrianism
-
+- [Persian to Pahlavi Dictionary by Bahram Farehvashi](/files/pahlavi/Persian-Pahlavi-Dictionary.pdf): a dictionary from modern Persian to Pahlavi (only includes transliterated Pahlavi)
+- [Bundahiśn Dictionary by Mehrdad Bahar](/files/pahlavi/GL-bundahisn.pdf): a dictionary from Pahlavi to Modern Persian
+- [Name'e Pahlavi: Self-taught Pahlavi by Fereydoon Janidi](/files/pahlavi/NPrg.pdf): A book for self-taught Pahlavi in Persian
+- [Small Dictionary of Middle Persian](/files/pahlavi/ParsiMianeh.pdf): A small dictionary of Middle Persian words, along with their Modern Persian equivalent and transliteration
+- [A Concise Pahlavi Dictionary by McKenzie](/files/pahlavi/A-Concise-Pahlavi-Dictionary.pdf): A small dictionary of Middle Persian words, along with their Modern Persian equivalent and transliteration
+- [An Old Zand-Pahlavi Glossary by Hoshang Jamaspji Asa](/files/pahlavi/An-Old-Zand-Pahlavi-Glossary.pdf): An Avestan to Pahlavi dictonary
+- 
+- [Parsi Anjoman](https://parsianjoman.org/): a website and community full of resources dedicated to preservation of Persian language
 
 # References 
 
