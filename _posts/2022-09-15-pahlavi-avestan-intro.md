@@ -386,7 +386,6 @@ Also see [HUMATA HŪXTA HUVARŠTA](https://iranicaonline.org/articles/humata-hux
 - [Small Dictionary of Middle Persian](/files/pahlavi/ParsiMianeh.pdf): A small dictionary of Middle Persian words, along with their Modern Persian equivalent and transliteration
 - [A Concise Pahlavi Dictionary by McKenzie](/files/pahlavi/A-Concise-Pahlavi-Dictionary.pdf): A small dictionary of Middle Persian words, along with their Modern Persian equivalent and transliteration
 - [An Old Zand-Pahlavi Glossary by Hoshang Jamaspji Asa](/files/pahlavi/An-Old-Zand-Pahlavi-Glossary.pdf): An Avestan to Pahlavi dictonary
-- 
 - [Parsi Anjoman](https://parsianjoman.org/): a website and community full of resources dedicated to preservation of Persian language
 
 # References 
