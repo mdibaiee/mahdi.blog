@@ -238,10 +238,10 @@ char` is represented using `u8` in Rust, so in Rust terminology the type is
 0x000000016fdfed78:         (unsigned char *) pointer = 0x0000600000004010
 0x000000016fdfed78:         (core::marker::PhantomData<unsigned char>) _marker = {}
       }
-0x000000016fdfed80:       (unsigned long) cap = 6
+0x000000016fdfed80:       (unsigned long) cap = 5
 0x000000016fdfed78:       (alloc::alloc::Global) alloc = {}
     }
-0x000000016fdfed88:     (unsigned long) len = 6
+0x000000016fdfed88:     (unsigned long) len = 5
   }
 }
 ```
@@ -249,8 +249,8 @@ char` is represented using `u8` in Rust, so in Rust terminology the type is
 Ah! I see the `ptr` field of `RawVec` with a value of `0x0000600000004010`, that
 is the memory address of the beginning of our string (namely the `h` of our
 `hello`)! There is also `cap` and `len`, which respectively stand for capacity
-and length, with the value 6, indicating that our string is of capacity and
-length 6; the difference between the two being that [you can have a `Vec` with a
+and length, with the value 5, indicating that our string is of capacity and
+length 5; the difference between the two being that [you can have a `Vec` with a
 capacity of 10 while it has zero
 items](https://doc.rust-lang.org/nightly/std/vec/struct.Vec.html#capacity-and-reallocation),
 this would allow you to append 10 items to the `Vec` without having a new
