@@ -8,13 +8,24 @@ categories: travel, language
 author: Mahdi
 ---
 
-During my trip to south of Uganda I interacted with people who mainly spoke a local language called Rukiga (pronounced ruʃɪga). They said there is no dictionary for their language as of yet (although it is apparently being worked on), so I just kept asking them to teach me words and phrases and their grammar bit by bit. So here I’m sharing what I learned from my friends here in Uganda with you. Thanks to Tabitha and Tutamuzongoza and Jovan Tumwijukye specially who taught me and my friend a lot of these words and they spent time correcting the writing and pronunciation.
+During my trip to south of Uganda I interacted with people who mainly spoke a
+local language called Rukiga (pronounced ruʃɪga). They said there is no
+dictionary for their language as of yet (although it is apparently being worked
+on), so I just kept asking them to teach me words and phrases and their grammar
+bit by bit. So here I’m sharing what I learned from my friends here in Uganda
+with you. Thanks to Tabitha and Tutamuzongoza and Jovan Tumwijukye specially who
+taught me and my friend a lot of these words and they spent time correcting the
+writing and pronunciation.
 
 # Pronunciation
 
-Refer to the [Wikipedia page](https://en.m.wikipedia.org/wiki/Kiga_language) of the language which includes an orthography of the language as a guide for pronunciation.
+Refer to the [Wikipedia page](https://en.m.wikipedia.org/wiki/Kiga_language) of
+the language which includes an orthography of the language as a guide for
+pronunciation.
 
-Pronunciations may vary depending on the region. As an example, in one area we were told Musana means sun, but in another region we were told it’s pronounced as Mushana.
+Pronunciations may vary depending on the region. As an example, in one area we
+were told Musana means sun, but in another region we were told it’s pronounced
+as Mushana.
 
 # A tiny dictionary of words
 
@@ -283,4 +294,8 @@ Akana kenjagi kaboneire munonga munonga: baby gorilla is very very beautiful
 
 # Additional resources
 
-The local people told me there is no dictionary of Rukiga yet, but it is being worked on and will be piblished soon. however, one potentially useful resource for learning Rukiga is using a bible in Rukiga and comparing it to an English bible. A bible in Rukiga is [available online](https://www.bible.com/bible/1434/GEN.1.RR64).
+The local people told me there is no dictionary of Rukiga yet, but it is being
+worked on and will be piblished soon. however, one potentially useful resource
+for learning Rukiga is using a bible in Rukiga and comparing it to an English
+bible. A bible in Rukiga is [available
+online](https://www.bible.com/bible/1434/GEN.1.RR64).
