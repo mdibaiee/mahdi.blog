@@ -1017,6 +1017,34 @@ II.1,2:137)
 
 ----
 
+Van Gogh
+
+What would life be if we had no courage to attempt anything.
+
+Unknown and uncelebrated during his lifetime, there was little demand for his
+work. He used some of his art as payment for bills. Van Gogh only managed to
+sell one painting while living.
+
+Meanwhile his artworks have sold at prices as high as $82,500,000.
+
+"It is good to love many things, for therein lies the true strength, and whosoever
+loves much performs much, and can accomplish much,
+and what is done in love is well done."
+
+I don't know anything with certainty, but seeing the stars makes
+me dream."
+
+"The patient, though calm most of the time, has had several attacks during his stay in the
+establishment which lasted from two weeks to one month... between his attacks the patient was
+perfectly quiet and devoted himself with ardour to his painting.
+
+On the day Van Gogh left the asylum, Peyron wrote a single word in the comments column: Recovery."
+
+On 27 July that same year, Vincent Van Gogh shot himself in the chest. He died two days later, in
+Auvers-sur-Oise.
+
+----
+
 I hold the knife. I just used it to scrap off some tape from my art prints so I could put them on the wall again, with new tape.
 I think of the possibilities. Imagine cutting myself and sitting silently, and calmly, considering that I will be bereft or anything at all in due time. I consider what happens tomorrow (although there will be no notion of tomorrow anymore, soon). What will the people who knew me think? Feel? Anyone feeling guilty? Responsible? Cause and effect?
 Knives look different now. So do bridges, high buildings. The custom house is my favourite, to make it absolutely clear to this place and its people. They will brushing it off as insanity or whatnot anyway. Or will they change? Very unlikely.
