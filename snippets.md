@@ -1059,6 +1059,33 @@ In the pale grass, under the vivid colors of the sky, the two gravediggers were 
 
 ----
 
+<div class="lang-fa">
+سروده‌هایی از فروغ فرخزاد
+<br/>
+<br/>
+
+بس که لبریزم از تو میخواهم
+<br/>
+بروم در میان صحراها
+<br/>
+سر بسایم به سنگ کوهستان
+<br/>
+تن بکوبم به موج دریاها
+<br/>
+<br/>
+
+آری آغاز دوست داشتن است
+<br/>
+گرچه پایان راه ناپیداست
+<br/>
+من به پایان دگر نیاندیشم
+<br/>
+که همین دوست داشتن زیباست
+<br/>
+</div>
+
+----
+
 I Know the Truth
 
 I know the truth—give up all other truths!<br />
