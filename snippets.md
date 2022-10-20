@@ -1961,3 +1961,6 @@ Flowers
 
 ![Flowers](/img/snippets/longfellow/flowers.jpg)
 
+---
+
+I hate RSA.ie, I absolutely abhor Ireland's Road Safety Authority.
