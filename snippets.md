@@ -11,6 +11,22 @@ Short snippets of thought. Ramblings. Random shite.
 
 ----
 
+[Memento
+Civitatem](https://www.nationalgallery.ie/art-and-artists/exhibitions/memento-civitatem-alice-maher-and-jamie-murphy)
+
+![IMG_9827.jpeg](/img/snippets/memento-civitatem/IMG_9827.jpeg)
+![IMG_9828.jpeg](/img/snippets/memento-civitatem/IMG_9827.jpeg)
+![IMG_9829.jpeg](/img/snippets/memento-civitatem/IMG_9827.jpeg)
+![IMG_9830.jpeg](/img/snippets/memento-civitatem/IMG_9827.jpeg)
+
+----
+
+The Opening of the Sixth Seal, Francis Danby
+
+![The Opening of the Sixth Seal, Francis Danby](/img/snippets/the-opening-of-the-sixth-seal.jpeg)
+
+----
+
 Was thinking about what is creativity: connection of seemingly irrelevant concepts. Puns are creative because they make a non-obvious connection. The connection is not nonsensical, but not obvious either.
 
 ----
