@@ -15,9 +15,9 @@ Short snippets of thought. Ramblings. Random shite.
 Civitatem](https://www.nationalgallery.ie/art-and-artists/exhibitions/memento-civitatem-alice-maher-and-jamie-murphy)
 
 ![IMG_9827.jpeg](/img/snippets/memento-civitatem/IMG_9827.jpeg)
-![IMG_9828.jpeg](/img/snippets/memento-civitatem/IMG_9827.jpeg)
-![IMG_9829.jpeg](/img/snippets/memento-civitatem/IMG_9827.jpeg)
-![IMG_9830.jpeg](/img/snippets/memento-civitatem/IMG_9827.jpeg)
+![IMG_9828.jpeg](/img/snippets/memento-civitatem/IMG_9828.jpeg)
+![IMG_9829.jpeg](/img/snippets/memento-civitatem/IMG_9829.jpeg)
+![IMG_9830.jpeg](/img/snippets/memento-civitatem/IMG_9830.jpeg)
 
 ----
 
