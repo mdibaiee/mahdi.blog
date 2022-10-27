@@ -65,10 +65,7 @@ realised the company's culture at the time was toxic (later the product manager
 who was creating this atmosphere was fired), and I wanted to change my company,
 but I was surprised to learn that the Critical Skills Work Permit does not allow
 you to leave your job before a year, and if you do, you are not eligible for
-another work permit before the year ends. I think I prefer UK's system where if
-I leave early, I pay the price of the visa sponsership and am free to change my
-work, rather than being locked in with no options available. I felt like a slave
-that one year.
+another work permit before the year ends. I felt like a slave that one year.
 
 ## Driving License
 
@@ -169,7 +166,7 @@ classes with slots available. I have emailed and called different centres but
 was not able to get in-person classes.
 
 This also applies to work opportunities, as much as Dublin may be hyped as a
-tech hub, I find the work opportunity schene in Dublin to be very limited. Yes,
+tech hub, I find the work opportunity scene in Dublin to be very limited. Yes,
 large companies do have offices in Dublin, but there is not a strong startup
 culture here, and so you are limited to the Big Tech corps, and the small and
 far-in-between startups.
@@ -226,6 +223,8 @@ make you immune though!).
 I always find it hard to believe how Ireland is considered a "developed"
 country, perhaps I don't understand what is meant with that word, but I expect a
 developed country to have good infrastructure and for systems to work well.
+
+![Ireland's Infrastructure's Broken Loop](/img/ireland-infrastructure.png)
 
 The public transport system in Ireland is _very_ limited and not reliable. That
 means a bus not showing up will happen at some point during your time here (not
