@@ -256,10 +256,3 @@ injury, and for the whole 6 months I went to the gym, he was still in queue
 waiting for a surgery from public hospital. In Iran, my friend who had a
 shoulder injury got a surgery at a public hospital in a couple of weeks.
 
-# Conclusion
-
-In the end, all of the things I described may seem like non-problems to someone,
-but I have strong reason to not want to live, spend my time and my tax money in
-a country that doesn't improve my life, and instead gives me baggages of mental
-frustration to carry around.
-
