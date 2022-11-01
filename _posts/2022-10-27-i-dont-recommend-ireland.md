@@ -145,7 +145,7 @@ White), 1.7% non-Chinese Asian and 1.5% other backgrounds
 
 It is different walking in London and Dublin, in London I, as a brown-skinned
 middle eastern, do not feel I am standing out among the crowd, but in Dublin,
-and more so outside of Ireland, I do.
+and more so outside of Dublin in rest of Ireland, I do.
 
 My main sport for the past 7 years or so has been parkour, a sport that you can
 find active communities for in every city in Iran, but in Ireland there is a
