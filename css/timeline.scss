@@ -1,0 +1,71 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+.timeline {
+  .event {
+    position: relative;
+    min-height: 150px;
+
+    // The dot
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: black;
+      position: absolute;
+      left: calc(50% - 8px);
+    }
+
+    // Line connecting the dot to the next dot
+    &::after {
+      content: "";
+      display: inlne-block;
+      width: 2px;
+      height: 100%;
+      background: black;
+      position: absolute;
+      left: calc(50% - 1px);
+      top: 16px;
+    }
+
+    .date-en, .date-fa {
+      font-size: 11px;
+      display: inline-block;
+      position: absolute;
+    }
+
+    .left, .right {
+      width: 47%;
+      height: auto;
+      padding-bottom: 30px;
+
+      p {
+        position: relative;
+        top: 30px;
+      }
+    }
+
+    .left {
+      position: relative;
+      text-align: left;
+      left: 0;
+    }
+
+    .right {
+      position: absolute;
+      text-align: right;
+      direction: rtl;
+      right: 0;
+      top: 0;
+    }
+
+    .date-en {
+      right: 0;
+    }
+    .date-fa {
+      left: 0;
+    }
+  }
+}
