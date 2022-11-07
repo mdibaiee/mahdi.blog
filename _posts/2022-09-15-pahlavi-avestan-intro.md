@@ -502,7 +502,7 @@ firmament; آسمان.
 <span class='pahlavi'>nyjEaH_gEIa</span> (âsîm-âyîn): pertaining to silver;
 سیمین.
 
-<span class='pahlavi'>#wzTef</span> (šahrzad): شهرزاد.
+<span class='pahlavi'>#wzTef</span> (šahrzâd): شهرزاد.
 
 <span class='pahlavi'>PlnB__Ra</span> (Albôrz): name of the celebrated lefty
 mountain-range of Persia, whose highest peak is Mt. Damavand, south of Caspian
