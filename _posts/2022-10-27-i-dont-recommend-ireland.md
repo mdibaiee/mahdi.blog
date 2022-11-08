@@ -218,6 +218,21 @@ other countries, and I don't think that's a good argument, but you will
 experience racism here, specially if you are not white (being white does not
 make you immune though!).
 
+When I first came to Ireland I opened a bank account with bank A (I won't name
+the bank lest the unreasonable system of law here allows them to sue me for
+this), and this bank, after a couple of months, sent me a mail in post which
+said that they are closing my account in 30 days, and I must move my money
+before then. No explanation was provided, when I called them, emailed them, and
+in the end, had to go to the branch to ask them in-person why are they closing
+my account, the branch manager told me "I don't know", and I said I need you to
+ask the reason and clarify it for me. He came back to me days later in email
+saying "we cannot disclose the reason for closing your bank account". I was
+already suspicious since the beginning that this all had to do with my
+nationality, and by this point I was convinced that is the case. At the time I
+was very new to the country and didn't know my rights and my way around the
+system, I _might_ have been able to sue them for discrimination, but I wouldn't
+be surprised if that wouldn't work either.
+
 # Infrastructure
 
 I always find it hard to believe how Ireland is considered a "developed"
