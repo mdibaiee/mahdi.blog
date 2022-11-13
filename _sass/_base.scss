@@ -145,6 +145,14 @@ blockquote {
     }
 }
 
+.lang-fa blockquote {
+  border-left: 0;
+  padding-right: inherit;
+  border-right: 4px solid $grey-color-light;
+  padding-right: $spacing-unit / 2;
+  font-style: inherit;
+}
+
 
 
 /**
