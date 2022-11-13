@@ -1980,3 +1980,50 @@ Flowers
 ---
 
 I hate RSA.ie, I absolutely abhor Ireland's Road Safety Authority.
+
+---
+
+I don't believe in omens or fear
+Forebodings. I flee from neither slander
+Nor from poison. Death does not exist.
+Everyone's immortal. Everything is too.
+No point in fearing death at seventeen,
+Or seventy. There's only here and now, and light;
+Neither death, nor darkness, exists.
+We're all already on the seashore;
+I'm one of those who'll be hauling in the nets
+When a shoal of immortality swims by.
+
+If you live in a house - the house will not fall.
+I'll summon any of the centuries,
+Then enter one and build a house in it.
+That's why your children and your wives
+Sit with me at one table, -
+The same for ancestor and grandson:
+The future is being accomplished now,
+If I raise my hand a little,
+All five beams of light will stay with you.
+Each day I used my collar bones
+For shoring up the past, as though with timber,
+I measured time with geodetic chains
+And marched across it, as though it were the Urals.
+
+I tailored the age to fit me.
+We walked to the south, raising dust above the steppe;
+The tall weeds fumed; the grasshopper danced,
+Touching its antenna to the horse-shoes - and it prophesied,
+Threatening me with destruction, like a monk.
+I strapped my fate to the saddle;
+And even now, in these coming times,
+I stand up in the stirrups like a child.
+
+I'm satisfied with deathlessness,
+For my blood to flow from age to age.
+Yet for a corner whose warmth I could rely on
+I'd willingly have given all my life,
+Whenever her flying needle
+Tugged me, like a thread, around the globe.
+
+- Life, Life by Arseny Tarkovsky
+
+[John Haughm - 042911](https://www.youtube.com/watch?v=oiu4ZmMkmXE)
