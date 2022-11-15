@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "Animals and Machines: A Misled Comparison"
+title: "On Efficiency of Animals and Machines"
 subtitle: "I find comparing animals and machines absurd"
 date: 2022-11-13 00:00:00
 permalink: animals-and-machines/
 categories: personal, science
-published: false
 math: true
 author: Mahdi
 ---
@@ -98,10 +97,59 @@ a good human artist, and it sure is not as efficient as a human. I think to say 
 AI is smarter than humans in any subject, must take into account the efficiency
 of the system as well.
 
+Moreover, Stable Diffusion is only capable of doing one thing, a very narrow and
+focused task: given text, output images. I'm not dismissing the complexity of
+this task, but it is still a narrow task. Every being's world lends it with
+innumerable affordances, and an animal surviving in the world has to be able to solve
+a lot more problems, and yet, the animal is an order of magnitude more efficient
+at using its faculties to survive. Stable Diffusion focuses on one task, and is
+extremely energy-inefficient at solving that.
+
 ## Hummingbird
 
 My favourite example when it comes to comparing animals and machines, is the
 tiny hummingbird, which I think is more impressive than any machine made by
-humans, let me explain!
+humans.
+
+Hummingbirds can range from as small as 5 centimeters weighing 2 grams up to 23
+centimeters and weighing 18 - 24 grams. They can flap their wings 12 times per
+second in larger species and around 80 times per second in smaller species.
+Some hummingbirds can fly up to 54 kilometers per hour in wind tunnels!
+
+Now these tiny little birds are experts at hovering in the air, and keeping
+their long beaks stable while sucking nectar from flowers, and when I say
+expert, I mean it! Look at this video of a hummingbird keeping itself stable
+while being blown with a 32km/h wind, and I remind you, the
+bird itself weighs only a few grams, but can hold itself stable against such
+wind!
+
+<iframe class="centered" width="560" height="315" src="https://www.youtube-nocookie.com/embed/JyqY64ovjfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+How efficient are hummingbirds? In a sense, they actually have the highest
+metabolism of any warm-blooded animal, so they end up consuming their own body
+weight in nectar every single day {% cite hummingbird %}, but on the other hand,
+if we consider human-made machines, can we build any kind of machine with our
+current understanding and technology that weighs only a few grams, can hold
+itself stable in winds as fast as 32km/h, mates with its own species to produce
+offsprings, and only consumes a few grams of flower nectar per day? I'm still
+over-simplifying the hummingbird by naming a few actions it takes, but in
+reality of course, the animal is much more complex and does a lot more than
+this.
+
+# Conclusion
+
+I think comparing such marvels of efficiency with machines is
+absurd. We don't come close to making something as efficient and intelligent as
+animals with such complexity, and our _intelligent_ tools are only intelligent in a narrow manner, all the while
+consuming energy that could feed an animal for _years_ to do what they do.
+
+Our current approach of computation does not seem to lend itself
+to such order-of-magnitude efficiency contrast. Moore's Law does not apply
+anymore {% cite rotman2020we %} and I don't see us improving CPU efficiency in a
+significant manner that brings us closer to biological efficiency of animal
+cognition without a breakthrough in the underlying technology and model we use
+for computation and cognition.
+
+# References
 
 {% bibliography --cited %}
