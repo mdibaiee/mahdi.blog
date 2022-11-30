@@ -2,7 +2,7 @@
 layout: post
 title: "On Efficiency of Animals and Machines"
 subtitle: "I find comparing animals and machines absurd"
-date: 2022-11-13 00:00:00
+date: 2022-11-15 00:00:00
 permalink: animals-and-machines/
 categories: personal, science
 math: true
