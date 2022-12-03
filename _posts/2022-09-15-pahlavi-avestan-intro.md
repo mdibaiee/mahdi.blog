@@ -587,6 +587,8 @@ an honourable man; فرزانه.
 moderation, plan, design, rule, proportion, estimate, compact, agreement, golden
 mean, metrical measure; پیمان.
 
+<span class='pahlavi'>nvyk</span> (keyvân): Saturn; کیوان.
+
 # Persian Calendar Month Names
 
 <span class='pahlavi'>nyjEl|rp</span> (Farvardîn): same as <span
