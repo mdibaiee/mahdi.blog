@@ -228,3 +228,13 @@ hr {
 .art .post-content:hover .image-details {
   opacity: 0;
 }
+
+.notice {
+  background-color: #80c4d5;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+
+  p {
+    margin: 0;
+  }
+}
