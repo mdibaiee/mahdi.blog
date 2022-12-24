@@ -166,6 +166,15 @@ strong {
   }
 }
 
+.post-content .footnote + .heading-link {
+  display: none;
+}
+
+.footnotes .heading-link {
+  left: -40px;
+  top: 5px;
+}
+
 article .image-caption {
   display: block;
   text-align: center;
