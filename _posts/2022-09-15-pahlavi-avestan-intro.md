@@ -587,6 +587,8 @@ an honourable man; فرزانه.
 moderation, plan, design, rule, proportion, estimate, compact, agreement, golden
 mean, metrical measure; پیمان.
 
+<span class='pahlavi'>nvyk</span> (keyvân): Saturn; کیوان.
+
 # Persian Calendar Month Names
 
 <span class='pahlavi'>nyjEl|rp</span> (Farvardîn): same as <span
@@ -613,8 +615,7 @@ month of Zoroastrian Calendar; اسفند، اسپندارمد.
 
 # Additional resources
 
-- [Introduction to Pahlavi by Prods OKTOR SKJÆRVØ](/files/pahlavi/Pahlavi Primer
-  - Prods Oktor Skjaerv.pdf): a great resource with introduction to grammar, a
+- [Introduction to Pahlavi by Prods OKTOR SKJÆRVØ](/files/pahlavi/Pahlavi Primer Prods Oktor Skjaerv.pdf): a great resource with introduction to grammar, a
   lot of words and full text translations.
 - [Avestan Digital Archive](https://ada.geschkult.fu-berlin.de/): a search
   engine for manuscripts
@@ -630,12 +631,10 @@ month of Zoroastrian Calendar; اسفند، اسپندارمد.
 - [Small Dictionary of Middle Persian](/files/pahlavi/ParsiMianeh.pdf): A small
   dictionary of Middle Persian words, along with their Modern Persian equivalent
   and transliteration
-- [A Concise Pahlavi Dictionary by
-  McKenzie](/files/pahlavi/A-Concise-Pahlavi-Dictionary.pdf): A small dictionary
+- [A Concise Pahlavi Dictionary by McKenzie](/files/pahlavi/A-Concise-Pahlavi-Dictionary.pdf): A small dictionary
   of Middle Persian words, along with their Modern Persian equivalent and
   transliteration
-- [An Old Zand-Pahlavi Glossary by Hoshang Jamaspji
-  Asa](/files/pahlavi/An-Old-Zand-Pahlavi-Glossary.pdf): An Avestan to Pahlavi
+- [An Old Zand-Pahlavi Glossary by Hoshang Jamaspji Asa](/files/pahlavi/An-Old-Zand-Pahlavi-Glossary.pdf): An Avestan to Pahlavi
   dictonary
 - [Parsi Anjoman](https://parsianjoman.org/): a website and community full of
   resources dedicated to preservation of Persian language

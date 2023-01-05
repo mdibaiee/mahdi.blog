@@ -1983,46 +1983,46 @@ I hate RSA.ie, I absolutely abhor Ireland's Road Safety Authority.
 
 ---
 
-I don't believe in omens or fear
-Forebodings. I flee from neither slander
-Nor from poison. Death does not exist.
-Everyone's immortal. Everything is too.
-No point in fearing death at seventeen,
-Or seventy. There's only here and now, and light;
-Neither death, nor darkness, exists.
-We're all already on the seashore;
-I'm one of those who'll be hauling in the nets
-When a shoal of immortality swims by.
+I don't believe in omens or fear<br/>
+Forebodings. I flee from neither slander<br/>
+Nor from poison. Death does not exist.<br/>
+Everyone's immortal. Everything is too.<br/>
+No point in fearing death at seventeen,<br/>
+Or seventy. There's only here and now, and light;<br/>
+Neither death, nor darkness, exists.<br/>
+We're all already on the seashore;<br/>
+I'm one of those who'll be hauling in the nets<br/>
+When a shoal of immortality swims by.<br/>
 
-If you live in a house - the house will not fall.
-I'll summon any of the centuries,
-Then enter one and build a house in it.
-That's why your children and your wives
-Sit with me at one table, -
-The same for ancestor and grandson:
-The future is being accomplished now,
-If I raise my hand a little,
-All five beams of light will stay with you.
-Each day I used my collar bones
-For shoring up the past, as though with timber,
-I measured time with geodetic chains
-And marched across it, as though it were the Urals.
+If you live in a house - the house will not fall.<br/>
+I'll summon any of the centuries,<br/>
+Then enter one and build a house in it.<br/>
+That's why your children and your wives<br/>
+Sit with me at one table, -<br/>
+The same for ancestor and grandson:<br/>
+The future is being accomplished now,<br/>
+If I raise my hand a little,<br/>
+All five beams of light will stay with you.<br/>
+Each day I used my collar bones<br/>
+For shoring up the past, as though with timber,<br/>
+I measured time with geodetic chains<br/>
+And marched across it, as though it were the Urals.<br/>
 
-I tailored the age to fit me.
-We walked to the south, raising dust above the steppe;
-The tall weeds fumed; the grasshopper danced,
-Touching its antenna to the horse-shoes - and it prophesied,
-Threatening me with destruction, like a monk.
-I strapped my fate to the saddle;
-And even now, in these coming times,
-I stand up in the stirrups like a child.
+I tailored the age to fit me.<br/>
+We walked to the south, raising dust above the steppe;<br/>
+The tall weeds fumed; the grasshopper danced,<br/>
+Touching its antenna to the horse-shoes - and it prophesied,<br/>
+Threatening me with destruction, like a monk.<br/>
+I strapped my fate to the saddle;<br/>
+And even now, in these coming times,<br/>
+I stand up in the stirrups like a child.<br/>
 
-I'm satisfied with deathlessness,
-For my blood to flow from age to age.
-Yet for a corner whose warmth I could rely on
-I'd willingly have given all my life,
-Whenever her flying needle
-Tugged me, like a thread, around the globe.
+I'm satisfied with deathlessness,<br/>
+For my blood to flow from age to age.<br/>
+Yet for a corner whose warmth I could rely on<br/>
+I'd willingly have given all my life,<br/>
+Whenever her flying needle<br/>
+Tugged me, like a thread, around the globe.<br/>
 
 - Life, Life by Arseny Tarkovsky
 
