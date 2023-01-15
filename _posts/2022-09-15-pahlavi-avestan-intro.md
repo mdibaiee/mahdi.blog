@@ -609,7 +609,7 @@ intelligence, the Angel or personification of the good mind, Behman Ameshaspend;
 بهمن.
 
 <span class='pahlavi'>tGynpF</span> (spend-armat): name of an Amesha-spenta who
-has special charge of the Earth and women: sometimes it is the mother Eart, it
+has special charge of the Earth and women: sometimes it is the mother Earth, it
 is also the name of the 12th month of the year and also the fifth day of the
 month of Zoroastrian Calendar; اسفند، اسپندارمد.
 
