@@ -11,6 +11,11 @@ Short snippets of thought. Ramblings. Random shite.
 
 ----
 
+[The Cab Ride I'll Never
+Forget](https://kentnerburn.com/the-cab-ride-ill-never-forget/)
+
+----
+
 [Memento
 Civitatem](https://www.nationalgallery.ie/art-and-artists/exhibitions/memento-civitatem-alice-maher-and-jamie-murphy)
 
