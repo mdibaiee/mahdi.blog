@@ -4,6 +4,7 @@ title: "milan-cathedral"
 date:   2021-12-23
 categories: art
 author: Mahdi
+anchor: Milan Cathedral
 ---
 
 ![milan-cathedral](/img/arts/milan-cathedral.jpg)

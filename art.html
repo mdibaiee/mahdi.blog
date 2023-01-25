@@ -12,6 +12,30 @@ layout: default
     </p>
   </div>
 
+  <div class='side-anchors'>
+    <details open>
+      <summary>Highlights</summary>
+      <ul>
+        {% for post in site.art reversed %}
+          {% if post.published == false %}
+            {% continue %}
+          {% endif %}
+          {% if post.anchor == nil %}
+            {% continue %}
+          {% endif %}
+          <li>
+            <a href='#{{ post.title }}'>
+              <span class='meta'>
+                {{ post.date | date: "%Y" }}
+              </span>
+              {{ post.anchor }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </details>
+  </div>
+
   <ul class="post-list">
     {% for post in site.art reversed %}
       {% if post.published == false %}
@@ -27,6 +51,9 @@ layout: default
           </p>-->
 
         <article class='post-content'>
+          {% if post.anchor %}
+          <span id='{{ post.title }}'></span>
+          {% endif %}
           {{ post.content | markdownify }}
         </article>
       </li>

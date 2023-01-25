@@ -4,6 +4,7 @@ title: "flamingos-iran"
 date:   2019-11-03
 categories: art
 author: Mahdi
+anchor: Iran
 ---
 
 ![flamingos-iran](/img/arts/flamingos-iran.jpg)

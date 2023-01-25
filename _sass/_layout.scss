@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #FFF7EC;
   height: auto;
@@ -236,6 +240,21 @@ hr {
 
 .art .post-content:hover .image-details {
   opacity: 0;
+}
+
+.side-anchors {
+  margin: 1rem;
+  vertical-align: middle;
+
+  ul {
+    list-style-type: '- ';
+    margin-left: 1.5rem;
+  }
+
+  .meta {
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+  }
 }
 
 .notice {

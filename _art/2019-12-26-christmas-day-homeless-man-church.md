@@ -4,6 +4,7 @@ title: "christmas-day-homeless-man-church"
 date:   2019-12-26
 categories: art
 author: Mahdi
+anchor: Homeless man at church
 ---
 
 ![christmas-day-homeless-man-church](/img/arts/christmas-day-homeless-man-church.jpg)
