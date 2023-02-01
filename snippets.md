@@ -939,6 +939,42 @@ head down on the table.
 
 ----
 
+Arabic Lullaby
+
+{% fa %}
+دلول دلول یا ولد یا ابنی دلول<br />
+عدوک علیل و ساکن الچول<br />
+یا الولد یما الولد یما الولد<br />
+للکبر نریده المچیده<br />
+لیشیل المحامل و طریده<br />
+فرگه الولد فرگه مچیده<br />
+یما یا الولد یا غالی الثمان<br />
+یا الولد یما الولد یسما الولد یما الولد<br />
+نص اللیل حد بالنوم فزه<br />
+یما عدالی بحضنی<br />
+لیت الزه
+{% endfa %}
+
+Daloul daloul! The boy, my son, daloul! (1)<br/>
+Your enemy is weak and lives in the desert (2)<br />
+The boy, mommy! The boy, the boy, mommy! The boy,<br />
+We want him for our old age, for the time of hardship<br />
+For carrying loads and the hunted meat (3).<br />
+Separation from the son is a very sad separation.<br />
+Mommy! The boy, my dear child,<br />
+In the mid night somebody has awoken him.<br />
+Mommy! Though he is in my arms,<br />
+I wish I could chase that person away.<br />
+
+(1) Daloul in the local Arabic dialect means "my lovely", "my sweetheart" or
+"fondness".<br />
+(2) A very far unreachable flat place.<br />
+(3) Hunted animals.
+
+https://www.mamalisa.com/?t=ec&c=67
+
+----
+
 On marriage:
 
 We excerpted "The Irrational Season" for ours:
