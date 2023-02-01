@@ -975,6 +975,44 @@ https://www.mamalisa.com/?t=ec&c=67
 
 ----
 
+[Mahdi Saki - ... Means Mother](https://www.youtube.com/watch?v=iAzNyEO-OFk)
+
+Arabic:
+
+{% fa %}
+بلیل جستنی الحنینه<br />
+و ادموعها ایبخن الچیمه<br />
+امی الضمد و اخوی شیمه<br />
+<br />
+اوصیچ یا شمس المسیتی<br />
+الوالده عیدی وصیتی<br />
+انه غریبه و طرف بیتی<br />
+{% endfa %}
+
+Persian:
+
+{% fa %}
+شب آن بانوی مهربان به دیدنم آمد<br />
+و اشک‌هایش بر کانون آتش می‌ریخت<br />
+مادرم، مونس است و برادرم، عزت و افتخار<br />
+
+ای خورشیدی که غروب کرده‌ای<br />
+پیغامم را برای مادرم ببر<br />
+که من غریبم و خانه‌ام دور<br />
+{% endfa %}
+
+English:
+
+At night, that kind lady came to visit me,<br />
+Her teardrops were falling into the fireplace,<br />
+My mother is my companion and my brother, my esteem and honor<br />
+
+O' sun you have set,<br />
+Take this message to my mother:<br />
+I am estranged and my home is far<br />
+
+----
+
 On marriage:
 
 We excerpted "The Irrational Season" for ours:
