@@ -1092,6 +1092,13 @@ W. Somerset Maugham
 
 ----
 
+Geometria et Perspectiva Pl 03 (1567) Lorenz
+Stoer
+
+![Geometria et Perspectiva Pl 03 (1567) Lorenz Stoer](/img/snippets/105944absdl_huead6abfc3b2ec917962c518355585afe_3094070_800x0_resize_q80_box.jpeg)
+
+----
+
 Theocles, proposes that the best candidate for the constant good that they are seeking is genuine
 friendship, which he understands as love of humanity.
 HEAR then! said THEOCLES. For tho I pretend not to tell you at once the Nature of this
