@@ -1099,6 +1099,13 @@ Stoer
 
 ----
 
+Maquettes de Theatre 4 (1930) Alexandra Exter
+
+![Maquettes de Theatre 4 (1930) Alexandra Exter](/img/snippets/maquettes-de-theatre-4.jpeg)
+
+
+----
+
 Theocles, proposes that the best candidate for the constant good that they are seeking is genuine
 friendship, which he understands as love of humanity.
 HEAR then! said THEOCLES. For tho I pretend not to tell you at once the Nature of this
