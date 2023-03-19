@@ -63,6 +63,12 @@ Pieces from Austerlitz:
 
 -----
 
+Paikese suudlus (1917) by Oskar Kallis
+
+![Paikese suudlus by Oskar Kallis](/img/snippets/paikese-suudlus.jpeg)
+
+-----
+
 "What if some day or night, a demon were to steal after you into your loneliest loneliness and say to you: "This life as now live it and have lived it, you will have to live once more and innumerable times more; and there will be nothing new in it, but every pain and every joy and every thought and sigh and everything unutterably small or great in your life will have to return to you, all in the same succession and sequence--even this spider and this moonlight between the trees, and even this moment and I myself. The eternal hourglass of existance is turned upside down again and again, and you with it, speck of dust!" Would you not throw yourself down and gnash your teeth and curse the demon who spoke thus? Or have you once experienced a tremendous moment when you would have answered him: "You are a god and never have I heard anything more divine." If this thought gained possession of you, it would change you as you are, or perhaps crush you." - Nietzsche
 
 -----
