@@ -4,7 +4,6 @@ title: "windmill-inner"
 date:   2023-01-30
 categories: art
 author: Mahdi
-anchor: Amsterdam
 ---
 
 ![windmill-inner](/img/arts/nikon-fm/windmill-inner.jpg)

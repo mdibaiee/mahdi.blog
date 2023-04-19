@@ -4,7 +4,6 @@ title: "death-kick"
 date:   2023-01-30
 categories: art
 author: Mahdi
-anchor: Amsterdam
 ---
 
 ![death-kick](/img/arts/nikon-fm/death-kick.jpg)
