@@ -40,6 +40,31 @@ On Neurodiversity: Dyslexia is not a disorder if society doesn’t depend on rea
 
 ----
 
+{% fa %}
+برای تو و خویش<br />
+چشمانی آرزو می‌کنم<br />
+که چراغها و نشانه‌ها را در ظلماتمان ببیند<br />
+گوشی<br />
+که صداها و شناسه‌ها را در بیهوشی‌مان بشنود<br />
+برای تو و خویش<br />
+روحی<br />
+که این‌همه را در خودگیرد و بپذیرد<br />
+و زبانی<br />
+که در صداقت خود ما را از خاموشی خویش بیرون کشد<br />
+و بگذارد از آن چیز‌ها که در بندمان کشیده‌است سخن بگوییم<br />
+{% endfa %}
+
+For Yourself and I<br/>
+I wish for eyes, that can see the lights and signs in our darkness.<br />
+Ears, that can hear the sounds and signals in our negligence<br />
+For yourself and I,<br />
+I wish for a soul, that can accept and embrace all of this,<br />
+And a tongue,<br />
+That with its honesty, can pull us out of our silence,<br />
+And allow us to speak of all the things that hold us captive.<br />
+
+----
+
 Pieces from Austerlitz:
 “As I think of how little we can hold in mind, how everything is constantly lapsing into oblivion with every extinguished life, how the world is, as it were, draining itself, in that the history of countless places and objects which themselves have no power of memory is never heard, never described or passed on”
 
