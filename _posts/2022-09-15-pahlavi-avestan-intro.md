@@ -288,6 +288,7 @@ Examples:
    welcome; مهمان.
 5. <span class='pahlavi'>nntG</span> (Mitra): the name of an Yazat: Meher Yazad;
    presiding over light, also over faith, friendship and contracts; مهر.
+6. <span class='pahlavi'>nwpntx</span> (mitrapan): kind; مهربان.
 
 # <span class='pahlavi'>t</span>
 
