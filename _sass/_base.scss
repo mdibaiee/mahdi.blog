@@ -269,6 +269,15 @@ pre {
 }
 
 @font-face {
+    font-family: Gandom;
+    src: url(fonts/Gandom-FD.eot);
+    src: url(fonts/Gandom-FD?#iefix) format('embedded-opentype'),
+            url(fonts/Gandom-FD.woff) format('woff'),
+            url(fonts/Gandom-FD.woff2) format('woff2'),
+            url(fonts/Gandom-FD.ttf) format('truetype');
+}
+        
+@font-face {
     font-family: Sahel;
     src: url(fonts/Sahel.eot);
     src: url(fonts/Sahel.eot?#iefix) format('embedded-opentype'),
