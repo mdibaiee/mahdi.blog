@@ -4,6 +4,7 @@ title: "girl-among-grains"
 date:   2021-06-29
 categories: art
 author: Mahdi
+anchor: Girl among grains, Austerlitz
 ---
 
 ![girl-among-grains](/img/arts/girl-among-grains.jpg)

@@ -286,8 +286,9 @@ Examples:
 4. <span class='pahlavi'>nvMajX_G</span> (mâhmân): a guest, a visitor, one who
    is entertained; as adjective satisfied, pleased, gratified, agreeable,
    welcome; مهمان.
-5. <span class='pahlavi'>nntG</span> (Mitra): the name of an Yazat: Meher Yazad;
+5. <span class='pahlavi'>nntG</span> (Mitrâ): the name of an Yazat: Meher Yazad;
    presiding over light, also over faith, friendship and contracts; مهر.
+6. <span class='pahlavi'>nwpntx</span> (mitrâpân): kind; مهربان.
 
 # <span class='pahlavi'>t</span>
 
@@ -609,7 +610,7 @@ intelligence, the Angel or personification of the good mind, Behman Ameshaspend;
 بهمن.
 
 <span class='pahlavi'>tGynpF</span> (spend-armat): name of an Amesha-spenta who
-has special charge of the Earth and women: sometimes it is the mother Eart, it
+has special charge of the Earth and women: sometimes it is the mother Earth, it
 is also the name of the 12th month of the year and also the fifth day of the
 month of Zoroastrian Calendar; اسفند، اسپندارمد.
 

@@ -11,6 +11,11 @@ Short snippets of thought. Ramblings. Random shite.
 
 ----
 
+[The Cab Ride I'll Never
+Forget](https://kentnerburn.com/the-cab-ride-ill-never-forget/)
+
+----
+
 [Memento
 Civitatem](https://www.nationalgallery.ie/art-and-artists/exhibitions/memento-civitatem-alice-maher-and-jamie-murphy)
 
@@ -35,6 +40,31 @@ On Neurodiversity: Dyslexia is not a disorder if society doesn’t depend on rea
 
 ----
 
+{% fa %}
+برای تو و خویش<br />
+چشمانی آرزو می‌کنم<br />
+که چراغها و نشانه‌ها را در ظلماتمان ببیند<br />
+گوشی<br />
+که صداها و شناسه‌ها را در بیهوشی‌مان بشنود<br />
+برای تو و خویش<br />
+روحی<br />
+که این‌همه را در خودگیرد و بپذیرد<br />
+و زبانی<br />
+که در صداقت خود ما را از خاموشی خویش بیرون کشد<br />
+و بگذارد از آن چیز‌ها که در بندمان کشیده‌است سخن بگوییم<br />
+{% endfa %}
+
+For Yourself and I<br/>
+I wish for eyes, that can see the lights and signs in our darkness.<br />
+Ears, that can hear the sounds and signals in our negligence<br />
+For yourself and I,<br />
+I wish for a soul, that can accept and embrace all of this,<br />
+And a tongue,<br />
+That with its honesty, can pull us out of our silence,<br />
+And allow us to speak of all the things that hold us captive.<br />
+
+----
+
 Pieces from Austerlitz:
 “As I think of how little we can hold in mind, how everything is constantly lapsing into oblivion with every extinguished life, how the world is, as it were, draining itself, in that the history of countless places and objects which themselves have no power of memory is never heard, never described or passed on”
 
@@ -55,6 +85,12 @@ Pieces from Austerlitz:
 “Might it not be, continued Austerlitz, that we also have appointments to keep in the past, in what has gone before and is for the most part extinguished, and must go there in search of places and people who have some connection with us on the far side of time, so to speak?”
 
 “No one can explain exactly what happens within us when the doors behind which our childhood terrors lurk are flung open.”
+
+-----
+
+Paikese suudlus (1917) by Oskar Kallis
+
+![Paikese suudlus by Oskar Kallis](/img/snippets/paikese-suudlus.jpeg)
 
 -----
 
@@ -607,6 +643,13 @@ Wastebasket.
 
 ----
 
+
+Sheet 29 (Blatt 29), Oskar Fischer, 1919
+
+![Sheet 29 (Blatt 29), Oskar Fischer, 1919](/img/snippets/sheet-29.jpeg)
+
+----
+
 More and more he went running to the public house. But it was no longer to be among men, it was to get drunk. One might imagine him sitting there thinking those slow thoughts without words. One might predict that the day would come when we would realise very suddenly, very clearly, all that he had been thinking about, and, when this urgent, terrible thought had been translated into its own terms of action, he would be quietly hanged by the neck until he was as dead as he had been before he was alive.
 
 - The Blind Man, James Stephens
@@ -934,6 +977,80 @@ head down on the table.
 
 ----
 
+Arabic Lullaby
+
+{% fa %}
+دلول دلول یا ولد یا ابنی دلول<br />
+عدوک علیل و ساکن الچول<br />
+یا الولد یما الولد یما الولد<br />
+للکبر نریده المچیده<br />
+لیشیل المحامل و طریده<br />
+فرگه الولد فرگه مچیده<br />
+یما یا الولد یا غالی الثمان<br />
+یا الولد یما الولد یسما الولد یما الولد<br />
+نص اللیل حد بالنوم فزه<br />
+یما عدالی بحضنی<br />
+لیت الزه
+{% endfa %}
+
+Daloul daloul! The boy, my son, daloul! (1)<br/>
+Your enemy is weak and lives in the desert (2)<br />
+The boy, mommy! The boy, the boy, mommy! The boy,<br />
+We want him for our old age, for the time of hardship<br />
+For carrying loads and the hunted meat (3).<br />
+Separation from the son is a very sad separation.<br />
+Mommy! The boy, my dear child,<br />
+In the mid night somebody has awoken him.<br />
+Mommy! Though he is in my arms,<br />
+I wish I could chase that person away.<br />
+
+(1) Daloul in the local Arabic dialect means "my lovely", "my sweetheart" or
+"fondness".<br />
+(2) A very far unreachable flat place.<br />
+(3) Hunted animals.
+
+https://www.mamalisa.com/?t=ec&c=67
+
+----
+
+[Mahdi Saki - ... Means Mother](https://www.youtube.com/watch?v=iAzNyEO-OFk)
+
+Arabic:
+
+{% fa %}
+بلیل جستنی الحنینه<br />
+و ادموعها ایبخن الچیمه<br />
+امی الضمد و اخوی شیمه<br />
+<br />
+اوصیچ یا شمس المسیتی<br />
+الوالده عیدی وصیتی<br />
+انه غریبه و طرف بیتی<br />
+{% endfa %}
+
+Persian:
+
+{% fa %}
+شب آن بانوی مهربان به دیدنم آمد<br />
+و اشک‌هایش بر کانون آتش می‌ریخت<br />
+مادرم، مونس است و برادرم، عزت و افتخار<br />
+
+ای خورشیدی که غروب کرده‌ای<br />
+پیغامم را برای مادرم ببر<br />
+که من غریبم و خانه‌ام دور<br />
+{% endfa %}
+
+English:
+
+At night, that kind lady came to visit me,<br />
+Her teardrops were falling into the fireplace,<br />
+My mother is my companion and my brother, my esteem and honor<br />
+
+O' sun you have set,<br />
+Take this message to my mother:<br />
+I am estranged and my home is far<br />
+
+----
+
 On marriage:
 
 We excerpted "The Irrational Season" for ours:
@@ -1003,6 +1120,20 @@ W. Somerset Maugham
 — Thomas Paine, Agrarian Justice, 1797
 
 [Georgism](https://en.wikipedia.org/wiki/Georgism)
+
+----
+
+Geometria et Perspectiva Pl 03 (1567) Lorenz
+Stoer
+
+![Geometria et Perspectiva Pl 03 (1567) Lorenz Stoer](/img/snippets/105944absdl_huead6abfc3b2ec917962c518355585afe_3094070_800x0_resize_q80_box.jpeg)
+
+----
+
+Maquettes de Theatre 4 (1930) Alexandra Exter
+
+![Maquettes de Theatre 4 (1930) Alexandra Exter](/img/snippets/maquettes-de-theatre-4.jpeg)
+
 
 ----
 
