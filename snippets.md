@@ -650,6 +650,12 @@ Sheet 29 (Blatt 29), Oskar Fischer, 1919
 
 ----
 
+Dance of Death; Death Awed (1919)
+
+![Dance of Death; Death Awed (1919)](/img/snippets/dance-of-death-death-awed.jpg)
+
+----
+
 More and more he went running to the public house. But it was no longer to be among men, it was to get drunk. One might imagine him sitting there thinking those slow thoughts without words. One might predict that the day would come when we would realise very suddenly, very clearly, all that he had been thinking about, and, when this urgent, terrible thought had been translated into its own terms of action, he would be quietly hanged by the neck until he was as dead as he had been before he was alive.
 
 - The Blind Man, James Stephens
