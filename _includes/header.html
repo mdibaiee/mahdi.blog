@@ -27,4 +27,14 @@
     </p>
   </nav>
 
+  <span id='browser' class='notice hidden'>
+    This website is designed for <a target="_blank" rel="noopener noreferrer" href="https://firefox.com/">Firefox</a>, a web
+browser that respects your privacy.
+  </span>
+
+  <script>
+    if (window.chrome) {
+      document.getElementById('browser').className = 'notice';
+    }
+  </script>
 </header>
