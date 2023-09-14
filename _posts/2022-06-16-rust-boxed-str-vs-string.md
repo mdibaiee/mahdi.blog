@@ -81,7 +81,7 @@ Process 65188 stopped
 ```
 
 Our program allocates two variables on the stack directly here. Notice that they
-are allocated right next to each other, their address only one bit apart. Most
+are allocated right next to each other, their address only one byte apart. Most
 primitive types are allocated on the stack, and are copied when being passed
 around because they are small enough, so that copying them around is more
 reasonable than allocating them in the heap and passing around a pointer to
