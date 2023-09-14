@@ -1,7 +1,7 @@
 <header class="site-header">
 
   <h1>
-    <a class='site-title' href='{{ site.baseurl }}/'>
+    <a class='site-title lang-fa' href='{{ site.baseurl }}/'>
       {{ site.title }}
     </a>
   </h1>
@@ -27,4 +27,14 @@
     </p>
   </nav>
 
+  <span id='browser' class='notice hidden'>
+    I recommend you use <a target="_blank" rel="noopener noreferrer" href="https://firefox.com/">Firefox</a>, a web
+browser that respects your privacy.
+  </span>
+
+  <script>
+    if (window.chrome) {
+      document.getElementById('browser').className = 'notice';
+    }
+  </script>
 </header>

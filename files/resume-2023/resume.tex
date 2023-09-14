@@ -1,0 +1,114 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{anysize}
+\marginsize{1in}{1in}{0in}{0in}
+\pagenumbering{gobble}
+\title{Mahdi Dibaiee}
+\begin{document}
+
+
+{\huge Mahdi Dibaiee}
+\\ 
+
+\begin{tabular}{l@{\hspace{2in}} l}
+
+Dublin, Ireland & \url{https://mahdi.blog} \\
+\href{mailto:mdibaiee@pm.me}{mdibaiee@pm.me} & \url{https://github.com/mdibaiee} \\
+& \url{https://linkedin.com/in/mdibaiee}
+\end{tabular}
+
+\section{Experience}
+
+\subsection{\href{https://estuary.dev}{Estuary} (Mar 2022 - Present)}
+
+Estuary Flow is a high-performance real-time DataOps platform for capturing, transforming and producing data. Worked as part of the integrations team on:
+
+\begin{enumerate}
+\item{Develop the compatibility layer between Flow protocol and Airbyte protocol.
+
+{\iffalse Airbyte connectors are docker images which communicate with their runtime over stdio, however Flow protocol communicates over TCP (to allow for compatibility with Firecracker and other VMs). This layer allowed our connector support team to modify behaviour of airbyte connectors using configuration files, which allowed them to adapt these connectors to our platform using configuration, and without the need to code.\fi}
+
+\textbf{Impact:} Allowed us to support 47 SaaS connectors from Airbyte, which drove in a large number of customers: 32\% of tenants and 28\% of capture tasks over one year were using these connectors.}
+
+\item{Lead the evolution the Flow protocol and runtime to add an OAuth2 extension for connectors. The OAuth2 flow engages parts all the way from connectors to front-end of our application.
+
+\textbf{Impact:} Ease the configuration process for our users, and ease maintenance: no need to document and troubleshoot API keys and their permission issues. The configuration-driven design allowed our support team to configure these OAuth flows without having to write code.}
+
+\item{flowctl: Develop tools for easing development of, and troubleshooting of connectors:
+\begin{itemize}
+\item{Automatically \& continuously inferring schema of documents coming from a connector}
+\item{Emulating running a capture connector without the need to run an instance of Flow}
+\end{itemize}}
+
+\textbf{Impact:} Emulation allowed for quickly iterating on a connector without having to run a connector through the whole Flow runtime, making development faster and safer.
+
+\item{Developing and maintaining real-time connectors for various technologies: Kafka, Snowflake, BigQuery, Firebolt, Cloud Firestore, Salesforce, MongoDB, Redshift, Elasticsearch, Postgres, MySQL, SQLite, PubSub, GCS, etc.}
+
+\textbf{Impact:} These connectors are the main driver for our customers. Most of our marketing campaigns run on these connectors and our major deals are made with customers who use these connectors.
+
+\end{enumerate}
+	 
+\textbf{Main Technologies: } Rust, Golang, Docker, GCP
+
+\subsection{\href{https://personio.com}{Personio} (Jan 2021 - Feb 2022)}
+
+Joined as a member of the Developer Experience team, responsible for making development easier for other engineers at Personio. Personio has more than 6,000 small and medium-sized enterprise customers.
+
+\begin{enumerate}
+\item{Surveys to understand pain points of engineers and 1:1 chats to understand needs of different teams}
+\item{Improving deployment safety using canary deployments with Linkerd and Flagger. See: \href{https://docs.google.com/presentation/d/1uEh60yJAxWtwQ0Us9AVRBEWXnxNzy1lKxv9mL9-gOuk/edit#slide=id.g7e24e7634d_0_99}{Presentation}.
+
+\textbf{Impact:} Over the course of three months, about 5\% of deployments were rolled back automatically by our canary release process, preventing outages and protecting our SLAs. To put the figures in perspective, we had around 5 - 15 deployments per day from different teams.}
+
+\item{Kubernetes Custom Resource Definitions that allowed the infrastructure teams to abstract away nuances of deployment, while exposing a basic, less error-probe interface to engineers in other teams.}
+
+\item{Implementing feature flags using Split.io to allow engineers and product teams to release changes and try them out using flags for specific cohort of customers}
+
+\end{enumerate}
+
+\textbf{Main Technologies: } Kotlin, Kubernetes, Linkerd, Gitlab CI, AWS, Elasticsearch
+
+\subsection{\href{https://aylien.com}{AYLIEN} (Jan 2017 - Dec 2022)}
+
+AYLIEN News API reads news articles from +80,000 sources, and uses machine learning models to translate and run various analysis on them, allowing for users to search across this data. There are more than 600,000 news articles processed per day.
+
+\begin{enumerate}
+\item{Moved our infrastructure to use Infrastructure as Code solutions: Terraform, Ansible and Helm charts for Google Cloud Platform and streamline deployment process in an automatic CI/CD pipeline (previously was all manual)}
+
+\textbf{Impact:} Deploying resources was now driven by a CI pipeline, which made it easier for new people joining the team, made the process less human-error-prone and allowed us to more easily add or update our infrastructure resources (without worrying about permissions on GCP, etc.)
+
+\item{Incrementally moving our Ruby + Sidekiq pipeline to an actor model architecture, built with Scala + Akka.
+
+\textbf{Impact:} Allowed us to capture from 65,000 new sources (5x increase) as many news sources, which translates to approximately 600,000 news articles per day. See: \href{https://aylien.com/blog/aylien-news-api-update-more-content-more-insights}{our blog post on this update}}.
+
+\item{Moved our data from our MySQL and Solr to BigTable and Elasticsearch.
+
+\textbf{Impact: } Improve performance of our queries from 1.5 second 99\% percentile response time to 300ms.}
+
+\end{enumerate}
+
+\textbf{Main Technologies: } Scala, Kubernetes, Istio, Terraform, Helm, Elasticsearch, BigTable, PubSub
+
+\section{Education}
+
+\subsection{Master's: Cognitive Science}
+
+University College Dublin. \\
+You can read my final project on \url{https://mahdi.blog/embodying-the-avatar-videogames/}.
+
+\subsection{Bachelor's: Computer Science}
+
+University of Science \& Culture, Tehran
+
+
+\section{Notes}
+
+\begin{itemize}
+\item{Prior experience available on request}
+\item{Prefer remote work, but open to hybrid roles in Dublin, Ireland}
+\item{Prefer full-time roles, but open to contract roles as well}
+\item{I do not require work permit / visa sponsership in Ireland}
+\end{itemize}
+
+\end{document}
