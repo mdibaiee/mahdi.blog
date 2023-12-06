@@ -92,8 +92,6 @@ We saw the equator line on the way which was interesting! You can pass through
 the equator. They told us compasses have some weird behaviour on either side of
 this line but we didn’t see it ourselves.
 
-![equator line](/img/arts/uganda/equator.jpg)
-
 On the way, specially close to Kampala there were tons of shops and houses just
 beside the road with some space between them, and if you stop in those places
 chances are you will be brought some fruit or food or something to be sold to
@@ -113,8 +111,7 @@ with) us. This dance was easily one of the most amazing nights of our lives,
 such a lovely group of people with such a good energy, and we got that energy as
 well and joined them and had a great time!
 
-![person dancing](/img/arts/uganda/batwa-dance-1.jpg) ![person
-dancing](/img/arts/uganda/batwa-dance-2.jpg)
+![person dancing](/img/arts/uganda/batwa-dance-1.jpg)
 
 <p> <video src="/img/arts/uganda/dance-batwa.mp4" controls playsinline></video>
 </p>
@@ -272,8 +269,7 @@ Language](/rukiga-african-language).
 Starting on Monday we helped on the site to prepare the land for construction by
 digging, slashing and uprooting, we had a great time and it was a good exercise.
 
-![Working on preparing land](/img/arts/uganda/bunyonyi-working-1.jpg) ![Working
-on preparing land](/img/arts/uganda/bunyonyi-working-2.jpg)
+![Working on preparing land](/img/arts/uganda/bunyonyi-working-1.jpg)
 
 We also hired a motor boat and went on exploring the lake, first together with
 our hosts and then just the two of us. We ended up diving and swimming and
@@ -288,8 +284,6 @@ practice and one of them suddenly did a back handspring!! At this, I knew I had
 to give them something from my parkour practice, so we ended up improvising and
 finding a bump and doing some parkour vaults and some basic flip practice, and
 it was great fun. The children were really talented all of them!
-
-<p> <video src="/img/arts/uganda/parkour.mp4" controls playsinline></video> </p>
 
 On the last day I asked our hosts if they knew of any books in their language
 about their culture, and they introduced us to one of their legendary writes,
