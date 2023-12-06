@@ -3,7 +3,6 @@ layout: post
 title: "clouds-among-rocks"
 date:   2021-01-01
 categories: art
-author: Mahdi
 anchor: Killarney National Park
 ---
 

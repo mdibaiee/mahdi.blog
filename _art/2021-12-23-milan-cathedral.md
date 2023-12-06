@@ -3,7 +3,6 @@ layout: post
 title: "milan-cathedral"
 date:   2021-12-23
 categories: art
-author: Mahdi
 anchor: Milan Cathedral
 ---
 

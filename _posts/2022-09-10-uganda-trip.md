@@ -5,7 +5,6 @@ subtitle: "Travel journal "
 date: 2022-09-10 00:00:00
 permalink: uganda-trip/
 categories: travel
-author: Mahdi
 ---
 
 I and a friend of mine from Iran decided to go to Uganda to explore the country,
@@ -254,7 +253,7 @@ laughter! The preacher would crack jokes in between his preach and people would
 chuckle, which I found to be nice. Tutamuzongoza taught me how to introduce
 myself with these phrases:
 
-Eizina ryangye Mahdi: My name is Mahdi
+Eizina ryangye ...: My name is ...
 
 Ndaruga Iran: I’m from Iran
 

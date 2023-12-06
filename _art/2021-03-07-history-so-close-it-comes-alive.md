@@ -3,7 +3,6 @@ layout: post
 title: "history-so-close-it-comes-alive"
 date:   2021-03-07
 categories: art
-author: Mahdi
 ---
 
 ![history-so-close-it-comes-alive](/img/arts/history-so-close-it-comes-alive.jpg)

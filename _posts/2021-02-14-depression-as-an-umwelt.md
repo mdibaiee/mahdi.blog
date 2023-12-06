@@ -4,7 +4,6 @@ title: "Depression as an Umwelt"
 date: 2021-02-14 00:00:00
 permalink: depression-as-an-umwelt/
 categories: personal, philosophy
-author: Mahdi
 ---
 
 [Von Uexküll’s A Stroll Through the Worlds of Animals and

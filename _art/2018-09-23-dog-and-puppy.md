@@ -3,7 +3,6 @@ layout: post
 title: "dog-and-puppy"
 date:   2018-09-23
 categories: art
-author: Mahdi
 ---
 
 ![dog-and-puppy](/img/arts/dog-and-puppy.jpg)

@@ -4,7 +4,6 @@ title:  "Don't chase: Become the good one"
 permalink: dont-chase-become-the-good-one/
 categories: life
 excerpt_separator: <!--more-->
-author: Mahdi
 ---
 
 When it comes to relationships, most (unsuccessful) people are _chasing_ the

@@ -3,7 +3,6 @@ layout: post
 title: "woman-walking"
 date:   2022-09-12
 categories: art
-author: Mahdi
 anchor: Uganda
 ---
 

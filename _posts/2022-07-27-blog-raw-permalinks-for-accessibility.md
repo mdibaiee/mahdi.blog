@@ -5,7 +5,6 @@ subtitle: "Publishing raw version of my blog posts"
 date: 2022-07-27 00:00:00
 permalink: raw-permalinks-for-accessibility/
 categories: programming
-author: Mahdi
 ---
 
 I realised that my blog and its content, even though very simple and
@@ -20,15 +19,15 @@ prepending `/raw` to the URL of my posts.
 Try it out:
 
 ```
-curl https://mahdi.blog/raw/raw-permalinks-for-accessibility/
-curl https://mahdi.blog/raw/embodying-the-avatar-videogames/
-curl https://mahdi.blog/raw/rust-box-str-vs-string/
+curl https://theread.me/raw/raw-permalinks-for-accessibility/
+curl https://theread.me/raw/embodying-the-avatar-videogames/
+curl https://theread.me/raw/rust-box-str-vs-string/
 ```
 
 You can get a raw listing of my blog posts at `/raw/`:
 
 ```
-curl https://mahdi.blog/raw/
+curl https://theread.me/raw/
 ```
 
 To make this easily readable on small screens and terminals, I used vim's
@@ -42,8 +41,8 @@ And to reformat my posts, I went over my text lines (I avoided breaking code
 sample lines), and used `gq` to reformat each section.
 
 The source code for my blog is available on my
-[git](https://git.mahdi.blog/mahdi/mahdi.blog) server, you can find the source
+[git](https://git.theread.me/thereadme/theread.me) server, you can find the source
 for [the raw
-plugin](https://git.mahdi.blog/mahdi/mahdi.blog/src/branch/master/_plugins/raw.rb)
+plugin](https://git.theread.me/thereadme/theread.me/src/branch/master/_plugins/raw.rb)
 as well as the [layout
-file](https://git.mahdi.blog/mahdi/mahdi.blog/src/branch/master/_layouts/raw.html).
+file](https://git.theread.me/thereadme/theread.me/src/branch/master/_layouts/raw.html).

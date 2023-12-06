@@ -3,7 +3,6 @@ layout: post
 title: "preparation"
 date:   2021-01-10
 categories: art
-author: Mahdi
 ---
 
 ![preparation](/img/arts/preparation.jpg)

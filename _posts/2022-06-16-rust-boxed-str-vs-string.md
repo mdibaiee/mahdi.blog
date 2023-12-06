@@ -5,7 +5,6 @@ subtitle: Using `rust-lldb` to understand rust memory internals
 date: 2022-06-16 00:00:00
 permalink: rust-box-str-vs-string/
 categories: programming
-author: Mahdi
 ---
 
 Today I and a friend went down a rabbit hole about Rust and how it manages the
@@ -28,10 +27,10 @@ bytes).
 I will be using `rust-lldb` throughout this post to understand what is going on
 in the rust programs we write and run. The source code for this blog post is
 available on
-[mdibaiee/rust-memory-playground](https://git.mahdi.blog/mahdi/rust-memory-playground).
+[rust-memory-playground](https://git.theread.me/thereadme/rust-memory-playground).
 
 ```bash
-git clone https://git.mahdi.blog/mahdi/rust-memory-playground
+git clone https://git.theread.me/thereadme/rust-memory-playground
 cd rust-memory-playground
 ```
 
@@ -63,7 +62,7 @@ $ cargo build && rust-lldb target/debug/stack-program
 Breakpoint 1: where = stack-program`stack_program::add_ten::h42edbf0bdcb04851 + 24 at main.rs:3:5, address = 0x0000000100001354
 
 (lldb) run
-Process 65188 launched: '/Users/mahdi/workshop/rust-memory-playground/target/debug/stack-program' (arm64)
+Process 65188 launched: '/Users/workshop/rust-memory-playground/target/debug/stack-program' (arm64)
 Process 65188 stopped
 * thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
     frame #0: 0x0000000100001354 stack-program`stack_program::add_ten::h42edbf0bdcb04851(a=5) at main.rs:3:5
@@ -154,7 +153,7 @@ $ cargo build && rust-lldb target/debug/stack-and-heap-program
 Breakpoint 1: where = stack-and-heap-program`stack_and_heap_program::main::ha895783273646dc7 + 100 at main.rs:4:5, address = 0x0000000100005264
 
 (lldb) run
-Process 67451 launched: '/Users/mahdi/workshop/rust-memory-playground/target/debug/stack-and-heap-program' (arm64)
+Process 67451 launched: '/Users/workshop/rust-memory-playground/target/debug/stack-and-heap-program' (arm64)
 Process 67451 stopped
 * thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
     frame #0: 0x0000000100005264 stack-and-heap-program`stack_and_heap_program::main::ha895783273646dc7 at main.rs:4:5
@@ -202,7 +201,7 @@ And here we go again:
 Breakpoint 1: where = string-program`string_program::main::h64ca96ee87b0ceaf + 44 at main.rs:3:5, address = 0x000000010000476c
 
 (lldb) run
-Process 68317 launched: '/Users/mahdi/workshop/rust-memory-playground/target/debug/string-program' (arm64)
+Process 68317 launched: '/Users/workshop/rust-memory-playground/target/debug/string-program' (arm64)
 Process 68317 stopped
 * thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
     frame #0: 0x000000010000476c string-program`string_program::main::h64ca96ee87b0ceaf at main.rs:3:5

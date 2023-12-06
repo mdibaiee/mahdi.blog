@@ -4,7 +4,6 @@ title:  "Difference between Travis CI tests: PR and Push"
 permalink: travis-ci-pr-push/
 categories: programming
 excerpt_separator: <!--more-->
-author: Mahdi
 ---
 
 I just want to leave this here as I often tend to look it up myself and the

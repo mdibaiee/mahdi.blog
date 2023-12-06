@@ -1,11 +1,9 @@
 # Site settings
-title: مهدی
-email: mdibaiee@pm.me
+title: thereadme
+email: hi@theread.me
 description: a rabbit hole
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://mahdi.blog" # the base hostname & protocol for your site
-github_username:  mdibaiee
-repo: "https://github.com/mdibaiee/mahdi.blog"
+url: "https://theread.me" # the base hostname & protocol for your site
 
 date_format: "%b %d, %Y"
 
@@ -22,10 +20,6 @@ collections:
 
 contentsLabel: "Table of Contents"
 showToggleButton: true
-
-authors:
-  Mahdi:
-    url: https://github.com/mdibaiee/
 
 scholar:
   style: apa

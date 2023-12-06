@@ -3,7 +3,6 @@ layout: post
 title: "girl-among-grains"
 date:   2021-06-29
 categories: art
-author: Mahdi
 anchor: Girl among grains, Austerlitz
 ---
 

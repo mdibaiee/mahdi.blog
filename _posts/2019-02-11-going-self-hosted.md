@@ -5,7 +5,6 @@ date:   2019-02-11
 permalink: self-hosted/
 categories: life
 excerpt_separator: <!--more-->
-author: Mahdi
 ---
 
 Since 3 years ago, I have always been eager to move away from Google and other

@@ -3,7 +3,6 @@ layout: post
 title: "windcatcher"
 date:   2019-10-31
 categories: art
-author: Mahdi
 ---
 
 ![windcatcher](/img/arts/windcatcher.jpg)

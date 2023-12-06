@@ -5,7 +5,6 @@ subtitle: "A Tiny Introduction"
 date: 2022-09-15 00:00:00
 permalink: middle-persian-pahlavi-script/
 categories: language
-author: Mahdi
 custom_head: <link rel="stylesheet" href="/css/khusro.css"">
 ---
 

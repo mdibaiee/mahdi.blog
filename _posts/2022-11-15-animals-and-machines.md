@@ -6,7 +6,6 @@ date: 2022-11-15 00:00:00
 permalink: animals-and-machines/
 categories: personal, science
 math: true
-author: Mahdi
 ---
 
 I find comparing animals and machines absurd, because of course, animals win!

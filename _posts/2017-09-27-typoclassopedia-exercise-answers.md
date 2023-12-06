@@ -8,7 +8,6 @@ categories:
   - math
 math: true
 toc: true
-author: Mahdi
 ---
 
 I wanted to get proficient in Haskell so I decided to follow [An [Essential]

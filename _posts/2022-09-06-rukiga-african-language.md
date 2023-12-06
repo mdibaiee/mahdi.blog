@@ -5,7 +5,6 @@ subtitle: "A tiny introduction to Rukiga"
 date: 2022-09-06 00:00:00
 permalink: rukiga-african-language/
 categories: travel, language
-author: Mahdi
 ---
 
 During my trip to south of Uganda I interacted with people who mainly spoke a
@@ -150,7 +149,7 @@ as Mushana.
 | Esati                                     | Shirt                                                                                       |
 | Eshero                                    | Hippo                                                                                       |
 | Emporogoma                                | Lion                                                                                        |
-| Eizina ryangye Mahdi                      | My name is Mahdi                                                                            |
+| Eizina ryangye ...                        | My name is ...                                                                              |
 |Ndaruga Iran| I’m from Iran|
 |Nashemererwa kubanimwe| I’m happy to be here|
 |Webare munonga| Thank you very much|

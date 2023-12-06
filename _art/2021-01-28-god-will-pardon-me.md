@@ -3,7 +3,6 @@ layout: post
 title: "god-will-pardon-me"
 date:   2021-01-28
 categories: art
-author: Mahdi
 anchor: God will pardon me
 ---
 

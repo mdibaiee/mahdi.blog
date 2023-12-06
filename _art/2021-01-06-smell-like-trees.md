@@ -3,7 +3,6 @@ layout: post
 title: "galileo"
 date:   2021-01-06
 categories: art
-author: Mahdi
 ---
 
 ![galileo](/img/arts/galileo.jpg)

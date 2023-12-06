@@ -4,7 +4,6 @@ title: "Why I don't recommend Ireland when asked"
 date: 2022-10-27 00:00:00
 permalink: i-dont-recommend-ireland/
 categories: personal, ireland
-author: Mahdi
 ---
 
 I have been living in Ireland for the past three years, and when asked about

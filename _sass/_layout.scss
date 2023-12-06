@@ -203,10 +203,6 @@ hr {
 }
 
 .channel {
-  #mahdi * {
-    fill: #000000 !important;
-  }
-
   & > a::before {
     content: 'BroadcastChannels rock';
     color: white;

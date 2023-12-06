@@ -4,7 +4,6 @@ title: "A Fear of Worlds Unknown"
 date: 2021-04-05 00:00:00
 permalink: a-fear-of-worlds-unknown/
 categories: personal, philosophy
-author: Mahdi
 ---
 
 When it comes to ethics, the impossibly hard question of ethics, we get dizzy when we try to think about relativity of it. The ideas of 4E cognition and imminence have been closer to my heart than the alternative approaches, however, I have always been dumbfounded by the question of ethics in such a framework.

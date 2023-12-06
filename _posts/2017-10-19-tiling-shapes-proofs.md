@@ -5,7 +5,6 @@ date:   2017-10-19
 permalink: mathematical-induction-proving-tiling-methods/
 categories: math
 math: true
-author: Mahdi
 ---
 
 On my way towards self-taught data science, I've stumbled upon the need to be

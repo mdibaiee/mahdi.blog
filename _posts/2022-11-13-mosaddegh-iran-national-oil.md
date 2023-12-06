@@ -5,7 +5,6 @@ subtitle: "Readings on Iran's nationalisation of oil"
 date: 2022-11-13 00:00:00
 permalink: mosaddegh-iran-national-oil/
 categories: iran, history
-author: Mahdi
 ---
 
 I have been reading Mosaddegh's memoirs, specifically the two books _Brief

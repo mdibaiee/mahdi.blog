@@ -3,7 +3,6 @@ layout: post
 title: "girl-eye-flowers-1"
 date:   2021-08-21
 categories: art
-author: Mahdi
 anchor: A narration
 ---
 

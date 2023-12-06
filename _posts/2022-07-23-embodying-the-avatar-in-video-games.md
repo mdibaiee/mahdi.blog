@@ -5,7 +5,6 @@ subtitle: "Videogames as an embodied activity"
 date: 2022-07-23 00:00:00
 permalink: embodying-the-avatar-videogames/
 categories: programming
-author: Mahdi
 ---
 
 Videogames are a pervasive part of lives of children and adults alike, with 73%

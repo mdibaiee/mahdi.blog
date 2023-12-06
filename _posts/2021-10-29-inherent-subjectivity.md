@@ -5,7 +5,6 @@ subtitle: "An Alternative Definition of Objectivity for Rigid Scientists"
 date: 2021-10-30 12:57:46
 permalink: alternative-objectivity-and-inherent-subjectivity/
 categories: philosophy
-author: Mahdi
 ---
 
 As a computer scientist and someone who loves

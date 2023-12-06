@@ -3,7 +3,6 @@ layout: post
 title: "the-night-has-descended-on-us"
 date:   2021-01-10
 categories: art
-author: Mahdi
 anchor: The Night Has Descended On Us
 ---
 

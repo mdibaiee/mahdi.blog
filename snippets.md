@@ -4,7 +4,6 @@ title:  "Snippets"
 date:   2020-12-07 20:47:00
 permalink: snippets/
 categories: snippets
-author: Mahdi
 ---
 
 Short snippets of thought. Ramblings. Random shite.
@@ -210,7 +209,7 @@ There's an ominous knock behind the wall:
 A ghost, a thief or a rat...
 <br/>
 
-As Nietzsche saw it, the last Christian died on the Cross. (Mahdi: Christianity was not a thing until after Christ’s death though)
+As Nietzsche saw it, the last Christian died on the Cross. (author: Christianity was not a thing until after Christ’s death though)
 
 [Tecumseh](https://en.wikipedia.org/wiki/Tecumseh)
 
@@ -358,7 +357,7 @@ This Way for the Gas, Ladies and Gentlemen. Two years after the book's appearanc
 
 Kant knew no music. And said that reading novels diluted the mind.
 
-Though I never saw him, or had any personal communication with him, now that he is suddenly dead I realise that he was nearer, dearer and more important to me than anyone else. Said Tolstoy of Dostoievsky. (Mahdi: I used this method to measure how much I love someone. By imagiging how I would feel if they died.)
+Though I never saw him, or had any personal communication with him, now that he is suddenly dead I realise that he was nearer, dearer and more important to me than anyone else. Said Tolstoy of Dostoievsky. (I used this method to measure how much I love someone. By imagiging how I would feel if they died.)
 
 O yes! I am poison'd; mother, make my bed soon,<br />
 For I'm sick at the heart, and I fain wald lie down.

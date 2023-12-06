@@ -4,7 +4,6 @@ title:  "Stop High-Frequency Fuck-ups"
 permalink: stop-high-frequency-fuck-ups/
 categories: life
 excerpt_separator: <!--more-->
-author: Mahdi
 ---
 
 **High-Frequency Fuck-Ups**:

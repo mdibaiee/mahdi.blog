@@ -1,1 +1,1 @@
-wkhtmltopdf https://mahdi.blog/middle-persian-pahlavi-script/ 'files/pahlavi/Middle Persian & Pahlavi script.pdf'
+wkhtmltopdf https://theread.me/middle-persian-pahlavi-script/ 'files/pahlavi/Middle Persian & Pahlavi script.pdf'

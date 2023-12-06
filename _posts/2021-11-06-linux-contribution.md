@@ -4,7 +4,6 @@ title: "My first contribution to Linux Kernel: Step by step"
 date: 2021-11-06 00:00:00
 permalink: first-linux-contribution/
 categories: programming
-author: Mahdi
 published: false
 ---
 

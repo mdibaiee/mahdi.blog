@@ -5,7 +5,6 @@ subtitle: "آیا زندگی زیباست؟"
 date: 2023-01-06 00:00:00
 permalink: is-life-beautiful/
 categories: personal
-author: Mahdi
 published: false
 excerpt_separator: <!--more-->
 ---

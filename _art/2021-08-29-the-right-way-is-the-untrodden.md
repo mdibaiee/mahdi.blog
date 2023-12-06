@@ -3,7 +3,6 @@ layout: post
 title: "the-right-way-is-the-untrodden"
 date:   2021-08-29
 categories: art
-author: Mahdi
 anchor: The right way
 ---
 

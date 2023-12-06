@@ -3,7 +3,6 @@ layout: post
 title: "dublin-chimneys"
 date:   2020-05-06
 categories: art
-author: Mahdi
 ---
 
 ![dublin-chimneys](/img/arts/dublin-chimneys.jpg)

@@ -3,7 +3,6 @@ layout: post
 title: "mount-tibidabo-cathedral"
 date:   2021-12-24
 categories: art
-author: Mahdi
 ---
 
 ![mount-tibidabo-cathedral](/img/arts/mount-tibidabo-cathedral.jpg)
