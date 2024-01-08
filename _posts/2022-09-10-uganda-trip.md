@@ -348,7 +348,7 @@ got was just one going past us.
 
 # Final Words
 
-This first trip to Africa did not disappoint at all, we had a lot of fun and we
+This first trip to Uganda was amazing, we had a lot of fun and we
 were really happy to have experienced the country together with the local
 people, and we learned a lot from them and we got to see some animals for the
 first time. This trip only makes me want to visit Africa more, and I’m sure I
