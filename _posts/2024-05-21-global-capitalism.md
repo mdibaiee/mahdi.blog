@@ -30,4 +30,4 @@ Cependant, la révolution industrielle qui avait déjà commencé vers 1770s a m
 
 Les progrés technologique, notamment dans le domaine du transport et de la circulation de l'information, ont permis la création d'un réseau commerciale mondiale plus vaste. En raison de découverete d'importants gisements d'argent, le valeur d'echange de l'argent ont reduit, et l'or est devenu le monnaie standard du monde, établissant ainsi une monnaie mondial unique qui a encore amélioré le commerce mondial.
 
-
+Mais, tout le monde n'a pas profité de l'économie mondial. La Grande Dépression de 1875-1896 a reduit les prix presque partout et en réponse, certains des pays, par ex. Les États-Unis, sont devenus opposé à l'or, et d'autre pays comme l'Allemagne a augmenté ses droits de douane, dans l'espoir de protéger leurs agriculteurs et leurs fabricants. Ces événements ont ravivé les aspirations colonialistes, et augmenté les tensions entre les grandes puissances du monde.
