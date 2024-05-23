@@ -32,7 +32,7 @@ Les progrés technologiques, notamment dans le domaine du transport et de la cir
 
 Or, tout le monde n'a pas profité de l'économie mondiale. La Grande Dépression de 1875-1896 a réduit les prix presque partout et en réponse, certains pays, par exemple les États-Unis, sont devenus opposés à l'or, et d'autre pays comme l'Allemagne ont augmenté ses droits de douane, dans l'espoir de protéger leurs agriculteurs et leurs fabricants. Ces événements ont ravivé les aspirations colonialistes, et augmenté les tensions entre les grandes puissances du monde.
 
-# 1 - Le Capitalism Mondial Triomphant
+# 1. Le Capitalism Mondial Triomphant
 
 Les tentatives de agriculteurs des États-Unis mobilisés sous le nom du Parti Populiste d'abandonner de l'étalon-or ont été vaincus par les Démocrates, grâce à la découverte de nouveaux gisements d'or qui ont entraîné une augmentation des prix, soulageant la pression sur les personnes les plus touchées par la Grande Dépression.
 
@@ -46,4 +46,4 @@ Avant, les pays essayaient d'être autosuffisants, mais maintenant, grâce au ca
 
 D'un autre côté, la spécialisation a bouleversé de nombreuses sociétés traditionnelles et de innombrables personnes se sont retrouvées sans emploi, si bien que l'immigration a explosé, ce qui a divisé de nombreuses de familles et sociétés.
 
-# Les Défenseurs de l'Economie Mondiale
+# 2. Les Défenseurs de l'Economie Mondiale
