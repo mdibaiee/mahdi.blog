@@ -42,4 +42,8 @@ L'étalon-or était le pilier sur lequel reposait le marché financier mondial. 
 
 En outre, l'expansion des transports à l'échelle mondiale, par exemple les navires à vapeur et diesel et les chemins de fer, a créé un marché mondial intégré, et a doublé le commerce mondial. Le télégraphe et le téléphone ont permis d'investir plus facilement, grâce auxquels les pays à croissance rapide ont été financés.
 
+Avant, les pays essayaient d'être autosuffisants, mais maintenant, grâce au capitalisme mondial, chaque nation se spécialise dans ce qu'elle fait de mieux, et a obtient le reste grâce au commerce.
 
+D'un autre côté, la spécialisation a bouleversé de nombreuses sociétés traditionnelles et de innombrables personnes se sont retrouvées sans emploi, si bien que l'immigration a explosé, ce qui a divisé de nombreuses de familles et sociétés.
+
+# Les Défenseurs de l'Economie Mondiale
