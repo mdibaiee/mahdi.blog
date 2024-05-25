@@ -57,3 +57,19 @@ D'un côté, pour les exportateurs, les banquiers et investisseurs, et les perso
 L'adoption de l'étalon-or aussi a posé un défi pour tous les pays, un choix entre l'intégration dans l'économie mondiale et l'accés aux capitaux est investissements étrangers, ou la capacité de contrôler la politique économique intérieure, ce qui n'est pas possible une fois l'étalon-or adopté. Ces forces se soutenaient mutuellement: si l'on soutenait le libre-échange, l'étalon-or était également aligné sur leurs intérêts, et vice versa.
 
 L'immigration est également une conséquence inévitable de la mondialisation et, même si la plupart du temps les gens sont autorisés à émigrer et à immigrer librement, ils se heurtaient parfois à une résistance, notamment de la part des travailleurs non qualifiés, qui doivent rivaliser avec une main-d'œuvre moins chère.
+
+# 3. Histoires de Réussite de l'Âge d'Or
+
+Intéressant: [Exposition Universelle (1900)](https://en.wikipedia.org/wiki/Exposition_Universelle_(1900))
+
+Les politiques de protection des industries naissantes étaient répandues, même soutenus par les intellectuels. La Russie à des droits de douane d'environ 84% et les États-Unis de près de 44% sur les produits industriels.
+
+En même temps, les nouveaux pays industriels, tels que l'Allemagne et les États-Unis, n'étaient pas limités par les vestiges de l'ancienne industrie, comme la Grande-Bretagne, ils pourraient plutôt utiliser les nouvelles machines et construire des grandes usines. Cela leur a permis de s'industrialiser plus loin que la Grande-Bretagne.
+
+Cependant, ces protections ont également eu des effets négatifs. En particulier, protections contre les importations, 1. augmenteiait les prix pour les consommateurs, tout en augmentant les profits des producteurs, 2. détourneient les ressources du pays a loin que de son avantage comparatif, et 3. permettrait la formation de cartels qui augmunteient artificiellement les prix.
+
+Intéressant: [l'Uruguay a eu l'un des premiers systémes de protection sociale](https://www.jstor.org/stable/45312621)
+
+Presque tout le monde a connu une augmunetation du commerce et un progrés commercial sous une forme ou une autre entre 1870 et 1913, mais l'augmentation des exportations et la hausse des salaires en Afrique de l'Ouest et en Asie du Sud et du Sud-Est n'ont pas amélioré de développement industriel, parce que des colonialistes l'ont découragé et il n'y avait pas de protections comme il y en avait en Europe ou en Amérique pour les industries naissantes.
+
+[Modèle Heckscher-Ohlin-Samuelson (HOS)](https://fr.wikipedia.org/wiki/Mod%C3%A8le_Heckscher-Ohlin-Samuelson): "chaque pays tend à se spécialiser dans la production et l'exportation de biens incorporant de façon intensive les facteurs de production qui sont abondants sur son territoire."
