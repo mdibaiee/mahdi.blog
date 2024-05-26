@@ -76,7 +76,7 @@ Presque tout le monde a connu une augmunetation du commerce et un progrés comme
 
 Intéressant: la Russie avait de grandes usines de plus d'un millier d'employés (40% des ouvriers travaillaient dans de telles usines), et ce fait a contribué à la mobilisation ultérieure du prolétariat.
 
-# 4. Échecs du Développement
+# 4. Les Échecs du Développement
 
 [Les Belgians sous Léopold II ont oppressé des peuple de Congo](https://fr.wikipedia.org/wiki/L%C3%A9opold_II_\(roi_des_Belges\)#L%C3%A9opold_II_et_la_colonisation_du_Congo): ils ont imposé une "tax de caoutchouc", que les congolais devaient payer, sinon leurs enfants et les femmes ou un village complétement serait brûlé.
 
@@ -92,3 +92,21 @@ Le principal obstacle à la croissance économique était le mauvais gouvernemen
 Les classes dirigeantes de Chine, de l'Empire Ottoman, et de l'Inde craignaient dla déstabilisation de leurs régimes, provoquée par les changements sociaux qui suivraient l'intégration dans le marché mondial. L'intégration avait nécessité de nombreux changements socieaux et institutionnels, qu'ils n'étaient pas disposés à faire (Le poids de l'histoire...).
 
 Le café et le riz sont appelés "cultures progressives" et les plantations comme celles du coton, du sucre et du tabac sont appelés "cultures réactionnaires". Les plantations étaient généralement à grande échelle et appartenaient à quelques qui exploiteraients leurs travailleurs et ne permiteraient pas leur développement (cela a limité le marché intérieur aussi, ce qui n'était bon pour personne à long terme). Par contre, les cultures progressive permettaient l'engagement des petites fermes, et les ouvriers de ces fermes pouvaient faire partie de l'économie.
+
+# 5. Les Problémes de l'Économie Mondiale
+
+Quelques raisons de la perte d'avance de la Grande-Bretagne:
+
+- Une partie significative du capital de la Grande-Bretagne était investie en dehors du pays, ce qui a rendu les choses plus difficiles pour les entreprises sur la marché domestique. Il convient toutefois de noter que les profits de investissement à l'étranger reviendraient à la Grande-Bretagne.
+- Les vestiges de l'ancienne industrie de la Grande-Bretagne: Le remplacement des vieux équipements coûtait cher. D'autres pays comme l'Allemagne et les États-Unis pouvaient utiliser de nouvelles machines et techniques.
+- Ils pourraient exporter leurs produits traditionnels vers leur marché captif dans l'empire, ils n'étaient donc pas obligés de progresser dans la technologie et d'être compétitifs.
+- Leurs techniques de gestion étaient anciennes, et ils avaient plus d'enterprises familiales.
+- L'engagement de la Grande-Bretagne en faveur du libre-échange était plus important que celui de tout autre pays.
+ 
+[Théorème de Stolper-Samuleson](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_Stolper-Samuelson)
+
+L'étalon-or a rendu les exportateurs vulnérables aux réductions de revenus provoquées par les variations des prix mondiaux. Si les prix du blé baissaient de moitié, les exportateurs américains perdraient la moitié de leurs revenus, mais les Argentins dévaluaient le peso par rapport à la monnaie mondiale, protégeant ainsi les revenus intérieurs des agriculteurs. Cependant, une dévaluation de la monnaie nationele rendrait les prix des produits étrangers plus chers, provoquant ainsi de l'inflation.
+
+Les travailleurs syndiqués, dont la plupart soutenaient le libre-échange, voulaient une protection contre le chômage, car les travailleurs urbains ne pouvaient pas se rabattre sur leurs terres agricoles comme les agriculteurs. Cela a limité l'effet de levier des enterprises pour réduire les salaires en réponse à la récession.
+
+
