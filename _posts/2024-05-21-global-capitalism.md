@@ -20,7 +20,7 @@ published: false
 
 Voici mes notes sur le livre de Jeffrey A. Frieden, Global Capitalism: Its Fall and Rise in the Twentieth Century. Cet article est différent, puisque c'est mon premier article en français. C'est sûr qu'il y a beaucoup d'erreurs dans cet article, mais c'est ma façon d'apprendre.
 
-# Prologue: Vers le XXe Siècle
+# Prologue: vers le XXe siècle
 
 Apres le Bataille de Waterloo en 1815, commence le Pax Britannica, une période de paix relative en Europe pendant cent ans jusqu'à 1914.
 
@@ -32,7 +32,7 @@ Les progrés technologiques, notamment dans le domaine du transport et de la cir
 
 Or, tout le monde n'a pas profité de l'économie mondiale. La Grande Dépression de 1875-1896 a réduit les prix presque partout et en réponse, certains pays, par exemple les États-Unis, sont devenus opposés à l'or, et d'autre pays comme l'Allemagne ont augmenté ses droits de douane, dans l'espoir de protéger leurs agriculteurs et leurs fabricants. Ces événements ont ravivé les aspirations colonialistes, et augmenté les tensions entre les grandes puissances du monde.
 
-# 1. Le Capitalism Mondial Triomphant
+# 1. Le capitalism mondial triomphant
 
 Les tentatives de agriculteurs des États-Unis mobilisés sous le nom du Parti Populiste d'abandonner de l'étalon-or ont été vaincus par les Démocrates, grâce à la découverte de nouveaux gisements d'or qui ont entraîné une augmentation des prix, soulageant la pression sur les personnes les plus touchées par la Grande Dépression.
 
@@ -46,7 +46,7 @@ Avant, les pays essayaient d'être autosuffisants, mais maintenant, grâce au ca
 
 D'un autre côté, la spécialisation a bouleversé de nombreuses sociétés traditionnelles et de innombrables personnes se sont retrouvées sans emploi, si bien que l'immigration a explosé, ce qui a divisé de nombreuses de familles et sociétés.
 
-# 2. Les Défenseurs de l'Economie Mondiale
+# 2. Les défenseurs de l'economie mondiale
 
 Les économistes de l'école classique, notamment Adam Smith, David Ricardo, James Mill et Robert Torrens, ont soutenu l'adoption du libre-échange. L'idée de [l'avantage comparatif](https://fr.wikipedia.org/wiki/Avantage_comparatif), selon lequel chaque pays peut être le plus réussi s'il se concentre et se spécialise dans la production des produits pour laquelle il est le plus productif et efficace, par rapport à ses propres autres productions, ont joué un rôle important dans la promotion du libre-échange. Or, l'adoption d'un politique de libre-échange nécessitait plus que de soutien des intellectuels.
 
@@ -58,7 +58,7 @@ L'adoption de l'étalon-or aussi a posé un défi pour tous les pays, un choix e
 
 L'immigration est également une conséquence inévitable de la mondialisation et, même si la plupart du temps les gens sont autorisés à émigrer et à immigrer librement, ils se heurtaient parfois à une résistance, notamment de la part des travailleurs non qualifiés, qui doivent rivaliser avec une main-d'œuvre moins chère.
 
-# 3. Histoires de Réussite de l'Âge d'Or
+# 3. Histoires de réussite de l'âge d'or
 
 Intéressant: [Exposition Universelle (1900)](https://en.wikipedia.org/wiki/Exposition_Universelle_(1900))
 
@@ -76,7 +76,7 @@ Presque tout le monde a connu une augmunetation du commerce et un progrés comme
 
 Intéressant: la Russie avait de grandes usines de plus d'un millier d'employés (40% des ouvriers travaillaient dans de telles usines), et ce fait a contribué à la mobilisation ultérieure du prolétariat.
 
-# 4. Les Échecs du Développement
+# 4. Les échecs du développement
 
 [Les Belgians sous Léopold II ont oppressé des peuple de Congo](https://fr.wikipedia.org/wiki/L%C3%A9opold_II_\(roi_des_Belges\)#L%C3%A9opold_II_et_la_colonisation_du_Congo): ils ont imposé une "tax de caoutchouc", que les congolais devaient payer, sinon leurs enfants et les femmes ou un village complétement serait brûlé.
 
@@ -93,7 +93,7 @@ Les classes dirigeantes de Chine, de l'Empire Ottoman, et de l'Inde craignaient 
 
 Le café et le riz sont appelés "cultures progressives" et les plantations comme celles du coton, du sucre et du tabac sont appelés "cultures réactionnaires". Les plantations étaient généralement à grande échelle et appartenaient à quelques qui exploiteraients leurs travailleurs et ne permiteraient pas leur développement (cela a limité le marché intérieur aussi, ce qui n'était bon pour personne à long terme). Par contre, les cultures progressive permettaient l'engagement des petites fermes, et les ouvriers de ces fermes pouvaient faire partie de l'économie.
 
-# 5. Les Problémes de l'Économie Mondiale
+# 5. Les problémes de l'économie mondiale
 
 Quelques raisons de la perte d'avance de la Grande-Bretagne:
 
@@ -109,4 +109,4 @@ L'étalon-or a rendu les exportateurs vulnérables aux réductions de revenus pr
 
 Les travailleurs syndiqués, dont la plupart soutenaient le libre-échange, voulaient une protection contre le chômage, car les travailleurs urbains ne pouvaient pas se rabattre sur leurs terres agricoles comme les agriculteurs. Cela a limité l'effet de levier des enterprises pour réduire les salaires en réponse à la récession.
 
-
+# 6. Tout ce qui est solide se volatilise
