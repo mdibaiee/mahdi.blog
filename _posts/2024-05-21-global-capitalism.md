@@ -110,3 +110,25 @@ L'étalon-or a rendu les exportateurs vulnérables aux réductions de revenus pr
 Les travailleurs syndiqués, dont la plupart soutenaient le libre-échange, voulaient une protection contre le chômage, car les travailleurs urbains ne pouvaient pas se rabattre sur leurs terres agricoles comme les agriculteurs. Cela a limité l'effet de levier des enterprises pour réduire les salaires en réponse à la récession.
 
 # 6. Tout ce qui est solide se volatilise
+
+Les effets de la Première Guerre mondiale sur les États-Unis:
+
+1. Les États-Unis, qui étaient la plus grande économique avant la guerre, mais passifs dans les affaires mondiales, sont devenu un leader dans la tentative de reconstruction de l'ordre mondial.
+2. Les Alliés s'orientaient vers une économie de guerre, et n'essayaient plus de maintenir le marché mondial. Par exemple, la marine britannique a bloqué le commerce allemand.
+3. Il n'y avait plus d'investissements commerciaux de la part des Alliés, mais plutôt beaucoup d'importations pour répondre aux demandes matérielles et alimentaires, et les États-Unis étaient les mieux placés pour leur fournir.
+4. Les États-Unis qui était la plus grand débiteur avant la guerre, est devenu la plus grande créancier, et la plus grande exportateur vers les pays en développement (notamment les pays d'Amérique du Sud). Intéressant: [J. P. Morgan Jr.](https://en.wikipedia.org/wiki/J._P._Morgan_Jr.#World_War_I) et en [francais](https://fr.wikipedia.org/wiki/J._P._Morgan,_Jr). Aussi [Merchants of Death](https://en.wikipedia.org/wiki/Merchants_of_death?wprov=sfti1).
+5. [Le Traité de Versailles](https://fr.wikipedia.org/wiki/Trait%C3%A9_de_Versailles) et adhésion à la Société des Nations ont été refusée par la politique intérieure américain. E.H. Carr a écrit: "In 1918, world leadership was offered, by almost universal consent, to the United States... [and] was declined."
+
+[Hyperinflation de la république de Weimar](https://fr.wikipedia.org/wiki/Hyperinflation_de_la_r%C3%A9publique_de_Weimar): Pendant l’année 1923, le cours du dollar par rapport au papiermark augmente de 5,79 × 10<sup>10</sup>.
+
+Mémoires de l'épouse d'Ernest Hemingway: "That 90 cents lasted Mrs. Hemingway and me for a day of heavy spending and at the end of the day we had 120 marks left! Our first purchase was from a fruit stand … We picked out five very good looking apples and gave the old woman a 50-mark note. She gave us back 38 marks in change. A very nice looking, white bearded old gentleman saw us buy the apples and raised his hat. ‘Pardon me, sir,’ he said, rather timidly, in German, ‘how much were the apples?’ I counted the change and told him 12 marks. He smiled and shook his head. ‘I can’t pay it. It is too much.’ He went up the street walking very much as white bearded old gentlemen of the old regime walk in all countries, but he had looked very longingly at the apples. I wish I had offered him some. Twelve marks, on that day, amounted to a little under 2 cents. The old man, whose life savings were probably, as most of the non-profiteer classes are, invested in German pre-war and war bonds, could not afford a 12 mark expenditure. He is the type of the people whose incomes do not increase with the falling purchasing value of the mark and the krone."
+
+D'un propriétaire de petite entreprise berlinoise: "The inflation put a miserable end to all my efforts. I couldn't pay my people. My assets had melted away. Once again we experienced hunger and deprivation... [The still somewhat prosperous middle class [Mittelstand] was destroyed, that middle class which was still an opponent of Marxism." Sur la base de cette expérience, il se souvint plus tard,  "I fled from a government that permitted such misery," rejoint le parti nazi, "and became a storm trooper."
+
+Les éches du debut de l'aprés-guerre ont contribué à l'émergence d'une nouvelle Droite. Stefan Zweig, un juif autrichien réfléchit: "Nothing ever embittered the German people so much—it is important to remember this-nothing made them so furious with hate and so ripe for Hitler as the inflation. For the war, murderous as it was, had yet yielded hours of jubilation, with ringing of bells and fanfares of victory... while the inflation served only to make it feel soiled, cheated, and humiliated; a whole generation never forgot or forgave the German Republic for those years and preferred to reinstate its butchers."
+
+La révolution bolchevique a créé le plus grand gouvernement socialiste, qui a finalement reconstruit son économie. 
+
+Bolshevik revolution in Russia creating the largest Socialist government. Eventually rebuilt their economy. [Nouvelle politique économique](https://fr.wikipedia.org/wiki/Nouvelle_politique_%C3%A9conomique).
+
+La plupart des pays ont maintenu leurs politiques protectionnistes aprés la guerre, mais quelques-uns sont lentement revenus à l'étalon-or. Vers 1925, la plupart de pays européens avaient retrouvé leur économie aux niveaux d'avant-guerre.
