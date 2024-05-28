@@ -6,7 +6,7 @@ date: 2024-05-21 00:00:00
 permalink: global-capitalism/
 categories: economy, politics
 excerpt_separator: <!--more-->
-published: false
+published: true
 ---
 
 <!--
@@ -31,6 +31,8 @@ Cependant, la révolution industrielle qui avait déjà commencé vers les anné
 Les progrés technologiques, notamment dans le domaine du transport et de la circulation de l'information, ont permis la création d'un réseau commercial mondial plus vaste. En raison de découverte d'importants gisements d'argent, la valeur d'echange de l'argent ont reduit, et l'or est devenu le monnaie standard du monde, établissant ainsi une monnaie mondiale unique qui a encore amélioré le commerce mondial.
 
 Or, tout le monde n'a pas profité de l'économie mondiale. La Grande Dépression de 1875-1896 a réduit les prix presque partout et en réponse, certains pays, par exemple les États-Unis, sont devenus opposés à l'or, et d'autre pays comme l'Allemagne ont augmenté ses droits de douane, dans l'espoir de protéger leurs agriculteurs et leurs fabricants. Ces événements ont ravivé les aspirations colonialistes, et augmenté les tensions entre les grandes puissances du monde.
+
+<!--more-->
 
 # 1. Le capitalism mondial triomphant
 
@@ -149,3 +151,7 @@ Le retour à l'étalon-or a été plus difficile, car:
 1. Les travailleurs étaient davantage organisés en syndicats
 2. Les travailleurs plus qualifiés n'étaient pas faciles à remplacer
 3. Les grandes entreprises pouvaient réduire le nombre de produits et augmenter les prix, au lieu de baisser les prix
+
+# 7.  Le monde demain
+
+
