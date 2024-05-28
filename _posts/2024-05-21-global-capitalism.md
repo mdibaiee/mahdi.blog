@@ -132,3 +132,20 @@ La révolution bolchevique a créé le plus grand gouvernement socialiste, qui a
 Bolshevik revolution in Russia creating the largest Socialist government. Eventually rebuilt their economy. [Nouvelle politique économique](https://fr.wikipedia.org/wiki/Nouvelle_politique_%C3%A9conomique).
 
 La plupart des pays ont maintenu leurs politiques protectionnistes aprés la guerre, mais quelques-uns sont lentement revenus à l'étalon-or. Vers 1925, la plupart de pays européens avaient retrouvé leur économie aux niveaux d'avant-guerre.
+
+
+[Roaring Twenties](https://fr.wikipedia.org/wiki/Roaring_Twenties?wprov=sfti1)
+
+
+Avant la guerre, il existait une solidarité financière entre les Européens, qui a aidé à maintenir la stabilité de l'ordre financier mondial, mais aprés la guerre, l'amertume a remplacé la solidarité.
+
+Les États-Unis ont refusé de jouer le rôle de leader politique que la Grande-Bretagne avait joué auparavant. Les Républicains qui avaient la présidence et le Cogrès se méfiaient de leur implication dans les affaires européennes et mondiales.
+
+L'insistence des États-Unis sur les remboursements par les Britanniques et les Français des emprunts de guerre a provoqué des pressions sur les réparations allemandes, ce qui a nourri un nationalisme et un revanchisme extrêmes. Également, les nouveaux droits de douane sur l'importations de biens aux États-Unis rendaient les choses plus difficiles pour les Européens. [Loi Hawley-Smooth](https://fr.wikipedia.org/wiki/Loi_Hawley-Smoot)
+
+[Les Conséquences économiques de la paix](https://fr.wikipedia.org/wiki/Les_Cons%C3%A9quences_%C3%A9conomiques_de_la_paix)
+
+Le retour à l'étalon-or a été plus difficile, car:
+1. Les travailleurs étaient davantage organisés en syndicats
+2. Les travailleurs plus qualifiés n'étaient pas faciles à remplacer
+3. Les grandes entreprises pouvaient réduire le nombre de produits et augmenter les prix, au lieu de baisser les prix
