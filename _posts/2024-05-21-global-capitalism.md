@@ -143,7 +143,7 @@ Avant la guerre, il existait une solidarité financière entre les Européens, q
 
 Les États-Unis ont refusé de jouer le rôle de leader politique que la Grande-Bretagne avait joué auparavant. Les Républicains qui avaient la présidence et le Cogrès se méfiaient de leur implication dans les affaires européennes et mondiales.
 
-L'insistence des États-Unis sur les remboursements par les Britanniques et les Français des emprunts de guerre a provoqué des pressions sur les réparations allemandes, ce qui a nourri un nationalisme et un revanchisme extrêmes. Également, les nouveaux droits de douane sur l'importations de biens aux États-Unis rendaient les choses plus difficiles pour les Européens. [Loi Hawley-Smooth](https://fr.wikipedia.org/wiki/Loi_Hawley-Smoot)
+L'insistence des États-Unis sur les remboursements par les Britanniques et les Français des emprunts de guerre a provoqué des pressions sur les réparations allemandes, ce qui a nourri un nationalisme et un revanchisme extrêmes. Également, les nouveaux droits de douane sur l'importations de biens aux États-Unis rendaient les choses plus difficiles pour les Européens. [Loi Hawley-Smoot](https://fr.wikipedia.org/wiki/Loi_Hawley-Smoot)
 
 [Les Conséquences économiques de la paix](https://fr.wikipedia.org/wiki/Les_Cons%C3%A9quences_%C3%A9conomiques_de_la_paix)
 
@@ -152,6 +152,58 @@ Le retour à l'étalon-or a été plus difficile, car:
 2. Les travailleurs plus qualifiés n'étaient pas faciles à remplacer
 3. Les grandes entreprises pouvaient réduire le nombre de produits et augmenter les prix, au lieu de baisser les prix
 
-# 7.  Le monde demain
+# 7.  Le monde de demain
+
+[Exposition universelle de New York 1939-1940](https://fr.wikipedia.org/wiki/Exposition_universelle_de_New_York_1939-1940)
+
+L'avènement des appareils électroménagers (par exemple, le frigo, la radio, la télé) et la croissance de l'industrie automobile, notamment aux États-Unis.
+
+Il y avait de grandes industries oligopolistiques (par exemple, le chemins de fer), mais elles étaient une tentative de limiter la concurrence.
+
+Les nouvelles entreprises ont eu integré les operations indépendantes: recherche, conception, distribution, publicité. De la matière première au support client et aux finances. La production automobile necessitait des pièces spécifiques et uniques, ce qui a motivé donc l'integration.
+
+Henry Ford et ses chaînes de montage (sur le modèle des emballeurs de viande). C'était plus efficace qu'avant: de 12 heures à 90 minutes pour assembler d'une Ford Model T. De même, General Motors était un grand conglomérat avec une direction unifiée. Les entreprises d'Europe se sont regroupées au sein d'entreprises intégrées horizontalement plutôt que verticalement. Il y a également eu l'introduction de sociétes manufacturières multinationales. Une réduction de main-d'œuvre agricole due à l'utilisation de machines a entraîné l'arrivée d'un plus grand nombre de travailleurs dans les nouvelles industries.
+
+Plus de syndicats: les grandes entreprises étaient plus motivées à soutenir les syndicats, parce que: 1. les syndicats ont stabilisé la main-d'œuvre 2. la main d'œuvre représentait une part moindre du coût de production 3. les politiques protectionnistes d'après-guerre ont facilité l'augmentation des salaires et 4. les clients fidèles ont facilité aussi l'augmentation des salaires, car l'augmentation de prix ne présentait pas de risque concurrentiel.
+
+Les syndicats et les socialistes étaient plus puissants après la guerre, car: 1. ils ont joué un rôle important dans la guerre et ont été récompensés 2. la mort due à la guerre signifiait moins de main d'œuvre disponsible 3. la peur du bolchevisme dans l'Europe. Il y avait un croissance de partis socialistes en Europe, et certains d'entre eux ont réussi (Scandinavie), et d'autres ont échoué (Grande-Bretagne et Espagne). [Le New Deal](https://fr.wikipedia.org/wiki/New_Deal) de Franklin Roosevelt peut étre considéré comme un effort de centre-gauche.
+
+L'extrême droite a également grandi, en mobilisant les personnes les plus touchées par les changements industriels, notamment les petites entreprises et les agriculteurs. Le mélange fasciste d'anti-enterprises, d'anti-travailleurs et d'anti-étrangers. La concurrence des hommes d'affaires, créanciers et intermédiaires juifs était considérée comme le problème.
 
 
+# 8. L'ordre établi s'effondre
+
+[Grande Dépression](https://fr.wikipedia.org/wiki/Grande_D%C3%A9pression) et [Krach de 1929](https://fr.wikipedia.org/wiki/Krach_de_1929)
+
+L'industrie agricole n'était pas bonne et l'Europe et d'autres pays, à l'exception des États-Unis, ont connu une légère récession en 1928. En même temps, les investissements et les prêts américains ont été réduits, l'argent allant en bourse. Cela a créé une véritable crise en Europe. Les États-Unis ont augmenté le taux d'intérêt, ce qui a aggravé la situation.
+
+En octobre 1929, le [krach de 1929](https://fr.wikipedia.org/wiki/Krach_de_1929) s'est produit, et la production industrielle des États-Unis a chuté de 10%, et les importations de 20%. Le prix de la plupart des produits a suivi rapidement.
+
+La chute des prix des matières premières, la diminution des investissements étrangers, et la moindre demande des marchés européens et américains pour leurs produits ont provoqué l'effondrement du Canada, de l'Australie, du Brésil et de l'Argentine, qui ont réagi en retirant leur monnaie de l'or.
+
+Montée des nazis de 3% à 18% des voix en deux ans (1928 - 1930).
+
+[Loi Hawley-Smoot](https://fr.wikipedia.org/wiki/Loi_Hawley-Smoot)
+
+Chute du PIB de 25% à 30% de haut en bas pour les États-Unis, l'Allemagne, le Canada et les pays d'Amérique du Sud. 15% à 25% en France, en Autriche et dans les pays d'Europe centrale et orientale.
+
+[Déflation par la dette](https://fr.wikipedia.org/wiki/D%C3%A9flation_par_la_dette): De nombreuses dettes dans les années 1920, la baisse des revenus, mais en même temps les dettes sont restées constante, donc la consommation et les investissements ont été réduits, ce qui a encore réduit les prix.
+
+Politique de liquidation, Hervert Hoover:
+"The leave-it-alone liquidationists' headed by Secretary of the Treasury Mellon... felt that goverment must keep its hands off and let the slump liquidate itself... It will purge the rottenness out of the system. High costs of living and high living will come down. People will work harder, live a more moral life.
+Values will be adjusted, and enterprising people will pick up the wrecks from less competent people”
+
+Comme Keynes l'avait prévu, la flexibilité réduite de l'économie d'après-guerre ne se corrigerait pas comme avant. Les entreprises ayant un pouvoir de marché laisseraient les machines inutilisées, et vendraient moins de produits aux anciens prix. Les syndicats voulaient maintenir des salaires élevés. Alors que le chômage augmentait, et le prix de produits chutait, les salaires réels augmentaient.
+
+Un cycle: La dévaluation provoquait la panique bancaire, et la panique bancaire provoquait davantage de dévaluation. Une rumeur de faillite bancaire suffisait à le provoquer, car tout le monde retirait son argent de la banque.
+
+Barry Eichengreen:
+"The gold standard is the key to understanding the Depression. The gold standard of the 1920s set the stage for the Depression of the 1930s by heightening the fragility of the international financial system. The gold standard was the mechanism transmitting the destabilizing impulse from the United States to the rest of the world. The gold standard magnified that initial destabilizing shock. It was the principal obstacle to offsetting action. It was the binding constraint preventing policymakers from averting the failure of banks and containing the spread of financial panic. For all these reasons, the international gold standard was a central factor in the worldwide Depression. Recovery proved possible, for these same reasons, only after abandoning the gold standard."
+
+[Credit Anstalt-Bankverein](https://fr.wikipedia.org/wiki/Credit_Anstalt-Bankverein) s'est effondrée, puis les banques allemandes se sont effondrées, et ils ont abandonné l'étalon-or, et finalement la Grande-Bretagne aussi a abandonné l'étalon-or en 1932. Le dollar américain a été dissocié de l'or.
+
+Apres l'abandon de l'étalon-or, les economies se sont redressées: le prix ont augmenté à mesure que la masse monétaire a augmentait.
+
+[Reciprocal Trade Agreements Act](https://en.wikipedia.org/wiki/Reciprocal_Tariff_Act) et l'autres des accords entre l'États-Unis et des pays industrielles a créé une nouvelle ordre économique international sans or. Nouvelles politiques qui soutiennent à la fois une économie de marché et la participation du gouvernement.
+
+# 9. Le tournant vers l'autarcie

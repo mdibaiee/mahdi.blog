@@ -5,6 +5,7 @@ date: 2022-10-21 00:00:00
 permalink: parsi-khodemooni/
 lang: fa
 categories: language
+published: true
 ---
 
 
