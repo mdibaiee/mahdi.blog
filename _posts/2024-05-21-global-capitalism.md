@@ -207,3 +207,31 @@ Apres l'abandon de l'étalon-or, les economies se sont redressées: le prix ont 
 [Reciprocal Trade Agreements Act](https://en.wikipedia.org/wiki/Reciprocal_Tariff_Act) et l'autres des accords entre l'États-Unis et des pays industrielles a créé une nouvelle ordre économique international sans or. Nouvelles politiques qui soutiennent à la fois une économie de marché et la participation du gouvernement.
 
 # 9. Le tournant vers l'autarcie
+
+[Hjalmar Schacht](https://en.wikipedia.org/wiki/Hjalmar_Schacht), un économiste classique qui soutenait l'étalon-or et les marchés mondiaux avec une intervention gouvernementale minimale, s'est tourné vers l'autarcie et est devenu l'économiste des nazis.
+
+Pays débiteurs semi-industriels se sont tous tournées vers l'autarcie: La classe moyenne désormais nombreuse voulait se protéger de la concurrence étrangère et était plus active politiquement, notamment grâce à la montée des partis communistes et de gauche.
+
+Schacht a créé [le parti démocrate allemand](https://fr.wikipedia.org/wiki/Parti_d%C3%A9mocrate_allemand) après la Première Guerre mondiale et est devenu important en politique. En 1923 il est devenu commissaire national à la monnaie et parvient à stopper l'inflation.
+
+En 1930, après avoir vu l'échec du gouvernement à adopter les politiques fiscales nécessaires pour relancer l'économie allemande, et deçu par les amis étrangers qui ont fait pression sur l'Allemagne, il a quité son rôle et contacté les nazis. Il a dit: "There is only one man who can become Chancellor, and that is Adolf Hitler". Il considérait les nazis comme capables d'éxercer le pouvoir pour réaffirmer le nationalisme allemand, et maintenir l'Allemagne unie contre le communisme et le chaos.
+
+"Since I was now given the opportunity of ending unemployment for six and a half million persons, all other considerations must give way. ... It was not from personal ambi-tion, or agreement with the National-Socialist Party, or greed of gain that I took up my former post, but simply and solely out of burning anxiety for the welfare of the great masses of our people." - Schacht
+
+Il a éliminé le chômage en baissant les salaires et en interdisant les augmentations de prix. L'économie allemande a été relancée. Il y avait désormais une zone d'influence allemand en Europe centrale et orientale. La fourniture d'une industrie publique signifiait moins de dépendance à l'égard des capitalistes privés.
+
+"[The first cause of the stability of our currency is the concentration camp." In Hitler's words, "Inflation is lack of dis-cipline. ... I'll see to it that prices remain stable. That's what my storm troopers are for. Woe to those who raise prices. We don't need legislation to deal with them. We'll do that with the party alone. You'll see: once our storm troopers visit a shop to set things right—nothing similar will happen a second time." - Adolf Hitler
+
+Les autarciques poursuivaient le néomercantilisme: tarifs douaniers sur l'industrie signifiaient des prix plus élevés sur les produits industriels, tandis que les prix des denrées alimentaires restaient bas, donc stimulant la croissance industrielle. L'argent a été transféré de la poche des agriculteurs à l'industrie. Les salaires des agriculteurs étaient inférieurs à ceux d'avant la Première Guerre mondiale.
+
+La nouvelle Droite et les conservateurs s'emparent de la majeure partie de l'Europe centrale et orientale. Les fascistes avaient besoin de la credibilité de conservateurs auprès du grand capital, et les conservateurs avaient besoin de mobilisation de masse (typiquement: les agriculteurs, les propriétaires de petites entreprises, et les ouvriers artisanaux) des fascistes. Ils se sont alignés grâce à leur antisocialisme.
+
+À leur apogée (fin des années 1930) presque toute l'Europe, le Moyen-Orient et une grande partie de l'Asie et de l'Afrique étaient des autarciques fascistes. Peut-être la moitié de la population mondiale vivaient sous un régime fasciste. Ni le communisme ni la démocratie libérale n'ont connu le succès reproductif et expansionniste du fascisme.
+
+La révolution bolchevique en 1917: Ils ont éliminé la classe des investisseurs et se sont retrouvés avec un pays de travailleurs industriels, de gestionnaires, de fonctionnaires du gouvernement, propriétaires de petites entreprises et de paysans. Un système hybride privé et public où l'industrie moderne, et la finance étaient publiques, tandis que les fermes restaient privées. 4/5e de la population étaient des agriculteurs. Les investissements et le commerce étrangers étaient également contrôlés par l'État.
+
+Stalin est arrivé au pouvoir en 1928 et a poussé à davantage de contrôle sur l'industrie et à une forte marche vers une industrialisation lourde, partiellement motivée et justifiée par un environnement diplomatique et économique hostile. Également il n'y aurait pas de prolétariat sans industrie lourde.
+
+Les agriculteurs ont été contraints de fournir de la nourriture bon marché à l'industrie. Le PIB de l'Union soviétique a augmenté de 57% de 1928 à 1937, tandis que celui du reste du monde était aux prises avec le chômage et la stagnation. Des millions d'agriculteurs sont morts entre 1932 et 1933, alors que le reste de la société avait amélioré sa qualité de vie.
+
+Les pays en développement ont été touchés par la Dépression, la Seconde Guerre mondiale et la Guerre froide de 1929 à 1953. La réduction du volume et du prix des exportations mais des dettes fixes les ont forcés à abandonner l'étalon-or, à faire défaut sur leurs dettes et à se tourner vers la production locale.
