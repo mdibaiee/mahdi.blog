@@ -235,3 +235,18 @@ Stalin est arrivé au pouvoir en 1928 et a poussé à davantage de contrôle sur
 Les agriculteurs ont été contraints de fournir de la nourriture bon marché à l'industrie. Le PIB de l'Union soviétique a augmenté de 57% de 1928 à 1937, tandis que celui du reste du monde était aux prises avec le chômage et la stagnation. Des millions d'agriculteurs sont morts entre 1932 et 1933, alors que le reste de la société avait amélioré sa qualité de vie.
 
 Les pays en développement ont été touchés par la Dépression, la Seconde Guerre mondiale et la Guerre froide de 1929 à 1953. La réduction du volume et du prix des exportations mais des dettes fixes les ont forcés à abandonner l'étalon-or, à faire défaut sur leurs dettes et à se tourner vers la production locale.
+
+# 10. Construire une démocratie sociale
+
+La démocratie sociale est une alternative démocratique au fascisme et au communisme, ce qui était provoquée également par la gauche.
+
+Le gouvernement suédois a utilisé une gestion monétaire active pour stabiliser les prix. Ensuite, une politique fiscale pour employer des personnes dans les travaux publics et même une aide en espèces pour les autres. La Suède a ensuite mis en œuvre la plupart des programmes de protection sociale. La platforme électorale du parti social-démocrate: "The Swedish working class will pay the price necessary to guarantee workers in agriculture and small farmers a tolerable living standard."
+
+
+[Saltsjöbaden Agreement](https://en.wikipedia.org/wiki/Saltsj%C3%B6baden_Agreement): "the terms of the agreement were business acceptance of Social Democratic government, high labor costs (high wages and the benefits of the welfare state), full-employment fiscal policy, and government activism for social services, in return for labor peace in labor markets (ie. no strikes), continued private control over property and capital markets, and openness in relation to the world economy."
+
+Le deuxième New Deal de Roosevelt, la [Work Progress Administration](https://fr.wikipedia.org/wiki/Work_Projects_Administration), le [National Labor Relations Act](https://fr.wikipedia.org/wiki/National_Labor_Relations_Act) et la première [Social Security Act](https://fr.wikipedia.org/wiki/Social_Security_Act).
+
+Les politiques de protection et d'assurance sociale avaient le soutien aux mouvements ouvriers, mais aussi des capitalistes. Sans le soutien des capitalistes, qui ont vu l'impact positif de ces politiques (travailleurs plus heureux et engagé, moins de vulnérabilité aux crises économiques, etc.), cela n'aurait pas été possible.
+
+Les sociales-démocraties ont reconstruit le commerce international entre elles: Groupe d'Oslo et les États-Unis. [Tripartite Monetary Agreement](https://en.wikipedia.org/wiki/Tripartite_Agreement_of_1936).
