@@ -250,3 +250,44 @@ Le deuxième New Deal de Roosevelt, la [Work Progress Administration](https://fr
 Les politiques de protection et d'assurance sociale avaient le soutien aux mouvements ouvriers, mais aussi des capitalistes. Sans le soutien des capitalistes, qui ont vu l'impact positif de ces politiques (travailleurs plus heureux et engagé, moins de vulnérabilité aux crises économiques, etc.), cela n'aurait pas été possible.
 
 Les sociales-démocraties ont reconstruit le commerce international entre elles: Groupe d'Oslo et les États-Unis. [Tripartite Monetary Agreement](https://en.wikipedia.org/wiki/Tripartite_Agreement_of_1936).
+
+# 11. Reconstruire l'Est et l'Ouest
+
+Les américains ont commencé à planifier la paix dès que la guerre a éclaté en Europe. Ils voulaient diriger cette fois.
+
+Libre-échange était plus populaire à cette période, puisque les américains ont acquis une avance technologique, et ils craignaient moins la concurrence des pays déchirés par la guerre. La préférence impériale britannique également a montré comment le protectionisme peut se retourner contre lui: les exportateurs des États-Unis ont perdu de grandes opportunités au Canada.
+
+Le programme [Prêt-bail (Lend-Lease)](https://fr.wikipedia.org/wiki/Pr%C3%AAt-bail): en pratique cela signifiait une aide militaire gratuite pour la Grande-Bretagne. Le libre-échange faisait partie de l'accord.
+
+[Les accords de Bretton Woods](https://fr.wikipedia.org/wiki/Accords_de_Bretton_Woods): Keynes et White ont créé le [Fonds monétaire international](https://fr.wikipedia.org/wiki/Fonds_mon%C3%A9taire_international): les pays contribuent au fonds et lient leur monnaie à l'or à un taux. Le fonds aiderait les pays pendant les crises et permettrait des changement de taux de change si nécessaire.
+
+Également ils ont créé la [Banque Mondiale](https://fr.wikipedia.org/wiki/Banque_mondiale) qui prête aux pays pour construire des infrastructures, ce qui est généralemt risqué et à très long terme, tout en empruntant à faible taux d'intérêt de prêteurs privés.
+
+
+Keynes et White ont encouragé le détachement des investissements financiers et de des mouvements de capitaux des d'intérêts diplomatiques et politiques. Keynes était désillusionné par la politique de puissance des Américains, qui a influencé le FMI et la Banque Mondiale contre ses avertissements.
+
+Avant la guerre, l'économie des États-Unis était la moitié de celle de l'Europe, de l'Union soviétique et du Japon. Après la guerre, c'était plus grand que tous ensemble.
+
+[Dean Acheson](https://fr.wikipedia.org/wiki/Dean_Acheson): "whether there shall be a coalition between the British sphere and the American sphere or whether there shall be a coalition between the British sphere and the Soviet sphere." Le biographe d'Acheson a conclu que: "Acheson regarded it as unfortunate that the loan had to be justified with veiled illusions to the Soviet threat, but he accepted it as a price that had to be paid to secure the support needed.”
+
+
+
+Europe split into Western pro-American and Eastern pro-Soviet blocs. Each taking the responsibility of rebuilding their part.
+Building a global economic order was justified and motivated by the narrative of the Soviet threat.
+
+Vandenberg a prévenu Truman que le seule moyen d'obtenir le soutien populaire en faveur d'une aide economique à l'Europe était: "Mr. President, the only way you are ever going to get this is to make a speech and scare the hell out of the country." Truman a fait une telel annonce en mars 1947, la [doctrine Truman](https://fr.wikipedia.org/wiki/Doctrine_Truman).
+
+Ensuite, le [Plan Marshall](https://fr.wikipedia.org/wiki/Plan_Marshall) et la formation de [l'OTAN](https://fr.wikipedia.org/wiki/Organisation_du_trait%C3%A9_de_l%27Atlantique_nord) et le [GATT](https://fr.wikipedia.org/wiki/Accord_g%C3%A9n%C3%A9ral_sur_les_tarifs_douaniers_et_le_commerce).
+
+Le marché américain s'est ouvré aux Européens et aux Japonais. L'éngagement politique des Américains également a rassuré les investisseurs sur la stabilité.
+
+Les socialistes et les communistes étaient les plus populaires en Europe. Le Droite et les capitalstes étaient entachés de collaboration avec les fascistes. Initialement, ils ont été expulsés du gouvernement, mais à cause de la guerre froid, ils ont été réintégré.
+
+Le bloc de l'Est a été davantage endommagé, plus de Russes sont morts pendant le [siège de Leningrad](https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_L%C3%A9ningrad) que les britanniques et les américains ensemble pendant toute la guerre.
+
+Extraction initiale de réparations par l'Union Soviétique des perdants de l'Est a affaibli le bloc de l'Est. Les réparations du bloc occidental ont été suspendus par les États-Unis. Ensuite l'Union soviétique a également suspendu les réparations et encouragé relations économiques entre du bloc l'Est, mais la plupart des pays restaient autarcique. [Conseil d'assistance économique mutuelle](https://fr.wikipedia.org/wiki/Conseil_d%27assistance_%C3%A9conomique_mutuelle)
+La croissance industrielle dans le cercle soviétique était remarquable. La Chine et le Vietnam aussi. La planification centrale et le communisme étaient une alternative viable au capitalisme de marché.
+
+"In the golden age of global capitalism, ruling classes pushed and pulled their societies toward domestic and international markets. They were little concerned for, and often actively hostile to, policies to ameliorate the poverty of the world's majority. Proponents of this orthodoxy argued that global economic openness was inconsistent with policies to mitigate domestic poverty. The fascist movements of the interwar period accepted this argument and acted on the principle that neither economic integration nor social reform was desirable. They rejected both the international economy and social reform in pursuit of nationalist autarky.
+Out of the liberal thesis and its fascist antithesis came a postwar syn-thesis, predicated on the conclusion that both liberalism and fascism had been wrong. There were two strikingly different versions of this syn-thesis, West and East. Both rejected fascism's abandonment of social reform and embraced social change. But their attitudes to the classical liberal view of global capitalism were diametrically opposed. The West wagered that liberalism had been wrong about the incompatibility of global capitalism and the market with social reform. The West aimed to prove that economically integrated market economies could adopt equitable social policies, that economic openness could go along with the new social democratic welfare states.
+The East's Communists made an equal but opposite wager: that liberalism had been right about the incompatibility of integration and reform, that social change meant rejecting global and national markets. Central planning aimed to prove that the demands of poor people and poor countries for equity and development could be met only by separating from world markets and by eliminating markets more generally."
