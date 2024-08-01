@@ -270,8 +270,6 @@ Avant la guerre, l'économie des États-Unis était la moitié de celle de l'Eur
 
 [Dean Acheson](https://fr.wikipedia.org/wiki/Dean_Acheson): "whether there shall be a coalition between the British sphere and the American sphere or whether there shall be a coalition between the British sphere and the Soviet sphere." Le biographe d'Acheson a conclu que: "Acheson regarded it as unfortunate that the loan had to be justified with veiled illusions to the Soviet threat, but he accepted it as a price that had to be paid to secure the support needed.”
 
-
-
 Europe split into Western pro-American and Eastern pro-Soviet blocs. Each taking the responsibility of rebuilding their part.
 Building a global economic order was justified and motivated by the narrative of the Soviet threat.
 
@@ -291,3 +289,70 @@ La croissance industrielle dans le cercle soviétique était remarquable. La Chi
 "In the golden age of global capitalism, ruling classes pushed and pulled their societies toward domestic and international markets. They were little concerned for, and often actively hostile to, policies to ameliorate the poverty of the world's majority. Proponents of this orthodoxy argued that global economic openness was inconsistent with policies to mitigate domestic poverty. The fascist movements of the interwar period accepted this argument and acted on the principle that neither economic integration nor social reform was desirable. They rejected both the international economy and social reform in pursuit of nationalist autarky.
 Out of the liberal thesis and its fascist antithesis came a postwar syn-thesis, predicated on the conclusion that both liberalism and fascism had been wrong. There were two strikingly different versions of this syn-thesis, West and East. Both rejected fascism's abandonment of social reform and embraced social change. But their attitudes to the classical liberal view of global capitalism were diametrically opposed. The West wagered that liberalism had been wrong about the incompatibility of global capitalism and the market with social reform. The West aimed to prove that economically integrated market economies could adopt equitable social policies, that economic openness could go along with the new social democratic welfare states.
 The East's Communists made an equal but opposite wager: that liberalism had been right about the incompatibility of integration and reform, that social change meant rejecting global and national markets. Central planning aimed to prove that the demands of poor people and poor countries for equity and development could be met only by separating from world markets and by eliminating markets more generally."
+
+# 12. Le système de Bretton Woods en action
+
+Avant, il y avait un contrast entre l'Italie fasciste, l'Allemagne nazie, le Japon militarist, le Suède social-démocrate et les États-Unis de New Deal, mais avec la formation de [OCDE](https://fr.wikipedia.org/wiki/Organisation_de_coop%C3%A9ration_et_de_d%C3%A9veloppement_%C3%A9conomiques), ils s'étaient regroupés dans un ordre politique et économique similaire. Un compromis entre commerce international et autonomie nationale.
+
+Japan, un cas de réussite significatif: la majeure partie du budget de R&D (Recherche et développement) dépensé pour l'achat de technologie à l'étranger et à leur imitation. Le Japan était un fournisseur des États-Unis pendant la guerre de Corée.
+
+L'ouverture des États-Unis aux importations de produits d'Europe occidentale et du Japon était essentielle au fonctionnement du système de Bretton Woods. Ils achèteraient les dernières technologies et outils aux États-Unis, et exporteraient leurs produits aux États-Unis, tout en obtenant des investissements directs des États-Unis.
+
+Le formation de [CEE](https://fr.wikipedia.org/wiki/Communaut%C3%A9_%C3%A9conomique_europ%C3%A9enne) avec le soutien des États-Unis et adhésion ultèrieure au Royaume-Uni: Un "États-Unis d'Europe".
+
+Le [GATT](https://fr.wikipedia.org/wiki/Accord_g%C3%A9n%C3%A9ral_sur_les_tarifs_douaniers_et_le_commerce) autorisé certains pays et unions douanières (notamment CEE) à ëtre exemptés des obligations de libre-échange et également permis certains politiques protectionnistes en faveur du développement de l'industrie et du marché locaux.
+
+Le système de Bretton Woods a permis aux pays d'appliquer des politiques monétaires et fiscales sur leurs monnaies et leurs taux d'intérêt. La réévaluation et dévaluation de la monnaie ont eu lieu (mais pas fréquemment). Les contrôles contre les investissement à court terme et le mouvements de "capitaux flottants" (hot money) ont donné aux gouvernements la possibilité d'applquer leurs politiques à long terme.
+
+Avant la Première Guerre mondiale et dans les années d'entre-deux-guerres, la majeure partie d'investissements étrangers étaient prêts internationaux par des investisseurs privés dans les secteurs agricoles et primaires des pays pauvres et en développement, mais apres, presque toute d'investissements privés étaient des investissements directs des multionales dans la création d'usines à l'étranger.
+
+Les grandes multinationales américaines profitaient à l'étranger plus que les États-Unis exportait. Un tiers des importations américaines provenaient d'enterprises américaines à l'étranger. Les industries automobile et informatique étaient les multinationales les plus importantes.
+
+Les partis socialists et leurs syndicats, ainsi que la classe moyenne et les partis chrétiens étaient des bastion de protection sociale dans les capitalismes sociaux-démocrates.
+
+Les protectiones sociales atténuaient les incertitudes de l'integration du marché mondial.
+
+<!--
+# 13. Décolonisation et développement
+ 
+Import substitution and protectionist policies by Latin American nations to industrialise and become self-sufficient. ISI (import substituting infustrialisation)
+
+Colonies also moved towards industrialisation and independence. By 1965 colonialism almost disappeared. Economic difficulties of interwar years a main factor. Colonialists also were not as interested in keeping colonies. More trade bwtween europeans and americans, colonies less economically useful: they couldn’t help new industry either. US pressure on europeans to share access to market of colonies: they are not so intriguing then.
+
+Colonial exclusivity hit US economic goals hard: so strong opposition by US on colonies. Soviets used colonialism to show the evil of Europeans. Suez Canal seizure of 1956 a case in point.
+
+
+Import-substituting industrialization (ISI) became common among latin americans (also see ECLA) and also other developing nations (Iran, Turkiye, Iraq). Wings could not evolve on birds one feather at a time: scale industries not competitive from infancy against foreign competition.
+
+Primary materials lost value over time (a lot of competition) while manufactured goods increased in value, so poor countries got less for what they had and had to pay more for what they wanted to buy
+
+Criticism: protection of infant industries creates expensive, bloated, backward, low-quality goods.
+
+Most nations adopted ISI, except a few: Hong Kong, South Korea, Taiwan and Singapore tried for developing export-oriented industries (EOI). SK and Taiwan had access to US market (geopolitical advantage).
+
+# 14. Le socialism dans de numbreux pays
+
+USSR beat US to space with Sputnik. 1939, Socialism only in one country: Soviet Union. The largest nation but only 8% of world population. A major power but still semi-industrial. By 1959 a significant minority of deveoping nations and China, the largest nation, were socialist. India was politically allied with Soviet Union.
+
+Asian and European communist states tried to copy Stalin’s model, although with variations and adaptations
+
+After Stalin died in 1953 more variations and diversity among communist states flourished, some softening central planning while China radicalised further. Khrushchev’s rise with the idea of reform instead of Stalin’s “perversion of socialist ideas” was welcomed in SU and European countries. Popular grievances in communist states: Berlin June 1953, Hungary and Poland 1956. Prioritisation of industry over consumer goods (including housing) and agriculture of primary reasons.
+
+Population also saw the prosperity of the west, “Is it not better to have good goulash?” started “goulash communism” shifting resources to consumer goods, housing and better wages. From 1953 to 1957 real wages in Eastern Europe rose by 30-60 percent. Also raised agricultural prices to improve earnings. Improved standards of living.
+
+Still problems with economy: too centralised, lack of incentives.
+
+Ministries for each industry (e.g. steel, chemicals, etc.) and they were separate empires trying to protect their own interests. A steel factory with another factory that could supply its needs beside it had to ask Moscow for its supplies instead.
+
+Khrushchev tried decentralising to some extent, Brezhnev-Kosygin reverted it in 1964 but still more authority to local managers.
+
+Incentives: what is reward of good production? How is it even measured? Prices are fixed, monetary rewards are shunned as causes of inequality and quantity does not mean success. Central control useful to bring countries to industrialisation but after that hard to encourage productivity without incentives.
+
+USSR and other countries started experimenting with market-oriented forms and opening trade to the world. By 1970s most Hungarian prices set by supply and demand.
+
+Cuban revolution hit a wall of US antagonism, Guatemala’s overthrow in response to mildly nationalistic measures a case in point.
+
+Communist states had better social services and lower hunger levels, they had chosen equity and economic diversification over specialisation and rapid growth.
+
+For 25 years after 1948, centrally planned economies did better than capitalist developing nations: Eastern Europe > Western Europe, China > India, 
+-->
