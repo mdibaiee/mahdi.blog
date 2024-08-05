@@ -312,24 +312,23 @@ Les partis socialists et leurs syndicats, ainsi que la classe moyenne et les par
 
 Les protectiones sociales atténuaient les incertitudes de l'integration du marché mondial.
 
-<!--
 # 13. Décolonisation et développement
  
-Import substitution and protectionist policies by Latin American nations to industrialise and become self-sufficient. ISI (import substituting infustrialisation)
+[Industrialisation par substitution aux importations](https://fr.wikipedia.org/wiki/Industrialisation_par_substitution_aux_importations) a été adopté par les pays d'Amérique latine.
 
-Colonies also moved towards industrialisation and independence. By 1965 colonialism almost disappeared. Economic difficulties of interwar years a main factor. Colonialists also were not as interested in keeping colonies. More trade bwtween europeans and americans, colonies less economically useful: they couldn’t help new industry either. US pressure on europeans to share access to market of colonies: they are not so intriguing then.
+Les colonies progressèrent vers l'industrialisation et independence. En 1965 le colonialisme avait presque disparu. Le difficultés d'anées d'entre-deux-guerres était un facteur important. Le maintien des colonies n'interessait plus les colonialistes. Il y a plus d'échange entre Européens et Américains, et les colonies étaient moins rentable: ils ne pouvaient pas non plus aider la nouvelle industrie. Les États-Unis pressait les Européens de partager l'accès aux marchés des colonies.
 
-Colonial exclusivity hit US economic goals hard: so strong opposition by US on colonies. Soviets used colonialism to show the evil of Europeans. Suez Canal seizure of 1956 a case in point.
+L'exclusivite des colonies a nui à l'économie américain: donc cela a suscité une forte opposition. Les soviéts ont utilisé le colonialisme pour montrer le mal des Européens. [Le crise du canal de Suez](https://fr.wikipedia.org/wiki/Crise_du_canal_de_Suez) était un bon example.
 
+Industrialisation par substitution aux importations est devenu courante parmi les latino-américains (regarde aussi: [ECLAC](https://en.wikipedia.org/wiki/United_Nations_Economic_Commission_for_Latin_America_and_the_Caribbean)) et d'autre pays en développement (Iran, Turkiye, Iraq). Les industries à grand échelle ne sont pas compétitives dès leur plus jeune âge face à la concurrence étrangère.
 
-Import-substituting industrialization (ISI) became common among latin americans (also see ECLA) and also other developing nations (Iran, Turkiye, Iraq). Wings could not evolve on birds one feather at a time: scale industries not competitive from infancy against foreign competition.
+Les matières premières perdaient de leur valeur (beaucoup de concurrence), tandis que les produits manufacturés augmuntaient en valeur: le pays pauvres recevaient moins pour ce qu'ils avaient, et ils devaient payer plus pour ce dont ils avaient besoin.
 
-Primary materials lost value over time (a lot of competition) while manufactured goods increased in value, so poor countries got less for what they had and had to pay more for what they wanted to buy
+Critique: la protection des industries naissantes crée des produits coüteux, gonflés, arriérés et de mauvaise qualité.
 
-Criticism: protection of infant industries creates expensive, bloated, backward, low-quality goods.
+La majeure partie de pays adopteraient ISI, sauf quelques-uns: Hong Kong, Corée du Sud, Taiwan, et Singapore essaient a développer des [industries orientées vers l'exportation](https://en.wikipedia.org/wiki/Export-oriented_industrialization). Le Corée du Sud et Taiwan avaient accès au marché américain.
 
-Most nations adopted ISI, except a few: Hong Kong, South Korea, Taiwan and Singapore tried for developing export-oriented industries (EOI). SK and Taiwan had access to US market (geopolitical advantage).
-
+<!--
 # 14. Le socialism dans de numbreux pays
 
 USSR beat US to space with Sputnik. 1939, Socialism only in one country: Soviet Union. The largest nation but only 8% of world population. A major power but still semi-industrial. By 1959 a significant minority of deveoping nations and China, the largest nation, were socialist. India was politically allied with Soviet Union.
