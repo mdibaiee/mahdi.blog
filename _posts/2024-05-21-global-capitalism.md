@@ -328,26 +328,30 @@ Critique: la protection des industries naissantes crée des produits coüteux, g
 
 La majeure partie de pays adopteraient ISI, sauf quelques-uns: Hong Kong, Corée du Sud, Taiwan, et Singapore essaient a développer des [industries orientées vers l'exportation](https://en.wikipedia.org/wiki/Export-oriented_industrialization). Le Corée du Sud et Taiwan avaient accès au marché américain.
 
-<!--
+
 # 14. Le socialism dans de numbreux pays
 
-USSR beat US to space with Sputnik. 1939, Socialism only in one country: Soviet Union. The largest nation but only 8% of world population. A major power but still semi-industrial. By 1959 a significant minority of deveoping nations and China, the largest nation, were socialist. India was politically allied with Soviet Union.
+1939: L'URSS a battu les États-Unis dans l'espace avec Spoutnik. La socialisme n'existais que dans un seule pays: l'Union soviétique. La plus grande nation, mais seulement 8% de la population mondiale. Une puissance majeure, mais encore semi-industrielle. En 1959 une minorité significative de pays en développement et la Chine (la plus grande nation) étaient socialistes. L'inde était politiquement allié à l'URSS.
 
-Asian and European communist states tried to copy Stalin’s model, although with variations and adaptations
+Les pays communistes d'Asie et d'Europe essaient d'imiter le modèle de Staline, mais avec des variations et des adaptations.
 
-After Stalin died in 1953 more variations and diversity among communist states flourished, some softening central planning while China radicalised further. Khrushchev’s rise with the idea of reform instead of Stalin’s “perversion of socialist ideas” was welcomed in SU and European countries. Popular grievances in communist states: Berlin June 1953, Hungary and Poland 1956. Prioritisation of industry over consumer goods (including housing) and agriculture of primary reasons.
+Après la mort de Staline en 1953, plus des variations et diversite prosperaient entre les états communistes, certains assouplissaient la planification central, tandis que la Chine s'est encore radicalisée. L'ascension de Khrouchtchev et ses idées réformistes au lieu de la "perversion des idées socialistes" de Staline a été bien accueillie.
 
-Population also saw the prosperity of the west, “Is it not better to have good goulash?” started “goulash communism” shifting resources to consumer goods, housing and better wages. From 1953 to 1957 real wages in Eastern Europe rose by 30-60 percent. Also raised agricultural prices to improve earnings. Improved standards of living.
+Griefs populaires dans les États communites: Berlin June 1953, Hongrie et Pologne 1956. La prioritisation d'industries par rapport aux biens de consommation et agricole.
 
-Still problems with economy: too centralised, lack of incentives.
+La population a également vu la prospérité de l'Occident: "Is it not better to have good goulash" a commencé "goulash communisme", déplacer les resources vers les biens de consommation. De 1953 à 1957 les salaires réels augmentaient de 30 à 60 pour cent. Également augmentait les prix des produits agricoles pour améliorer les salaires. Ameliorait du niveau de vie.
 
-Ministries for each industry (e.g. steel, chemicals, etc.) and they were separate empires trying to protect their own interests. A steel factory with another factory that could supply its needs beside it had to ask Moscow for its supplies instead.
+Il y avait encore des problèmes avec l'économie: trop centralisée, manque d'incitations.
 
-Khrushchev tried decentralising to some extent, Brezhnev-Kosygin reverted it in 1964 but still more authority to local managers.
+Il y avait des ministries pour chaque l'industrie (acier, chimie, etc.) et ils étaient des empires séparés, essayant de protéger leurs propres intérêts. Une aciérie dont dont une usine voisine disposait des fournitures ncessaires, devait demander des fournitures à Moscou.
 
-Incentives: what is reward of good production? How is it even measured? Prices are fixed, monetary rewards are shunned as causes of inequality and quantity does not mean success. Central control useful to bring countries to industrialisation but after that hard to encourage productivity without incentives.
+Khrouchtchev essayait de décentraliser dans une certaine mesure, mais Brezhnev-Kosygin l'a annulé en 1964, même si les gestionnaires locaux ont quand même gagné plus d'autorité.
 
-USSR and other countries started experimenting with market-oriented forms and opening trade to the world. By 1970s most Hungarian prices set by supply and demand.
+Incitations: qu'est-ce que la récompense d'une bonne production? Comment est-il mesuré? Les prix sont fixes, et les récompenses monétaires sont boudées car elles sont une cause d'inégalité. La quantité ne signifie pas non plus le succés. La planification centrale a été utile pour industrialiser, mais aprés il est difficile d'encourager la productivité sans des incitations.
+
+l'URSS et d'autres pays ont commencé à expérimenter l'ouverture de marchés au monde. En 1970, la plupart des prix hongrois étaient fixés par l'offre et la demande.
+
+<!--
 
 Cuban revolution hit a wall of US antagonism, Guatemala’s overthrow in response to mildly nationalistic measures a case in point.
 
